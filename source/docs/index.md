@@ -1,6 +1,6 @@
 Hi, I'm Kai, a developer living in Hangzhou,China.
 
-If you want to get in touch,drop me an [email](2238897886@qq.com).Below are some project that I created.
+If you want to get in touch,drop me an email(2238897886@qq.com).Below are some project that I created.
 
 # AI
 
