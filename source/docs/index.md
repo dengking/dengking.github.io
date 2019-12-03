@@ -33,7 +33,7 @@ If you want to get in touch,drop me an email(2238897886@qq.com).Below are some p
 | project name                                                 | explanation                         |
 | ------------------------------------------------------------ | ----------------------------------- |
 | [algorithm](https://github.com/dengking/algorithm)           | My knowledge base of algorithm      |
-| [data-structure](https://dengking.github.io/compiler-principle/) | My knowledge base of data structure |
+| [data-structure](https://dengking.github.io/data-structure/) | My knowledge base of data structure |
 
 
 
