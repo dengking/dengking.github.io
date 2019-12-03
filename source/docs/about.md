@@ -1,1 +1,0 @@
-Unix/Linux backend developer,AI application especially deep learning developer. web application developer.
