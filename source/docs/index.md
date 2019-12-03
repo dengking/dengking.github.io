@@ -13,10 +13,9 @@ If you want to get in touch,drop me an email(2238897886@qq.com).Below are some p
 
 # redis
 
-| project name                                     | explanation                                                  |
-| ------------------------------------------------ | ------------------------------------------------------------ |
-| [redis-ae](https://github.com/dengking/redis-ae) | This is the simplified version of [event library](https://redis.io/topics/internals-rediseventlib) used by [redis](https://redis.io/) |
-| [redis-ds](https://github.com/dengking/redis-ds) | Data structure used in [redis](https://redis.io/)            |
+| project name                                                 | explanation                                         |
+| ------------------------------------------------------------ | --------------------------------------------------- |
+| [decompose-redis](https://dengking.github.io/decompose-redis/) | Decompose [Redis](https://github.com/antirez/redis) |
 
 
 
@@ -31,10 +30,10 @@ If you want to get in touch,drop me an email(2238897886@qq.com).Below are some p
 
 # algorithm and data structure 
 
-| project name                                       | explanation                         |
-| -------------------------------------------------- | ----------------------------------- |
-| [algorithm](https://github.com/dengking/algorithm) | My knowledge base of algorithm      |
-| [ds](https://github.com/dengking/ds)               | My knowledge base of data structure |
+| project name                                                 | explanation                         |
+| ------------------------------------------------------------ | ----------------------------------- |
+| [algorithm](https://github.com/dengking/algorithm)           | My knowledge base of algorithm      |
+| [data-structure](https://dengking.github.io/compiler-principle/) | My knowledge base of data structure |
 
 
 
@@ -43,7 +42,12 @@ If you want to get in touch,drop me an email(2238897886@qq.com).Below are some p
 | project name                                                 | explanation |
 | ------------------------------------------------------------ | ----------- |
 | [timer-with-thread-pool](https://github.com/dengking/timer-with-thread-pool) |             |
-|                                                              |             |
 
 
+
+# programming language theory
+
+| project name                                                 | explanation                                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [compiler-principle](https://dengking.github.io/compiler-principle/) | Note of book Compilers Principles, Techniques and Tools Second Edition |
 
