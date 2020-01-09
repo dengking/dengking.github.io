@@ -1,12 +1,10 @@
-Hi, I'm Kai, a developer living in Hangzhou,China.
+Hi, I'm a software engineer living in Hangzhou,China. If you want to get in touch,drop me an email(2238897886@qq.com).
 
-If you want to get in touch,drop me an email(2238897886@qq.com).
+I write in Chinese and English, but it takes more time to write in English because of lacking practice.
 
+As an software engineer, I insist on studying theories in [computer science](https://en.wikipedia.org/wiki/Computer_science) and [software engineering](https://en.wikipedia.org/wiki/Software_engineering) and try to have a clear and comprehensive picture of theories of specific field in  [computer science](https://en.wikipedia.org/wiki/Computer_science) and [software engineering](https://en.wikipedia.org/wiki/Software_engineering), because I think the theory can guide engineer in application.
 
-
-Theory & practice in [computer science](https://en.wikipedia.org/wiki/Computer_science) and [software engineering](https://en.wikipedia.org/wiki/Software_engineering).
-
-I like reading, below are some book that I have read or plan to read
+I like reading, below are some book that I think useful to an software engineer
 
 | Book                                                         | Author                                                       |      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
@@ -20,16 +18,25 @@ I like reading, below are some book that I have read or plan to read
 
 
 
-
-
 Below are some project that I created.
 
-# AI
+# machine learning
 
 | project name                                                 | explanation                      |
 | ------------------------------------------------------------ | -------------------------------- |
 | [NRE](https://github.com/dengking/NRE)                       | Neural Relation Extraction (NRE) |
 | [paper-and-code](https://github.com/dengking/paper-and-code) | Read paper about AI and code it  |
+| [machine-learning](https://github.com/dengking/machine-learning) |                                  |
+| [Natural-Language-Processing-with-Python](https://github.com/dengking/Natural-Language-Processing-with-Python) |                                  |
+| [decompose-jieba](https://github.com/dengking/decompose-jieba) |                                  |
+
+# math
+
+| project name                             | explanation |
+| ---------------------------------------- | ----------- |
+| [math](https://github.com/dengking/math) |             |
+|                                          |             |
+|                                          |             |
 
 
 
@@ -46,6 +53,8 @@ Below are some project that I created.
 | project name                                                 | explanation                |
 | ------------------------------------------------------------ | -------------------------- |
 | [linux_in_action](https://github.com/dengking/linux_in_action) | My knowledge base of linux |
+| [Unix-like-operating-system](https://github.com/dengking/Unix-like-operating-system) |                            |
+|                                                              |                            |
 
 
 
@@ -59,19 +68,31 @@ Below are some project that I created.
 
 
 
-# event scheduler
-
-| project name                                                 | explanation |
-| ------------------------------------------------------------ | ----------- |
-| [timer-with-thread-pool](https://github.com/dengking/timer-with-thread-pool) |             |
-
-
-
 # programming language theory
 
 | project name                                                 | explanation                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [automata-and-formal-language](https://github.com/dengking/automata-and-formal-language) | Automata theory and formal language theory                   |
 | [compiler-principle](https://dengking.github.io/compiler-principle/) | Note of book Compilers Principles, Techniques and Tools Second Edition |
-| compiler-principle-in-action                                 | The two main-stream compilers, [GCC](https://gcc.gnu.org/) and [LLVM](http://llvm.org/) |
+| [compiler-principle-in-action](https://github.com/dengking/compiler-principle-in-action) | The two main-stream compilers, [GCC](https://gcc.gnu.org/) and [LLVM](http://llvm.org/) |
+| [python-in-action](https://github.com/dengking/python-in-action) |                                                              |
+| [c-family-language-in-action](https://github.com/dengking/c-family-language-in-action) |                                                              |
+| [programming-paradigms](https://github.com/dengking/programming-paradigms) |                                                              |
+
+# software engineering
+
+| project name                                                 |      |
+| ------------------------------------------------------------ | ---- |
+| [software-engineering](https://github.com/dengking/software-engineering) |      |
+| [software-design-pattern](https://github.com/dengking/software-design-pattern) |      |
+|                                                              |      |
+
+
+
+# application
+
+| project name                                                 | explanation |
+| ------------------------------------------------------------ | ----------- |
+| [timer-with-thread-pool](https://github.com/dengking/timer-with-thread-pool) |             |
+| [concurrent-server](https://github.com/dengking/concurrent-server) |             |
 
