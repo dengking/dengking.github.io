@@ -6,7 +6,7 @@
 
 - 计算机科学中的programming language
 
-上述两种**描述**本质上来说是一种**语言**，更加准确地说是[formal language](https://en.wikipedia.org/wiki/Well-formed_formula)。在语言学中，通常使用[grammar](https://en.wikipedia.org/wiki/Grammar)来描述语言的结构，[formal language](https://en.wikipedia.org/wiki/Well-formed_formula)的grammar是[formal grammar](https://en.wikipedia.org/wiki/Formal_grammar)，比如[context free grammar](https://en.wikipedia.org/wiki/Context-free_grammar)。formal grammar常常采用的描述方式是产生式（[production](https://en.wikipedia.org/wiki/Production_(computer_science))），那production这种描述方式是语言吗？我觉得它应该算是语言。那能否说：所有的描述都是语言？
+上述两种**描述**本质上来说是一种**语言**，更加准确地说是[formal language](https://en.wikipedia.org/wiki/Well-formed_formula)。在语言学中，通常使用[grammar](https://en.wikipedia.org/wiki/Grammar)来描述语言的结构，[formal language](https://en.wikipedia.org/wiki/Well-formed_formula)的grammar是[formal grammar](https://en.wikipedia.org/wiki/Formal_grammar)，比如[context free grammar](https://en.wikipedia.org/wiki/Context-free_grammar)。formal grammar常常采用的描述方式是产生式（[production](https://en.wikipedia.org/wiki/Production_(computer_science))），那production这种描述方式是语言吗？我觉得它应该算是语言，因为它有固定的语法、语义。那能否说：所有的描述都是语言？
 
 在计算机科学中，对于语言（描述）的研究是非常重要的， 简单语言能够带来巨大的好处。
 
