@@ -36,8 +36,6 @@ reference
 
 
 
-## [Multitier architecture](https://en.wikipedia.org/wiki/Multitier_architecture)
-
 
 
 ## 分层带来的价值
@@ -82,5 +80,14 @@ reference
 
 
 
+## [Multitier architecture](https://en.wikipedia.org/wiki/Multitier_architecture) VS [Monolithic application](https://en.wikipedia.org/wiki/Monolithic_application)
+
+ [Monolithic Architecture and Microservices Concepts- Cloud Computing](https://www.howtechyy.com/2019/07/monolithic-architecture-vs-microservices-concepts.html)
 
 
+
+[Microservices](https://en.wikipedia.org/wiki/Microservices)
+
+
+
+[Monolithic kernel](https://en.wikipedia.org/wiki/Monolithic_kernel) vs [Microkernel](https://en.wikipedia.org/wiki/Microkernel)

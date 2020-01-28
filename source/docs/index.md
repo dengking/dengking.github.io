@@ -35,8 +35,6 @@ Below are some project that I created.
 | project name                             | explanation |
 | ---------------------------------------- | ----------- |
 | [math](https://github.com/dengking/math) |             |
-|                                          |             |
-|                                          |             |
 
 
 
@@ -54,7 +52,6 @@ Below are some project that I created.
 | ------------------------------------------------------------ | -------------------------- |
 | [linux_in_action](https://github.com/dengking/linux_in_action) | My knowledge base of linux |
 | [Unix-like-operating-system](https://github.com/dengking/Unix-like-operating-system) |                            |
-|                                                              |                            |
 
 
 
@@ -72,7 +69,7 @@ Below are some project that I created.
 
 | project name                                                 | explanation                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [automata-and-formal-language](https://dengking.github.io/dengking/automata-and-formal-language) | Automata theory and formal language theory                   |
+| [automata-and-formal-language](https://dengking.github.io/automata-and-formal-language) | Automata theory and formal language theory                   |
 | [compiler-principle](https://dengking.github.io/compiler-principle/) | Note of book Compilers Principles, Techniques and Tools Second Edition |
 | [compiler-principle-in-action](https://github.com/dengking/compiler-principle-in-action) | The two main-stream compilers, [GCC](https://gcc.gnu.org/) and [LLVM](http://llvm.org/) |
 | [python-in-action](https://github.com/dengking/python-in-action) |                                                              |
@@ -91,7 +88,6 @@ Below are some project that I created.
 | ------------------------------------------------------------ | ---- |
 | [software-engineering](https://github.com/dengking/software-engineering) |      |
 | [software-design-pattern](https://github.com/dengking/software-design-pattern) |      |
-|                                                              |      |
 
 
 
