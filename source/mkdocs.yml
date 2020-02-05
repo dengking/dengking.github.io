@@ -1,0 +1,35 @@
+site_name: Kai Deng
+site_url: https://dengking.github.io/
+site_description: Website of Kai.
+site_author: Kai Deng
+
+repo_url: https://github.com/dengking/dengking.github.io
+edit_uri: ""
+
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+nav:
+    - Home: index.md
+    - About: about.md
+
+
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition
+    - def_list
+    - mdx_gh_links:
+        user: mkdocs
+        repo: mkdocs
+
+
+google_analytics: ['UA-27795084-5', 'mkdocs.org']
+
+plugins:
+    - search
+
