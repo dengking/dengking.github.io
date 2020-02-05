@@ -48,10 +48,10 @@ Below are some project that I created.
 
 # operating system
 
-| project name                                                 | explanation                |
-| ------------------------------------------------------------ | -------------------------- |
-| [linux_in_action](https://github.com/dengking/linux_in_action) | My knowledge base of linux |
-| [Unix-like-operating-system](https://github.com/dengking/Unix-like-operating-system) |                            |
+| project name                                                 | explanation                                     |
+| ------------------------------------------------------------ | ----------------------------------------------- |
+| [linux_in_action](https://github.com/dengking/linux_in_action) |                                                 |
+| [Unix-like-operating-system](https://github.com/dengking/Unix-like-operating-system) | My knowledge base of Unix-like operation system |
 
 
 
