@@ -6,12 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Kai Deng">
-        
-        <link rel="shortcut icon" href="/img/favicon.ico">
-        <title>Kai Deng</title>
-        <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://dengking.github.io/Post/Architecture/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Architecture - Kai Deng</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="/js/jquery-1.10.2.min.js" defer></script>
-        <script src="/js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/django.min.js"></script>
@@ -50,7 +50,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/.">Kai Deng</a>
+                    <a class="navbar-brand" href="../..">Kai Deng</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -58,47 +58,47 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="/.">Home</a>
+                                <a href="../..">Home</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Post <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="/Post/Thoughts/">Thoughts</a>
+    <a href="../Thoughts/">Thoughts</a>
 </li>
                                     
 <li >
-    <a href="/Post/Philosophy-level/">Philosophy-level</a>
+    <a href="../Philosophy-level/">Philosophy-level</a>
 </li>
                                     
 <li >
-    <a href="/Post/Philosophy-separation/">Philosophy-separation</a>
+    <a href="../Philosophy-separation/">Philosophy-separation</a>
 </li>
                                     
 <li >
-    <a href="/Post/Abstraction/">Abstraction</a>
+    <a href="../Abstraction/">Abstraction</a>
 </li>
                                     
 <li >
-    <a href="/Post/Model/">Model</a>
+    <a href="../Model/">Model</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Architecture</a>
 </li>
                                     
 <li >
-    <a href="/Post/Architecture/">Architecture</a>
+    <a href="../Time-and-space/">Time-and-space</a>
 </li>
                                     
 <li >
-    <a href="/Post/Time-and-space/">Time-and-space</a>
-</li>
-                                    
-<li >
-    <a href="/Post/0-to-1-and-1-to-many/">0-to-1-and-1-to-many</a>
+    <a href="../0-to-1-and-1-to-many/">0-to-1-and-1-to-many</a>
 </li>
                                 </ul>
                             </li>
                             <li >
-                                <a href="/about/">About</a>
+                                <a href="../../about/">About</a>
                             </li>
                         </ul>
 
@@ -108,6 +108,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li >
+                                <a rel="next" href="../Model/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../Time-and-space/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                             <li>
                                 <a href="https://github.com/dengking/dengking.github.io"><i class="fa fa-github"></i> GitHub</a>
                             </li>
@@ -117,15 +127,49 @@
         </div>
 
         <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#library-base_architecture">library-base architecture</a></li>
+        <li class="main "><a href="#middleware">Middleware</a></li>
+        <li class="main "><a href="#message-oriented_middleware">Message-oriented middleware</a></li>
+        <li class="main "><a href="#multitier_architecture_vs_monolithic_application">Multitier architecture VS Monolithic application</a></li>
+        <li class="main "><a href="#monolithic_vs_micro">Monolithic VS micro</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
 
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
-    </div>
-
-
+<h6 id="library-base_architecture">library-base architecture<a class="headerlink" href="#library-base_architecture" title="Permanent link">#</a></h6>
+<p>在阅读<a href="http://clang.llvm.org/features.html#libraryarch">Clang - Features and Goals</a>时，其Library Based Architecture令我印象深刻，据我所知的，还有采用这种架构的有</p>
+<ul>
+<li><a href="https://nginx.org/en/docs/">nginx</a>
+  <a href="https://nginx.org/en/docs/">nginx</a>提供了非常多的Modules，这些Modules就是一个一个的library。</li>
+<li><a href="https://redis.io/modules">redis</a>
+  <a href="https://redis.io/modules">Redis Modules</a>，这些Modules就是一个一个的library。</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Tuxedo_(software)">Tuxedo (software)</a></p>
+</li>
+<li>
+<p><a href="https://www.python.org/">cpython</a>也可以看做是library-base architecture，因为它允许Extending and Embedding the Python Interpreter<a href="https://docs.python.org/3/extending/index.html#extending-and-embedding-the-python-interpreter">¶</a>
+  参见：</p>
+</li>
+<li><a href="https://stackoverflow.com/questions/10202306/python-bindings-how-does-it-work">python bindings, how does it work?</a></li>
+<li>
+<p><a href="http://man7.org/linux/man-pages/man3/dlopen.3.html">dlopen</a></p>
+</li>
+<li>
+<p>operating system kernel</p>
+</li>
+</ul>
+<p>大多数现代操作系统都支持<a href="https://en.wikipedia.org/wiki/Loadable_kernel_module">loadable kernel module</a>特性</p>
+<h6 id="middleware">Middleware<a class="headerlink" href="#middleware" title="Permanent link">#</a></h6>
+<p>https://en.wikipedia.org/wiki/Middleware</p>
+<h6 id="message-oriented_middleware">Message-oriented middleware<a class="headerlink" href="#message-oriented_middleware" title="Permanent link">#</a></h6>
+<p>https://en.wikipedia.org/wiki/Message-oriented_middleware</p>
+<h6 id="multitier_architecture_vs_monolithic_application"><a href="https://en.wikipedia.org/wiki/Multitier_architecture">Multitier architecture</a> VS <a href="https://en.wikipedia.org/wiki/Monolithic_application">Monolithic application</a><a class="headerlink" href="#multitier_architecture_vs_monolithic_application" title="Permanent link">#</a></h6>
+<h6 id="monolithic_vs_micro">Monolithic VS micro<a class="headerlink" href="#monolithic_vs_micro" title="Permanent link">#</a></h6>
+<p><a href="https://www.howtechyy.com/2019/07/monolithic-architecture-vs-microservices-concepts.html">Monolithic Architecture and Microservices Concepts- Cloud Computing</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Microservices">Microservices</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Monolithic_kernel">Monolithic kernel</a> vs <a href="https://en.wikipedia.org/wiki/Microkernel">Microkernel</a></p></div>
         </div>
 
         <footer class="col-md-12">
@@ -133,11 +177,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "/",
+            var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="/js/base.js" defer></script>
-        <script src="/search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
