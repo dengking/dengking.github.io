@@ -18,7 +18,7 @@ I like reading, below are some book that I think useful to an software engineer
 
 
 
-Below are some project that I created.
+Here are some project that I created.
 
 # machine learning
 
@@ -65,7 +65,9 @@ Below are some project that I created.
 
 
 
-# programming language theory
+# [programming language theory](https://en.wikipedia.org/wiki/Programming_language_theory)
+
+Here are some projects related to [programming language theory](https://en.wikipedia.org/wiki/Programming_language_theory).
 
 | project name                                                 | explanation                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -76,9 +78,7 @@ Below are some project that I created.
 | [c-family-language-in-action](https://github.com/dengking/c-family-language-in-action) |                                                              |
 | [programming-paradigms](https://github.com/dengking/programming-paradigms) |                                                              |
 
-## Cinderella Book VS Dragon Book
 
-[Introduction to Automata and Language Theory(aka ***Cinderella Book***)](http://infolab.stanford.edu/~ullman/ialc.html)和[Compilers: Principles, Techniques, and Tools (aka "***Dragon Book***")](http://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools)中的内容其实是紧密关联的，这不仅仅是因为Jeffrey D.Ullman参与了这两本书的编写，而是因为programming language是一种formal language，而Cinderella Book和Dragon Book其实都是在讲述和formal language相关的内容，当然，这些内容仅仅书中的一部分。Cinderella Book专注于讲述automata and language theory，而dragon book的内容则可以分为两个部分front end和back end，显然front end所讲述的内容就和automata and language theory紧密相关了。
 
 
 
