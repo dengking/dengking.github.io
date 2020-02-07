@@ -1,6 +1,6 @@
 [TOC]
 
-# 引言
+# 分层思想
 
 计算机科学领域的[layers of abstraction](https://en.wikipedia.org/wiki/Abstraction_layer)思想的可谓由来已久且影响深远，在计算机科学的方方面面我们都能够看到它的身影和影响，后面为了描述便利，将[layers of abstraction](https://en.wikipedia.org/wiki/Abstraction_layer)思想简称为**分层思想**。最能够体现**分层思想**的一个词是：hierarchy（层级），维基百科的[hierarchy](https://en.wikipedia.org/wiki/Hierarchy)对hierarchy的总结是非常详细的，非常值得一读，从中我们可以看到，hierarchy在各个学科中有着广泛的应用：
 
@@ -10,32 +10,32 @@
 
 下面是我所总结的计算机科学的各个领域中分层的应用：
 
-# architecture
+## architecture
 
 作为软件工程师，我们常常听到architecture（架构）这个词，并且有一个高端职位叫做architect（架构师）。软件或系统的架构为我们描述的系统的结构、组成部分、各部分之间的接口。分层思想对architecture影响体现在各种各样的**层次化结构**，比如
 
-## architecture of [computing system](https://en.wikipedia.org/wiki/Computing)
+### architecture of [computing system](https://en.wikipedia.org/wiki/Computing)
 
 reference
 
-## architecture of compiler
+### architecture of compiler
 
 reference
 
-### 中间表示
+#### 中间表示
 编译器分为前段和后端，中间表示理解前段与后端。也可以说中间表示是两者之间的接口。
 
 
 
 
 
-# [Communication protocol](https://en.wikipedia.org/wiki/Communication_protocol)
+## [Communication protocol](https://en.wikipedia.org/wiki/Communication_protocol)
 
 各种各样的通信协议可以说是最最能够体现分层思想的了，在[Communication protocol](https://en.wikipedia.org/wiki/Communication_protocol)的[Protocol design](https://en.wikipedia.org/wiki/Communication_protocol#Protocol_design)章节中就总结了协议涉及的思想：[Layering](https://en.wikipedia.org/wiki/Communication_protocol#Layering)。除此之外，参加：[Hierarchical internetworking model](https://en.wikipedia.org/wiki/Hierarchical_internetworking_model)。
 
 下面列举了几个常见协议，它们都能非常好地体现了分层思想：
 
-## [OSI model](https://en.wikipedia.org/wiki/OSI_model)
+### [OSI model](https://en.wikipedia.org/wiki/OSI_model)
 
 [OSI model](https://en.wikipedia.org/wiki/OSI_model)可以说是分层思想的最佳体现，下面是摘自[OSI model](https://en.wikipedia.org/wiki/OSI_model)：
 
@@ -59,21 +59,21 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 
 
-# [Internet protocol suite](https://en.wikipedia.org/wiki/Internet_protocol_suite)
+### [Internet protocol suite](https://en.wikipedia.org/wiki/Internet_protocol_suite)
 
 
 
 
 
-# 以层次思想来思考
+## 以层次思想来思考
 
 **层次思想**是计算机科学中的重要思想，它潜移默化地影响这计算机科学，在计算机科学中，如果我们以**层次思想**来思考，来分析各种系统，则问题会变得清晰。
 
-## 不同层次相互借用概念
+### 不同层次相互借用概念
 
 当我们站在计算机系统的不同层次来思考，我们会发现不同层次之间会存在着大量的相互概念借用。比如：
 
-### example one
+#### example one
 
 不同层次描述本质上非常类似的事务有着不同的说法，比如在《[How-OS-run-01-OS-kernel-is-event-driven](https://github.com/dengking/Unix-like-operating-system/docs/Kernel/book-Understanding-the-Linux-Kernel/Summary/How-OS-run-01-OS-kernel-is-event-driven.md)》中鄋总结的：
 
@@ -87,7 +87,7 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 各种interrupt就是所谓的event。
 
-### example two
+#### example two
 
 
 
@@ -95,7 +95,7 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 正在不同的层次来看待计算机科学=》不同层次相互借用相同概念-》不同层次相互透明（隐藏内部细节），通过接口来进行交互
 
-## 不同层次使用不同语言
+### 不同层次使用不同语言
 
 不同层次使用不同的语言：高级编程语言、中级编程语言、低级编程语言
 
@@ -103,27 +103,27 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 不同层次的语言之间的转换
 
-# 总结
+## 总结
 
 分层，抽象，接口，这些是三个同义词。它们是贯穿了computer science和software engineering的思想
 
-## 抽象层
+### 抽象层
 
 [Abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 
 
-## 分层带来的价值
+### 分层带来的价值
 
-### [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
+#### [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
 
-### [Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))
+#### [Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))
 
-### [Layer (object-oriented design)](https://en.wikipedia.org/wiki/Layer_(object-oriented_design))
+#### [Layer (object-oriented design)](https://en.wikipedia.org/wiki/Layer_(object-oriented_design))
 
 
 
-### [Portability](https://en.wikipedia.org/wiki/Software_portability)
+#### [Portability](https://en.wikipedia.org/wiki/Software_portability)
 
 如
 
@@ -131,7 +131,7 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 抽象层带来移植性
 
-### 分层带来安全
+#### 分层带来安全
 
 在[Kernel (operating system)](https://en.wikipedia.org/wiki/Kernel_(operating_system))中有这样的描述：
 
@@ -141,21 +141,21 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 分层带来隔离，进而带来安全
 
-### 分层带来[modularity](https://en.wikipedia.org/wiki/Modular_programming)
+#### 分层带来[modularity](https://en.wikipedia.org/wiki/Modular_programming)
 
 在[Kernel (operating system)](https://en.wikipedia.org/wiki/Kernel_(operating_system))中有这样的描述
 
 
 
-# 分层与栈、pipeline
+## 分层与栈、pipeline
 
 一般，会将按照分层设计的系统称为栈，比如协议栈。有时候也会称为pipeline
 
-## [Solution stack](https://en.wikipedia.org/wiki/Solution_stack)
+### [Solution stack](https://en.wikipedia.org/wiki/Solution_stack)
 
 
 
-# virtual
+## virtual
 
 virtual是计算机科学中常常会出现的一个词，比如：
 

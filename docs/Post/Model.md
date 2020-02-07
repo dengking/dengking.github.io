@@ -1,10 +1,8 @@
-[TOC]
-
-# 前言
+# Model
 
 总结一些常见的model，其实也可以将model看做是architecture。
 
-# task model
+## task model
 
 一些关于task model的内容：
 
@@ -30,7 +28,7 @@
 
 
 
-# event-driven model
+## event-driven model
 
 一些关乎event-driven model的内容：
 
@@ -54,5 +52,5 @@
 
 
 
-# 使用event-driven模型和上述的task模型可以描述太多太多的software
+## 使用event-driven模型和上述的task模型可以描述太多太多的software
 

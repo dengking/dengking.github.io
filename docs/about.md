@@ -1,6 +1,6 @@
-[TOC]
 
-# Interest
+
+## Interest
 
 - Unix/Linux
 - AI application especially deep learning, such as time serial prediction，NLP
@@ -8,11 +8,11 @@
 
 
 
-# Education
+## Education
 
 - 09.2012-07.2016 B.S. Software Engineering, Department of Information & Control, [Xi’an University of Architecture and Technology](http://www.xauat.edu.cn/zh-cn/index.php)
 
-# Career
+## Career
 
 | Period          |                                |
 | --------------- | ------------------------------ |

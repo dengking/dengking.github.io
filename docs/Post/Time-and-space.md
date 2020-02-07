@@ -1,12 +1,10 @@
-[TOC]
-
-# 前言
+# time and space
 
 time and space， 时与空。
 
 
 
-# 计算机科学中的时空
+## 计算机科学中的时空
 
 算法的时空分析
 

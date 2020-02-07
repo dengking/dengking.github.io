@@ -1,6 +1,6 @@
-[TOC]
+# Architecture
 
-# library-base architecture
+## library-base architecture
 
 在阅读[Clang - Features and Goals](http://clang.llvm.org/features.html#libraryarch)时，其Library Based Architecture令我印象深刻，据我所知的，还有采用这种架构的有
 
@@ -20,11 +20,11 @@
 
   大多数现代操作系统都支持[loadable kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module)特性
 
-# Middleware
+## Middleware
 
 https://en.wikipedia.org/wiki/Middleware
 
-## Message-oriented middleware
+### Message-oriented middleware
 
 https://en.wikipedia.org/wiki/Message-oriented_middleware
 
@@ -34,11 +34,11 @@ https://en.wikipedia.org/wiki/Message-oriented_middleware
 
 
 
-# [Multitier architecture](https://en.wikipedia.org/wiki/Multitier_architecture) VS [Monolithic application](https://en.wikipedia.org/wiki/Monolithic_application)
+## [Multitier architecture](https://en.wikipedia.org/wiki/Multitier_architecture) VS [Monolithic application](https://en.wikipedia.org/wiki/Monolithic_application)
 
 
 
-# Monolithic VS micro
+## Monolithic VS micro
 
 [Monolithic Architecture and Microservices Concepts- Cloud Computing](https://www.howtechyy.com/2019/07/monolithic-architecture-vs-microservices-concepts.html)
 
