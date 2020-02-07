@@ -1,4 +1,4 @@
-site_name: Kai Deng
+site_name: Website of Kai
 site_url: https://dengking.github.io/
 site_description: Website of Kai
 site_author: Kai Deng
@@ -24,9 +24,9 @@ nav:
     - About: about.md
 
 
-#markdown_extensions:
-#    - toc:
-#        permalink: "#"
+markdown_extensions:
+    - toc:
+        permalink: "#"
 
 
 
