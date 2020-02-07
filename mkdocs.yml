@@ -24,9 +24,9 @@ nav:
     - About: about.md
 
 
-markdown_extensions:
-    - toc:
-        permalink: "#"
+#markdown_extensions:
+#    - toc:
+#        permalink: "#"
 
 
 
