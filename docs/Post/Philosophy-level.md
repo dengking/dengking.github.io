@@ -1,3 +1,5 @@
+[TOC]
+
 # 引言
 
 计算机科学领域的[layers of abstraction](https://en.wikipedia.org/wiki/Abstraction_layer)思想的可谓由来已久且影响深远，在计算机科学的方方面面我们都能够看到它的身影和影响，后面为了描述便利，将[layers of abstraction](https://en.wikipedia.org/wiki/Abstraction_layer)思想简称为**分层思想**。最能够体现**分层思想**的一个词是：hierarchy（层级），维基百科的[hierarchy](https://en.wikipedia.org/wiki/Hierarchy)对hierarchy的总结是非常详细的，非常值得一读，从中我们可以看到，hierarchy在各个学科中有着广泛的应用：

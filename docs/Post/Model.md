@@ -1,3 +1,5 @@
+[TOC]
+
 # 前言
 
 总结一些常见的model，其实也可以将model看做是architecture。

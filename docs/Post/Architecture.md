@@ -1,3 +1,5 @@
+[TOC]
+
 # library-base architecture
 
 在阅读[Clang - Features and Goals](http://clang.llvm.org/features.html#libraryarch)时，其Library Based Architecture令我印象深刻，据我所知的，还有采用这种架构的有

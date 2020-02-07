@@ -1,3 +1,5 @@
+[TOC]
+
 Hi, I'm a software engineer living in Hangzhou,China. If you want to get in touch,drop me an email(2238897886@qq.com).
 
 I write in Chinese and English, but it takes more time to write in English because of lacking practice.

@@ -1,3 +1,5 @@
+[TOC]
+
 # 从0到1，从1到多
 
 进化：从list到tree，从tree到graph；
