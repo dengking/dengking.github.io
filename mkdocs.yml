@@ -7,7 +7,7 @@ repo_url: https://github.com/dengking/dengking.github.io
 edit_uri: ""
 
 theme:
-    name: mkdocs
+    name: material
     
 
 nav:
@@ -27,8 +27,6 @@ nav:
 markdown_extensions:
     - toc:
         permalink: "#"
-        baselevel: 6
-        separator: "_"
 
 
 
