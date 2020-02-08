@@ -1,5 +1,3 @@
-[TOC]
-
 # 分层思想
 
 计算机科学领域的[layers of abstraction](https://en.wikipedia.org/wiki/Abstraction_layer)思想的可谓由来已久且影响深远，在计算机科学的方方面面我们都能够看到它的身影和影响，后面为了描述便利，将[layers of abstraction](https://en.wikipedia.org/wiki/Abstraction_layer)思想简称为**分层思想**。最能够体现**分层思想**的一个词是：hierarchy（层级），维基百科的[hierarchy](https://en.wikipedia.org/wiki/Hierarchy)对hierarchy的总结是非常详细的，非常值得一读，从中我们可以看到，hierarchy在各个学科中有着广泛的应用：
@@ -62,6 +60,14 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 ### [Internet protocol suite](https://en.wikipedia.org/wiki/Internet_protocol_suite)
 
 
+
+
+
+## [Database abstraction layer](https://en.wikipedia.org/wiki/Database_abstraction_layer)
+
+这段描述非常好：
+
+> A **database abstraction layer** (**DBAL** or **DAL**) is an [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface) which unifies the communication between a computer application and [databases](https://en.wikipedia.org/wiki/Database) such as [SQL Server](https://en.wikipedia.org/wiki/MSSQL), [DB2](https://en.wikipedia.org/wiki/IBM_DB2), [MySQL](https://en.wikipedia.org/wiki/MySQL), [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL), [Oracle](https://en.wikipedia.org/wiki/Oracle_database) or [SQLite](https://en.wikipedia.org/wiki/SQLite). 
 
 
 
