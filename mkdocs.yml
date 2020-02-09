@@ -1,37 +1,28 @@
+edit_uri: ''
+google_analytics:
+- UA-27795084-5
+- mkdocs.org
+markdown_extensions:
+- toc:
+    permalink: '#'
+nav:
+- Home: index.md
+- Post:
+  - Thoughts: Post/Thoughts.md
+  - Abstraction: Post/Abstraction.md
+  - Model: Post/Model.md
+  - Philosophy-level: Post/Philosophy-level.md
+  - Philosophy-separation: Post/Philosophy-separation.md
+  - Architecture: Post/Architecture.md
+  - Time-and-space: Post/Time-and-space.md
+  - 0-to-1-and-1-to-many: Post/0-to-1-and-1-to-many.md
+- About: about.md
+plugins:
+- search
+repo_url: https://github.com/dengking/dengking.github.io
+site_author: Kai Deng
+site_description: Website of Kai
 site_name: Website of Kai
 site_url: https://dengking.github.io/
-site_description: Website of Kai
-site_author: Kai Deng
-
-repo_url: https://github.com/dengking/dengking.github.io
-edit_uri: ""
-
 theme:
-    name: material
-    
-
-nav:
-    - Home: index.md
-    - Post: 
-        - Thoughts: Post/Thoughts.md
-        - Philosophy-level: Post/Philosophy-level.md
-        - Philosophy-separation: Post/Philosophy-separation.md
-        - Abstraction: Post/Abstraction.md
-        - Model: Post/Model.md
-        - Architecture: Post/Architecture.md
-        - Time-and-space: Post/Time-and-space.md
-        - 0-to-1-and-1-to-many: Post/0-to-1-and-1-to-many.md
-    - About: about.md
-
-
-markdown_extensions:
-    - toc:
-        permalink: "#"
-
-
-
-google_analytics: ['UA-27795084-5', 'mkdocs.org']
-
-plugins:
-    - search
-
+  name: material
