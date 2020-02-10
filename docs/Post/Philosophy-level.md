@@ -75,6 +75,10 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 **层次思想**是计算机科学中的重要思想，它潜移默化地影响这计算机科学，在计算机科学中，如果我们以**层次思想**来思考，来分析各种系统，则问题会变得清晰。
 
+### 问题出现在哪个层次
+
+在多层次中，当出现问题是，就需要进行这样的考虑。
+
 ### 不同层次相互借用概念
 
 当我们站在计算机系统的不同层次来思考，我们会发现不同层次之间会存在着大量的相互概念借用。比如：
@@ -95,7 +99,7 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 #### example two
 
-
+linux的[epoll](https://en.wikipedia.org/wiki/Epoll)的[triggering mode](https://en.wikipedia.org/wiki/Epoll#Triggering_mode)借用了[Interrupt](https://en.wikipedia.org/wiki/Interrupt)的[triggering methods](https://en.wikipedia.org/wiki/Interrupt#Triggering_methods)概念。
 
 
 
@@ -103,11 +107,13 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 ### 不同层次使用不同语言
 
-不同层次使用不同的语言：高级编程语言、中级编程语言、低级编程语言
+不同层次使用不同的语言：[Very high-level programming language](https://en.wikipedia.org/wiki/Very_high-level_programming_language)、高级编程语言（[High-level programming language](https://en.wikipedia.org/wiki/High-level_programming_language)）、低级编程语言（[Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)）
 
 
 
-不同层次的语言之间的转换
+#### 不同层次的语言之间的转换
+
+比如compiler就是执行这个目的的。
 
 ## 总结
 
@@ -172,7 +178,7 @@ virtual是计算机科学中常常会出现的一个词，比如：
 
 process在运行的时候使用virtual memory address，由OS根据page table将virtual address翻译为physical address；与process直接使用physical address相比，这种设计多添加了一层：转换层。这种设计带来的价值是：它解耦了process的page和page的存储位置，具体来讲就是按照这种设计，page既可以位于RAM，也可以位于disk，而如果直接使用physical address的话，则process的page只能够位于RAM中。所以可以看出，virtual address解耦了process的page和page的存储位置。
 
-在[Paged virtual memory](https://en.wikipedia.org/wiki/Virtual_memory#Paged_virtual_memory)中，由[Page tables](https://en.wikipedia.org/wiki/Page_table)来记录映射关系。
+在[Paged virtual memory](https://en.wikipedia.org/wiki/Virtual_memory#Paged_virtual_memory)中，由[Page tables](https://en.wikipedia.org/wiki/Page_table)来记录映射关系：the data structures maps linear to physical addresses.
 
 在[Virtual function](https://en.wikipedia.org/wiki/Virtual_function)中，由[Dispatch table](https://en.wikipedia.org/wiki/Dispatch_table)来记录映射关系。
 

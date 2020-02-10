@@ -6,7 +6,7 @@
 
 > **Abstraction** in its main sense is a conceptual process where general [rules](https://en.wikipedia.org/wiki/Rule_of_inference) and [concepts](https://en.wikipedia.org/wiki/Concept) are derived from the usage and classification of specific examples, literal ("real" or "[concrete](https://en.wikipedia.org/wiki/Abstract_and_concrete)") signifiers, [first principles](https://en.wikipedia.org/wiki/First_principle), or other methods.
 
-这段话的简单来说是：抽象是创建 [concepts](https://en.wikipedia.org/wiki/Concept) 的过程，那何为concept呢？这个问题是比较“抽象”的，难以进行准确描述的，后面的[创造抽象概念](#创造抽象概念)章节会结合具体案例来进行说明。
+这段话的简单来说是：抽象是创建 [concepts](https://en.wikipedia.org/wiki/Concept) 和  [rules](https://en.wikipedia.org/wiki/Rule_of_inference) 的过程，那何为concept呢？这个问题是比较“抽象”的，难以进行准确描述的，后面的[创造抽象概念](#创造抽象概念)章节会结合具体案例来进行说明。
 
 > "An abstraction" is the outcome of this process—a concept that acts as a common noun for all subordinate（从属） concepts, and connects any related concepts as a *group*, *field*, or *category*.
 
@@ -18,9 +18,9 @@
 >
 > – John V. Guttag
 
-抽象是概括的过程，抽象是提取公共特征的过程，它所概括的、所提取的公共特征，使用 [concepts](https://en.wikipedia.org/wiki/Concept) 来进行表示。
+抽象是概括的过程，抽象是提取公共特征的过程，它所概括的、所提取的公共特征，可以使用 [concepts](https://en.wikipedia.org/wiki/Concept) 来进行表示，当然也有其它的表示方式。
 
-
+与abstract相对的是concrete，参见[Abstract and concrete](https://en.wikipedia.org/wiki/Abstract_and_concrete)
 
 ## 创造抽象概念
 
@@ -46,32 +46,27 @@
 
 Abstraction是科学的基础，它在各个学科中都有着广泛的应用。
 
+
+
 ## Abstraction in computer science
 
-维基百科的[Abstraction (software engineering)](https://en.wikipedia.org/wiki/Abstraction_(software_engineering))总结了计算机科学中的abstraction。虽然维基百科的[Abstraction (software engineering)](https://en.wikipedia.org/wiki/Abstraction_(software_engineering))对计算机科学中的Abstraction有了不同的描述，但是我觉得计算机科学中的abstraction本质上和前面所述的广义的abstraction是相同的，即创建concept的过程，在computer science，我们需要考虑的是如何来实现concept。
+Abstraction在computer science中有着深远的影响，本文将开始对此从多个方面进行剖析。
 
-concept在计算机科学的不同领域有着不同的实现方式：
+维基百科的[Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))总结了计算机科学中的abstraction。虽然维基百科的[Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))对计算机科学中的Abstraction有了不同的描述，但是我觉得计算机科学中的abstraction本质上和前面所述的广义的abstraction是相同的，即创建concept的过程，在computer science，我们需要考虑的是如何来描述concept。
+
+concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 在[object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)中，使用`class`来描述concept，concept之间的relation就转换为`class`之间的关系了。
 
-在[Entity–relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model)，使用`entity`来描述concept。与此相关的概念有：[Relational model](https://en.wikipedia.org/wiki/Relational_model)、[Relational database](https://en.wikipedia.org/wiki/Relational_database)、[Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra)
-
-
+在[Entity–relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model)，使用`entity`来描述concept。与此相关的概念有：[Relational model](https://en.wikipedia.org/wiki/Relational_model)、[Relational database](https://en.wikipedia.org/wiki/Relational_database)、[Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra)。
 
 连接上述两者的就是[Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping)。
 
-
-
-abstraction在architecture领域的直接体现就是分层思想，不同层就是一种抽象，分层带来解耦，这在《Philosophy-level.md》中描述
+[Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)是对 [computer](https://en.wikipedia.org/wiki/Computer) 的抽象，它描述了一个computer的功能，特性等。
 
 
 
-conceptual model则是对concept和其relation的描述，它没有达到实现层面，这在《Model.md》中描述，还需要扩展的model有：
-
-- [Database model](https://en.wikipedia.org/wiki/Database_model)
-- [Data model](https://en.wikipedia.org/wiki/Data_model)
-
-### [Object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)
+### Abstraction and [Object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)
 
 思考这样的一个问题：如何使用面向对象方式来描述上述kernel control path概念和task概念？
 
@@ -117,8 +112,6 @@ void resume(KernelControlPath& kernel_control_path)
 
 
 
-
-
 ```python
 class Task:
 	pass
@@ -132,47 +125,39 @@ class ThreadTask:
 
 
 
-
-
 在计算机科学中存在与上述抽象概念类似的做法：
 
-- 父类是子类的抽象，接口是抽象
+父类是子类的抽象，接口是抽象
 
 [Virtual function](https://en.wikipedia.org/wiki/Virtual_function)
 
 [Interface (computing)](https://en.wikipedia.org/wiki/Interface_(computing))
 
+[Abstract type](https://en.wikipedia.org/wiki/Abstract_type)
 
+### 抽象与实现
 
-## 写作思路
+[Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)也可以作为此的一个例子。
 
-从abstraction-》concept、relation
-
--》object-oriented programming
-
--》architecture
-
--》conceptual model
-
--》relation algebra
+[Abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type)也可以作为此的一个例子，参见[Data abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Data_abstraction)。
 
 
 
-抽象是创建concept的过程，concept在计算机科学的不同领域有着不同的实现方式：
-
-在[object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)中，使用`class`来描述concept，concept之间的relation就转换为`class`之间的关系了。
-
-在[Entity–relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model)，使用`entity`来描述concept。与此相关的概念有：[Relational model](https://en.wikipedia.org/wiki/Relational_model)、[Relational database](https://en.wikipedia.org/wiki/Relational_database)、[Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra)
-
-连接上述两者的就是[Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping)。
-
-
+### Abstraction and architecture
 
 abstraction在architecture领域的直接体现就是分层思想，不同层就是一种抽象，分层带来解耦，这在《Philosophy-level.md》中描述
 
+#### [Abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)
+
+#### [Layer (object-oriented design)](https://en.wikipedia.org/wiki/Layer_(object-oriented_design))
 
 
-conceptual model则是对concept和其relation的描述，它没有达到实现层面，这在《Model.md》中描述，还需要扩展的model有：
+
+### Conceptual model
+
+Conceptual model则是对concept和其relation的描述，它没有达到实现层面，这在《Model.md》中描述，还需要扩展的model有：
 
 - [Database model](https://en.wikipedia.org/wiki/Database_model)
 - [Data model](https://en.wikipedia.org/wiki/Data_model)
+
+
