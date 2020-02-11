@@ -83,7 +83,7 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 当我们站在计算机系统的不同层次来思考，我们会发现不同层次之间会存在着大量的相互概念借用。比如：
 
-#### example one
+#### Example one
 
 不同层次描述本质上非常类似的事务有着不同的说法，比如在《[How-OS-run-01-OS-kernel-is-event-driven](https://github.com/dengking/Unix-like-operating-system/docs/Kernel/book-Understanding-the-Linux-Kernel/Summary/How-OS-run-01-OS-kernel-is-event-driven.md)》中鄋总结的：
 
@@ -97,9 +97,13 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 各种interrupt就是所谓的event。
 
-#### example two
+#### Example two
 
 linux的[epoll](https://en.wikipedia.org/wiki/Epoll)的[triggering mode](https://en.wikipedia.org/wiki/Epoll#Triggering_mode)借用了[Interrupt](https://en.wikipedia.org/wiki/Interrupt)的[triggering methods](https://en.wikipedia.org/wiki/Interrupt#Triggering_methods)概念。
+
+#### Example three
+
+在[Understanding.The.Linux.kernel.3rd.Edition](https://www.oreilly.com/library/view/understanding-the-linux/0596005652/)的Chapter 4. Interrupt定义了Synchronous interrupt的概念，它是Hardware层的概念，在OS层，它对应的是[Signal](http://en.wikipedia.org/wiki/Signal_(IPC))。
 
 
 

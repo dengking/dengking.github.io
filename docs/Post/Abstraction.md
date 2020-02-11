@@ -145,7 +145,7 @@ class ThreadTask:
 
 ### Abstraction and architecture
 
-abstraction在architecture领域的直接体现就是分层思想，不同层就是一种抽象，分层带来解耦，这在《Philosophy-level.md》中描述
+abstraction在architecture领域的直接体现就是分层思想，不同层就是一种抽象，分层带来解耦，分层带来简化，将问题进行分解。这在《Philosophy-level.md》中描述。
 
 #### [Abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
