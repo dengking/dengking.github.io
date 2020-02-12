@@ -10,7 +10,7 @@
 
 > "An abstraction" is the outcome of this process—a concept that acts as a common noun for all subordinate（从属） concepts, and connects any related concepts as a *group*, *field*, or *category*.
 
-这段话的意思和上面的相同，在[创造抽象概念](#创造抽象概念)章节，会结合具体实例对这段话所表述的意思进行详细分析。
+这段话的意思和上面的意思类似，在[创造抽象概念](#创造抽象概念)章节，会结合具体实例对这段话所表述的意思进行详细分析。
 
 > Conceptual abstractions may be formed by filtering the [information](https://en.wikipedia.org/wiki/Information) content of a [concept](https://en.wikipedia.org/wiki/Concept) or an observable [phenomenon](https://en.wikipedia.org/wiki/Phenomenon), selecting only the aspects which are relevant for a particular subjectively valued purpose. 
 
@@ -26,7 +26,7 @@
 
 通过创造抽象的[concept](https://en.wikipedia.org/wiki/Concept)（概念）来使表述更加便利的做法是在各种学科非常普遍的，关于此的例子有：
 
-### kernel control path
+### Kernel control path
 
 在《Understanding.The.Linux.kernel.3rd.Edition》的chapter 1.6.3. Reentrant Kernels中，作者定义了kernel control path概念来概括kernel中由system call由触发的kernel control path（后面简称为system call kernel control path）、由interrupt handler触发的kernel control path（后面简称interrupt handler kernel control path）以及后续随着kernel发展可能会新增的触发kernel control path。显然kernel control path概念概括了system call kernel control path、interrupt handler kernel control path的**common feature**（公共特征），如它们都能够被suspend、resume。
 
@@ -39,6 +39,26 @@
 ### [Computer multitasking](https://en.wikipedia.org/wiki/Computer_multitasking)
 
 在[Computer multitasking](https://en.wikipedia.org/wiki/Computer_multitasking)中创造了task概念，它表示的是computer能够并发执行的，它可以是process也可以是thread，具体是什么则由具体的实现而定。
+
+
+
+### 编程语言的发展史
+
+纵观[programming language的发展史](https://en.wikipedia.org/wiki/Programming_language#History)，我们发现：语言越来越高级，越来越抽象，越来越易用。最底层的语言：[machine language](https://en.wikipedia.org/wiki/Machine_code) 晦涩难懂，计算机科学的先驱在[machine language](https://en.wikipedia.org/wiki/Machine_code) 的基础上抽象出了 [function](https://en.wikipedia.org/wiki/Subroutine) 概念，又抽象出了 [class](https://en.wikipedia.org/wiki/Class-based_programming) 的概念，创建了非常多 [高级的语言](https://en.wikipedia.org/wiki/High-level_programming_language)，比如C。不管多么高级的语言最终都需要被翻译为[machine language](https://en.wikipedia.org/wiki/Machine_code)才能够被机器执行（compiler或interpreter），显然这个过程是与前面的过程相逆的。
+
+
+
+从这个发展史我们能够看到抽象所带来的巨大优势：
+
+- 隐藏了底层的细节
+- 越抽象，越易用
+- machine-independent，通用性更加，开发效率更高
+
+
+
+参见: [Rationale](https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Rationale)
+
+> A central form of abstraction in computing is language abstraction: new artificial languages are developed to express specific aspects of a system. *[Modeling languages](https://en.wikipedia.org/wiki/Modeling_languages)* help in planning. *[Computer languages](https://en.wikipedia.org/wiki/Computer_language)* can be processed with a computer. An example of this abstraction process is the generational development of [programming languages](https://en.wikipedia.org/wiki/Programming_language) from the [machine language](https://en.wikipedia.org/wiki/First-generation_programming_language) to the [assembly language](https://en.wikipedia.org/wiki/Second-generation_programming_language) and the [high-level language](https://en.wikipedia.org/wiki/Third-generation_programming_language). Each stage can be used as a stepping stone for the next stage. The language abstraction continues for example in [scripting languages](https://en.wikipedia.org/wiki/Scripting_language) and [domain-specific programming languages](https://en.wikipedia.org/wiki/Domain-specific_programming_language).
 
 
 
@@ -64,9 +84,11 @@ concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)是对 [computer](https://en.wikipedia.org/wiki/Computer) 的抽象，它描述了一个computer的功能，特性等。
 
+### Abstraction in programming language
 
+参见 [Rationale](https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Rationale) ，其中对此总结地非常好。
 
-### Abstraction and [Object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)
+#### Abstraction in [object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)
 
 思考这样的一个问题：如何使用面向对象方式来描述上述kernel control path概念和task概念？
 
@@ -143,9 +165,11 @@ class ThreadTask:
 
 
 
-### Abstraction and architecture
+### Abstraction in architecture
 
-abstraction在architecture领域的直接体现就是分层思想，不同层就是一种抽象，分层带来解耦，分层带来简化，将问题进行分解。这在《Philosophy-level.md》中描述。
+在进行系统设计的时候，[loose coupling](https://en.wikipedia.org/wiki/Loose_coupling) 是架构师的追求目标，为此，架构师们往往进行分解，比如将系统分解为多个 [components](https://en.wikipedia.org/wiki/Software_component#Component_Definition) 。实现方式之一就是分层。
+
+Abstraction在architecture领域的直接体现就是分层思想，不同层就是一种抽象，分层带来解耦，分层带来简化，将问题进行分解。这在《Philosophy-level.md》中描述。
 
 #### [Abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
