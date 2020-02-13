@@ -1,29 +1,31 @@
-# 分层思想
+# Abstraction and architecture
 
-计算机科学领域的[layers of abstraction](https://en.wikipedia.org/wiki/Abstraction_layer)思想的可谓由来已久且影响深远，在计算机科学的方方面面我们都能够看到它的身影和影响，后面为了描述便利，将[layers of abstraction](https://en.wikipedia.org/wiki/Abstraction_layer)思想简称为**分层思想**。最能够体现**分层思想**的一个词是：hierarchy（层级），维基百科的[hierarchy](https://en.wikipedia.org/wiki/Hierarchy)对hierarchy的总结是非常详细的，非常值得一读，从中我们可以看到，hierarchy在各个学科中有着广泛的应用：
+本节对上一节的Abstraction in architecture中所提及内容进行详细论述。
+
+计算机科学领域的[abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)思想的可谓由来已久且影响深远，在计算机科学的方方面面我们都能够看到它的身影和影响，后面为了描述便利，将[abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)思想简称为**分层思想**。最能够体现**分层思想**的一个词是：hierarchy（层级），维基百科的[hierarchy](https://en.wikipedia.org/wiki/Hierarchy)对hierarchy的总结是非常详细的，非常值得一读，从中我们可以看到，hierarchy在各个学科中有着广泛的应用：
 
 > Hierarchy is an important concept in a wide variety of fields, such as [philosophy](https://en.wikipedia.org/wiki/Philosophy), [mathematics](https://en.wikipedia.org/wiki/Mathematics), [computer science](https://en.wikipedia.org/wiki/Computer_science), [organizational theory](https://en.wikipedia.org/wiki/Organizational_theory), [systems theory](https://en.wikipedia.org/wiki/Systems_theory), and the [social sciences](https://en.wikipedia.org/wiki/Social_sciences) (especially [political philosophy](https://en.wikipedia.org/wiki/Political_philosophy)).
 
-其实从这上诉论断中我们也可以倒推出：分层思想在各个学科中有着广泛的应用，其实如果往更深层次去思考的话，分层思想其实是一种结构化的思维，关于这个还需要进行一些阅读。
+其实从这上述论断中我们也可以倒推出：分层思想在各个学科中有着广泛的应用，其实如果往更深层次去思考的话，分层思想其实是一种结构化的思维，关于这个还需要进行一些阅读。
 
 下面是我所总结的计算机科学的各个领域中分层的应用：
 
-## architecture
+## Architecture
 
 作为软件工程师，我们常常听到architecture（架构）这个词，并且有一个高端职位叫做architect（架构师）。软件或系统的架构为我们描述的系统的结构、组成部分、各部分之间的接口。分层思想对architecture影响体现在各种各样的**层次化结构**，比如
 
-### architecture of [computing system](https://en.wikipedia.org/wiki/Computing)
+### Architecture of [computing system](https://en.wikipedia.org/wiki/Computing)
 
-reference
+参见：[Architecture-of-computing-system](https://dengking.github.io/Linux-OS/Architecture/Architecture-of-computing-system/)
 
-### architecture of compiler
+计算机系统如此复杂，各个层次之间只需要通过抽象就可以进行交互，完全无需了解对方具体的细节。请想想，如果不这样的话，则多么复杂。抽象简化了计算机系统，带来了分工，带来了效率。抽象，掩盖细节，提高了易用性。
 
-reference
+### Architecture of compiler
+
+参见：[The Structure of a Compiler](https://dengking.github.io/compiler-principle/Chapter-1-Introduction/1.2-The-Structure-of-a-Compiler/)
 
 #### 中间表示
 编译器分为前段和后端，中间表示理解前段与后端。也可以说中间表示是两者之间的接口。
-
-
 
 
 
@@ -73,8 +75,6 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 ## 以层次思想来思考
 
-**层次思想**是计算机科学中的重要思想，它潜移默化地影响这计算机科学，在计算机科学中，如果我们以**层次思想**来思考，来分析各种系统，则问题会变得清晰。
-
 ### 问题出现在哪个层次
 
 在多层次中，当出现问题是，就需要进行这样的考虑。
@@ -83,11 +83,9 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 当我们站在计算机系统的不同层次来思考，我们会发现不同层次之间会存在着大量的相互概念借用。比如：
 
-#### Example one
+#### 案例
 
-不同层次描述本质上非常类似的事务有着不同的说法，比如在《[How-OS-run-01-OS-kernel-is-event-driven](https://github.com/dengking/Unix-like-operating-system/docs/Kernel/book-Understanding-the-Linux-Kernel/Summary/How-OS-run-01-OS-kernel-is-event-driven.md)》中鄋总结的：
-
-我们惊喜的发现站在计算机科学的不同的层次来描述本质上非常类似的事务有着不同的说法，下面对此进行了对比：
+不同层次描述本质上非常类似的事务有着不同的说法，比如在[Linux-OS-kernel-is-event-driven](https://dengking.github.io/Linux-OS/Kernel/Book-Understanding-the-Linux-Kernel/Guide/Linux-OS's-interaction-with-the-hardware/Linux-OS-kernel-is-event-driven/)中总结的：
 
 | Hardware                                                     | Software                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -97,21 +95,19 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 各种interrupt就是所谓的event。
 
-#### Example two
+#### 案例
 
 linux的[epoll](https://en.wikipedia.org/wiki/Epoll)的[triggering mode](https://en.wikipedia.org/wiki/Epoll#Triggering_mode)借用了[Interrupt](https://en.wikipedia.org/wiki/Interrupt)的[triggering methods](https://en.wikipedia.org/wiki/Interrupt#Triggering_methods)概念。
 
-#### Example three
+#### 案例
 
-在[Understanding.The.Linux.kernel.3rd.Edition](https://www.oreilly.com/library/view/understanding-the-linux/0596005652/)的Chapter 4. Interrupt定义了Synchronous interrupt的概念，它是Hardware层的概念，在OS层，它对应的是[Signal](http://en.wikipedia.org/wiki/Signal_(IPC))。
+在[Understanding.The.Linux.kernel.3rd.Edition](https://www.oreilly.com/library/view/understanding-the-linux/0596005652/)的Chapter 4. Interrupt定义了Synchronous interrupt的概念，它是Hardware层的概念，在OS层，与它对应的是[Signal](http://en.wikipedia.org/wiki/Signal_(IPC))。
 
 
-
-正在不同的层次来看待计算机科学=》不同层次相互借用相同概念-》不同层次相互透明（隐藏内部细节），通过接口来进行交互
 
 ### 不同层次使用不同语言
 
-不同层次使用不同的语言：[Very high-level programming language](https://en.wikipedia.org/wiki/Very_high-level_programming_language)、高级编程语言（[High-level programming language](https://en.wikipedia.org/wiki/High-level_programming_language)）、低级编程语言（[Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)）
+不同层次使用不同的语言：[Very high-level programming language](https://en.wikipedia.org/wiki/Very_high-level_programming_language)、高级编程语言（[High-level programming language](https://en.wikipedia.org/wiki/High-level_programming_language)）、低级编程语言（[Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)），在上一节中已经对此进行了分析。
 
 
 
@@ -119,27 +115,19 @@ linux的[epoll](https://en.wikipedia.org/wiki/Epoll)的[triggering mode](https:/
 
 比如compiler就是执行这个目的的。
 
+
+
 ## 总结
 
-分层，抽象，接口，这些是三个同义词。它们是贯穿了computer science和software engineering的思想
+在计算机科学中，分层，抽象，接口，这词可以看做是同义词。
 
-### 抽象层
+## 分层带来的价值
 
-[Abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)
-
-
-
-### 分层带来的价值
-
-#### [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
-
-#### [Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))
-
-#### [Layer (object-oriented design)](https://en.wikipedia.org/wiki/Layer_(object-oriented_design))
+### [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
 
 
 
-#### [Portability](https://en.wikipedia.org/wiki/Software_portability)
+### [Portability](https://en.wikipedia.org/wiki/Software_portability)
 
 如
 
@@ -147,7 +135,7 @@ linux的[epoll](https://en.wikipedia.org/wiki/Epoll)的[triggering mode](https:/
 
 抽象层带来移植性
 
-#### 分层带来安全
+### 分层带来安全
 
 在[Kernel (operating system)](https://en.wikipedia.org/wiki/Kernel_(operating_system))中有这样的描述：
 
@@ -157,34 +145,25 @@ linux的[epoll](https://en.wikipedia.org/wiki/Epoll)的[triggering mode](https:/
 
 分层带来隔离，进而带来安全
 
-#### 分层带来[modularity](https://en.wikipedia.org/wiki/Modular_programming)
+### 分层带来[modularity](https://en.wikipedia.org/wiki/Modular_programming)
 
-在[Kernel (operating system)](https://en.wikipedia.org/wiki/Kernel_(operating_system))中有这样的描述
+在[Kernel (operating system)](https://en.wikipedia.org/wiki/Kernel_(operating_system))中有这样的描述。
 
 
 
 ## 分层与栈、pipeline
 
-一般，会将按照分层设计的系统称为栈，比如协议栈。有时候也会称为pipeline
+一般，会将按照分层设计的系统称为栈，比如协议栈，另外一个与此相关的词是pipeline。显然，无论pipeline还是栈，它们都是线性结构，这与分层结构是线性结构是相契合的。
 
-### [Solution stack](https://en.wikipedia.org/wiki/Solution_stack)
+See also:
+
+[Solution stack](https://en.wikipedia.org/wiki/Solution_stack)
 
 
 
-## virtual
 
-virtual是计算机科学中常常会出现的一个词，比如：
 
-- [Virtual memory](https://en.wikipedia.org/wiki/Virtual_memory)
-- [Virtual method](https://en.wikipedia.org/wiki/Virtual_function)
+## See also:
 
-经过本文前面的分析，我们可以很快地知道：virtual也是一种抽象，一种分层，这种分层所带来的价值就是解耦。下面以virtual address来进行说明：
-
-process在运行的时候使用virtual memory address，由OS根据page table将virtual address翻译为physical address；与process直接使用physical address相比，这种设计多添加了一层：转换层。这种设计带来的价值是：它解耦了process的page和page的存储位置，具体来讲就是按照这种设计，page既可以位于RAM，也可以位于disk，而如果直接使用physical address的话，则process的page只能够位于RAM中。所以可以看出，virtual address解耦了process的page和page的存储位置。
-
-在[Paged virtual memory](https://en.wikipedia.org/wiki/Virtual_memory#Paged_virtual_memory)中，由[Page tables](https://en.wikipedia.org/wiki/Page_table)来记录映射关系：the data structures maps linear to physical addresses.
-
-在[Virtual function](https://en.wikipedia.org/wiki/Virtual_function)中，由[Dispatch table](https://en.wikipedia.org/wiki/Dispatch_table)来记录映射关系。
-
-这种一对多是需要一个table来记录映射关系的。
+- [Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))
 

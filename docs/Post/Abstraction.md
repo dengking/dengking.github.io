@@ -82,7 +82,7 @@ concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 连接上述两者的就是[Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping)。
 
-[Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)是对 [computer](https://en.wikipedia.org/wiki/Computer) 的抽象，它描述了一个computer的功能，特性等。
+[Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)是对 [computer](https://en.wikipedia.org/wiki/Computer) 的抽象，它描述了一个computer的功能，特性等，它使用instruction来描述。
 
 ### Abstraction in programming language
 
@@ -167,21 +167,22 @@ class ThreadTask:
 
 ### Abstraction in architecture
 
-在进行系统设计的时候，[loose coupling](https://en.wikipedia.org/wiki/Loose_coupling) 是架构师的追求目标，为此，架构师们往往进行分解，比如将系统分解为多个 [components](https://en.wikipedia.org/wiki/Software_component#Component_Definition)，然后各[components](https://en.wikipedia.org/wiki/Software_component#Component_Definition)抽象出**接口**，它们之间就通过抽象的**接口**来进行交互，显然，接口就是对功能的抽象描述。各[components](https://en.wikipedia.org/wiki/Software_component#Component_Definition) 彼此隐藏内部实现细节，也无需关注对方的内部细节。
+在进行系统设计的时候，[loose coupling](https://en.wikipedia.org/wiki/Loose_coupling) 是架构师的追求目标，为此，架构师们往往进行分解，比如将系统分解为多个 [components](https://en.wikipedia.org/wiki/Software_component#Component_Definition)，然后各[components](https://en.wikipedia.org/wiki/Software_component#Component_Definition)抽象出**接口**，它们之间就通过抽象的**接口**来进行交互，显然，接口就是对功能的抽象描述。各 [components](https://en.wikipedia.org/wiki/Software_component#Component_Definition) 彼此相互透明（隐藏内部细节），通过接口来进行交互。
+
+
 
 Abstraction在architecture领域的另一个体现就是 [abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)，不同层就是一种抽象，分层带来解耦，分层带来简化。这在《Philosophy-level.md》中描述。
 
-#### [Abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)
+See also:
 
-#### [Layer (object-oriented design)](https://en.wikipedia.org/wiki/Layer_(object-oriented_design))
+- [Abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)
+
+- [Layer (object-oriented design)](https://en.wikipedia.org/wiki/Layer_(object-oriented_design))
 
 
 
 ### Conceptual model
 
-Conceptual model则是对concept和其relation的描述，它没有达到实现层面，这在《Model.md》中描述，还需要扩展的model有：
-
-- [Database model](https://en.wikipedia.org/wiki/Database_model)
-- [Data model](https://en.wikipedia.org/wiki/Data_model)
+参见[Abstraction-and-model](./Abstraction-and-model.md)。
 
 

@@ -1,12 +1,12 @@
-# 一些想法
+# 想法
 
 ## 知识如此繁杂，所以对它们的组织，梳理非常重要
 
-这描述了我的写作原则。
+我的写作原则。
 
 ### 梳理，而不是抄写
 
-应该坚持如上原则来进行编写，给出链接
+应该坚持如上原则来进行编写，给出所引用的资源的链接。
 
 ### 构建big picture
 
@@ -16,7 +16,7 @@
 
 ## 从更高的角度来思考问题
 
-从具体问题中跳脱出来，从理论的高度来分析它，如从compiler principle扩展到automaton and formal language theory，然后扩张到[Theory of computation](https://en.wikipedia.org/wiki/Theory_of_computation)。
+从具体问题中跳脱出来，从理论的高度来分析它，如从compiler principle扩展到[automata-and-formal-language](https://dengking.github.io/automata-and-formal-language/)，然后扩张到[Theory of computation](https://en.wikipedia.org/wiki/Theory_of_computation)。
 
 一些常用的角度：
 

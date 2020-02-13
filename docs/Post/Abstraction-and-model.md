@@ -1,8 +1,14 @@
-# Model
+# Abstraction and model
 
-总结一些常见的model，其实也可以将model看做是architecture。
+[Conceptual model](https://en.wikipedia.org/wiki/Conceptual_model)：
+
+> A **conceptual model** is a representation of a system, made of the composition of [concepts](https://en.wikipedia.org/wiki/Concept) which are used to help people [know](https://en.wikipedia.org/wiki/Knowledge), [understand](https://en.wikipedia.org/wiki/Understanding), or [simulate](https://en.wikipedia.org/wiki/Simulation) a subject the model represents. 
+
+[Conceptual model](https://en.wikipedia.org/wiki/Conceptual_model) 是对concept（通过abstraction创建的）和其relation的描述（其实它本身就是一个抽象的过程），它是对原理的描述，它没有达到实现层面，它指导着实现。在计算机科学的各个领域，有着非常多著名的[conceptual model](https://en.wikipedia.org/wiki/Conceptual_model)。其实我们可以回顾学习生涯，教材往往是先从理论模型（其实就是概念模型）开始讲起，后面再来讲述实现，因为理论模型剔除了很多细节，而抽象出来最最本质的内容，易于理解，也就是[Conceptual model](https://en.wikipedia.org/wiki/Conceptual_model)使我们能够更加轻松地 [understand](https://en.wikipedia.org/wiki/Understanding)。
 
 
+
+本节总结一些常见的model。
 
 ## Task model
 
@@ -29,9 +35,9 @@
 
 下面使用task model来描述一些系统：
 
-比如[Computer multitasking](https://en.wikipedia.org/wiki/Computer_multitasking)中，**管理者**是operating system kernel，是task是process或thread的执行，它的执行者是CPU。
+- [Computer multitasking](https://en.wikipedia.org/wiki/Computer_multitasking)中，**管理者**是operating system kernel，是task是process或thread的执行，它的执行者是CPU。
 
-比如[celery](https://en.wikipedia.org/wiki/Celery_(software))中，task就是一个一个由用户定义的task function，执行者其实就是process了，**调度者**其实就是它的[task queue](https://en.wikipedia.org/wiki/Celery_(software))了，显然和OS kernel的调度者相比，它的调度策略是非常简单的。
+- [celery](https://en.wikipedia.org/wiki/Celery_(software))中，task就是一个一个由用户定义的task function，执行者其实就是process了，**调度者**其实就是它的[task queue](https://en.wikipedia.org/wiki/Celery_(software))了，显然和OS kernel的调度者相比，它的调度策略是非常简单的。
 
 关于调度者，参见：
 
@@ -39,9 +45,9 @@
 
 
 
-### context switch是task模型的必备操作
+### Context switch是task模型的必备操作
 
-本节所描述的context switch是广义的context switch，而不是仅仅局限于process的context switch。因为taskmodel中存在着的并发执行的task，并且管理者会进行调度，所以就会发生context switch，比如：
+本节所描述的context switch是广义的context switch，而不是仅仅局限于process的context switch。因为task model中存在着的并发执行的task，并且管理者会进行调度，所以就会发生context switch，比如：
 
 - git branch，[Frictionless Context Switching](https://git-scm.com/about)
 
@@ -79,14 +85,14 @@
 
 ## 使用event-driven model和上述的task model可以描述太多太多的software
 
-比如：OS kernel对hardware的管理可以使用event-driven model来进行描述；OS kernl实现multitasking可以使用task model来进行描述。
+比如：OS kernel对hardware的管理可以使用event-driven model来进行描述；OS kernel实现multitasking可以使用task model来进行描述。
 
 
 
-## 总结
+## See also
 
-上述task model和event-driven model都是[Conceptual model](https://en.wikipedia.org/wiki/Conceptual_model)。
+- [Database model](https://en.wikipedia.org/wiki/Database_model)
+- [Data model](https://en.wikipedia.org/wiki/Data_model)
 
-> A **conceptual model** is a representation of a system, made of the composition of [concepts](https://en.wikipedia.org/wiki/Concept) which are used to help people [know](https://en.wikipedia.org/wiki/Knowledge), [understand](https://en.wikipedia.org/wiki/Understanding), or [simulate](https://en.wikipedia.org/wiki/Simulation) a subject the model represents. 
 
-[Conceptual model](https://en.wikipedia.org/wiki/Conceptual_model)是我们能够更加轻松地 [understand](https://en.wikipedia.org/wiki/Understanding)。
+

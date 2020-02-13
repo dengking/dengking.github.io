@@ -1,7 +1,9 @@
 nav:
+    - Introduction: index.md
     - Thoughts: Thoughts.md
     - Abstraction: Abstraction.md
     - Abstraction-and-architecture: Abstraction-and-architecture.md
+    - Abstraction-and-virtual: Abstraction-and-virtual.md
     - Abstraction-and-model: Abstraction-and-model.md
     - Philosophy-separation: Philosophy-separation.md
     - Architecture: Architecture.md
