@@ -6,9 +6,9 @@ Here are some project that I created.
 
 | project name                                                 | explanation                      |
 | ------------------------------------------------------------ | -------------------------------- |
+| [machine-learning](https://dengking.github.io/machine-learning) |                                  |
 | [NRE](https://github.com/dengking/NRE)                       | Neural Relation Extraction (NRE) |
 | [paper-and-code](https://github.com/dengking/paper-and-code) | Read paper about AI and code it  |
-| [machine-learning](https://github.com/dengking/machine-learning) |                                  |
 | [Natural-Language-Processing-with-Python](https://github.com/dengking/Natural-Language-Processing-with-Python) |                                  |
 | [decompose-jieba](https://github.com/dengking/decompose-jieba) |                                  |
 
@@ -30,10 +30,10 @@ Here are some project that I created.
 
 ## operating system
 
-| project name                                                 | explanation                                     |
-| ------------------------------------------------------------ | ----------------------------------------------- |
-| [linux_in_action](https://github.com/dengking/linux_in_action) |                                                 |
-| [Unix-like-operating-system](https://github.com/dengking/Unix-like-operating-system) | My knowledge base of Unix-like operation system |
+| project name                                                 | explanation                                 |
+| ------------------------------------------------------------ | ------------------------------------------- |
+| [Linux-OS](https://dengking.github.io/Linux-OS/)             | My knowledge base of Linux operation system |
+| [linux_in_action](https://github.com/dengking/linux_in_action) |                                             |
 
 
 
@@ -53,8 +53,8 @@ Here are some projects related to [programming language theory](https://en.wikip
 
 | project name                                                 | explanation                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [automata-and-formal-language](https://dengking.github.io/automata-and-formal-language) | Automata theory and formal language theory                   |
 | [compiler-principle](https://dengking.github.io/compiler-principle/) | Note of book Compilers Principles, Techniques and Tools Second Edition |
+| [automata-and-formal-language](https://dengking.github.io/automata-and-formal-language) | Automata theory and formal language theory                   |
 | [compiler-principle-in-action](https://github.com/dengking/compiler-principle-in-action) | The two main-stream compilers, [GCC](https://gcc.gnu.org/) and [LLVM](http://llvm.org/) |
 | [python-in-action](https://github.com/dengking/python-in-action) |                                                              |
 | [c-family-language-in-action](https://github.com/dengking/c-family-language-in-action) |                                                              |
