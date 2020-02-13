@@ -1,8 +1,8 @@
 nav:
     - Thoughts: Thoughts.md
     - Abstraction: Abstraction.md
-    - Model: Model.md
-    - Philosophy-level: Philosophy-level.md
+    - Abstraction-and-architecture: Abstraction-and-architecture.md
+    - Abstraction-and-model: Abstraction-and-model.md
     - Philosophy-separation: Philosophy-separation.md
     - Architecture: Architecture.md
     - Time-and-space: Time-and-space.md

@@ -1,5 +1,3 @@
-
-
 # Separation 
 
 ## [Separation of protection and security](https://en.wikipedia.org/wiki/Separation_of_protection_and_security)
