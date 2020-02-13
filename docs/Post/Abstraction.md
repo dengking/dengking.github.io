@@ -46,12 +46,12 @@
 
 纵观[programming language的发展史](https://en.wikipedia.org/wiki/Programming_language#History)，我们发现：语言越来越高级，越来越抽象，越来越易用。最底层的语言：[machine language](https://en.wikipedia.org/wiki/Machine_code) 晦涩难懂，计算机科学的先驱在[machine language](https://en.wikipedia.org/wiki/Machine_code) 的基础上抽象出了 [function](https://en.wikipedia.org/wiki/Subroutine) 概念，又抽象出了 [class](https://en.wikipedia.org/wiki/Class-based_programming) 的概念，创建了非常多 [高级的语言](https://en.wikipedia.org/wiki/High-level_programming_language)，比如C。不管多么高级的语言最终都需要被翻译为[machine language](https://en.wikipedia.org/wiki/Machine_code)才能够被机器执行（compiler或interpreter），显然这个过程是与前面的过程相逆的。
 
-
+与machine language相比，我们发现高级语言往往伴随着非常多的概念。
 
 从这个发展史我们能够看到抽象所带来的巨大优势：
 
 - 隐藏了底层的细节
-- 越抽象，越易用
+- 越抽象，越易用，概念也就越多
 - machine-independent，通用性更加，开发效率更高
 
 
