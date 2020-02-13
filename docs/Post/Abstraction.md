@@ -167,9 +167,9 @@ class ThreadTask:
 
 ### Abstraction in architecture
 
-在进行系统设计的时候，[loose coupling](https://en.wikipedia.org/wiki/Loose_coupling) 是架构师的追求目标，为此，架构师们往往进行分解，比如将系统分解为多个 [components](https://en.wikipedia.org/wiki/Software_component#Component_Definition) 。实现方式之一就是分层。
+在进行系统设计的时候，[loose coupling](https://en.wikipedia.org/wiki/Loose_coupling) 是架构师的追求目标，为此，架构师们往往进行分解，比如将系统分解为多个 [components](https://en.wikipedia.org/wiki/Software_component#Component_Definition)，然后各[components](https://en.wikipedia.org/wiki/Software_component#Component_Definition)抽象出**接口**，它们之间就通过抽象的**接口**来进行交互，显然，接口就是对功能的抽象描述。各[components](https://en.wikipedia.org/wiki/Software_component#Component_Definition) 彼此隐藏内部实现细节，也无需关注对方的内部细节。
 
-Abstraction在architecture领域的直接体现就是分层思想，不同层就是一种抽象，分层带来解耦，分层带来简化，将问题进行分解。这在《Philosophy-level.md》中描述。
+Abstraction在architecture领域的另一个体现就是 [abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)，不同层就是一种抽象，分层带来解耦，分层带来简化。这在《Philosophy-level.md》中描述。
 
 #### [Abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
