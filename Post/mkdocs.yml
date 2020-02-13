@@ -1,9 +1,11 @@
 nav:
+    - Introduction: index.md
     - Thoughts: Thoughts.md
     - Abstraction: Abstraction.md
-    - Model: Model.md
-    - Philosophy-level: Philosophy-level.md
-    - Philosophy-separation: Philosophy-separation.md
+    - Abstraction-and-architecture: Abstraction-and-architecture.md
+    - Abstraction-and-virtual: Abstraction-and-virtual.md
+    - Abstraction-and-model: Abstraction-and-model.md
+    - Separation: Separation.md
     - Architecture: Architecture.md
     - Time-and-space: Time-and-space.md
     - 0-to-1-and-1-to-many: 0-to-1-and-1-to-many.md
