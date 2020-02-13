@@ -4,9 +4,9 @@ Hi, I'm a software engineer living in Hangzhou,China. If you want to get in touc
 
 I write in Chinese and English, but it takes more time to write in English because of lacking practice.
 
-As an software engineer, I insist on studying theories in [computer science](https://en.wikipedia.org/wiki/Computer_science) and [software engineering](https://en.wikipedia.org/wiki/Software_engineering) and try to have a clear and comprehensive picture of theories of specific field in  [computer science](https://en.wikipedia.org/wiki/Computer_science) and [software engineering](https://en.wikipedia.org/wiki/Software_engineering), because I think the theory can guide engineer in application.
+As an software engineer, I insist on studying theories in [computer science](https://en.wikipedia.org/wiki/Computer_science) and [software engineering](https://en.wikipedia.org/wiki/Software_engineering) and try to get a clear and comprehensive picture of theories of specific field in  [computer science](https://en.wikipedia.org/wiki/Computer_science) and [software engineering](https://en.wikipedia.org/wiki/Software_engineering), because I think the theory can guide engineer in practice.
 
-I like reading, below are some book that I think useful to an software engineer
+I like reading, below are some book that I think useful to an software engineer.
 
 | Book                                                         | Author                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -24,7 +24,7 @@ I like reading, below are some book that I think useful to an software engineer
 
 - Unix/Linux
 - AI application especially deep learning, such as time serial prediction，NLP
-- web application
+- Web application
 
 
 
@@ -37,5 +37,5 @@ I like reading, below are some book that I think useful to an software engineer
 | Period          |                                |
 | --------------- | ------------------------------ |
 | 07.2016-05.2018 | Unix/Linux back-end developing |
-| 05.2018-2019    | AI application developing      |
+| 05.2018-        | AI application developing      |
 
