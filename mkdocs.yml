@@ -8,11 +8,13 @@ markdown_extensions:
 nav:
 - Home: index.md
 - Post:
+  - Introduction: Post/index.md
   - Thoughts: Post/Thoughts.md
   - Abstraction: Post/Abstraction.md
-  - Model: Post/Model.md
-  - Philosophy-level: Post/Philosophy-level.md
-  - Philosophy-separation: Post/Philosophy-separation.md
+  - Abstraction-and-architecture: Post/Abstraction-and-architecture.md
+  - Abstraction-and-virtual: Post/Abstraction-and-virtual.md
+  - Abstraction-and-model: Post/Abstraction-and-model.md
+  - Separation: Post/Separation.md
   - Architecture: Post/Architecture.md
   - Time-and-space: Post/Time-and-space.md
   - 0-to-1-and-1-to-many: Post/0-to-1-and-1-to-many.md

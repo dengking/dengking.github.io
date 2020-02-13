@@ -1,6 +1,6 @@
 # Architecture
 
-## library-base architecture
+## Library-base architecture
 
 在阅读[Clang - Features and Goals](http://clang.llvm.org/features.html#libraryarch)时，其Library Based Architecture令我印象深刻，据我所知的，还有采用这种架构的有
 
@@ -36,7 +36,7 @@ https://en.wikipedia.org/wiki/Message-oriented_middleware
 
 ## [Multitier architecture](https://en.wikipedia.org/wiki/Multitier_architecture) VS [Monolithic application](https://en.wikipedia.org/wiki/Monolithic_application)
 
-
+TODO: 将在[The Structure of a Compiler](https://dengking.github.io/compiler-principle/Chapter-1-Introduction/1.2-The-Structure-of-a-Compiler/)中所总结的关于compiler的架构的内容添加到这里。
 
 ## Monolithic VS micro
 
