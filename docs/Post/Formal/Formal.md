@@ -1,5 +1,7 @@
 # Formal
 
+本文目前处于草稿状态。
+
 关于Formal的一些素材：
 
 - [Formal science](https://en.wikipedia.org/wiki/Formal_science)

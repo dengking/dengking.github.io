@@ -4,6 +4,7 @@ nav:
     - Abstraction: Abstraction
     - Language: Language
     - Formal: Formal
+    - Recursion: Recursion
     - Separation: Separation.md
     - Architecture: Architecture.md
     - Time-and-space: Time-and-space.md
