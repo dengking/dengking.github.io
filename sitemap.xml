@@ -2,52 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://dengking.github.io/</loc>
-     <lastmod>2020-02-07</lastmod>
+     <lastmod>2020-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dengking.github.io/Post/</loc>
+     <lastmod>2020-02-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Thoughts/</loc>
-     <lastmod>2020-02-07</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Philosophy-level/</loc>
-     <lastmod>2020-02-07</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Philosophy-separation/</loc>
-     <lastmod>2020-02-07</lastmod>
+     <lastmod>2020-02-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Abstraction/</loc>
-     <lastmod>2020-02-07</lastmod>
+     <lastmod>2020-02-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://dengking.github.io/Post/Model/</loc>
-     <lastmod>2020-02-07</lastmod>
+     <loc>https://dengking.github.io/Post/Abstraction-and-architecture/</loc>
+     <lastmod>2020-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dengking.github.io/Post/Abstraction-and-virtual/</loc>
+     <lastmod>2020-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dengking.github.io/Post/Abstraction-and-model/</loc>
+     <lastmod>2020-02-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dengking.github.io/Post/Separation/</loc>
+     <lastmod>2020-02-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Architecture/</loc>
-     <lastmod>2020-02-07</lastmod>
+     <lastmod>2020-02-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Time-and-space/</loc>
-     <lastmod>2020-02-07</lastmod>
+     <lastmod>2020-02-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/0-to-1-and-1-to-many/</loc>
-     <lastmod>2020-02-07</lastmod>
+     <lastmod>2020-02-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/about/</loc>
-     <lastmod>2020-02-07</lastmod>
+     <lastmod>2020-02-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

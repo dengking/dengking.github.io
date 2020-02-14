@@ -13,7 +13,7 @@
         <meta name="description" content="Website of Kai">
       
       
-        <link rel="canonical" href="https://dengking.github.io/Post/Philosophy-level/">
+        <link rel="canonical" href="https://dengking.github.io/Post/Abstraction-and-architecture/">
       
       
         <meta name="author" content="Kai Deng">
@@ -42,7 +42,7 @@
     
     
       
-        <title>分层思想 - Website of Kai</title>
+        <title>Abstraction-and-architecture - Website of Kai</title>
       
     
     
@@ -108,7 +108,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#_1" tabindex="1" class="md-skip">
+      <a href="#abstraction-and-architecture" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -134,7 +134,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                分层思想
+                Abstraction-and-architecture
               
             </span>
           
@@ -255,10 +255,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Post
@@ -310,11 +312,266 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../Abstraction-and-architecture/" title="Abstraction-and-architecture" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Abstraction-and-architecture
+      </label>
+    
+    <a href="./" title="Abstraction-and-architecture" class="md-nav__link md-nav__link--active">
       Abstraction-and-architecture
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#architecture" class="md-nav__link">
+    Architecture
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#architecture-of-computing-system" class="md-nav__link">
+    Architecture of computing system
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#architecture-of-compiler" class="md-nav__link">
+    Architecture of compiler
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    中间表示
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communication-protocol" class="md-nav__link">
+    Communication protocol
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#osi-model" class="md-nav__link">
+    OSI model
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#internet-protocol-suite" class="md-nav__link">
+    Internet protocol suite
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#database-abstraction-layer" class="md-nav__link">
+    Database abstraction layer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    接口
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    以层次思想来思考
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    问题出现在哪个层次
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    不同层次相互借用概念
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    案例
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    案例
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    案例
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    不同层次使用不同语言
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    不同层次的语言之间的转换
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api-vs-abi" class="md-nav__link">
+    API VS ABI
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    总结
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    分层带来的价值
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#separation-of-concerns" class="md-nav__link">
+    Separation of concerns
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#portability" class="md-nav__link">
+    Portability
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    分层带来安全
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modularity" class="md-nav__link">
+    分层带来modularity
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipeline" class="md-nav__link">
+    分层与栈、pipeline
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    See also:
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -429,7 +686,7 @@
       
         <li class="md-nav__item">
   <a href="#architecture" class="md-nav__link">
-    architecture
+    Architecture
   </a>
   
     <nav class="md-nav">
@@ -437,21 +694,21 @@
         
           <li class="md-nav__item">
   <a href="#architecture-of-computing-system" class="md-nav__link">
-    architecture of computing system
+    Architecture of computing system
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#architecture-of-compiler" class="md-nav__link">
-    architecture of compiler
+    Architecture of compiler
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     中间表示
   </a>
   
@@ -502,6 +759,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    接口
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     以层次思想来思考
   </a>
@@ -511,6 +775,13 @@
         
           <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
+    问题出现在哪个层次
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
     不同层次相互借用概念
   </a>
   
@@ -518,15 +789,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#example-one" class="md-nav__link">
-    example one
+  <a href="#_6" class="md-nav__link">
+    案例
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#example-two" class="md-nav__link">
-    example two
+  <a href="#_7" class="md-nav__link">
+    案例
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    案例
   </a>
   
 </li>
@@ -537,9 +815,29 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_9" class="md-nav__link">
     不同层次使用不同语言
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    不同层次的语言之间的转换
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api-vs-abi" class="md-nav__link">
+    API VS ABI
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -549,22 +847,14 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_11" class="md-nav__link">
     总结
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    抽象层
-  </a>
-  
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
     分层带来的价值
   </a>
   
@@ -579,20 +869,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#abstraction-computer-science" class="md-nav__link">
-    Abstraction (computer science)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#layer-object-oriented-design" class="md-nav__link">
-    Layer (object-oriented design)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#portability" class="md-nav__link">
     Portability
   </a>
@@ -600,7 +876,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
+  <a href="#_13" class="md-nav__link">
     分层带来安全
   </a>
   
@@ -617,35 +893,17 @@
     </nav>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
   <a href="#pipeline" class="md-nav__link">
     分层与栈、pipeline
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#solution-stack" class="md-nav__link">
-    Solution stack
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
-  <a href="#virtual" class="md-nav__link">
-    virtual
+  <a href="#see-also" class="md-nav__link">
+    See also:
   </a>
   
 </li>
@@ -667,20 +925,23 @@
               
                 
                 
-                <h1 id="_1">分层思想<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
-<p>计算机科学领域的<a href="https://en.wikipedia.org/wiki/Abstraction_layer">layers of abstraction</a>思想的可谓由来已久且影响深远，在计算机科学的方方面面我们都能够看到它的身影和影响，后面为了描述便利，将<a href="https://en.wikipedia.org/wiki/Abstraction_layer">layers of abstraction</a>思想简称为<strong>分层思想</strong>。最能够体现<strong>分层思想</strong>的一个词是：hierarchy（层级），维基百科的<a href="https://en.wikipedia.org/wiki/Hierarchy">hierarchy</a>对hierarchy的总结是非常详细的，非常值得一读，从中我们可以看到，hierarchy在各个学科中有着广泛的应用：</p>
+                <h1 id="abstraction-and-architecture">Abstraction and architecture<a class="headerlink" href="#abstraction-and-architecture" title="Permanent link">#</a></h1>
+<p>本节对上一节的Abstraction in architecture中所提及内容进行详细论述。</p>
+<p>在进行系统设计的时候，<a href="https://en.wikipedia.org/wiki/Loose_coupling">loose coupling</a> 是架构师的追求目标，为此，架构师们往往进行分解，比如将系统分解为多个 <a href="https://en.wikipedia.org/wiki/Software_component#Component_Definition">components</a>，然后各<a href="https://en.wikipedia.org/wiki/Software_component#Component_Definition">components</a>抽象出<a href="https://en.wikipedia.org/wiki/Interface_(computing)"><strong>接口</strong></a>，它们之间就通过抽象的<a href="https://en.wikipedia.org/wiki/Interface_(computing)"><strong>接口</strong></a>来进行交互，显然，接口就是对功能的抽象描述。各 <a href="https://en.wikipedia.org/wiki/Software_component#Component_Definition">components</a> 彼此相互透明（隐藏内部细节），通过<a href="https://en.wikipedia.org/wiki/Interface_(computing)">接口</a>来进行交互。</p>
+<p>一种常见的分解方式是：分层，具体参见 <a href="https://en.wikipedia.org/wiki/Abstraction_layer">abstraction layer</a>，这是abstraction在architecture领域的一个体现。计算机科学领域的<a href="https://en.wikipedia.org/wiki/Abstraction_layer">abstraction layer</a>思想的可谓由来已久且影响深远，在计算机科学的方方面面我们都能够看到它的身影和影响，后面为了描述便利，将<a href="https://en.wikipedia.org/wiki/Abstraction_layer">abstraction layer</a>思想简称为<strong>分层思想</strong>。最能够体现<strong>分层思想</strong>的一个词是：hierarchy（层级），维基百科的<a href="https://en.wikipedia.org/wiki/Hierarchy">hierarchy</a>对hierarchy的总结是非常详细的，非常值得一读，从中我们可以看到，hierarchy在各个学科中有着广泛的应用：</p>
 <blockquote>
 <p>Hierarchy is an important concept in a wide variety of fields, such as <a href="https://en.wikipedia.org/wiki/Philosophy">philosophy</a>, <a href="https://en.wikipedia.org/wiki/Mathematics">mathematics</a>, <a href="https://en.wikipedia.org/wiki/Computer_science">computer science</a>, <a href="https://en.wikipedia.org/wiki/Organizational_theory">organizational theory</a>, <a href="https://en.wikipedia.org/wiki/Systems_theory">systems theory</a>, and the <a href="https://en.wikipedia.org/wiki/Social_sciences">social sciences</a> (especially <a href="https://en.wikipedia.org/wiki/Political_philosophy">political philosophy</a>).</p>
 </blockquote>
-<p>其实从这上诉论断中我们也可以倒推出：分层思想在各个学科中有着广泛的应用，其实如果往更深层次去思考的话，分层思想其实是一种结构化的思维，关于这个还需要进行一些阅读。</p>
+<p>其实从这上述论断中我们也可以倒推出：分层思想在各个学科中有着广泛的应用，其实如果往更深层次去思考的话，分层思想其实是一种结构化的思维，关于这个还需要进行一些阅读。</p>
 <p>下面是我所总结的计算机科学的各个领域中分层的应用：</p>
-<h2 id="architecture">architecture<a class="headerlink" href="#architecture" title="Permanent link">#</a></h2>
+<h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">#</a></h2>
 <p>作为软件工程师，我们常常听到architecture（架构）这个词，并且有一个高端职位叫做architect（架构师）。软件或系统的架构为我们描述的系统的结构、组成部分、各部分之间的接口。分层思想对architecture影响体现在各种各样的<strong>层次化结构</strong>，比如</p>
-<h3 id="architecture-of-computing-system">architecture of <a href="https://en.wikipedia.org/wiki/Computing">computing system</a><a class="headerlink" href="#architecture-of-computing-system" title="Permanent link">#</a></h3>
-<p>reference</p>
-<h3 id="architecture-of-compiler">architecture of compiler<a class="headerlink" href="#architecture-of-compiler" title="Permanent link">#</a></h3>
-<p>reference</p>
-<h4 id="_2">中间表示<a class="headerlink" href="#_2" title="Permanent link">#</a></h4>
+<h3 id="architecture-of-computing-system">Architecture of <a href="https://en.wikipedia.org/wiki/Computing">computing system</a><a class="headerlink" href="#architecture-of-computing-system" title="Permanent link">#</a></h3>
+<p>参见：<a href="https://dengking.github.io/Linux-OS/Architecture/Architecture-of-computing-system/">Architecture-of-computing-system</a></p>
+<p>计算机系统如此复杂，各个层次之间只需要通过抽象的<a href="https://en.wikipedia.org/wiki/Interface_(computing)">接口</a>就可以进行交互，完全无需了解对方具体的细节。请想想，如果不这样的话，则多么复杂。抽象简化了计算机系统，带来了分工，带来了效率。抽象，掩盖细节，提高了易用性。</p>
+<h3 id="architecture-of-compiler">Architecture of compiler<a class="headerlink" href="#architecture-of-compiler" title="Permanent link">#</a></h3>
+<p>参见：<a href="https://dengking.github.io/compiler-principle/Chapter-1-Introduction/1.2-The-Structure-of-a-Compiler/">The Structure of a Compiler</a></p>
+<h4 id="_1">中间表示<a class="headerlink" href="#_1" title="Permanent link">#</a></h4>
 <p>编译器分为前段和后端，中间表示理解前段与后端。也可以说中间表示是两者之间的接口。</p>
 <h2 id="communication-protocol"><a href="https://en.wikipedia.org/wiki/Communication_protocol">Communication protocol</a><a class="headerlink" href="#communication-protocol" title="Permanent link">#</a></h2>
 <p>各种各样的通信协议可以说是最最能够体现分层思想的了，在<a href="https://en.wikipedia.org/wiki/Communication_protocol">Communication protocol</a>的<a href="https://en.wikipedia.org/wiki/Communication_protocol#Protocol_design">Protocol design</a>章节中就总结了协议涉及的思想：<a href="https://en.wikipedia.org/wiki/Communication_protocol#Layering">Layering</a>。除此之外，参加：<a href="https://en.wikipedia.org/wiki/Hierarchical_internetworking_model">Hierarchical internetworking model</a>。</p>
@@ -737,13 +998,25 @@
 <blockquote>
 <p>A <strong>database abstraction layer</strong> (<strong>DBAL</strong> or <strong>DAL</strong>) is an <a href="https://en.wikipedia.org/wiki/Application_programming_interface">application programming interface</a> which unifies the communication between a computer application and <a href="https://en.wikipedia.org/wiki/Database">databases</a> such as <a href="https://en.wikipedia.org/wiki/MSSQL">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/IBM_DB2">DB2</a>, <a href="https://en.wikipedia.org/wiki/MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database">Oracle</a> or <a href="https://en.wikipedia.org/wiki/SQLite">SQLite</a>. </p>
 </blockquote>
+<h2 id="_2">接口<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
+<p>从上篇开始，我们一直都在接触“接口”这个词语，在上篇中，我把“接口”定义为：对抽象的描述。有必要看看维基百科的<a href="https://en.wikipedia.org/wiki/Interface_(computing)">Interface (computing)</a>，它总结地比较好。</p>
+<p>以下两类接口是software engineer经常会使用的两个概念：</p>
+<ul>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Application_programming_interface">Application programming interface</a> aka API</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Application_binary_interface">Application binary interface</a> aka ABI</p>
+</li>
+</ul>
+<p>在<a href="#以层次思想来思考">以层次思想来思考</a>节会对两者进行区分。</p>
 <h2 id="_3">以层次思想来思考<a class="headerlink" href="#_3" title="Permanent link">#</a></h2>
-<p><strong>层次思想</strong>是计算机科学中的重要思想，它潜移默化地影响这计算机科学，在计算机科学中，如果我们以<strong>层次思想</strong>来思考，来分析各种系统，则问题会变得清晰。</p>
-<h3 id="_4">不同层次相互借用概念<a class="headerlink" href="#_4" title="Permanent link">#</a></h3>
-<p>当我们站在计算机系统的不同层次来思考，我们会发现不同层次之间会存在着大量的相互概念借用。比如：</p>
-<h4 id="example-one">example one<a class="headerlink" href="#example-one" title="Permanent link">#</a></h4>
-<p>不同层次描述本质上非常类似的事务有着不同的说法，比如在《<a href="https://github.com/dengking/Unix-like-operating-system/docs/Kernel/book-Understanding-the-Linux-Kernel/Summary/How-OS-run-01-OS-kernel-is-event-driven.md">How-OS-run-01-OS-kernel-is-event-driven</a>》中鄋总结的：</p>
-<p>我们惊喜的发现站在计算机科学的不同的层次来描述本质上非常类似的事务有着不同的说法，下面对此进行了对比：</p>
+<h3 id="_4">问题出现在哪个层次<a class="headerlink" href="#_4" title="Permanent link">#</a></h3>
+<p>在多层次中，当出现问题是，就需要进行这样的考虑。</p>
+<h3 id="_5">不同层次相互借用概念<a class="headerlink" href="#_5" title="Permanent link">#</a></h3>
+<p>当我们站在计算机系统的不同层次来思考，我们会发现不同层次之间会存在着大量的相互概念借用，或者说，不同层次使用不同的术语来表示类似的概念。比如：</p>
+<h4 id="_6">案例<a class="headerlink" href="#_6" title="Permanent link">#</a></h4>
+<p>不同层次描述本质上非常类似的事务有着不同的说法，比如在<a href="https://dengking.github.io/Linux-OS/Kernel/Book-Understanding-the-Linux-Kernel/Guide/Linux-OS's-interaction-with-the-hardware/Linux-OS-kernel-is-event-driven/">Linux-OS-kernel-is-event-driven</a>中总结的：</p>
 <table>
 <thead>
 <tr>
@@ -767,48 +1040,62 @@
 </tbody>
 </table>
 <p>各种interrupt就是所谓的event。</p>
-<h4 id="example-two">example two<a class="headerlink" href="#example-two" title="Permanent link">#</a></h4>
-<p>正在不同的层次来看待计算机科学=》不同层次相互借用相同概念-》不同层次相互透明（隐藏内部细节），通过接口来进行交互</p>
-<h3 id="_5">不同层次使用不同语言<a class="headerlink" href="#_5" title="Permanent link">#</a></h3>
-<p>不同层次使用不同的语言：高级编程语言、中级编程语言、低级编程语言</p>
-<p>不同层次的语言之间的转换</p>
-<h2 id="_6">总结<a class="headerlink" href="#_6" title="Permanent link">#</a></h2>
-<p>分层，抽象，接口，这些是三个同义词。它们是贯穿了computer science和software engineering的思想</p>
-<h3 id="_7">抽象层<a class="headerlink" href="#_7" title="Permanent link">#</a></h3>
-<p><a href="https://en.wikipedia.org/wiki/Abstraction_layer">Abstraction layer</a></p>
-<h3 id="_8">分层带来的价值<a class="headerlink" href="#_8" title="Permanent link">#</a></h3>
-<h4 id="separation-of-concerns"><a href="https://en.wikipedia.org/wiki/Separation_of_concerns">Separation of concerns</a><a class="headerlink" href="#separation-of-concerns" title="Permanent link">#</a></h4>
-<h4 id="abstraction-computer-science"><a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)">Abstraction (computer science)</a><a class="headerlink" href="#abstraction-computer-science" title="Permanent link">#</a></h4>
-<h4 id="layer-object-oriented-design"><a href="https://en.wikipedia.org/wiki/Layer_(object-oriented_design)">Layer (object-oriented design)</a><a class="headerlink" href="#layer-object-oriented-design" title="Permanent link">#</a></h4>
-<h4 id="portability"><a href="https://en.wikipedia.org/wiki/Software_portability">Portability</a><a class="headerlink" href="#portability" title="Permanent link">#</a></h4>
+<h4 id="_7">案例<a class="headerlink" href="#_7" title="Permanent link">#</a></h4>
+<p>linux的<a href="https://en.wikipedia.org/wiki/Epoll">epoll</a>的<a href="https://en.wikipedia.org/wiki/Epoll#Triggering_mode">triggering mode</a>借用了<a href="https://en.wikipedia.org/wiki/Interrupt">Interrupt</a>的<a href="https://en.wikipedia.org/wiki/Interrupt#Triggering_methods">triggering methods</a>概念。</p>
+<h4 id="_8">案例<a class="headerlink" href="#_8" title="Permanent link">#</a></h4>
+<p>在<a href="https://www.oreilly.com/library/view/understanding-the-linux/0596005652/">Understanding.The.Linux.kernel.3rd.Edition</a>的Chapter 4. Interrupt定义了Synchronous interrupt的概念，它是Hardware层的概念，在OS层，与它对应的是<a href="http://en.wikipedia.org/wiki/Signal_(IPC)">Signal</a>。</p>
+<h3 id="_9">不同层次使用不同语言<a class="headerlink" href="#_9" title="Permanent link">#</a></h3>
+<p>在上一节《编程语言的发展史》中已经对此进行了分析。</p>
+<p>不同层次使用不同的语言：<a href="https://en.wikipedia.org/wiki/Very_high-level_programming_language">Very high-level programming language</a>、高级编程语言（<a href="https://en.wikipedia.org/wiki/High-level_programming_language">High-level programming language</a>）、低级编程语言（<a href="https://en.wikipedia.org/wiki/Low-level_programming_language">Low-level programming language</a>），</p>
+<h4 id="_10">不同层次的语言之间的转换<a class="headerlink" href="#_10" title="Permanent link">#</a></h4>
+<p>比如compiler就是执行这个目的的。</p>
+<h4 id="api-vs-abi">API VS ABI<a class="headerlink" href="#api-vs-abi" title="Permanent link">#</a></h4>
+<p>当我们以层次思想来思考ABI和API时，就会发现对于两者的区分是非常容易的：它们是不同的language的<a href="https://en.wikipedia.org/wiki/Interface_(computing)">interface</a>。API是hight-level programming language的程序之间进行交互的<a href="https://en.wikipedia.org/wiki/Interface_(computing)">interface</a>，而ABI则是machine language的程序之间进行交互的<a href="https://en.wikipedia.org/wiki/Interface_(computing)">interface</a>。</p>
+<p>需要注意的是，正如在上一节在《编程语言的发展史》中所提及的：</p>
+<blockquote>
+<p>不管多么高级的语言最终都需要被翻译（compiler或interpreter）为<a href="https://en.wikipedia.org/wiki/Machine_code">machine language</a>才能够被机器执行</p>
+</blockquote>
+<p>所以需要定义hight-level programming language中的各种概念如何翻译为machine language，这部分内容也是ABI中所包含的，比如calling convention等。    </p>
+<p><a href="https://en.wikipedia.org/wiki/File:Linux_API_and_Linux_ABI.svg"><img alt="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Linux_API_and_Linux_ABI.svg/300px-Linux_API_and_Linux_ABI.svg.png" /></a></p>
+<blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Linux_kernel">Linux kernel</a> and <a href="https://en.wikipedia.org/wiki/GNU_C_Library">GNU C Library</a> define the <a href="https://en.wikipedia.org/wiki/Linux_kernel_interfaces#Kernel–user_space_API">Linux API</a>. After compilation, the binaries offer an ABI; keeping this ABI stable over a long time is important for <a href="https://en.wikipedia.org/wiki/Independent_software_vendor">ISVs</a>.</p>
+</blockquote>
+<h2 id="_11">总结<a class="headerlink" href="#_11" title="Permanent link">#</a></h2>
+<p>在计算机科学中，分层，抽象，接口，这词可以看做是同义词。</p>
+<h2 id="_12">分层带来的价值<a class="headerlink" href="#_12" title="Permanent link">#</a></h2>
+<p>分层带来解耦，分层带来简化</p>
+<h3 id="separation-of-concerns"><a href="https://en.wikipedia.org/wiki/Separation_of_concerns">Separation of concerns</a><a class="headerlink" href="#separation-of-concerns" title="Permanent link">#</a></h3>
+<h3 id="portability"><a href="https://en.wikipedia.org/wiki/Software_portability">Portability</a><a class="headerlink" href="#portability" title="Permanent link">#</a></h3>
 <p>如</p>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Operating_system#Diversity_of_operating_systems_and_portability">Diversity of operating systems and portability</a></li>
 </ul>
 <p>抽象层带来移植性</p>
-<h4 id="_9">分层带来安全<a class="headerlink" href="#_9" title="Permanent link">#</a></h4>
+<h3 id="_13">分层带来安全<a class="headerlink" href="#_13" title="Permanent link">#</a></h3>
 <p>在<a href="https://en.wikipedia.org/wiki/Kernel_(operating_system)">Kernel (operating system)</a>中有这样的描述：</p>
 <blockquote>
 <p><a href="https://en.wikipedia.org/wiki/Kernel_space">kernel space</a>. <a href="https://en.wikipedia.org/wiki/User_space">user space</a>. </p>
 <p>This separation prevents user data and kernel data from interfering with each other and causing instability and slowness, as well as preventing malfunctioning application programs from crashing the entire operating system.</p>
 </blockquote>
 <p>分层带来隔离，进而带来安全</p>
-<h4 id="modularity">分层带来<a href="https://en.wikipedia.org/wiki/Modular_programming">modularity</a><a class="headerlink" href="#modularity" title="Permanent link">#</a></h4>
-<p>在<a href="https://en.wikipedia.org/wiki/Kernel_(operating_system)">Kernel (operating system)</a>中有这样的描述</p>
+<h3 id="modularity">分层带来<a href="https://en.wikipedia.org/wiki/Modular_programming">modularity</a><a class="headerlink" href="#modularity" title="Permanent link">#</a></h3>
+<p>在<a href="https://en.wikipedia.org/wiki/Kernel_(operating_system)">Kernel (operating system)</a>中有这样的描述。</p>
 <h2 id="pipeline">分层与栈、pipeline<a class="headerlink" href="#pipeline" title="Permanent link">#</a></h2>
-<p>一般，会将按照分层设计的系统称为栈，比如协议栈。有时候也会称为pipeline</p>
-<h3 id="solution-stack"><a href="https://en.wikipedia.org/wiki/Solution_stack">Solution stack</a><a class="headerlink" href="#solution-stack" title="Permanent link">#</a></h3>
-<h2 id="virtual">virtual<a class="headerlink" href="#virtual" title="Permanent link">#</a></h2>
-<p>virtual是计算机科学中常常会出现的一个词，比如：</p>
+<p>一般，会将按照分层设计的系统称为栈，比如协议栈，另外一个与此相关的词是pipeline。显然，无论pipeline还是栈，它们都是线性结构，这与分层结构是线性结构是相契合的。</p>
+<p>See also:</p>
+<p><a href="https://en.wikipedia.org/wiki/Solution_stack">Solution stack</a></p>
+<h2 id="see-also">See also:<a class="headerlink" href="#see-also" title="Permanent link">#</a></h2>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Virtual_memory">Virtual memory</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Virtual_function">Virtual method</a></li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)">Abstraction (computer science)</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Abstraction_layer">Abstraction layer</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Layer_(object-oriented_design)">Layer (object-oriented design)</a></p>
+</li>
 </ul>
-<p>经过本文前面的分析，我们可以很快地知道：virtual也是一种抽象，一种分层，这种分层所带来的价值就是解耦。下面以virtual address来进行说明：</p>
-<p>process在运行的时候使用virtual memory address，由OS根据page table将virtual address翻译为physical address；与process直接使用physical address相比，这种设计多添加了一层：转换层。这种设计带来的价值是：它解耦了process的page和page的存储位置，具体来讲就是按照这种设计，page既可以位于RAM，也可以位于disk，而如果直接使用physical address的话，则process的page只能够位于RAM中。所以可以看出，virtual address解耦了process的page和page的存储位置。</p>
-<p>在<a href="https://en.wikipedia.org/wiki/Virtual_memory#Paged_virtual_memory">Paged virtual memory</a>中，由<a href="https://en.wikipedia.org/wiki/Page_table">Page tables</a>来记录映射关系。</p>
-<p>在<a href="https://en.wikipedia.org/wiki/Virtual_function">Virtual function</a>中，由<a href="https://en.wikipedia.org/wiki/Dispatch_table">Dispatch table</a>来记录映射关系。</p>
-<p>这种一对多是需要一个table来记录映射关系的。</p>
                 
                   
                 
@@ -826,6 +1113,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Abstraction/" title="Abstraction" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Abstraction
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../Abstraction-and-virtual/" title="Abstraction-and-virtual" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Abstraction-and-virtual
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
