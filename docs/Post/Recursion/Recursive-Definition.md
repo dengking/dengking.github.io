@@ -14,11 +14,12 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [computer scienc
 >
 > 可以看到，当我们将set理解为type后，原来的描述就变成了software engineer非常任意理解的了。
 >
-> 在计算机科学中，关于此的非常典型的例子是：[Recursive data types](https://en.wikipedia.org/wiki/Recursive_data_type)
+> 在计算机科学中，关于此的非常典型的例子是：[Recursive data types](https://en.wikipedia.org/wiki/Recursive_data_type)，后面最好将recursive data type放到data-structure项目中。
 >
 > TODO: 需要补充Tree的recursive definition，可以参考如下内容：
 >
 > - https://cgi.csc.liv.ac.uk/~michele/TEACHING/COMP102/2006/5.4.pdf
+> - http://www.montefiore.ulg.ac.be/~piater/Cours/INFO0902/notes/tree/foil04.xhtml
 >
 > TODO: 一般带有“sub”的都是可以进行recursive definition的，比如subtree，sublist
 >
@@ -30,11 +31,17 @@ A [recursive](https://en.wikipedia.org/wiki/Recursive) [definition](https://en.w
 
 (*n* + 1)! = (*n* + 1)·*n*!.
 
+> NOTE: 原文中给出了两种：recursively defined functions and sets
+
+## Recursive definition and [closure](https://en.wikipedia.org/wiki/Closure_(mathematics)) 
+
+按照recursively defined sets的概念，这个set在构造新元素的operation下是closed的（参见 [Closure (mathematics)](https://en.wikipedia.org/wiki/Closure_(mathematics)) ）。
 
 
 
+## Recursive definition in computer science
 
-
+有太多太多的算法、结构都是可以使用recursive definition的。
 
 ### See also
 

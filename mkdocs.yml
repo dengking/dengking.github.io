@@ -10,10 +10,20 @@ nav:
 - Post:
   - Introduction: Post/index.md
   - Thoughts: Post/Thoughts.md
-  - Abstraction: Post/Abstraction.md
-  - Abstraction-and-architecture: Post/Abstraction-and-architecture.md
-  - Abstraction-and-virtual: Post/Abstraction-and-virtual.md
-  - Abstraction-and-model: Post/Abstraction-and-model.md
+  - Abstraction:
+    - Abstraction: Post/Abstraction/Abstraction.md
+    - Abstraction-and-architecture: Post/Abstraction/Abstraction-and-architecture.md
+    - Abstraction-and-model: Post/Abstraction/Abstraction-and-model.md
+    - Abstraction-and-relation: Post/Abstraction/Abstraction-and-relation.md
+    - Abstraction-and-virtual: Post/Abstraction/Abstraction-and-virtual.md
+  - Language:
+    - Language: Post/Language/Language.md
+  - Formal:
+    - Formal: Post/Formal/Formal.md
+  - Recursion:
+    - Introduction: Post/Recursion/index.md
+    - Recursive-Definition: Post/Recursion/Recursive-Definition.md
+    - Recursion: Post/Recursion/Recursion.md
   - Separation: Post/Separation.md
   - Architecture: Post/Architecture.md
   - Time-and-space: Post/Time-and-space.md
