@@ -1,10 +1,9 @@
 nav:
     - Introduction: index.md
     - Thoughts: Thoughts.md
-    - Abstraction: Abstraction.md
-    - Abstraction-and-architecture: Abstraction-and-architecture.md
-    - Abstraction-and-virtual: Abstraction-and-virtual.md
-    - Abstraction-and-model: Abstraction-and-model.md
+    - Abstraction: Abstraction
+    - Language: Language
+    - Formal: Formal
     - Separation: Separation.md
     - Architecture: Architecture.md
     - Time-and-space: Time-and-space.md

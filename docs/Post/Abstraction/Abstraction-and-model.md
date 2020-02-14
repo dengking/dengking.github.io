@@ -89,7 +89,15 @@
 
 
 
+
+
+## [Model of computation](https://en.wikipedia.org/wiki/Model_of_computation)
+
+
+
 ## 模型与实现
+### example
+
 在龙书的[第七章](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/)中所讲述的logical address space是一个概念模型，对于这个概念模型不同的操作系统有不同的时候，目前主流的实现方式是paged virtual address space。
 
 
