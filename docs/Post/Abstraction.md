@@ -20,7 +20,7 @@
 
 抽象是概括的过程，抽象是提取公共特征的过程，它所概括的、所提取的公共特征，可以使用 [concepts](https://en.wikipedia.org/wiki/Concept) 来进行表示，当然也有其它的表示方式。
 
-与abstract相对的是concrete，参见[Abstract and concrete](https://en.wikipedia.org/wiki/Abstract_and_concrete)
+与abstract相对的是concrete，参见[Abstract and concrete](https://en.wikipedia.org/wiki/Abstract_and_concrete)。
 
 ## 创造抽象概念
 
@@ -28,11 +28,9 @@
 
 ### Kernel control path
 
-在《Understanding.The.Linux.kernel.3rd.Edition》的chapter 1.6.3. Reentrant Kernels中，作者定义了kernel control path概念来概括kernel中由system call由触发的kernel control path（后面简称为system call kernel control path）、由interrupt handler触发的kernel control path（后面简称interrupt handler kernel control path）以及后续随着kernel发展可能会新增的触发kernel control path。显然kernel control path概念概括了system call kernel control path、interrupt handler kernel control path的**common feature**（公共特征），如它们都能够被suspend、resume。
+在《[Understanding the Linux Kernel, 3rd Edition](http://shop.oreilly.com/product/9780596005658.do)》的chapter 1.6.3. Reentrant Kernels中，作者创造了kernel control path概念来概括kernel中由system call由触发的kernel control path（后面简称为system call kernel control path）、由interrupt handler触发的kernel control path（后面简称interrupt handler kernel control path）以及后续随着kernel发展可能会新增的触发kernel control path。显然kernel control path概念概括了system call kernel control path、interrupt handler kernel control path的**common feature**（公共特征），如它们都能够被suspend、resume。
 
-显然当一个表述中使用kernel control path的时候，我们就知道它可以是system call kernel control path、也可以是interrupt handler kernel control path，这就使我们的表述非常地便利。
-
-显然，system call kernel control path、interrupt handler kernel control path和kernel control path之间是[Is-a](https://en.wikipedia.org/wiki/Is-a)关系。
+显然当一个表述中使用kernel control path的时候，我们就知道它可以是system call kernel control path、也可以是interrupt handler kernel control path，这就使我们的表述非常地便利。显然，system call kernel control path、interrupt handler kernel control path和kernel control path之间是[Is-a](https://en.wikipedia.org/wiki/Is-a)关系。
 
 
 
@@ -44,9 +42,9 @@
 
 ### 编程语言的发展史
 
-纵观[programming language的发展史](https://en.wikipedia.org/wiki/Programming_language#History)，我们发现：语言越来越高级，越来越抽象，越来越易用。最底层的语言：[machine language](https://en.wikipedia.org/wiki/Machine_code) 晦涩难懂，计算机科学的先驱在[machine language](https://en.wikipedia.org/wiki/Machine_code) 的基础上抽象出了 [function](https://en.wikipedia.org/wiki/Subroutine) 概念，又抽象出了 [class](https://en.wikipedia.org/wiki/Class-based_programming) 的概念，创建了非常多 [高级的语言](https://en.wikipedia.org/wiki/High-level_programming_language)，比如C。不管多么高级的语言最终都需要被翻译为[machine language](https://en.wikipedia.org/wiki/Machine_code)才能够被机器执行（compiler或interpreter），显然这个过程是与前面的过程相逆的。
+纵观[programming language的发展史](https://en.wikipedia.org/wiki/Programming_language#History)，我们发现：语言越来越高级，越来越抽象，越来越易用。最底层的语言：[machine language](https://en.wikipedia.org/wiki/Machine_code) 晦涩难懂，计算机科学的先驱在[machine language](https://en.wikipedia.org/wiki/Machine_code) 的基础上抽象出了 [function](https://en.wikipedia.org/wiki/Subroutine) 概念，又抽象出了 [class](https://en.wikipedia.org/wiki/Class-based_programming) 的概念，创建了非常多 [高级的语言](https://en.wikipedia.org/wiki/High-level_programming_language)，比如C。不管多么高级的语言最终都需要被翻译（compiler或interpreter）为[machine language](https://en.wikipedia.org/wiki/Machine_code)才能够被机器执行，显然这个翻译的过程是与前面的抽象的过程相逆的。
 
-与machine language相比，我们发现高级语言往往伴随着非常多的概念。
+与machine language相比，我们发现高级语言往往伴随着非常多的概念，而且越高级的语言貌似概念越多（这是我的直觉，可能并非如此），当然也越容易使用。与此类似的是，各种library为了简化某个领域的问题， 也创造了各种直观易懂的概念，使得software engineer在解决这类问题时，非常轻松容易，因此获得了software engineer的喜爱。
 
 从这个发展史我们能够看到抽象所带来的巨大优势：
 
@@ -74,7 +72,7 @@ Abstraction在computer science中有着深远的影响，本文将开始对此�
 
 维基百科的[Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))总结了计算机科学中的abstraction。虽然维基百科的[Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))对计算机科学中的Abstraction有了不同的描述，但是我觉得计算机科学中的abstraction本质上和前面所述的广义的abstraction是相同的，即创建concept的过程，在computer science，我们需要考虑的是如何来描述concept。
 
-concept在计算机科学的不同领域有着不同的描述方式，比如：
+Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 在[object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)中，使用`class`来描述concept，concept之间的relation就转换为`class`之间的关系了。
 
@@ -84,11 +82,13 @@ concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)是对 [computer](https://en.wikipedia.org/wiki/Computer) 的抽象，它描述了一个computer的功能，特性等，它使用instruction来描述。
 
+另外一个更加常用的来描述抽象概念的是[interface (computing)](https://en.wikipedia.org/wiki/Interface_(computing))，即接口。
+
 ### Abstraction in programming language
 
 参见 [Rationale](https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Rationale) ，其中对此总结地非常好。
 
-#### Abstraction in [object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)
+### Abstraction in [object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)
 
 思考这样的一个问题：如何使用面向对象方式来描述上述kernel control path概念和task概念？
 
@@ -149,15 +149,21 @@ class ThreadTask:
 
 在计算机科学中存在与上述抽象概念类似的做法：
 
-父类是子类的抽象，接口是抽象
+父类是子类的抽象
 
 [Virtual function](https://en.wikipedia.org/wiki/Virtual_function)
 
-[Interface (computing)](https://en.wikipedia.org/wiki/Interface_(computing))
+#### See also
 
-[Abstract type](https://en.wikipedia.org/wiki/Abstract_type)
+- [Abstract type](https://en.wikipedia.org/wiki/Abstract_type)
+
+
 
 ### 抽象与实现
+
+一种抽象，可能有多种实现。
+
+TODO:
 
 [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)也可以作为此的一个例子。
 
@@ -167,22 +173,13 @@ class ThreadTask:
 
 ### Abstraction in architecture
 
-在进行系统设计的时候，[loose coupling](https://en.wikipedia.org/wiki/Loose_coupling) 是架构师的追求目标，为此，架构师们往往进行分解，比如将系统分解为多个 [components](https://en.wikipedia.org/wiki/Software_component#Component_Definition)，然后各[components](https://en.wikipedia.org/wiki/Software_component#Component_Definition)抽象出**接口**，它们之间就通过抽象的**接口**来进行交互，显然，接口就是对功能的抽象描述。各 [components](https://en.wikipedia.org/wiki/Software_component#Component_Definition) 彼此相互透明（隐藏内部细节），通过接口来进行交互。
-
-
-
-Abstraction在architecture领域的另一个体现就是 [abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)，不同层就是一种抽象，分层带来解耦，分层带来简化。这在《Philosophy-level.md》中描述。
-
-See also:
-
-- [Abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)
-
-- [Layer (object-oriented design)](https://en.wikipedia.org/wiki/Layer_(object-oriented_design))
+参见[Abstraction-and-architecture](./Abstraction-and-architecture.md)
 
 
 
 ### Conceptual model
 
 参见[Abstraction-and-model](./Abstraction-and-model.md)。
+
 
 

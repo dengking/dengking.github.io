@@ -2,7 +2,9 @@
 
 本节对上一节的Abstraction in architecture中所提及内容进行详细论述。
 
-计算机科学领域的[abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)思想的可谓由来已久且影响深远，在计算机科学的方方面面我们都能够看到它的身影和影响，后面为了描述便利，将[abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)思想简称为**分层思想**。最能够体现**分层思想**的一个词是：hierarchy（层级），维基百科的[hierarchy](https://en.wikipedia.org/wiki/Hierarchy)对hierarchy的总结是非常详细的，非常值得一读，从中我们可以看到，hierarchy在各个学科中有着广泛的应用：
+在进行系统设计的时候，[loose coupling](https://en.wikipedia.org/wiki/Loose_coupling) 是架构师的追求目标，为此，架构师们往往进行分解，比如将系统分解为多个 [components](https://en.wikipedia.org/wiki/Software_component#Component_Definition)，然后各[components](https://en.wikipedia.org/wiki/Software_component#Component_Definition)抽象出[**接口**](https://en.wikipedia.org/wiki/Interface_(computing))，它们之间就通过抽象的[**接口**](https://en.wikipedia.org/wiki/Interface_(computing))来进行交互，显然，接口就是对功能的抽象描述。各 [components](https://en.wikipedia.org/wiki/Software_component#Component_Definition) 彼此相互透明（隐藏内部细节），通过[接口](https://en.wikipedia.org/wiki/Interface_(computing))来进行交互。
+
+一种常见的分解方式是：分层，具体参见 [abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)，这是abstraction在architecture领域的一个体现。计算机科学领域的[abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)思想的可谓由来已久且影响深远，在计算机科学的方方面面我们都能够看到它的身影和影响，后面为了描述便利，将[abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)思想简称为**分层思想**。最能够体现**分层思想**的一个词是：hierarchy（层级），维基百科的[hierarchy](https://en.wikipedia.org/wiki/Hierarchy)对hierarchy的总结是非常详细的，非常值得一读，从中我们可以看到，hierarchy在各个学科中有着广泛的应用：
 
 > Hierarchy is an important concept in a wide variety of fields, such as [philosophy](https://en.wikipedia.org/wiki/Philosophy), [mathematics](https://en.wikipedia.org/wiki/Mathematics), [computer science](https://en.wikipedia.org/wiki/Computer_science), [organizational theory](https://en.wikipedia.org/wiki/Organizational_theory), [systems theory](https://en.wikipedia.org/wiki/Systems_theory), and the [social sciences](https://en.wikipedia.org/wiki/Social_sciences) (especially [political philosophy](https://en.wikipedia.org/wiki/Political_philosophy)).
 
@@ -18,7 +20,7 @@
 
 参见：[Architecture-of-computing-system](https://dengking.github.io/Linux-OS/Architecture/Architecture-of-computing-system/)
 
-计算机系统如此复杂，各个层次之间只需要通过抽象就可以进行交互，完全无需了解对方具体的细节。请想想，如果不这样的话，则多么复杂。抽象简化了计算机系统，带来了分工，带来了效率。抽象，掩盖细节，提高了易用性。
+计算机系统如此复杂，各个层次之间只需要通过抽象的[接口](https://en.wikipedia.org/wiki/Interface_(computing))就可以进行交互，完全无需了解对方具体的细节。请想想，如果不这样的话，则多么复杂。抽象简化了计算机系统，带来了分工，带来了效率。抽象，掩盖细节，提高了易用性。
 
 ### Architecture of compiler
 
@@ -73,6 +75,18 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 
 
+## 接口
+
+从上篇开始，我们一直都在接触“接口”这个词语，在上篇中，我把“接口”定义为：对抽象的描述。有必要看看维基百科的[Interface (computing)](https://en.wikipedia.org/wiki/Interface_(computing))，它总结地比较好。
+
+以下两类接口是software engineer经常会使用的两个概念：
+
+- [Application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface) aka API
+
+- [Application binary interface](https://en.wikipedia.org/wiki/Application_binary_interface) aka ABI
+
+在[以层次思想来思考](#以层次思想来思考)节会对两者进行区分。
+
 ## 以层次思想来思考
 
 ### 问题出现在哪个层次
@@ -81,7 +95,7 @@ OSI model by [layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 
 ### 不同层次相互借用概念
 
-当我们站在计算机系统的不同层次来思考，我们会发现不同层次之间会存在着大量的相互概念借用。比如：
+当我们站在计算机系统的不同层次来思考，我们会发现不同层次之间会存在着大量的相互概念借用，或者说，不同层次使用不同的术语来表示类似的概念。比如：
 
 #### 案例
 
@@ -107,7 +121,9 @@ linux的[epoll](https://en.wikipedia.org/wiki/Epoll)的[triggering mode](https:/
 
 ### 不同层次使用不同语言
 
-不同层次使用不同的语言：[Very high-level programming language](https://en.wikipedia.org/wiki/Very_high-level_programming_language)、高级编程语言（[High-level programming language](https://en.wikipedia.org/wiki/High-level_programming_language)）、低级编程语言（[Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)），在上一节中已经对此进行了分析。
+在上一节《编程语言的发展史》中已经对此进行了分析。
+
+不同层次使用不同的语言：[Very high-level programming language](https://en.wikipedia.org/wiki/Very_high-level_programming_language)、高级编程语言（[High-level programming language](https://en.wikipedia.org/wiki/High-level_programming_language)）、低级编程语言（[Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)），
 
 
 
@@ -117,11 +133,29 @@ linux的[epoll](https://en.wikipedia.org/wiki/Epoll)的[triggering mode](https:/
 
 
 
+#### API VS ABI 
+
+当我们以层次思想来思考ABI和API时，就会发现对于两者的区分是非常容易的：它们是不同的language的[interface](https://en.wikipedia.org/wiki/Interface_(computing))。API是hight-level programming language的程序之间进行交互的[interface](https://en.wikipedia.org/wiki/Interface_(computing))，而ABI则是machine language的程序之间进行交互的[interface](https://en.wikipedia.org/wiki/Interface_(computing))。
+
+需要注意的是，正如在上一节在《编程语言的发展史》中所提及的：
+
+> 不管多么高级的语言最终都需要被翻译（compiler或interpreter）为[machine language](https://en.wikipedia.org/wiki/Machine_code)才能够被机器执行
+
+所以需要定义hight-level programming language中的各种概念如何翻译为machine language，这部分内容也是ABI中所包含的，比如calling convention等。	
+
+[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Linux_API_and_Linux_ABI.svg/300px-Linux_API_and_Linux_ABI.svg.png)](https://en.wikipedia.org/wiki/File:Linux_API_and_Linux_ABI.svg)
+
+> [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel) and [GNU C Library](https://en.wikipedia.org/wiki/GNU_C_Library) define the [Linux API](https://en.wikipedia.org/wiki/Linux_kernel_interfaces#Kernel–user_space_API). After compilation, the binaries offer an ABI; keeping this ABI stable over a long time is important for [ISVs](https://en.wikipedia.org/wiki/Independent_software_vendor).
+
+
+
 ## 总结
 
 在计算机科学中，分层，抽象，接口，这词可以看做是同义词。
 
 ## 分层带来的价值
+
+分层带来解耦，分层带来简化
 
 ### [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
 
@@ -166,4 +200,10 @@ See also:
 ## See also:
 
 - [Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))
+
+- [Abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer)
+
+- [Layer (object-oriented design)](https://en.wikipedia.org/wiki/Layer_(object-oriented_design))
+
+  
 
