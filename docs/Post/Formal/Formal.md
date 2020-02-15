@@ -16,6 +16,6 @@ Formal system：
 
 根据不同语境，formal的含义可能是“形式化”，也可能是“正式”。
 
-
+[Scientific formalism](https://en.wikipedia.org/wiki/Scientific_formalism)
 
 ## [What does “formal” mean?](https://math.stackexchange.com/questions/53969/what-does-formal-mean)

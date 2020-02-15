@@ -12,16 +12,6 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [computer scienc
 >
 > 可以看到，当我们将set理解为type后，原来的描述就变成了software engineer非常任意理解的了。
 >
-> 
->
-> TODO: 需要补充Tree的recursive definition，可以参考如下内容：
->
-> - https://cgi.csc.liv.ac.uk/~michele/TEACHING/COMP102/2006/5.4.pdf
-> - http://www.montefiore.ulg.ac.be/~piater/Cours/INFO0902/notes/tree/foil04.xhtml
->
-> TODO: 一般带有“sub”的都是可以进行recursive definition的，比如subtree，sublist
->
-> TODO: 能够recursive definition的，称它具备递归性。
 
 A [recursive](https://en.wikipedia.org/wiki/Recursive) [definition](https://en.wikipedia.org/wiki/Definition) of a [function](https://en.wikipedia.org/wiki/Function_(mathematics)) defines values of the function for some inputs in terms of the values of the same function for other (usually smaller) inputs. For example, the [factorial](https://en.wikipedia.org/wiki/Factorial) function *n*! is defined by the rules
 
@@ -41,6 +31,16 @@ A [recursive](https://en.wikipedia.org/wiki/Recursive) [definition](https://en.w
 
 有太多太多的算法、结构都是可以使用recursive definition的。
 
-### See also
+一般带有“sub”的都是可以进行recursive definition的，比如subtree，sublist
 
-[Recursive data types](https://en.wikipedia.org/wiki/Recursive_data_type)
+ 能够recursive definition的，称它具备递归性。
+
+## Recursive definition and hierachy
+
+可以使用recursive definition进行定义的structure，都具备hierarchy特性。 
+
+
+
+## [Recursive data types](https://en.wikipedia.org/wiki/Recursive_data_type)
+
+这在[data-structure](https://dengking.github.io/data-structure/)中会进行讨论。
