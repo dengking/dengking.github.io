@@ -12,9 +12,9 @@
 - [Formal language](https://en.wikipedia.org/wiki/Formal_language)，比如[programming language](https://en.wikipedia.org/wiki/Programming_language)
 - [Language of mathematics](https://en.wikipedia.org/wiki/Language_of_mathematics)
 
-作为soft engineer，我们幸运地已经使用了上面枚举的三种语言。
+作为software engineer，我们幸运地已经使用了上面枚举的三种语言。
 
-作为software engineer，我们是在使用[programming language](https://en.wikipedia.org/wiki/Programming_language)来描述世间万物，我们所做的很多工作，就是将人们使用[natural language](https://en.wikipedia.org/wiki/Natural_language)、[language of mathematics](https://en.wikipedia.org/wiki/Language_of_mathematics)等语言的描述，转换为[programming language](https://en.wikipedia.org/wiki/Programming_language)。
+作为software engineer，我们是在使用[programming language](https://en.wikipedia.org/wiki/Programming_language)来描述世间万物，我们所做的很多工作，就是将人们使用[natural language](https://en.wikipedia.org/wiki/Natural_language)、[language of mathematics](https://en.wikipedia.org/wiki/Language_of_mathematics)等语言的描述，转换为[programming language](https://en.wikipedia.org/wiki/Programming_language)的描述。
 
 
 
@@ -52,7 +52,22 @@
 
 这段话向我们传达了这样的含义：不同的语言 所能够描述的meaning的范围 是不同的。下面我们使用集合的观点来描述这个含义：如果我们将语言“所能够描述的meaning”放到一个集合中，把这个集合称为 meaning set，那么不同语言的meaning set的大小是不同的。使用我们的自然语言来描述就是：有的语言能够描述的范围更大、有的语言无法描述另外一个语言所表达的。这就是本节标题中的“expressive power”的含义。
 
-维基百科[Expressive power](https://en.wikipedia.org/wiki/Expressive_power_(computer_science))。
+关于expressive power，参见：
+
+- 维基百科[Expressive power](https://en.wikipedia.org/wiki/Expressive_power_(computer_science))
+- 维基百科[Combinatory categorial grammar](https://en.wikipedia.org/wiki/Combinatory_categorial_grammar) （其中提及了expressive power）
+
+
+
+## 使用不同的学科的语言来进行描述
+
+通过前面的内容，我们应该已经对语言有了更加宽泛的认识了。不同的学科创建了各自的理论体系（创建了概念、规则等），这就形成了该学科的特有的**语言**，这就形成了对于同一个事物，各个学科都可以使用自己的语言来对它进行描述，这就好比对于“苹果”，中文、英文、法文有着各自的描述方式。
+
+拥有这样的认知是非常重要的，比如，当我们在阅读维基百科的一些文章的时候，常常会碰到的一种情况是某某概念，数学中怎么描述、计算机科学中怎么描述、语言学中怎么描述。
+
+拥有这样的认知对于软件工程师尤其重要，正如在本文开头做说的：
+
+> 我们所做的很多工作，就是将人们使用[natural language](https://en.wikipedia.org/wiki/Natural_language)、[language of mathematics](https://en.wikipedia.org/wiki/Language_of_mathematics)等语言的描述，转换为[programming language](https://en.wikipedia.org/wiki/Programming_language)的描述
 
 
 

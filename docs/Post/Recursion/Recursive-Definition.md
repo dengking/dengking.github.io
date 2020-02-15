@@ -1,8 +1,6 @@
 # Recursive definition
 
-软件工程师，对于definition（定义）这个词肯定不会陌生，因为我们每天都在“定义一个函数”、“定义一个类”。维基百科的[definition](https://en.wikipedia.org/wiki/Definition)内容比较深奥，本文将简单地来说definition，定义就是在前文中所提及的“描述”，不过定义有着更多限制。
-
-本文重点简述的是[Recursive definition](https://en.wikipedia.org/wiki/Recursive_definition)，在计算机科学中，它无处不在，软件工程师应该对它保持敏感。
+软件工程师，对于definition（定义）这个词肯定不会陌生，因为我们每天都在“定义一个函数”、“定义一个类”。维基百科的[definition](https://en.wikipedia.org/wiki/Definition)内容比较深奥，本文将简单地来说definition，定义就是在前文中所提及的“描述”，不过定义有着更多限制。本文重点简述的是[Recursive definition](https://en.wikipedia.org/wiki/Recursive_definition)，在计算机科学中，[recursion](https://en.wikipedia.org/wiki/Recursion)无处不在，软件工程师应该对它保持敏感，对于所有具备[recursion](https://en.wikipedia.org/wiki/Recursion)特性的（包括类型、过程等），都能够给出其[Recursive definition](https://en.wikipedia.org/wiki/Recursive_definition)。
 
 ## [Recursive definition](https://en.wikipedia.org/wiki/Recursive_definition)
 
@@ -14,7 +12,7 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [computer scienc
 >
 > 可以看到，当我们将set理解为type后，原来的描述就变成了software engineer非常任意理解的了。
 >
-> 在计算机科学中，关于此的非常典型的例子是：[Recursive data types](https://en.wikipedia.org/wiki/Recursive_data_type)，后面最好将recursive data type放到data-structure项目中。
+> 
 >
 > TODO: 需要补充Tree的recursive definition，可以参考如下内容：
 >
