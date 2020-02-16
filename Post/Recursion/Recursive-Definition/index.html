@@ -536,18 +536,19 @@
     Recursive definition in computer science
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#see-also" class="md-nav__link">
-    See also
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recursive-definition-and-hierachy" class="md-nav__link">
+    Recursive definition and hierachy
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#recursive-data-types" class="md-nav__link">
+    Recursive data types
+  </a>
   
 </li>
       
@@ -570,6 +571,18 @@
   <li class="md-nav__item">
     <a href="../Recursion/" title="Recursion" class="md-nav__link">
       Recursion
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Term-with-recursion-in-computer-science/" title="Term-with-recursion-in-computer-science" class="md-nav__link">
+      Term-with-recursion-in-computer-science
     </a>
   </li>
 
@@ -683,18 +696,19 @@
     Recursive definition in computer science
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#see-also" class="md-nav__link">
-    See also
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recursive-definition-and-hierachy" class="md-nav__link">
+    Recursive definition and hierachy
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#recursive-data-types" class="md-nav__link">
+    Recursive data types
+  </a>
   
 </li>
       
@@ -716,22 +730,14 @@
                 
                 
                 <h1 id="recursive-definition">Recursive definition<a class="headerlink" href="#recursive-definition" title="Permanent link">#</a></h1>
-<p>软件工程师，对于definition（定义）这个词肯定不会陌生，因为我们每天都在“定义一个函数”、“定义一个类”。维基百科的<a href="https://en.wikipedia.org/wiki/Definition">definition</a>内容比较深奥，本文将简单地来说definition，定义就是在前文中所提及的“描述”，不过定义有着更多限制。</p>
-<p>本文重点简述的是<a href="https://en.wikipedia.org/wiki/Recursive_definition">Recursive definition</a>，在计算机科学中，它无处不在，软件工程师应该对它保持敏感。</p>
+<p>软件工程师，对于definition（定义）这个词肯定不会陌生，因为我们每天都在“定义一个函数”、“定义一个类”。维基百科的<a href="https://en.wikipedia.org/wiki/Definition">definition</a>内容比较深奥，本文将简单地来说definition，定义就是在前文中所提及的“描述”，不过定义有着更多限制。本文重点简述的是<a href="https://en.wikipedia.org/wiki/Recursive_definition">Recursive definition</a>，在计算机科学中，<a href="https://en.wikipedia.org/wiki/Recursion">recursion</a>无处不在，软件工程师应该对它保持敏感，对于所有具备<a href="https://en.wikipedia.org/wiki/Recursion">recursion</a>特性的（包括类型、过程等），都能够给出其<a href="https://en.wikipedia.org/wiki/Recursive_definition">Recursive definition</a>。</p>
 <h2 id="recursive-definition_1"><a href="https://en.wikipedia.org/wiki/Recursive_definition">Recursive definition</a><a class="headerlink" href="#recursive-definition_1" title="Permanent link">#</a></h2>
 <p>In <a href="https://en.wikipedia.org/wiki/Mathematics">mathematics</a> and <a href="https://en.wikipedia.org/wiki/Computer_science">computer science</a>, a <strong>recursive definition</strong>, or <strong>inductive definition</strong>, is used to define the <a href="https://en.wikipedia.org/wiki/Element_(mathematics)">elements</a> in a <a href="https://en.wikipedia.org/wiki/Set_(mathematics)">set</a> in terms of other elements in the set (<a href="https://en.wikipedia.org/wiki/Peter_Aczel">Aczel</a> 1977:740ff). Some examples of recursively-definable objects include <a href="https://en.wikipedia.org/wiki/Factorial">factorials</a>, <a href="https://en.wikipedia.org/wiki/Natural_number">natural numbers</a>, <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci numbers</a>, and the <a href="https://en.wikipedia.org/wiki/Cantor_set">Cantor ternary set</a>.</p>
 <blockquote>
 <p>NOTE: 上述对recursive definition的描述使用的是数学中的set的概念，数学中的set表示所有具备某一特性的object的集合，比如我们可以将所有具备相同type的object放到一个set中。下面我将它转换为software engineer更加熟悉的type（类型）的概念：</p>
 <p>规定属于同一个set的所有元素都是具有相同类型的元素，则recursively-definable object是由相同类型的其他object（即这个集合中的其他元素）来进行定义的（构成）。</p>
-<p>可以看到，当我们将set理解为type后，原来的描述就变成了software engineer非常任意理解的了。</p>
-<p>在计算机科学中，关于此的非常典型的例子是：<a href="https://en.wikipedia.org/wiki/Recursive_data_type">Recursive data types</a>，后面最好将recursive data type放到data-structure项目中。</p>
-<p>TODO: 需要补充Tree的recursive definition，可以参考如下内容：</p>
-<ul>
-<li>https://cgi.csc.liv.ac.uk/~michele/TEACHING/COMP102/2006/5.4.pdf</li>
-<li>http://www.montefiore.ulg.ac.be/~piater/Cours/INFO0902/notes/tree/foil04.xhtml</li>
-</ul>
-<p>TODO: 一般带有“sub”的都是可以进行recursive definition的，比如subtree，sublist</p>
-<p>TODO: 能够recursive definition的，称它具备递归性。</p>
+<p>可以看到，当我们将set理解为type后，原来的描述就变成了software engineer非常任意理解的了。
+</p>
 </blockquote>
 <p>A <a href="https://en.wikipedia.org/wiki/Recursive">recursive</a> <a href="https://en.wikipedia.org/wiki/Definition">definition</a> of a <a href="https://en.wikipedia.org/wiki/Function_(mathematics)">function</a> defines values of the function for some inputs in terms of the values of the same function for other (usually smaller) inputs. For example, the <a href="https://en.wikipedia.org/wiki/Factorial">factorial</a> function <em>n</em>! is defined by the rules</p>
 <p>0! = 1.</p>
@@ -743,8 +749,12 @@
 <p>按照recursively defined sets的概念，这个set在构造新元素的operation下是closed的（参见 <a href="https://en.wikipedia.org/wiki/Closure_(mathematics)">Closure (mathematics)</a> ）。</p>
 <h2 id="recursive-definition-in-computer-science">Recursive definition in computer science<a class="headerlink" href="#recursive-definition-in-computer-science" title="Permanent link">#</a></h2>
 <p>有太多太多的算法、结构都是可以使用recursive definition的。</p>
-<h3 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">#</a></h3>
-<p><a href="https://en.wikipedia.org/wiki/Recursive_data_type">Recursive data types</a></p>
+<p>一般带有“sub”的都是可以进行recursive definition的，比如subtree，sublist</p>
+<p>能够recursive definition的，称它具备递归性。</p>
+<h2 id="recursive-definition-and-hierachy">Recursive definition and hierachy<a class="headerlink" href="#recursive-definition-and-hierachy" title="Permanent link">#</a></h2>
+<p>可以使用recursive definition进行定义的structure，都具备hierarchy特性。 </p>
+<h2 id="recursive-data-types"><a href="https://en.wikipedia.org/wiki/Recursive_data_type">Recursive data types</a><a class="headerlink" href="#recursive-data-types" title="Permanent link">#</a></h2>
+<p>这在<a href="https://dengking.github.io/data-structure/">data-structure</a>中会进行讨论。</p>
                 
                   
                 
