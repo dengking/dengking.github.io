@@ -24,6 +24,7 @@ nav:
     - Introduction: Post/Recursion/index.md
     - Recursive-Definition: Post/Recursion/Recursive-Definition.md
     - Recursion: Post/Recursion/Recursion.md
+    - Term-with-recursion-in-computer-science: Post/Recursion/Term-with-recursion-in-computer-science.md
   - Separation: Post/Separation.md
   - Architecture: Post/Architecture.md
   - Time-and-space: Post/Time-and-space.md
