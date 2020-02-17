@@ -42,7 +42,7 @@ Here are some project that I created.
 
 | project name                                                 | explanation                         |
 | ------------------------------------------------------------ | ----------------------------------- |
-| [algorithm](https://github.com/dengking/algorithm)           | My knowledge base of algorithm      |
+| [algorithm](https://dengking.github.io/algorithm)           | My knowledge base of algorithm      |
 | [data-structure](https://dengking.github.io/data-structure/) | My knowledge base of data structure |
 
 
