@@ -7,9 +7,9 @@ Here are some project that I created.
 | project name                                                 | explanation                      |
 | ------------------------------------------------------------ | -------------------------------- |
 | [machine-learning](https://dengking.github.io/machine-learning) |                                  |
+| [NLP](https://dengking.github.io/NLP)                        |                                  |
 | [NRE](https://github.com/dengking/NRE)                       | Neural Relation Extraction (NRE) |
 | [paper-and-code](https://github.com/dengking/paper-and-code) | Read paper about AI and code it  |
-| [Natural-Language-Processing-with-Python](https://github.com/dengking/Natural-Language-Processing-with-Python) |                                  |
 | [decompose-jieba](https://github.com/dengking/decompose-jieba) |                                  |
 
 ## math

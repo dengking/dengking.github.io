@@ -46,6 +46,10 @@
 
 [English](https://en.wikipedia.org/wiki/England) mathematician [R.L.E. Schwarzenberger](https://en.wikipedia.org/wiki/Rolph_Ludwig_Edward_Schwarzenberger) 的这番言论也向我们揭示了：不同的语言有着各自的优势。
 
+## 语言的结构
+
+在[语言学](https://en.wikipedia.org/wiki/Linguistics)中，使用[**grammar**](https://en.wikipedia.org/wiki/Grammar)来描述语言的结构，关于此，参见[**automata-and-formal-language**](https://dengking.github.io/automata-and-formal-language)的[Language and grammar](https://dengking.github.io/automata-and-formal-language/Formal-language/Language-and-grammar/#language_and_grammar)文章。
+
 ## 语言的expressive power
 
 > Mathematics can communicate a range of meanings that is as wide as (although different from) that of a **natural language**.
@@ -73,7 +77,7 @@
 
 ## 我对“语言”的探索
 
-- [NLP](https://dengking.github.io/machine-learning/Application/NLP/NLP/)
+- [NLP](https://dengking.github.io/NLP/)
 - [compiler-principle](https://dengking.github.io/compiler-principle/)
 - [automata-and-formal-language](https://dengking.github.io/automata-and-formal-language)
 
