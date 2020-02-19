@@ -73,6 +73,10 @@ Here are some projects related to [programming language theory](https://en.wikip
 
 
 
+## hardware
+
+[Hardware](https://dengking.github.io/Hardware/)
+
 ## application
 
 | project name                                                 | explanation |

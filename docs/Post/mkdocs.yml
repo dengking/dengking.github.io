@@ -5,7 +5,9 @@ nav:
     - Language: Language
     - Formal: Formal
     - Recursion: Recursion
+    - Unit: Unit.md
     - Separation: Separation.md
     - Architecture: Architecture.md
     - Time-and-space: Time-and-space.md
     - 0-to-1-and-1-to-many: 0-to-1-and-1-to-many.md
+    - Glossary: Glossary.md

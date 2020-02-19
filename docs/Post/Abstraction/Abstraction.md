@@ -159,7 +159,9 @@ class ThreadTask:
 
 ### 抽象与实现
 
-一种抽象，可能有多种实现。
+既然有抽象，肯定需要有对应的实现，比如compiler就需要使用instruction来来实现programming language中的各种抽象，参见龙书 [Chapter 7 Run-Time Environments](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/)。
+
+#### 一种抽象，可能有多种实现。
 
 TODO:
 

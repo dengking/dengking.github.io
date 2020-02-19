@@ -93,6 +93,16 @@
 
 ## [Model of computation](https://en.wikipedia.org/wiki/Model_of_computation)
 
+## Model是一种简化
+
+### Run-time environment
+
+[龙书](https://dengking.github.io/compiler-principle/)的[第七章](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/)中所定义的run-time environment是一个简化模型，它忽略了一些细节，比如multi-thread，而仅仅关注于部分内容。在对其进行实现的时候，需要考虑其他的诸多因素，参见工程[Linux-OS](https://dengking.github.io/Linux-OS/)的[Process mode: run time environment](https://dengking.github.io/Linux-OS/Kernel/Guide/Linux-OS's-multitasking/01-Process-mode-run-time-environment/)，其中描述了实现的细节。
+
+### [Statistical model](https://en.wikipedia.org/wiki/Statistical_model)
+
+As Burnham & Anderson state, "A model is a simplification or approximation of reality and hence will not reflect all of reality"—whence the saying "[all models are wrong](https://en.wikipedia.org/wiki/All_models_are_wrong)".
+
 
 
 ## 模型与实现
