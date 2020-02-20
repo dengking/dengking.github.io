@@ -16,3 +16,8 @@
 
 可以使用[namespace](https://en.wikipedia.org/wiki/Namespace)
 
+
+
+## 隔离与独立
+
+为了能够独立，就需要一定的隔离，就需要有自己的一套基础设施。

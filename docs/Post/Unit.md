@@ -48,9 +48,9 @@ Process的入口是[main function](https://en.wikipedia.org/wiki/Entry_point)，
 
 [`pthread_create`](http://man7.org/linux/man-pages/man3/pthread_create.3.html)的入参`start_routine`是一个函数指针，这说明thread的unit of user-defined action是函数。
 
-linux OS的 [`clone`](http://man7.org/linux/man-pages/man2/clone.2.html)的入参`fn`是一个函数指针，这说明thread的unit of user-defined action是函数。
+Linux OS的 [`clone`](http://man7.org/linux/man-pages/man2/clone.2.html)的入参`fn`是一个函数指针，这说明thread的unit of user-defined action是函数。
 
-
+[`exec`](http://man7.org/linux/man-pages/man3/exec.3.html) 系列函数的参数`pathname`指定一个可执行文件，这个可执行文件的入口是main函数，其实这相当于上面的`pthread_create`和`clone`的入参是一个函数指针。
 
 ### 总结
 
