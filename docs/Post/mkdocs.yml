@@ -10,4 +10,5 @@ nav:
     - Architecture: Architecture.md
     - Time-and-space: Time-and-space.md
     - 0-to-1-and-1-to-many: 0-to-1-and-1-to-many.md
+    - Closure: Closure.md
     - Glossary: Glossary.md
