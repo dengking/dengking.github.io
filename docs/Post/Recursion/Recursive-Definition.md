@@ -21,19 +21,34 @@ A [recursive](https://en.wikipedia.org/wiki/Recursive) [definition](https://en.w
 
 > NOTE: 原文中给出了两种：recursively defined functions and sets
 
-## Recursive definition and [closure](https://en.wikipedia.org/wiki/Closure_(mathematics)) 
+### [Examples of recursive definitions](https://en.wikipedia.org/wiki/Recursive_definition#Examples_of_recursive_definitions)
 
-按照recursively defined sets的概念，这个set在构造新元素的operation下是closed的（参见 [Closure (mathematics)](https://en.wikipedia.org/wiki/Closure_(mathematics)) ）。
+#### Recursive grammar
 
+参见：
 
+- 维基百科[Recursive grammar](https://en.wikipedia.org/wiki/Recursive_grammar)
+- 龙书[2.2.1 Definition of Grammars](https://dengking.github.io/compiler-principle/Chapter-2-A-Simple-Syntax-Directed-Translator/2.2-Syntax-Definition/#221-definition-of-grammars)
 
-## Recursive definition in computer science
+#### Recursive definition in computer science
 
 有太多太多的算法、结构都是可以使用recursive definition的。
 
 一般带有“sub”的都是可以进行recursive definition的，比如subtree，sublist
 
  能够recursive definition的，称它具备递归性。
+
+
+
+
+
+## Recursive definition and [closure](https://en.wikipedia.org/wiki/Closure_(mathematics)) 
+
+按照recursively defined sets的概念，这个set在构造新元素的operation下是closed的（参见 [Closure (mathematics)](https://en.wikipedia.org/wiki/Closure_(mathematics)) ）。
+
+
+
+
 
 ## Recursive definition and hierachy
 

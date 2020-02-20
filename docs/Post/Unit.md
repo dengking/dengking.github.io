@@ -8,7 +8,7 @@
 
 > Almost all compilers for languages that use procedures, functions, or methods as units of user-defined actions manage at least part of their run-time memory as a stack. 
 
-“action”的意思是“动作”、“运行”、“执行”，“unit of user-defined action”所强调的是运行。受[分层思想](https://dengking.github.io/Post/Abstraction/Glossary#分层思想)的影响，我开始从不同的层次来对比分析了。
+“action”的意思是“动作”、“运行”、“执行”，“unit of user-defined action”所强调的是运行。受[分层思想](https://dengking.github.io/Post/Abstraction/Glossary#分层思想)的影响，我开始从不同的层次来对比分析，下面总结了各个层次的user-defined action。
 
 ### CPU的unit of user-defined action
 
@@ -18,17 +18,19 @@ CPU的unit of user-defined action是[instruction](https://en.wikipedia.org/wiki/
 
 ### Programming language的unit of user-defined action
 
+Programming language（部分）的unit of user-defined action是statement。
+
 维基百科[Statement](https://en.wikipedia.org/wiki/Statement_(computer_science))： 
 
 > In [computer programming](https://en.wikipedia.org/wiki/Computer_programming), a **statement** is a syntactic unit of an [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [programming language](https://en.wikipedia.org/wiki/Programming_language) that expresses some action to be carried out. A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., [expressions](https://en.wikipedia.org/wiki/Expression_(computer_science))).
 
-我们在进行编程的时候，使用statement来描述程序的运行逻辑，显然从programming language的unit of user-defined action就是statement。
+我们在进行编程的时候，使用statement来描述程序的运行逻辑，显然programming language的unit of user-defined action就是statement。
 
 由编译器将statement翻译为instruction，一个statement可能对应多条instruction。
 
 ### Process/thread的unit of user-defined action
 
-现代OS中，thread是调度单位，如果不进行multi-thread programming的话，则process只有一个thread，所以标题中也包含了thread（关于此，参见工程[Linux-OS](https://dengking.github.io/Linux-OS/)的文章[Process model](https://dengking.github.io/Linux-OS/Kernel/Guide/Linux-OS's-multitasking/01-Process-model/)）。
+现代OS中，thread是调度单位，如果不进行multi-thread programming的话，则process只有一个thread，所以标题中也包含了process和thread（关于此，参见工程[Linux-OS](https://dengking.github.io/Linux-OS/)的文章[Process model](https://dengking.github.io/Linux-OS/Kernel/Guide/Linux-OS's-multitasking/01-Process-model/)）。
 
 Thread的unit of user-defined **action**是什么？读者可以思考一下。
 
@@ -38,7 +40,7 @@ Thread的unit of user-defined **action**是什么？读者可以思考一下。
 
 这个问题的答案其实在本节标题中已经给出了。
 
-对于这个答案是不需要进行专业、深入的解释，因为这是规定，这是计算机科学发展多年形成的事实，当然这样做的背后肯定有着非常多的原因，在此我们不去追究，如果读者感兴趣，参见[Subroutine](https://en.wikipedia.org/wiki/Subroutine)。
+对于这个答案是不需要进行专业、深入的解释，因为这是规定，这是计算机科学发展多年形成的事实，当然这样做的背后肯定有着非常多的原因，在此我们不去追究，如果读者感兴趣，参见[Subroutine](https://en.wikipedia.org/wiki/Subroutine)。下面对这个答案进行一些非专业的解释：
 
 需要注意的是所问的是“**action**”，即**运行**，在各种高级语言的程序，我们是通过**调用函数**来进行**运行**的，一个函数只有被调用，它的函数体中的statement才能够被执行，高级语言程序中，是无法单独执行一个statement的，一个statement只有置入一个function中，才可能被执行到，所以thread的unit of user-defined action是函数。
 
@@ -55,6 +57,20 @@ Linux OS的 [`clone`](http://man7.org/linux/man-pages/man2/clone.2.html)的入�
 ### 总结
 
 一个函数是由多个statement组成，一个statement有多个instruction组成。thread的运行单位function显然对应了多个instruction。
+
+
+
+### Linux OS kernel的unit of user-defined action
+
+Linux OS kernel的unit of user-defined action是函数。
+
+在工程[Linux-OS](https://dengking.github.io/Linux-OS/)的[Linux OS kernel is event-driven](https://dengking.github.io/Linux-OS/Kernel/Guide/Linux-OS's-interaction-with-the-hardware/Linux-OS-kernel-is-event-driven/)中，我们已经分析了：
+
+> 基本上所有的hardware都是通过[interrupt](https://en.wikipedia.org/wiki/Interrupt)来通知OS kernel的，然后其对应的[Interrupt handler](https://en.wikipedia.org/wiki/Interrupt_handler)会被触发执行，也就是OS kernel是[interrupt-driven](https://en.wikipedia.org/wiki/Interrupt)的
+
+[Interrupt handler](https://en.wikipedia.org/wiki/Interrupt_handler)本质上是函数。
+
+关于此的另外一个例证是signal handler，signal handler本质上也是函数，参见[SIGNAL(7)](http://man7.org/linux/man-pages/man7/signal.7.html)。
 
 ## CPU access memory的单位是[word](https://en.wikipedia.org/wiki/Computer_word)
 
