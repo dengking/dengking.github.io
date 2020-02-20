@@ -103,7 +103,20 @@
 
 As Burnham & Anderson state, "A model is a simplification or approximation of reality and hence will not reflect all of reality"—whence the saying "[all models are wrong](https://en.wikipedia.org/wiki/All_models_are_wrong)".
 
+## Mathematical model，一种更加高效的描述方式
 
+在各个学科，建立[mathematical model](https://en.wikipedia.org/wiki/Mathematical_model)让描述更加便捷、更加容易被人理解。
+
+下面是[mathematical model](https://en.wikipedia.org/wiki/Mathematical_model)的一些例子：
+
+Stochastic process：https://en.wikipedia.org/wiki/Stochastic_process
+
+Statistical model：https://en.wikipedia.org/wiki/Statistical_model
+
+Markov model：
+
+- https://en.wikipedia.org/wiki/Markov_model
+- https://en.wikipedia.org/wiki/Hidden_Markov_model
 
 ## 模型与实现
 ### example
