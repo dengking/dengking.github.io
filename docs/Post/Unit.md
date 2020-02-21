@@ -75,3 +75,15 @@ Linux OS kernel的unit of user-defined action是函数。
 ## CPU access memory的单位是[word](https://en.wikipedia.org/wiki/Computer_word)
 
 参见工程[Hardware](https://dengking.github.io/Hardware/)的[Memory-alignment](https://dengking.github.io/Hardware/CPU/Memory-access/Memory-alignment/)章节。
+
+
+
+## Thread是OS kernel调度的单位
+
+维基百科[Thread (computing)](https://en.wikipedia.org/wiki/Thread_(computing))：
+
+> In [computer science](https://en.wikipedia.org/wiki/Computer_science), a **thread** of execution is the smallest sequence of programmed instructions that can be managed independently by a [scheduler](https://en.wikipedia.org/wiki/Scheduling_(computing)), which is typically a part of the [operating system](https://en.wikipedia.org/wiki/Operating_system).
+
+工程[Process-model](https://dengking.github.io/Linux-OS/)的[Process model](https://dengking.github.io/Linux-OS/Kernel/Guide/Linux-OS's-multitasking/01-Process-model/#process-model)
+
+> OS是基于process的resource分配，基于[thread](https://en.wikipedia.org/wiki/Thread_(computing))的调度。
