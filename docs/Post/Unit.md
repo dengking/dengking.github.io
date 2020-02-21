@@ -48,7 +48,7 @@ Process的入口是[main function](https://en.wikipedia.org/wiki/Entry_point)，
 
 函数的另外一个名称是“**callable unit**”，“callable unit”，其实这也说明了它是thread的unit of user-defined action。
 
-[`pthread_create`](http://man7.org/linux/man-pages/man3/pthread_create.3.html)的入参`start_routine`是一个函数指针，这说明thread的unit of user-defined action是函数。
+[`pthread_create`](http://man7.org/linux/man-pages/man3/pthread_create.3.html)的入参`start_routine`是一个函数指针（线程执行函数），这说明thread的unit of user-defined action是函数。
 
 Linux OS的 [`clone`](http://man7.org/linux/man-pages/man2/clone.2.html)的入参`fn`是一个函数指针，这说明thread的unit of user-defined action是函数。
 
