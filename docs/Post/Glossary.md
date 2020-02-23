@@ -9,3 +9,11 @@
 ## 分层思想
 
 参见文章[分层](https://dengking.github.io/Post/Abstraction/Abstraction-and-architecture-and-layer/)。
+
+## UNP
+
+指的是[UNIX Network Programming(aka ***unpbook***)](http://www.unpbook.com/)。
+
+## APUE
+
+指的是[Advanced Programming in the UNIX® Environment(aka ***APUE***)](http://www.apuebook.com/)。
