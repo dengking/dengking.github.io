@@ -4,7 +4,7 @@
 
 ## [Recursive definition](https://en.wikipedia.org/wiki/Recursive_definition)
 
-In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [computer science](https://en.wikipedia.org/wiki/Computer_science), a **recursive definition**, or **inductive definition**, is used to define the [elements](https://en.wikipedia.org/wiki/Element_(mathematics)) in a [set](https://en.wikipedia.org/wiki/Set_(mathematics)) in terms of other elements in the set ([Aczel](https://en.wikipedia.org/wiki/Peter_Aczel) 1977:740ff). Some examples of recursively-definable objects include [factorials](https://en.wikipedia.org/wiki/Factorial), [natural numbers](https://en.wikipedia.org/wiki/Natural_number), [Fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_number), and the [Cantor ternary set](https://en.wikipedia.org/wiki/Cantor_set).
+In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [computer science](https://en.wikipedia.org/wiki/Computer_science), a **recursive definition**, or **inductive definition**（归纳定义）, is used to define the [elements](https://en.wikipedia.org/wiki/Element_(mathematics)) in a [set](https://en.wikipedia.org/wiki/Set_(mathematics)) in terms of other elements in the set ([Aczel](https://en.wikipedia.org/wiki/Peter_Aczel) 1977:740ff). Some examples of recursively-definable objects include [factorials](https://en.wikipedia.org/wiki/Factorial), [natural numbers](https://en.wikipedia.org/wiki/Natural_number), [Fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_number), and the [Cantor ternary set](https://en.wikipedia.org/wiki/Cantor_set).
 
 > NOTE: 上述对recursive definition的描述使用的是数学中的set的概念，数学中的set表示所有具备某一特性的object的集合，比如我们可以将所有具备相同type的object放到一个set中。下面我将它转换为software engineer更加熟悉的type（类型）的概念：
 >
@@ -20,6 +20,33 @@ A [recursive](https://en.wikipedia.org/wiki/Recursive) [definition](https://en.w
 (*n* + 1)! = (*n* + 1)·*n*!.
 
 > NOTE: 原文中给出了两种：recursively defined functions and sets
+
+### [Form of recursive definitions](https://en.wikipedia.org/wiki/Recursive_definition#Form_of_recursive_definitions)
+
+Most recursive definitions have two foundations: a base case (basis) and an **inductive clause**.
+
+> NOTE: “inductive clause”的含义是“归纳子句”，关于“inductive ”，参见[Induction](./Induction-and-deduction/Induction.md)。
+
+That recursive definitions are valid – meaning that a recursive definition identifies a unique function – is a theorem of set theory known as the [recursion theorem](https://en.wikipedia.org/wiki/Recursion#The_recursion_theorem), the proof of which is non-trivial. Where the domain of the function is the **natural numbers**, sufficient conditions for the definition to be valid are that the value of `f(0)` (i.e., base case) is given, and that for n > 0, an algorithm is given for determining `f(n)` in terms of `f(0)`,`f(1)`, ... ,`f(n-1)` (i.e., inductive clause).
+
+More generally, recursive definitions of functions can be made whenever the domain is a [well-ordered set](https://en.wikipedia.org/wiki/Well-order), using the principle of [transfinite recursion](https://en.wikipedia.org/wiki/Transfinite_recursion). The formal criteria for what constitutes a valid recursive definition are more complex for the general case.
+
+> NOTE: 上面这段话并没有理解。
+
+### 总结
+
+按照原文第一段中对recursive definition的描述，发现其实它非常类似于induction（归纳法），我们知道，induction是bottom-up的，尤其是[natural numbers](https://en.wikipedia.org/wiki/Natural_number)的例子。而我对recursion的惯常印象是它是top-down。这两者不是矛盾吗？
+
+“recursive definition”是一种描述方式，它不涉及实现的问题，它的描述可以是类似induction的自底向上，也可以是自顶向下，正如原文第一段所述的：[recursive definition](https://en.wikipedia.org/wiki/Recursive_definition)也可以叫做**inductive definition**。“recursive definition”本质在于recursively defined object，正如本文第一段所描述的：
+
+> In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [computer science](https://en.wikipedia.org/wiki/Computer_science), a **recursive definition**, or **inductive definition**（归纳定义）, is used to define the [elements](https://en.wikipedia.org/wiki/Element_(mathematics)) in a [set](https://en.wikipedia.org/wiki/Set_(mathematics)) in terms of other elements in the set
+
+关于“recursive definition”的一个例子就是[Recursive grammar](https://en.wikipedia.org/wiki/Recursive_grammar)。
+
+“我对recursion的惯常印象是它是top-down”是源于我是从recursion function的角度来看待的。显然，这是描述与实现的差异。在原文的[Form of recursive definitions](https://en.wikipedia.org/wiki/Recursive_definition#Form_of_recursive_definitions)中给出了recursive definition所对应的function，显然对于这个function的实现，我们可以采用的实现方式有两种：
+
+- 自底向上
+- 自顶向下
 
 ### [Examples of recursive definitions](https://en.wikipedia.org/wiki/Recursive_definition#Examples_of_recursive_definitions)
 
@@ -38,7 +65,9 @@ A [recursive](https://en.wikipedia.org/wiki/Recursive) [definition](https://en.w
 
  能够recursive definition的，称它具备递归性。
 
+在维基百科[Structural induction](https://en.wikipedia.org/wiki/Structural_induction)中所提及的：
 
+> [recursively defined](https://en.wikipedia.org/wiki/Recursive_definition) structure, such as [formulas](https://en.wikipedia.org/wiki/First-order_logic#Formulas), [lists](https://en.wikipedia.org/wiki/List_(computer_science)), or [trees](https://en.wikipedia.org/wiki/Tree_(graph_theory))
 
 
 
@@ -48,14 +77,9 @@ A [recursive](https://en.wikipedia.org/wiki/Recursive) [definition](https://en.w
 
 
 
+## Recursive definition and structure
 
+[Recursive data types](https://en.wikipedia.org/wiki/Recursive_data_type)中专门描述可以使用recursive definition的structure，这在[data-structure](https://dengking.github.io/data-structure/)中会进行讨论。
 
-## Recursive definition and hierachy
+可以使用recursive definition进行定义的structure，都具备递归特性。 
 
-可以使用recursive definition进行定义的structure，都具备hierarchy特性。 
-
-
-
-## [Recursive data types](https://en.wikipedia.org/wiki/Recursive_data_type)
-
-这在[data-structure](https://dengking.github.io/data-structure/)中会进行讨论。

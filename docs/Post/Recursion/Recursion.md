@@ -1,4 +1,8 @@
-# [Recursion](https://en.wikipedia.org/wiki/Recursion)
+# Recursion
+
+本文描述Recursion，其实上一篇[Recursive-Definition](./Recursive-Definition.md)中的内容是更加容易理解的。
+
+## 维基百科[Recursion](https://en.wikipedia.org/wiki/Recursion)
 
 **Recursion** (adjective: *recursive*) occurs when a thing is defined in terms of **itself** or of its type. Recursion is used in a variety of disciplines ranging from [linguistics](https://en.wikipedia.org/wiki/Linguistics) to [logic](https://en.wikipedia.org/wiki/Logic). The most common application of recursion is in [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [computer science](https://en.wikipedia.org/wiki/Computer_science), where a [function](https://en.wikipedia.org/wiki/Function_(mathematics)) being defined is applied within its own definition. While this apparently defines an infinite number of instances (function values), it is often done in such a way that no **loop** or **infinite chain** of references can occur.
 
@@ -11,12 +15,7 @@ In mathematics and computer science, a class of objects or methods exhibits **re
 1. A simple **base case** (or cases)—a **terminating scenario** that does not use **recursion** to produce an answer
 2. A set of rules that **reduces**（这个词用得非常好） all other cases toward the **base case**
 
-
-
-For example, the following is a [**recursive definition**](https://en.wikipedia.org/wiki/Recursive_definition) of a person's ancestors:
-
-- One's parents are one's ancestors (*base case*).
-- The ancestors of one's ancestors are also one's ancestors (*recursion step*).
+> NOTE: “reduce”说明recursion是自顶向下的。
 
 
 
@@ -34,13 +33,9 @@ Many mathematical axioms（公理） are based upon **recursive rules**. For exa
 
 Recursively defined mathematical objects include [functions](https://en.wikipedia.org/wiki/Function_(mathematics)), [sets](https://en.wikipedia.org/wiki/Set_(mathematics)), and especially [fractals](https://en.wikipedia.org/wiki/Fractal).
 
-There are various more tongue-in-cheek "definitions" of recursion; see [recursive humor](https://en.wikipedia.org/wiki/Recursion#Recursive_humor).
+> NOTE: 软件工程师应该对recursive definition敏感。
 
-
-
-## In mathematics
-
-
+## [In mathematics](https://en.wikipedia.org/wiki/Recursion#In_mathematics)
 
 ### Recursively defined sets
 
@@ -48,29 +43,13 @@ There are various more tongue-in-cheek "definitions" of recursion; see [recursiv
 
 *Main article:* [Recursive definition](https://en.wikipedia.org/wiki/Recursive_definition)
 
-
-
 #### Example: the natural numbers
-
-*See also:* [Closure (mathematics)](https://en.wikipedia.org/wiki/Closure_(mathematics))
-
-The canonical example of a recursively defined set is given by the [natural numbers](https://en.wikipedia.org/wiki/Natural_numbers):
-
-0 is in $ \mathbb {N} $
-
-if *n* is in $ \mathbb {N} $, then *n* + 1 is in $ \mathbb {N} $
-
-The set of natural numbers is the smallest set satisfying the previous two properties.
-
-In mathematical logic, the [Peano axioms](https://en.wikipedia.org/wiki/Peano_axioms) (or Peano postulates or Dedekind–Peano axioms), are axioms for the natural numbers presented in the 19th century by the German mathematician [Richard Dedekind](https://en.wikipedia.org/wiki/Richard_Dedekind) and by the Italian mathematician [Giuseppe Peano](https://en.wikipedia.org/wiki/Giuseppe_Peano). The Peano Axioms define the natural numbers referring to a recursive successor function and addition and multiplication as recursive functions.
 
 
 
 ### Finite subdivision rules
 
 Main article: [Finite subdivision rule](https://en.wikipedia.org/wiki/Finite_subdivision_rule)
-
-Finite subdivision rules are a geometric form of recursion, which can be used to create fractal-like images. A subdivision rule starts with a collection of polygons labelled by finitely many labels, and then each polygon is subdivided into smaller labelled polygons in a way that depends only on the labels of the original polygon. This process can be iterated. The standard `middle thirds' technique for creating the [Cantor set](https://en.wikipedia.org/wiki/Cantor_set) is a subdivision rule, as is [barycentric subdivision](https://en.wikipedia.org/wiki/Barycentric_subdivision).
 
 
 

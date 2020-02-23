@@ -1,0 +1,6 @@
+nav:
+    - Introduction: index.md
+    - Induction-and-deduction: Induction-VS-deduction.md
+    - Induction: Induction.md
+    - Structural-induction: Structural-induction.md
+    - Coinduction: Coinduction.md
