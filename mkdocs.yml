@@ -29,7 +29,7 @@ nav:
     - VS-recursion-VS-corecursion: Post/Recursion/VS-recursion-VS-corecursion.md
     - Induction-and-deduction:
       - Introduction: Post/Recursion/Induction-and-deduction/index.md
-      - Induction-and-deduction: Post/Recursion/Induction-and-deduction/Induction-VS-deduction.md
+      - Induction-and-deduction: Post/Recursion/Induction-and-deduction/Induction-and-deduction.md
       - Induction: Post/Recursion/Induction-and-deduction/Induction.md
       - Structural-induction: Post/Recursion/Induction-and-deduction/Structural-induction.md
       - Coinduction: Post/Recursion/Induction-and-deduction/Coinduction.md
