@@ -76,13 +76,13 @@ Recursion that only contains a single self-reference is known as **single recurs
 
 **Single recursion** is often much more efficient than **multiple recursion**, and can generally be replaced by an **iterative computation**, running in linear time and requiring constant space. **Multiple recursion**, by contrast, may require exponential time and space, and is more fundamentally recursive, not being able to be replaced by iteration without an **explicit stack**.
 
-***SUMMARY*** : 通过Fibonacci和tree traversal 的例子就可以验证上面这段话
+> NOTE: 通过Fibonacci和tree traversal 的例子就可以验证上面这段话
 
-***SUMMARY*** : Multiple recursion的复杂性
+> NOTE: Multiple recursion的复杂性
 
 Multiple recursion can sometimes be converted to single recursion (and, if desired, thence to iteration). For example, while computing the Fibonacci sequence naively is multiple iteration, as each value requires **two previous values**, it can be computed by single recursion by passing two successive values as parameters. This is more naturally framed as **corecursion**, building up from the **initial values**, tracking at each step two successive values – see [corecursion: examples](https://en.wikipedia.org/wiki/Corecursion#Examples). A more sophisticated example is using a [threaded binary tree](https://en.wikipedia.org/wiki/Threaded_binary_tree), which allows iterative tree traversal, rather than multiple recursion.
 
-***SUMMARY*** : Fibonacci 函数的表达式中包含了两个递归调用，但是正如上面所说的： it can be computed by single recursion by passing two successive values as parameters；这样就可以将它转换为一个tail recursion了，这样就可以消除掉tail recursion，使用iterative方法来实现了；
+> NOTE : Fibonacci 函数的表达式中包含了两个递归调用，但是正如上面所说的： it can be computed by single recursion by passing two successive values as parameters；这样就可以将它转换为一个tail recursion了，这样就可以消除掉tail recursion，使用iterative方法来实现了；
 
 #### Indirect recursion
 
