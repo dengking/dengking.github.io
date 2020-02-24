@@ -1,10 +1,6 @@
-[TOC]
-
-
-
 # [Recurrence relation](https://en.wikipedia.org/wiki/Recurrence_relation)
 
-***SUMMARY*** : 递归关系
+递归关系
 
 In [mathematics](https://en.wikipedia.org/wiki/Mathematics), a **recurrence relation** is an [equation](https://en.wikipedia.org/wiki/Equation) that [recursively](https://en.wikipedia.org/wiki/Recursion) defines a [sequence](https://en.wikipedia.org/wiki/Sequence) or multidimensional array of values, once one or more initial terms are given; each further term of the sequence or array is defined as a [function](https://en.wikipedia.org/wiki/Function_(mathematics)) of the preceding terms.
 
