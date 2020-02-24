@@ -25,6 +25,15 @@ nav:
     - Introduction: Post/Recursion/index.md
     - Recursive-Definition: Post/Recursion/Recursive-Definition.md
     - Recursion: Post/Recursion/Recursion.md
+    - Corecursion: Post/Recursion/Corecursion.md
+    - VS-recursion-VS-corecursion: Post/Recursion/VS-recursion-VS-corecursion.md
+    - Induction-and-deduction:
+      - Introduction: Post/Recursion/Induction-and-deduction/index.md
+      - Induction-and-deduction: Post/Recursion/Induction-and-deduction/Induction-VS-deduction.md
+      - Induction: Post/Recursion/Induction-and-deduction/Induction.md
+      - Structural-induction: Post/Recursion/Induction-and-deduction/Structural-induction.md
+      - Coinduction: Post/Recursion/Induction-and-deduction/Coinduction.md
+    - Summary: Post/Recursion/Summary.md
     - Term-with-recursion-in-computer-science: Post/Recursion/Term-with-recursion-in-computer-science.md
   - Unit: Post/Unit.md
   - Separation-and-independent.md: Post/Separation-and-independent.md
