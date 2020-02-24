@@ -1,14 +1,27 @@
 # Recursion and iteration
 
+Recursion 和 iteration 是两种**实现**方式，recursion本质上来说是自顶向下的使用递归关系，iteration本质上来说是自底向上地使用递归关系（dynamic programming、greedy algorithm都是基于iteration的）。本文就对两者进行探讨。
+
+## Recursion VS iteration
+
+从运行成本比较：参见维基百科[Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))第三段。
+
+两者的相同点：参见：
+
+- 维基百科[Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))第二段：都能够实现“repeatedly call code”。
+- 维基百科[Iteration](https://en.wikipedia.org/wiki/Iteration#Computing) ，其中的[Relationship with recursion](https://en.wikipedia.org/wiki/Iteration#Relationship_with_recursion)总结地非常好。
 
 
-将recursion转换为iteration，本质上来说是将recursion的自顶向下的方式转换为自底向上地使用递归关系；
 
-## 尾递归消除
+## Recursin to iteration
+
+### 尾递归消除
 
 尾递归函数可以无需借助data structure就可以消除，如fibnacci。
 
-## using user stack to replace the call stack of recursion function
+参见维基百科[Tail call](https://en.wikipedia.org/wiki/Tail_call)。
+
+### using user stack to replace the call stack of recursion function
 
 其他的递归函数如tree遍历函数，不是尾递归，需要借助于data structure才能够消除。
 
@@ -107,3 +120,9 @@ user stack的出栈对应着call stack中的从递归函数中返回，user stac
 ```
 
 其实这是一个理解问题本质的所在，无论哪种方式，从栈中取出元素，然后进行visit，不同的是深度优先先序遍历是在每次先从栈中取出元素进行visit。深度优先的中序遍历则是在左子树都访问完了后才从栈中取出元素进行visit。
+
+
+
+
+
+[dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming) VS [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))

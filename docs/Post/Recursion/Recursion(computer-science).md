@@ -22,11 +22,11 @@ Most computer [programming languages](https://en.wikipedia.org/wiki/Programming_
 
 
 
-## Recursive functions and algorithms
+### Recursive functions and algorithms
 
 A common [computer programming](https://en.wikipedia.org/wiki/Computer_programming) tactic is to divide a problem into sub-problems of the same type as the original, solve those sub-problems, and combine the results. This is often referred to as the [divide-and-conquer method](https://en.wikipedia.org/wiki/Divide-and-conquer_method); when combined with a [lookup table](https://en.wikipedia.org/wiki/Lookup_table) that stores the results of solving sub-problems (to avoid solving them repeatedly and incurring extra computation time), it can be referred to as [dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming) or [memoization](https://en.wikipedia.org/wiki/Memoization).
 
-> NOTE:  [dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming) VS [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+> NOTE:  TODO 需要添加工程[algorithm](https://dengking.github.io/algorithm/)中，关于recursion和dynamic programming的比较。
 
 A recursive function definition has one or more *base cases*, meaning input(s) for which the function produces a result [trivially](https://en.wikipedia.org/wiki/Trivial_(mathematics)) (without recurring), and one or more *recursive cases*, meaning input(s) for which the program recurs（递归，重现，重复） (calls itself). For example, the [factorial](https://en.wikipedia.org/wiki/Factorial) function can be defined recursively by the equations 0! = 1 and, for all *n* > 0, *n*! = *n*(*n* − 1)!. Neither equation by itself constitutes a complete definition; the first is the base case, and the second is the recursive case. Because the base case breaks the chain of recursion, it is sometimes also called the "terminating case".
 
@@ -34,17 +34,17 @@ The job of the **recursive cases** can be seen as breaking down complex inputs i
 
 For some functions (such as one that computes the [series](https://en.wikipedia.org/wiki/Series_(mathematics)) for *e* = 1/0! + 1/1! + 1/2! + 1/3! + ...) there is not an obvious **base case** implied by the input data; for these one may add a [parameter](https://en.wikipedia.org/wiki/Parameter) (such as the number of terms to be added, in our series example) to provide a 'stopping criterion' that establishes the **base case**. Such an example is more naturally treated by **co-recursion**, where successive terms in the output are the partial sums; this can be converted to a recursion by using the indexing parameter to say "compute the *n*th term (*n*th partial sum)".
 
-***SUMMARY*** : 在递归函数中添加一个入参，这个入参就表示停止条件；
+> NOTE: 在递归函数中添加一个入参，这个入参就表示停止条件；关于co-recursion，参见[Corecursion](./Corecursion.md)。
 
 
 
-## Recursive data types
+### Recursive data types
 
-Many [computer programs](https://en.wikipedia.org/wiki/Computer_program) must process or generate an arbitrarily large quantity of [data](https://en.wikipedia.org/wiki/Data). Recursion is one technique for representing data whose exact size the [programmer](https://en.wikipedia.org/wiki/Programmer) does not know: the programmer can specify this data with a [self-referential](https://en.wikipedia.org/wiki/Self_reference)definition. There are two types of **self-referential definitions**: inductive and [coinductive](https://en.wikipedia.org/wiki/Coinduction) definitions.
+Many [computer programs](https://en.wikipedia.org/wiki/Computer_program) must process or generate an arbitrarily large quantity of [data](https://en.wikipedia.org/wiki/Data). Recursion is one technique for representing data whose exact size the [programmer](https://en.wikipedia.org/wiki/Programmer) does not know: the programmer can specify this data with a [self-referential](https://en.wikipedia.org/wiki/Self_reference) definition. There are two types of **self-referential definitions**: inductive and [coinductive](https://en.wikipedia.org/wiki/Coinduction) definitions.
 
 Further information: [Algebraic data type](https://en.wikipedia.org/wiki/Algebraic_data_type)
 
-### Inductively defined data
+#### Inductively defined data
 
 *Main article:* [Recursive data type](https://en.wikipedia.org/wiki/Recursive_data_type)
 
@@ -60,17 +60,17 @@ This says that an expression is either a number, a product of two expressions, o
 
 
 
-### Coinductively defined data and corecursion
+#### Coinductively defined data and corecursion
 
 *Main articles:* [Coinduction](https://en.wikipedia.org/wiki/Coinduction) *and* [Corecursion](https://en.wikipedia.org/wiki/Corecursion)
 
 
 
-## Types of recursion
+### Types of recursion
 
 
 
-### Single recursion and multiple recursion
+#### Single recursion and multiple recursion
 
 Recursion that only contains a single self-reference is known as **single recursion**, while recursion that contains multiple self-references is known as **multiple recursion**. Standard examples of single recursion include list traversal, such as in a linear search, or computing the factorial function, while standard examples of multiple recursion include [tree traversal](https://en.wikipedia.org/wiki/Tree_traversal), such as in a **depth-first search**.
 
@@ -84,7 +84,7 @@ Multiple recursion can sometimes be converted to single recursion (and, if desir
 
 ***SUMMARY*** : Fibonacci 函数的表达式中包含了两个递归调用，但是正如上面所说的： it can be computed by single recursion by passing two successive values as parameters；这样就可以将它转换为一个tail recursion了，这样就可以消除掉tail recursion，使用iterative方法来实现了；
 
-### Indirect recursion
+#### Indirect recursion
 
 *Main article:* [Mutual recursion](https://en.wikipedia.org/wiki/Mutual_recursion)
 
@@ -92,13 +92,13 @@ Most basic examples of **recursion**, and most of the examples presented here, d
 
 Indirect recursion is also called [mutual recursion](https://en.wikipedia.org/wiki/Mutual_recursion), which is a more symmetric term, though this is simply a difference of emphasis, not a different notion. That is, if *f* calls *g* and then *g* calls *f,* which in turn calls *g* again, from the point of view of *f* alone, *f* is indirectly recursing, while from the point of view of *g* alone, it is indirectly recursing, while from the point of view of both, *f* and *g* are mutually recursing on each other. Similarly a set of three or more functions that call each other can be called a set of mutually recursive functions.
 
-### Anonymous recursion
+#### Anonymous recursion
 
 *Main article:* [Anonymous recursion](https://en.wikipedia.org/wiki/Anonymous_recursion)
 
 Recursion is usually done by explicitly calling a function by name. However, recursion can also be done via implicitly calling a function based on the current context, which is particularly useful for [anonymous functions](https://en.wikipedia.org/wiki/Anonymous_function), and is known as [anonymous recursion](https://en.wikipedia.org/wiki/Anonymous_recursion).
 
-### Structural versus generative recursion
+#### Structural versus generative recursion
 
 *See also:* [Structural recursion](https://en.wikipedia.org/wiki/Structural_recursion)
 
@@ -127,13 +127,13 @@ This distinction is important in [proving termination](https://en.wikipedia.org/
 
 
 
-## Recursive programs
+### Recursive programs
 
-### Recursive procedures
+#### Recursive procedures
 
-#### Factorial
+##### Factorial
 
-#### Greatest common divisor
+##### Greatest common divisor
 
 The [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm), which computes the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two integers, can be written recursively.
 
@@ -199,7 +199,7 @@ end gcd
 
 The iterative algorithm requires a temporary variable, and even given knowledge of the Euclidean algorithm it is more difficult to understand the process by simple inspection, although the two algorithms are very similar in their steps.
 
-#### Towers of Hanoi
+##### Towers of Hanoi
 
 *Main article:* [Towers of Hanoi](https://en.wikipedia.org/wiki/Towers_of_Hanoi)
 
@@ -243,7 +243,7 @@ Example implementations:
 
 
 
-#### Binary search
+##### Binary search
 
 
 
@@ -306,7 +306,7 @@ Example implementation of binary search in C:
 
 
 
-### Recursive data structures (structural recursion)
+#### Recursive data structures (structural recursion)
 
 *Main article:* [Recursive data type](https://en.wikipedia.org/wiki/Recursive_data_type)
 
@@ -322,7 +322,7 @@ The examples in this section illustrate what is known as "[structural recursion]
 
 > As long as a programmer derives the template from a data definition, functions employ structural recursion. That is, the recursions in a function's body consume some immediate piece of a given compound value.[[5\]](https://en.wikipedia.org/wiki/Recursion_(computer_science)#cite_note-Felleisen_2002_108-5)
 
-#### Linked lists
+##### Linked lists
 
 *Main article:* [Linked list](https://en.wikipedia.org/wiki/Linked_list)
 
@@ -351,7 +351,7 @@ void list_print(struct node *list)
 
 
 
-#### Binary trees
+##### Binary trees
 
 *Main article:* [Binary tree](https://en.wikipedia.org/wiki/Binary_tree)
 
@@ -430,7 +430,7 @@ P(5)
 
 
 
-## Implementation issues
+### Implementation issues
 
 In actual implementation, rather than a pure recursive function (single check for base case, otherwise recursive step), a number of modifications may be made, for purposes of clarity or efficiency. These include:
 
@@ -444,7 +444,7 @@ On the basis of elegance, **wrapper functions** are generally approved, while sh
 
 
 
-## Recursion versus iteration
+### Recursion versus iteration
 
 Recursion and [iteration](https://en.wikipedia.org/wiki/Iteration) are equally expressive: recursion can be replaced by iteration with an explicit [call stack](https://en.wikipedia.org/wiki/Call_stack), while iteration can be replaced with [tail recursion](https://en.wikipedia.org/wiki/Tail_call). Which approach is preferable depends on the problem under consideration and the language used. In [imperative programming](https://en.wikipedia.org/wiki/Imperative_programming), iteration is preferred, particularly for simple recursion, as it avoids the overhead of function calls and call stack management, but recursion is generally used for **multiple recursion**. By contrast, in [functional languages](https://en.wikipedia.org/wiki/Functional_programming) recursion is preferred, with tail recursion optimization leading to little overhead. Implementing an algorithm using iteration may not be easily achievable.
 
@@ -465,19 +465,19 @@ unsigned int factorial(unsigned int n) {
 
 
 
-### Multiply recursive problems
+#### Multiply recursive problems
 
 Multiply recursive problems are inherently recursive, because of prior state they need to track. One example is [tree traversal](https://en.wikipedia.org/wiki/Tree_traversal) as in [depth-first search](https://en.wikipedia.org/wiki/Depth-first_search); though both recursive and iterative methods are used,[[19\]](https://en.wikipedia.org/wiki/Recursion_(computer_science)#cite_note-19) they contrast with list traversal and linear search in a list, which is a singly recursive and thus naturally iterative method. Other examples include [divide-and-conquer algorithms](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm) such as [Quicksort](https://en.wikipedia.org/wiki/Quicksort), and functions such as the [Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function). All of these algorithms can be implemented iteratively with the help of an explicit [stack](https://en.wikipedia.org/wiki/Stack_(data_structure)), but the programmer effort involved in managing the stack, and the complexity of the resulting program, arguably outweigh any advantages of the iterative solution.
 
 
 
-### Refactoring recursion
+#### Refactoring recursion
 
 Recursive algorithms can be replaced with non-recursive counterparts.[[20\]](https://en.wikipedia.org/wiki/Recursion_(computer_science)#cite_note-20). One method for replacing recursive algorithms is to simulate them using [heap memory](https://en.wikipedia.org/wiki/Memory_management) in place of [stack memory](https://en.wikipedia.org/wiki/Stack-based_memory_allocation).[[21\]](https://en.wikipedia.org/wiki/Recursion_(computer_science)#cite_note-21) An alternative is to develop a replacement algorithm entirely based on non-recursive methods, which can be challenging.[[22\]](https://en.wikipedia.org/wiki/Recursion_(computer_science)#cite_note-22) For example, recursive algorithms for [matching wildcards](https://en.wikipedia.org/wiki/Matching_wildcards), such as [Rich Salz](https://en.wikipedia.org/wiki/Rich_Salz)' [wildmat](https://en.wikipedia.org/wiki/Wildmat) algorithm,[[23\]](https://en.wikipedia.org/wiki/Recursion_(computer_science)#cite_note-23) were once typical. Non-recursive algorithms for the same purpose, such as the [Krauss matching wildcards algorithm](https://en.wikipedia.org/wiki/Krauss_matching_wildcards_algorithm), have been developed to avoid the drawbacks of recursion[[24\]](https://en.wikipedia.org/wiki/Recursion_(computer_science)#cite_note-24) and have improved only gradually based on techniques such as collecting [tests](https://en.wikipedia.org/wiki/Software_testing) and [profiling](https://en.wikipedia.org/wiki/Profiling_(computer_programming)) performance.[[25\]](https://en.wikipedia.org/wiki/Recursion_(computer_science)#cite_note-25)
 
 
 
-## Tail-recursive functions
+### Tail-recursive functions
 
 Tail-recursive functions are functions in which all recursive calls are [tail calls](https://en.wikipedia.org/wiki/Tail_call) and hence do not build up any deferred operations. For example, the gcd function (shown again below) is tail-recursive. In contrast, the factorial function (also below) is **not** tail-recursive; because its recursive call is not in tail position, it builds up deferred multiplication operations that must be performed after the final recursive call completes. With a [compiler](https://en.wikipedia.org/wiki/Compiler) or [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) that treats **tail-recursive calls** as [jumps](https://en.wikipedia.org/wiki/Goto) rather than **function calls**, a **tail-recursive function** such as gcd will execute using **constant space**. Thus the program is essentially iterative, equivalent to using imperative language control structures like the "for" and "while" loops.
 
@@ -511,11 +511,11 @@ The significance of **tail recursion** is that when making a **tail-recursive ca
 
 
 
-## Time-efficiency of recursive algorithms
+### Time-efficiency of recursive algorithms
 
 The [time efficiency](https://en.wikipedia.org/wiki/Time_complexity) of recursive algorithms can be expressed in a [recurrence relation](https://en.wikipedia.org/wiki/Recurrence_relation) of [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation). They can (usually) then be simplified into a single Big-O term.
 
-### Shortcut rule (master theorem)
+#### Shortcut rule (master theorem)
 
 *Main article:* [Master theorem (analysis of algorithms)](https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms))
 
