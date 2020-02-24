@@ -2,8 +2,11 @@ nav:
     - Introduction: index.md
     - Recursive-Definition: Recursive-Definition.md
     - Recursion: Recursion.md
-    - Recurrence-relation: Recurrence-relation.md
     - Corecursion: Corecursion.md
     - Induction-and-deduction: Induction-and-deduction
+    - Recurrence-relation: Recurrence-relation.md
+    - Recursion(computer-science): Recursion(computer-science).md
+    - Recursion-analysis-and-representation: Recursion-analysis-and-representation.md
+    - Recursion-and-iteration: Recursion-and-iteration.md
     - Summary: Summary.md
     - Term-with-recursion-in-computer-science: Term-with-recursion-in-computer-science.md

@@ -4,7 +4,11 @@
 
 ## 维基百科[Recursion](https://en.wikipedia.org/wiki/Recursion)
 
-**Recursion** (adjective: *recursive*) occurs when a thing is defined in terms of **itself** or of its type. Recursion is used in a variety of disciplines ranging from [linguistics](https://en.wikipedia.org/wiki/Linguistics) to [logic](https://en.wikipedia.org/wiki/Logic). The most common application of recursion is in [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [computer science](https://en.wikipedia.org/wiki/Computer_science), where a [function](https://en.wikipedia.org/wiki/Function_(mathematics)) being defined is applied within its own definition. While this apparently defines an infinite number of instances (function values), it is often done in such a way that no **loop** or **infinite chain** of references can occur.
+**Recursion** (adjective: *recursive*) occurs when a thing is defined in terms of **itself** or of its type. 
+
+> NOTE: 其实上述定义就是的含义其实就是[recursive definition](./Recursive-Definition.md)。在维基百科[Recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym)中使用 “refers to itself” 来表达这种含义。
+
+Recursion is used in a variety of disciplines ranging from [linguistics](https://en.wikipedia.org/wiki/Linguistics) to [logic](https://en.wikipedia.org/wiki/Logic). The most common application of recursion is in [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [computer science](https://en.wikipedia.org/wiki/Computer_science), where a [function](https://en.wikipedia.org/wiki/Function_(mathematics)) being defined is applied within its own definition. While this apparently defines an infinite number of instances (function values), it is often done in such a way that no **loop** or **infinite chain** of references can occur.
 
 > NOTE: 如果出现loop或者infinite chain，则程序就会出现死循环；
 

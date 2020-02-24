@@ -1,2 +1,3 @@
 nav:
     - Introduction: index.md
+    - Turing-completeness: Turing-completeness.md
