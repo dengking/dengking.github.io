@@ -5,6 +5,7 @@ nav:
     - Language: Language
     - Formal: Formal
     - Recursion: Recursion
+    - Turing: Turing
     - Unit: Unit.md
     - Separation-and-independent.md: Separation-and-independent.md
     - Architecture: Architecture.md
