@@ -14,7 +14,9 @@
 
 关于Structural recursion和Structural induction，参见[Structural induction](./Induction-and-deduction/Structural-induction.md)。
 
+[Corecursion](./Corecursion.md)、[Induction](./Induction-and-deduction/Induction.md)、iteration的方向相同，都是自底向上；
 
+[Recursion](./Recursion.md)、[Structural recursion](./Induction-and-deduction/Structural-induction.md)的方向相同，都是自顶向下；
 
 
 
