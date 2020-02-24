@@ -121,8 +121,3 @@ user stack的出栈对应着call stack中的从递归函数中返回，user stac
 
 其实这是一个理解问题本质的所在，无论哪种方式，从栈中取出元素，然后进行visit，不同的是深度优先先序遍历是在每次先从栈中取出元素进行visit。深度优先的中序遍历则是在左子树都访问完了后才从栈中取出元素进行visit。
 
-
-
-
-
-[dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming) VS [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))

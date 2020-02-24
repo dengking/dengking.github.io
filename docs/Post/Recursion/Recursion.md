@@ -41,6 +41,8 @@ Recursively defined mathematical objects include [functions](https://en.wikipedi
 
 ## [In mathematics](https://en.wikipedia.org/wiki/Recursion#In_mathematics)
 
+
+
 ### Recursively defined sets
 
 参见文章[Recursive definition](./Recursive-Definition.md)。
@@ -85,7 +87,7 @@ for any natural number *n*.
 
 ## In computer science
 
-参加工程[algorithm](https://dengking.github.io/algorithm)的文章 [Recursion(computer-science)](https://dengking.github.io/algorithm/Recursion/Recursion(computer-science)/)。
+参见工程文章 [Recursion(computer-science)](./Recursion(computer-science))。
 
 
 
