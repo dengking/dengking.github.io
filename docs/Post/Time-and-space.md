@@ -27,3 +27,9 @@ version control：记录历史
 
 
 ## 进程所占用的资源可以看做是占用一定的空间
+
+
+
+# system call with time
+
+linux OS的非常多的system call都支持由用户设置time。
