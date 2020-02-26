@@ -8,6 +8,7 @@ nav:
     - Turing: Turing
     - Unit: Unit.md
     - Discrete: Discrete.md
+    - Context: Context.md
     - Separation-and-independent.md: Separation-and-independent.md
     - Architecture: Architecture.md
     - Time-and-space: Time-and-space.md
