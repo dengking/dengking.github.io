@@ -72,6 +72,10 @@ Linux OS kernel的unit of user-defined action是函数。
 
 关于此的另外一个例证是signal handler，signal handler本质上也是函数，参见[SIGNAL(7)](http://man7.org/linux/man-pages/man7/signal.7.html)。
 
+参见[Linux-OS](https://dengking.github.io/Linux-OS/)工程的文章Conventions。
+
+
+
 ## CPU access memory的单位是[word](https://en.wikipedia.org/wiki/Computer_word)
 
 参见工程[Hardware](https://dengking.github.io/Hardware/)的[Memory-alignment](https://dengking.github.io/Hardware/CPU/Memory-access/Memory-alignment/)章节。
