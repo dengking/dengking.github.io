@@ -12,6 +12,21 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [computer scienc
 >
 > 可以看到，当我们将set理解为type后，原来的描述就变成了software engineer非常任意理解的了。
 >
+> 上述定义是非常严谨的，使用了数学中的 [set](https://en.wikipedia.org/wiki/Set_(mathematics)) 的概念，可以认为它使用的是一种数学语言。在其他文章中都可以看到完全使用自然语言描述的recursive definition，比如：
+>
+> 在维基百科[Recursion](https://en.wikipedia.org/wiki/Recursion)中：
+>
+> > **Recursion** (adjective: *recursive*) occurs when a thing is defined in terms of itself or of its type.
+>
+> 在维基百科[Recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym)中：
+>
+> > A **recursive acronym** is an [acronym](https://en.wikipedia.org/wiki/Acronym) that [refers to itself](https://en.wikipedia.org/wiki/Recursion).
+>
+> 显然使用自然语言的描述是更加容易理解的。
+>
+> 如何理解recursively defined function？
+>
+> 显然，一个recursively defined function就是“ defined in terms of itself or of its type ”
 
 A [recursive](https://en.wikipedia.org/wiki/Recursive) [definition](https://en.wikipedia.org/wiki/Definition) of a [function](https://en.wikipedia.org/wiki/Function_(mathematics)) defines values of the function for some inputs in terms of the values of the same function for other (usually smaller) inputs. For example, the [factorial](https://en.wikipedia.org/wiki/Factorial) function *n*! is defined by the rules
 
@@ -19,7 +34,7 @@ A [recursive](https://en.wikipedia.org/wiki/Recursive) [definition](https://en.w
 
 (*n* + 1)! = (*n* + 1)·*n*!.
 
-> NOTE: 原文中给出了两种：recursively defined functions and objects
+> NOTE: 原文中给出了两种**recursive definition**：recursively defined functions and recursive defined objects
 
 ### [Form of recursive definitions](https://en.wikipedia.org/wiki/Recursive_definition#Form_of_recursive_definitions)
 
@@ -37,11 +52,19 @@ More generally, recursive definitions of functions can be made whenever the doma
 
 按照原文第一段中对recursive definition的描述，发现其实它非常类似于induction（归纳法），我们知道，induction是bottom-up的，尤其是[natural numbers](https://en.wikipedia.org/wiki/Natural_number)的例子。而我对recursion的惯常印象是它是top-down。这两者不是矛盾吗？
 
-“recursive definition”是一种描述方式，它不涉及实现的问题，它的描述可以是类似induction的自底向上，也可以是自顶向下，正如原文第一段所述的：[recursive definition](https://en.wikipedia.org/wiki/Recursive_definition)也可以叫做**inductive definition**。“recursive definition”本质在于recursively defined object，正如本文第一段所描述的：
+“recursive definition”是一种描述方式，它不涉及实现的问题，它的描述可以是类似induction的自底向上，也可以是自顶向下，正如原文第一段所述的：[recursive definition](https://en.wikipedia.org/wiki/Recursive_definition)也可以叫做**inductive definition**。“recursive definition”本质在于“ defined in terms of itself or of its type ”，正如本文第一段所描述的：
 
 > In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [computer science](https://en.wikipedia.org/wiki/Computer_science), a **recursive definition**, or **inductive definition**（归纳定义）, is used to define the [elements](https://en.wikipedia.org/wiki/Element_(mathematics)) in a [set](https://en.wikipedia.org/wiki/Set_(mathematics)) in terms of other elements in the set
 
-关于“recursive definition”的一个例子就是[Recursive grammar](https://en.wikipedia.org/wiki/Recursive_grammar)。
+关于“recursive definition”的一个例子就是[Recursive grammar](https://en.wikipedia.org/wiki/Recursive_grammar)，比如在维基百科[Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))的[Recursive data types](https://en.wikipedia.org/wiki/Recursion_(computer_science)#Recursive_data_types)段中给出了这样的一个例子：
+
+```
+ <expr> ::= <number>
+          | (<expr> * <expr>)
+          | (<expr> + <expr>)
+```
+
+可以看到，`<expr>`的定义中就包含了"itself"。
 
 “我对recursion的惯常印象是它是top-down”是源于我是从recursion function的角度来看待的。显然，这是描述与实现的差异。在原文的[Form of recursive definitions](https://en.wikipedia.org/wiki/Recursive_definition#Form_of_recursive_definitions)中给出了recursive definition所对应的function，显然对于这个function的实现，我们可以采用的实现方式有两种：
 
