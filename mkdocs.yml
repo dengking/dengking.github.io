@@ -25,18 +25,25 @@ nav:
     - Introduction: Post/Recursion/index.md
     - Recursive-Definition: Post/Recursion/Recursive-Definition.md
     - Recursion: Post/Recursion/Recursion.md
-    - Recurrence-relation: Post/Recursion/Recurrence-relation.md
     - Corecursion: Post/Recursion/Corecursion.md
-    - VS-recursion-VS-corecursion: Post/Recursion/VS-recursion-VS-corecursion.md
     - Induction-and-deduction:
       - Introduction: Post/Recursion/Induction-and-deduction/index.md
       - Induction-and-deduction: Post/Recursion/Induction-and-deduction/Induction-and-deduction.md
       - Induction: Post/Recursion/Induction-and-deduction/Induction.md
       - Structural-induction: Post/Recursion/Induction-and-deduction/Structural-induction.md
       - Coinduction: Post/Recursion/Induction-and-deduction/Coinduction.md
+    - Recurrence-relation: Post/Recursion/Recurrence-relation.md
+    - Recursion(computer-science): Post/Recursion/Recursion(computer-science).md
+    - Recursion-analysis-and-representation: Post/Recursion/Recursion-analysis-and-representation.md
+    - Recursion-and-iteration: Post/Recursion/Recursion-and-iteration.md
     - Summary: Post/Recursion/Summary.md
     - Term-with-recursion-in-computer-science: Post/Recursion/Term-with-recursion-in-computer-science.md
+  - Turing:
+    - Introduction: Post/Turing/index.md
+    - Turing-completeness: Post/Turing/Turing-completeness.md
   - Unit: Post/Unit.md
+  - Discrete: Post/Discrete.md
+  - Context: Post/Context.md
   - Separation-and-independent.md: Post/Separation-and-independent.md
   - Architecture: Post/Architecture.md
   - Time-and-space: Post/Time-and-space.md
