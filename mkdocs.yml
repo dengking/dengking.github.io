@@ -30,7 +30,6 @@ nav:
       - Introduction: Post/Recursion/Induction-and-deduction/index.md
       - Induction-and-deduction: Post/Recursion/Induction-and-deduction/Induction-and-deduction.md
       - Induction: Post/Recursion/Induction-and-deduction/Induction.md
-      - Structural-induction: Post/Recursion/Induction-and-deduction/Structural-induction.md
       - Coinduction: Post/Recursion/Induction-and-deduction/Coinduction.md
     - Recurrence-relation: Post/Recursion/Recurrence-relation.md
     - Recursion(computer-science): Post/Recursion/Recursion(computer-science).md
