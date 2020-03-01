@@ -24,6 +24,7 @@ nav:
   - Recursion:
     - Introduction: Post/Recursion/index.md
     - Recursive-Definition: Post/Recursion/Recursive-definition.md
+    - Recursive-data-type: Post/Recursion/Recursive-data-type.md
     - Recursion: Post/Recursion/Recursion.md
     - Corecursion: Post/Recursion/Corecursion.md
     - Induction-and-deduction:
