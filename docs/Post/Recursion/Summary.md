@@ -2,7 +2,7 @@
 
 无论是Mathematical induction，还是Structural induction，它们本质上都是[proof method](https://en.wikipedia.org/wiki/Proof_method) （证明方法），它描述的是一种推广。
 
-[Recursive definition](./Recursive-Definition.md)（也叫做**inductive definition**）正如其名，它是definition，是specification，所以需要非常严格，它不涉及实现。
+[Recursive definition](./Recursive-definition.md)（也叫做**inductive definition**）正如其名，它是definition，是specification，所以需要非常严格，它不涉及实现。
 
 
 
