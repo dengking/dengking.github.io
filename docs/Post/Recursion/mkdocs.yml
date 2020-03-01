@@ -1,6 +1,6 @@
 nav:
     - Introduction: index.md
-    - Recursive-Definition: Recursive-Definition.md
+    - Recursive-Definition: Recursive-definition.md
     - Recursion: Recursion.md
     - Corecursion: Corecursion.md
     - Induction-and-deduction: Induction-and-deduction

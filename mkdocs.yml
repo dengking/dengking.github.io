@@ -23,7 +23,7 @@ nav:
     - Formal: Post/Formal/Formal.md
   - Recursion:
     - Introduction: Post/Recursion/index.md
-    - Recursive-Definition: Post/Recursion/Recursive-Definition.md
+    - Recursive-Definition: Post/Recursion/Recursive-definition.md
     - Recursion: Post/Recursion/Recursion.md
     - Corecursion: Post/Recursion/Corecursion.md
     - Induction-and-deduction:
