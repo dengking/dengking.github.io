@@ -28,7 +28,7 @@
 
 ### Kernel control path
 
-在《[Understanding the Linux Kernel, 3rd Edition](http://shop.oreilly.com/product/9780596005658.do)》的chapter 1.6.3. Reentrant Kernels中，作者创造了kernel control path概念来概括kernel中由system call由触发的kernel control path（后面简称为system call kernel control path）、由interrupt handler触发的kernel control path（后面简称interrupt handler kernel control path）以及后续随着kernel发展可能会新增的触发kernel control path。显然kernel control path概念概括了system call kernel control path、interrupt handler kernel control path的**common feature**（公共特征），如它们都能够被suspend、resume。
+在《[Understanding the Linux Kernel, 3rd Edition](https://dengking.github.io/Linux-OS/Kernel/Book-Understanding-the-Linux-Kernel/)》的[chapter 1.6.3. Reentrant Kernels](https://dengking.github.io/Linux-OS/Kernel/Book-Understanding-the-Linux-Kernel/Chapter-1-Introduction/1.6.3-Reentrant-Kernels/)中，作者创造了kernel control path概念来概括kernel中由system call由触发的kernel control path（后面简称为system call kernel control path）、由interrupt handler触发的kernel control path（后面简称interrupt handler kernel control path）以及后续随着kernel发展可能会新增的触发kernel control path。显然kernel control path概念概括了system call kernel control path、interrupt handler kernel control path的**common feature**（公共特征），如它们都能够被suspend、resume。
 
 显然当一个表述中使用kernel control path的时候，我们就知道它可以是system call kernel control path、也可以是interrupt handler kernel control path，这就使我们的表述非常地便利。显然，system call kernel control path、interrupt handler kernel control path和kernel control path之间是[Is-a](https://en.wikipedia.org/wiki/Is-a)关系。
 
@@ -66,6 +66,8 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 另外一个更加常用的来描述抽象概念的是[interface (computing)](https://en.wikipedia.org/wiki/Interface_(computing))，即接口。
 
+本质上来说，上述**描述方式**都是[语言](../Language/Language.md)。
+
 ### Abstraction in programming language
 
 纵观[programming language的发展史](https://en.wikipedia.org/wiki/Programming_language#History)，我们发现：语言越来越高级，越来越抽象，越来越易用。最底层的语言：[machine language](https://en.wikipedia.org/wiki/Machine_code) 晦涩难懂，计算机科学的先驱在[machine language](https://en.wikipedia.org/wiki/Machine_code) 的基础上抽象出了 [function](https://en.wikipedia.org/wiki/Subroutine) 概念，又抽象出了 [class](https://en.wikipedia.org/wiki/Class-based_programming) 的概念，创建了非常多 [高级的语言](https://en.wikipedia.org/wiki/High-level_programming_language)，比如C。不管多么高级的语言最终都需要被翻译（compiler或interpreter）为[machine language](https://en.wikipedia.org/wiki/Machine_code)才能够被机器执行，显然这个翻译的过程是与前面的抽象的过程相逆的。
@@ -85,6 +87,8 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 > A central form of abstraction in computing is language abstraction: new artificial languages are developed to express specific aspects of a system. *[Modeling languages](https://en.wikipedia.org/wiki/Modeling_languages)* help in planning. *[Computer languages](https://en.wikipedia.org/wiki/Computer_language)* can be processed with a computer. An example of this abstraction process is the generational development of [programming languages](https://en.wikipedia.org/wiki/Programming_language) from the [machine language](https://en.wikipedia.org/wiki/First-generation_programming_language) to the [assembly language](https://en.wikipedia.org/wiki/Second-generation_programming_language) and the [high-level language](https://en.wikipedia.org/wiki/Third-generation_programming_language). Each stage can be used as a stepping stone for the next stage. The language abstraction continues for example in [scripting languages](https://en.wikipedia.org/wiki/Scripting_language) and [domain-specific programming languages](https://en.wikipedia.org/wiki/Domain-specific_programming_language).
 
 参见：龙书 [Chapter 7 Run-Time Environments](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/)。
+
+
 
 ### Abstraction in [object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)
 
@@ -151,11 +155,9 @@ class ThreadTask:
 
 [Virtual function](https://en.wikipedia.org/wiki/Virtual_function)
 
-#### See also
+参见：维基百科[Abstract type](https://en.wikipedia.org/wiki/Abstract_type)
 
-- [Abstract type](https://en.wikipedia.org/wiki/Abstract_type)
-
-
+参见：工程[programming-language](https://dengking.github.io/programming-language)的文章[Introduction to Objects](https://dengking.github.io/programming-language/Theory/Programming-paradigm/Object-oriented-programming/Thinking-in-java/Introduction-to-objects)
 
 ### 抽象与实现
 

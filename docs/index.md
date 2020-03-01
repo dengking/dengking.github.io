@@ -56,9 +56,7 @@ Here are some projects related to [programming language theory](https://en.wikip
 | [compiler-principle](https://dengking.github.io/compiler-principle/) | Note of book Compilers Principles, Techniques and Tools Second Edition |
 | [automata-and-formal-language](https://dengking.github.io/automata-and-formal-language) | Automata theory and formal language theory                   |
 | [compiler-principle-in-action](https://github.com/dengking/compiler-principle-in-action) | The two main-stream compilers, [GCC](https://gcc.gnu.org/) and [LLVM](http://llvm.org/) |
-| [python-in-action](https://github.com/dengking/python-in-action) |                                                              |
-| [c-family-language-in-action](https://github.com/dengking/c-family-language-in-action) |                                                              |
-| [programming-paradigms](https://github.com/dengking/programming-paradigms) |                                                              |
+| [programming-language](http://dengking.github.io/programming-language) |                                                              |
 
 
 

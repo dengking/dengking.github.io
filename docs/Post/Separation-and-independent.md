@@ -21,3 +21,10 @@
 ## 隔离与独立
 
 为了能够独立，就需要一定的隔离，就需要有自己的一套基础设施。
+
+
+
+## The hidden implementation
+
+thinking in java的《The hidden implementation》章节。
+
