@@ -1,4 +1,10 @@
-# 总结
+# Summary
+
+## 前言
+
+在前面，我们讨论了一系列概念，它们之间是有着一定的关联的，本文就对它们进行对比，进行总结，下面是中文部分。
+
+## 正文
 
 无论是Mathematical induction，还是Structural induction，它们本质上都是[proof method](https://en.wikipedia.org/wiki/Proof_method) （证明方法），它描述的是一种推广。
 

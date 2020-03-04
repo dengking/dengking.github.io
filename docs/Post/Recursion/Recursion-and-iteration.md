@@ -1,6 +1,6 @@
 # Recursion and iteration
 
-Recursion 和 iteration 是两种**实现**方式，recursion本质上来说是自顶向下的使用递归关系，iteration本质上来说是自底向上地使用递归关系（dynamic programming、greedy algorithm都是基于iteration的）。本文就对两者进行探讨。
+Recursion 和 iteration 是两种**实现**方式，recursion本质上来说是自顶向下的使用[递归关系](./Recurrence-relation.md)，iteration本质上来说是自底向上地使用[递归关系](./Recurrence-relation.md)（dynamic programming、greedy algorithm都是基于iteration的）。本文就对两者进行探讨。
 
 ## Recursion VS iteration
 
@@ -57,10 +57,6 @@ iterativePreorder(node)
       s.push(node.right)
     if (node.left ≠ null)
       s.push(node.left)
-```
-
-```pseudocode
-
 ```
 
 
