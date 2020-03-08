@@ -2,192 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://dengking.github.io/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Thoughts/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Abstraction/Abstraction/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Abstraction/Abstraction-and-architecture/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Abstraction/Abstraction-and-architecture-and-layer/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Abstraction/Abstraction-and-model/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Abstraction/Abstraction-and-relation/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Abstraction/Abstraction-and-virtual/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Language/Language/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Formal/Formal/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Recursive-definition/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Recursive-data-type/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Recursion/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Corecursion/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Induction-and-deduction/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Induction-and-deduction/Induction-and-deduction/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Induction-and-deduction/Induction/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Induction-and-deduction/Coinduction/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Recurrence-relation/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Recursion(computer-science)/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Recursion-analysis-and-representation/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Recursion-and-iteration/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Summary/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Recursion/Term-with-recursion-in-computer-science/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Turing/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Turing/Turing-completeness/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Unit/</loc>
-     <lastmod>2020-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://dengking.github.io/Post/Discrete/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Context/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Separation-and-independent/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Architecture/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Time-and-space/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/0-to-1-and-1-to-many/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Closure/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/Post/Glossary/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://dengking.github.io/about/</loc>
-     <lastmod>2020-03-01</lastmod>
+     <lastmod>2020-03-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
