@@ -17,6 +17,7 @@ I like reading, below are some book that I think useful to an software engineer.
 | [Advanced Programming in the UNIX® Environment](http://www.apuebook.com/) |                                                              |
 | [Understanding the Linux Kernel, 3rd Edition](http://shop.oreilly.com/product/9780596005658.do) |                                                              |
 | [Natural Language Processing with Python](http://www.nltk.org/book/) |                                                              |
+| [Discrete Mathematics and Its Applications](https://www.amazon.com/Discrete-Mathematics-Applications-Kenneth-Rosen/dp/125967651X) |                                                              |
 
 
 
