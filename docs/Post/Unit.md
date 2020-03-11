@@ -91,3 +91,7 @@ Linux OS kernel的unit of user-defined action是函数。
 工程[Process-model](https://dengking.github.io/Linux-OS/)的[Process model](https://dengking.github.io/Linux-OS/Kernel/Guide/Linux-OS's-multitasking/01-Process-model/#process-model)
 
 > OS是基于process的resource分配，基于[thread](https://en.wikipedia.org/wiki/Thread_(computing))的调度。
+
+
+
+## [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)中object是交互单位
