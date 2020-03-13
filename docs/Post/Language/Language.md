@@ -44,7 +44,11 @@
 
 
 
-[English](https://en.wikipedia.org/wiki/England) mathematician [R.L.E. Schwarzenberger](https://en.wikipedia.org/wiki/Rolph_Ludwig_Edward_Schwarzenberger) 的这番言论也向我们揭示了：不同的语言有着各自的优势。
+## 不同语言有着各自的优势
+
+[English](https://en.wikipedia.org/wiki/England) mathematician [R.L.E. Schwarzenberger](https://en.wikipedia.org/wiki/Rolph_Ludwig_Edward_Schwarzenberger) 的这番言论（参见上一节）向我们揭示了：不同的语言有着各自的优势，即有的语言是非常适合于描述某一类事物（或者问题）的，或者说，使用不同的语言来描述相同的问题，使用这种语言更加地便利，更加易于理解，而有的语言则可能比较繁琐且不利于理解，也就是对这类问题而已，这种语言更加地**expressive**。正如它所总结的这个例子，自然语言显然更加适合于表达情感，数学语言更加适合于进行严格地证明。
+
+我们知道，目前已经有非常多的programming language了，维基百科的[List of programming languages](https://en.wikipedia.org/wiki/List_of_programming_languages)中，已经收录了约700中programming language，所以，我们有必要分析一下不同的programming language的各自的优势。关于此，参见工程[programming-language](https://dengking.github.io/programming-language/)的文章Expressive of programming language。
 
 ## 语言的结构
 
@@ -80,4 +84,5 @@
 - [NLP](https://dengking.github.io/NLP/)
 - [compiler-principle](https://dengking.github.io/compiler-principle/)
 - [automata-and-formal-language](https://dengking.github.io/automata-and-formal-language)
+- [programming language](https://dengking.github.io/programming-language/)
 
