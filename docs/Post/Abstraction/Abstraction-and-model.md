@@ -35,7 +35,7 @@
 
 下面使用task model来描述一些系统：
 
-- [Computer multitasking](https://en.wikipedia.org/wiki/Computer_multitasking)中，**管理者**是operating system kernel，是task是process或thread的执行，它的执行者是CPU。
+- [Computer multitasking](https://en.wikipedia.org/wiki/Computer_multitasking)中，**管理者**是operating system kernel，task是process或thread的执行，它的执行者是CPU。
 
 - [celery](https://en.wikipedia.org/wiki/Celery_(software))中，task就是一个一个由用户定义的task function，执行者其实就是process了，**调度者**其实就是它的[task queue](https://en.wikipedia.org/wiki/Celery_(software))了，显然和OS kernel的调度者相比，它的调度策略是非常简单的。
 
@@ -83,7 +83,7 @@
 
 
 
-## 使用event-driven model和上述的task model可以描述太多太多的software
+## 使用event-driven model和task model可以描述太多太多的software
 
 比如：OS kernel对hardware的管理可以使用event-driven model来进行描述；OS kernel实现multitasking可以使用task model来进行描述。
 
