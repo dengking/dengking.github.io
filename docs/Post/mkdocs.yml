@@ -8,8 +8,8 @@ nav:
     - Unit: Unit.md
     - Context: Context.md
     - Separation-and-independent.md: Separation-and-independent.md
-    - Architecture: Architecture.md
     - Time-and-space: Time-and-space.md
+    - Standard-and-implementation: Standard-and-implementation.md
     - 0-to-1-and-1-to-many: 0-to-1-and-1-to-many.md
     - Closure: Closure.md
     - Glossary: Glossary.md
