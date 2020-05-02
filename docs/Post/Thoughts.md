@@ -10,7 +10,7 @@
 
 ### 构建big picture
 
-构建理论框架
+构建理论框架，从更高的角度来思考问题。
 
 
 
@@ -20,8 +20,13 @@
 
 一些常用的角度：
 
-- 从时空的角度
-- 从哲学的角度（比如[Formalism (philosophy of mathematics)](https://en.wikipedia.org/wiki/Formalism_(philosophy_of_mathematics))）
+从时空的角度
+
+从哲学的角度（比如[Formalism (philosophy of mathematics)](https://en.wikipedia.org/wiki/Formalism_(philosophy_of_mathematics))）
+
+从设计者的角度来思考：
+
+从OS的设计者的角度出发来进行思考（参见工程[Linux-OS](https://dengking.github.io/Linux-OS/)）、从programming language的设计者的角度出发来进行思考（参见工程[programming-language](https://dengking.github.io/programming-language/)），从data-system的设计者的角度出发来进行思考（参见工程parallel-computing），如果以这个角度来进行思考，我们就能够掌握它这样设计的意图，很多问题都变得容易理解。
 
 
 

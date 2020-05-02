@@ -95,6 +95,8 @@
 
 ## Model是一种简化
 
+model是一种简化，现实的问题往往更加复杂，往往需要综合多个model。
+
 ### Run-time environment
 
 [龙书](https://dengking.github.io/compiler-principle/)的[第七章](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/)中所定义的run-time environment是一个简化模型，它忽略了一些细节，比如multi-thread，而仅仅关注于部分内容。在对其进行实现的时候，需要考虑其他的诸多因素，参见工程[Linux-OS](https://dengking.github.io/Linux-OS/)的[Process mode: run time environment](https://dengking.github.io/Linux-OS/Kernel/Guide/Linux-OS's-multitasking/01-Process-mode-run-time-environment/)，其中描述了实现的细节。
