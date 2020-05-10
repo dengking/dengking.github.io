@@ -42,7 +42,7 @@
 
 在Book-Designing-Data-Intensive-Applications中，创造了data system的概念。
 
-
+> If that sounds painfully obvious, that’s just because these data systems are such a successful abstraction: we use them all the time without thinking too much. 
 
 ## Abstraction在各个学科中的应用
 
