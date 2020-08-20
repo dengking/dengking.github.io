@@ -7,3 +7,5 @@ nav:
     - Abstraction-and-virtual: Abstraction-and-virtual.md
     # 当问题越来越复杂，需要考虑的问题越来越多，就需要进行更多的抽象，创造更多的概念，创造更加大的框架
     - Create-larger-concept: Create-larger-concept.md
+    # 如何来描述、定义抽象
+    - Definition-of-abstraction: Definition-of-abstraction.md

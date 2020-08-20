@@ -20,7 +20,7 @@ design pattern中一种典型的思想就是创造更大的抽象，引入更多
 
 ## Generalization of concept
 
-将概念进行推广，发送某些限制，下面是一些例子：
+将概念进行推广，放松某些限制，下面是一些例子：
 
 - [constexpr – Generalized constant expressions](https://en.wikipedia.org/wiki/C++11#constexpr_%E2%80%93_Generalized_constant_expressions)
 
