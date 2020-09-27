@@ -67,5 +67,17 @@
 
 
 
+## 理论 与 实践
 
 
+
+学习: 工程师的学习，应该设计下面的两个层面:
+
+- tips and tricks
+- philosophy and design
+
+这是我在阅读 https://www.linuxjournal.com/article/10688 时，其中提及的:
+
+> Because my column is generally aimed more at tips and tricks and less on philosophy and design, I'm not going to talk much about overall approaches to problem solving.
+
+这其实和我之前一直强调的 理论 与 实践 非常吻合
