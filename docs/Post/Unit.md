@@ -95,3 +95,7 @@ Linux OS kernel的unit of user-defined action是函数。
 
 
 ## [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)中object是交互单位
+
+
+
+## [Protocol data unit](https://en.wikipedia.org/wiki/Protocol_data_unit)
