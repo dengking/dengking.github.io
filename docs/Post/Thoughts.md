@@ -68,11 +68,15 @@ programming language的不断引入新的特性
 
 - [git](https://en.wikipedia.org/wiki/Git)
 
-Draft: 从特性入手来进行分析，特性是目标，思考它是如何实现这个特性的。比如在programming language中: C++宣称它是multiple-paradigm language，在idiom中，我们以C++paradigm为分类标准对它的各种paradigm进行说明；比如在Linux-OS中，我们对Linux OS的multitasking特性进行了深入的分析。
 
 
+### 从特性入手来进行分析
 
+特性其实就是前面小节描述的“意图”，对于系统宣称的特性，思考它是如何实现这个特性的、它的价值、以它作为分类标准。
 
+比如在programming language中: C++宣称它是multiple-paradigm language，在idiom中，我们以C++paradigm为分类标准对它的各种paradigm进行说明；
+
+比如在Linux-OS中，我们对Linux OS的multitasking特性进行了深入的分析；
 
 
 
