@@ -20,13 +20,13 @@
 
 一些常用的角度：
 
-从时空的角度
+从时空的角度（下面描述的“以发展的眼光来看待计算机科学的演进”就是典型的例子）
 
 从哲学的角度（比如[Formalism (philosophy of mathematics)](https://en.wikipedia.org/wiki/Formalism_(philosophy_of_mathematics))）
 
-从设计者的角度来思考：
+从设计者的角度来思考（下面会对它进行展开说明）
 
-从OS的设计者的角度出发来进行思考（参见工程[Linux-OS](https://dengking.github.io/Linux-OS/)）、从programming language的设计者的角度出发来进行思考（参见工程[programming-language](https://dengking.github.io/programming-language/)），从data-system的设计者的角度出发来进行思考（参见工程parallel-computing），如果以这个角度来进行思考，我们就能够掌握它这样设计的意图，很多问题都变得容易理解。
+
 
 
 
@@ -36,6 +36,8 @@
 
 比如：
 
+programming language的不断引入新的特性
+
 从Apache 到 Nginx
 
 从gcc 到 llvm
@@ -44,7 +46,17 @@
 
 
 
-## 意图决定最终的结果
+
+
+## 从设计者的角度来思考
+
+正如在前面的“以发展的眼光来看待计算机科学的演进”中所描述的，作为software engineer，我们需要不断地学习、不断地跟进。如果从设计者的角度来思考来进行思考，我们就能够掌握它这样设计的意图，很多问题都变得容易理解。
+
+从OS的设计者的角度出发来进行思考（参见工程[Linux-OS](https://dengking.github.io/Linux-OS/)）、从programming language的设计者的角度出发来进行思考（参见工程[programming-language](https://dengking.github.io/programming-language/)），从data-system的设计者的角度出发来进行思考（参见工程parallel-computing）。
+
+下面是对“从设计者的角度来思考”的进一步描述：
+
+### 意图决定最终的结果
 
 在阅读[clang](http://clang.llvm.org/)的[Clang vs Other Open Source Compilers](https://clang.llvm.org/comparison.html)时，其中的一段话让我印象深刻：
 
@@ -54,7 +66,15 @@
 
 与此类似的案例还有：
 
-[git](https://en.wikipedia.org/wiki/Git)
+- [git](https://en.wikipedia.org/wiki/Git)
+
+Draft: 从特性入手来进行分析，特性是目标，思考它是如何实现这个特性的。比如在programming language中: C++宣称它是multiple-paradigm language，在idiom中，我们以C++paradigm为分类标准对它的各种paradigm进行说明；比如在Linux-OS中，我们对Linux OS的multitasking特性进行了深入的分析。
+
+
+
+
+
+
 
 ## Internal
 
@@ -69,15 +89,17 @@
 
 ## 理论 与 实践
 
+作为工程师，我们可以将需要学习的知识分为如下两个类比:
 
+| 分类                  |      |            |
+| --------------------- | ---- | ---------- |
+| philosophy and design | 道   | 理论       |
+| tips and tricks       | 术   | 方法、实践 |
 
-学习: 工程师的学习，应该设计下面的两个层面:
-
-- tips and tricks
-- philosophy and design
+这其实对应的是本节标题 理论 与 实践。
 
 这是我在阅读 https://www.linuxjournal.com/article/10688 时，其中提及的:
 
 > Because my column is generally aimed more at tips and tricks and less on philosophy and design, I'm not going to talk much about overall approaches to problem solving.
 
-这其实和我之前一直强调的 理论 与 实践 非常吻合
+道 与 术。
