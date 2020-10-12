@@ -44,37 +44,43 @@
 
 > If that sounds painfully obvious, that’s just because these data systems are such a successful abstraction: we use them all the time without thinking too much. 
 
+### 总结
+
+关于创造抽象概念的例子数不胜数，我们学习的所有concept其实都是抽象的结果。
+
 ## Abstraction在各个学科中的应用
 
-Abstraction是科学的基础，它在各个学科中都有着广泛的应用。
+Abstraction是科学的基础，它在各个学科中都有着广泛的应用，作为software engineer，我们重点关注的是"Abstraction in computer science"。
 
 
 
 ## Abstraction in computer science
 
-Abstraction在computer science中有着深远的影响，本文将开始对此从多个方面进行剖析。
+Abstraction在computer science中有着深远的影响，本节将开始对此从多个方面进行剖析。
 
 维基百科的[Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))总结了计算机科学中的abstraction。虽然维基百科的[Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))对计算机科学中的Abstraction有了不同的描述，但是我觉得计算机科学中的abstraction本质上和前面所述的广义的abstraction是相同的，即创建concept的过程，在computer science，我们需要考虑的是如何来描述concept。
 
 Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
-在[object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)中，使用`class`来描述concept，concept之间的relation就转换为`class`之间的关系了。
+1) 在 [object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming) 中，使用`class`来描述concept，concept之间的relation就转换为`class`之间的关系了。
 
-在[Entity–relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model)，使用`entity`来描述concept。与此相关的概念有：[Relational model](https://en.wikipedia.org/wiki/Relational_model)、[Relational database](https://en.wikipedia.org/wiki/Relational_database)、[Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra)。
+2) 在 [Entity–relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model) 中，使用`entity`来描述concept。与此相关的概念有：[Relational model](https://en.wikipedia.org/wiki/Relational_model)、[Relational database](https://en.wikipedia.org/wiki/Relational_database)、[Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra)。
 
 连接上述两者的就是[Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping)。
 
-[Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)是对 [computer](https://en.wikipedia.org/wiki/Computer) 的抽象，它描述了一个computer的功能，特性等，它使用instruction来描述。
+3) [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)是对 [computer](https://en.wikipedia.org/wiki/Computer) 的抽象，它描述了一个computer的功能，特性等，它使用instruction来描述。
 
 另外一个更加常用的来描述抽象概念的是[interface (computing)](https://en.wikipedia.org/wiki/Interface_(computing))，即接口。
 
-本质上来说，上述**描述方式**都是[语言](../Language/Language.md)。
+本质上来说，上述**描述方式**都是 [语言](../Language/Language.md) 。
 
 ### Abstraction in programming language
 
-纵观[programming language的发展史](https://en.wikipedia.org/wiki/Programming_language#History)，我们发现：语言越来越高级，越来越抽象，越来越易用。最底层的语言：[machine language](https://en.wikipedia.org/wiki/Machine_code) 晦涩难懂，计算机科学的先驱在[machine language](https://en.wikipedia.org/wiki/Machine_code) 的基础上抽象出了 [function](https://en.wikipedia.org/wiki/Subroutine) 概念，又抽象出了 [class](https://en.wikipedia.org/wiki/Class-based_programming) 的概念，创建了非常多 [高级的语言](https://en.wikipedia.org/wiki/High-level_programming_language)，比如C。不管多么高级的语言最终都需要被翻译（compiler或interpreter）为[machine language](https://en.wikipedia.org/wiki/Machine_code)才能够被机器执行，显然这个翻译的过程是与前面的抽象的过程相逆的。
+纵观 [programming language的发展史](https://en.wikipedia.org/wiki/Programming_language#History)，我们发现：语言越来越高级，越来越抽象，越来越易用。最底层的语言：[machine language](https://en.wikipedia.org/wiki/Machine_code) 晦涩难懂，计算机科学的先驱在[machine language](https://en.wikipedia.org/wiki/Machine_code) 的基础上抽象出了 [function](https://en.wikipedia.org/wiki/Subroutine) 概念，又抽象出了 [class](https://en.wikipedia.org/wiki/Class-based_programming) 的概念，创建了非常多 [高级的语言](https://en.wikipedia.org/wiki/High-level_programming_language)，比如C。不管多么高级的语言最终都需要被翻译（compiler或interpreter）为[machine language](https://en.wikipedia.org/wiki/Machine_code)才能够被机器执行，显然这个翻译的过程是与前面的抽象的过程相逆的。
 
 与machine language相比，我们发现高级语言往往伴随着非常多的概念，而且越高级的语言貌似概念越多（这是我的直觉，可能并非如此），当然也越容易使用。与此类似的是，各种library为了简化某个领域的问题， 也创造了各种直观易懂的概念，使得software engineer在解决这类问题时，非常轻松容易，因此获得了software engineer的喜爱。
+
+> TODO: 底层的programming language，由于它们是面向hardware，无法描述抽象的概念，这就限制了language的express power
 
 从这个发展史我们能够看到抽象所带来的巨大优势：
 
@@ -84,7 +90,7 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 
 
-参见: [Rationale](https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Rationale)
+参见: [Abstraction(computer science)#Rationale](https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Rationale)
 
 > A central form of abstraction in computing is language abstraction: new artificial languages are developed to express specific aspects of a system. *[Modeling languages](https://en.wikipedia.org/wiki/Modeling_languages)* help in planning. *[Computer languages](https://en.wikipedia.org/wiki/Computer_language)* can be processed with a computer. An example of this abstraction process is the generational development of [programming languages](https://en.wikipedia.org/wiki/Programming_language) from the [machine language](https://en.wikipedia.org/wiki/First-generation_programming_language) to the [assembly language](https://en.wikipedia.org/wiki/Second-generation_programming_language) and the [high-level language](https://en.wikipedia.org/wiki/Third-generation_programming_language). Each stage can be used as a stepping stone for the next stage. The language abstraction continues for example in [scripting languages](https://en.wikipedia.org/wiki/Scripting_language) and [domain-specific programming languages](https://en.wikipedia.org/wiki/Domain-specific_programming_language).
 
@@ -161,9 +167,9 @@ class ThreadTask:
 
 参见：工程[programming-language](https://dengking.github.io/programming-language)的文章[Introduction to Objects](https://dengking.github.io/programming-language/Theory/Programming-paradigm/Object-oriented-programming/Thinking-in-java/Introduction-to-objects)
 
-### 抽象与实现
+### 抽象与具体
 
-既然有抽象，肯定需要有对应的实现，比如compiler就需要使用instruction来实现programming language中的各种抽象，参见龙书 [Chapter 7 Run-Time Environments](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/)。
+既然有抽象，肯定需要有对应的具体的实现，比如compiler就需要使用instruction来实现programming language中的各种抽象，参见龙书 [Chapter 7 Run-Time Environments](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/)。
 
 #### 一种抽象，可能有多种实现。
 

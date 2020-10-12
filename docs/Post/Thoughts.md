@@ -20,11 +20,30 @@
 
 一些常用的角度：
 
-从时空的角度（下面描述的“以发展的眼光来看待计算机科学的演进”就是典型的例子）
+1) 从时空的角度
 
-从哲学的角度（比如[Formalism (philosophy of mathematics)](https://en.wikipedia.org/wiki/Formalism_(philosophy_of_mathematics))）
+Application 1: "以发展的眼光来看待计算机科学的演进"
 
-从设计者的角度来思考（下面会对它进行展开说明）
+下面描述的"以发展的眼光来看待计算机科学的演进"就是典型的例子。
+
+Application 2: lifetime
+
+使用lifetime能够让以全面、鸟瞰的角度来分析研究对象，下面是一些例子: 
+
+|                     | 章节                                                         |
+| ------------------- | ------------------------------------------------------------ |
+| lifetime of object  | 工程programming-language的`C++\Language-reference\Basic-concept\Object\Lifetime-and-storage-duration\Lifetime.md` |
+| lifetime of process | 工程Linux-OS的`Kernel\Guide\Multitasking\Process-model`章节  |
+
+
+
+2) 从哲学的角度
+
+在下面的"理论 与 实践"章节中，提出了philosophy and design，它是我们分析问题的一个非常好的视角，比如[Formalism (philosophy of mathematics)](https://en.wikipedia.org/wiki/Formalism_(philosophy_of_mathematics)) 。
+
+3) 从设计者的角度来思考
+
+下面的"从设计者的角度来思考"会对它进行展开说明。
 
 
 
