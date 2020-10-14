@@ -94,15 +94,13 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 本质上来说，上述**描述方式**都是 [语言](../Language/Language.md) 。
 
-
+> NOTE: 以abstraction来作为切入点描述abstraction在各个工程中的应用。
 
 ### Abstraction in software design
 
 参见工程software-engineering的`Software-design\Principle\Abstraction`章节。
 
 
-
-### Abstraction in programming language
 
 ### Abstraction in programming language
 
