@@ -38,7 +38,11 @@
 
 在[Computer multitasking](https://en.wikipedia.org/wiki/Computer_multitasking)中创造了task概念，它表示的是computer能够并发执行的，它可以是process也可以是thread，具体是什么则由具体的实现而定。
 
-### Data system
+### Book-Designing-Data-Intensive-Applications
+
+在这本书中，作者反复强调、说明、使用abstraction，可以说，其中对abstraction使用涵盖了所有我们需要掌握的abstraction思想。下面是一个简单的例子，在工程`Parallel-computing`的`Distributed-computing\Theory\Abstraction\Abstraction-in-distributed-computing.md`进行了详细的总结。
+
+#### Data system
 
 在Book-Designing-Data-Intensive-Applications的"CHAPTER 1Reliable, Scalable, and Maintainable Applications"中，创造了data system的概念。
 
