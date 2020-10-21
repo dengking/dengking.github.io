@@ -26,8 +26,3 @@ design pattern中一种典型的思想就是创造更大的抽象，引入更多
 
 
 
-## Everything is an object and everything is a file
-
-在python中，有着everything in python is an object，显然，object是最大的抽象，是最最顶级的抽象。
-
-在linux中，有着everything is a file，显然file是最大的抽象，是最最顶级的抽象。
