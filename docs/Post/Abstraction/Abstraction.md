@@ -128,6 +128,8 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 参见工程`Parallel-computing`的`Distributed-computing\Theory\Abstraction`章节。
 
+
+
 ### Conceptual model
 
 参见[Abstraction-and-model](./Abstraction-and-model.md)。
@@ -149,6 +151,8 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 ### 由抽象到具体
 
+
+
 #### Example
 
 既然有抽象，肯定需要有对应的具体的实现，比如compiler就需要使用instruction来实现programming language中的各种抽象，参见龙书 [Chapter 7 Run-Time Environments](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/)。
@@ -160,6 +164,8 @@ TODO:
 [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)也可以作为此的一个例子。
 
 [Abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type)也可以作为此的一个例子，参见[Data abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Data_abstraction)。
+
+
 
 ### 参见
 
