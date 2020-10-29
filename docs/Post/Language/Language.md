@@ -1,6 +1,6 @@
 # Language and program
 
-[Language](https://en.wikipedia.org/wiki/Language)是我们与生俱来的天赋，我们使用language可以**描述**（**describes**）世间万物，或者说，语言的功能就是来进行**描述**的：
+[Language](https://en.wikipedia.org/wiki/Language)是我们与生俱来的天赋，我们使用language进行**描述**（**describes**）世间万物，或者说，语言的功能就是来进行**描述**的：
 
 - 使用语言描述[definition](https://en.wikipedia.org/wiki/Definition)
 - 使用语言来描述[算法](https://en.wikipedia.org/wiki/Algorithm)
@@ -52,7 +52,7 @@
 
 ## 语言的结构
 
-在[语言学](https://en.wikipedia.org/wiki/Linguistics)中，使用[**grammar**](https://en.wikipedia.org/wiki/Grammar)来描述语言的结构，关于此，参见[**automata-and-formal-language**](https://dengking.github.io/automata-and-formal-language)的[Language and grammar](https://dengking.github.io/automata-and-formal-language/Formal-language/Language-and-grammar/#language_and_grammar)文章。
+在[语言学](https://en.wikipedia.org/wiki/Linguistics)中，使用[**grammar**](https://en.wikipedia.org/wiki/Grammar)来描述语言的结构，关于此，参见 [**automata-and-formal-language**](https://dengking.github.io/automata-and-formal-language) 的 [Language and grammar](https://dengking.github.io/automata-and-formal-language/Formal-language/Language-and-grammar/#language_and_grammar) 文章。
 
 ## 语言的expressive power
 
@@ -76,6 +76,16 @@
 拥有这样的认知对于软件工程师尤其重要，正如在本文开头做说的：
 
 > 我们所做的很多工作，就是将人们使用[natural language](https://en.wikipedia.org/wiki/Natural_language)、[language of mathematics](https://en.wikipedia.org/wiki/Language_of_mathematics)等语言的描述，转换为[programming language](https://en.wikipedia.org/wiki/Programming_language)的描述
+
+
+
+如何来进行描述？
+
+在不同领域，有着适合于该领域问题的问题的描述方式，这就是所谓的programming model。
+
+结构化表示，可以认为是计算机语言，这种描述方式， 是能够进行计算的 。
+
+
 
 
 
