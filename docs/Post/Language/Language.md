@@ -67,7 +67,11 @@
 
 
 
-## 使用不同的学科的语言来进行描述
+## 如何来进行描述？
+
+
+
+### 使用不同的学科的语言来进行描述
 
 通过前面的内容，我们应该已经对语言有了更加宽泛的认识了。不同的学科创建了各自的理论体系（创建了概念、规则等），这就形成了该学科的特有的**语言**，这就形成了对于同一个事物，各个学科都可以使用自己的语言来对它进行描述，这就好比对于“苹果”，中文、英文、法文有着各自的描述方式。
 
@@ -79,13 +83,31 @@
 
 
 
-如何来进行描述？
+**Example: 使用不同的描述语言来描述MLP:**
 
-在不同领域，有着适合于该领域问题的问题的描述方式，这就是所谓的programming model。
+典型的例子就是对于MLP，对于同一个结构，可以使用不同的语言来进行描述。可以使用**graph**、**math expression**来进行描述，在文章 zhihu [如何直观地解释 backpropagation 算法？ - Anonymous的回答 - 知乎](https://www.zhihu.com/question/27239198/answer/89853077 ) 中有如下描述：
 
-结构化表示，可以认为是计算机语言，这种描述方式， 是能够进行计算的 。
+> 多层神经网络本质上是一个多层复合函数，数学是一门简洁但是含义丰富的原因，简单的公式，但是能够表达强大的结构
 
 
+
+### Programming model and programming paradigm
+
+在不同领域，有着适合于该领域问题的问题的描述方式，这就是所谓的programming model、programming paradigm。
+
+关于programming model，参见工程programming-language的`Theory\Programming-model`章节。
+
+关于programming paradigm，参见工程programming-language的`Theory\Programming-paradigm`章节。
+
+### 结构化表示
+
+结构化表示，可以认为是计算机语言，这种描述方式， 是便于进行计算的，关于**结构化表示**，参见工程discrete的`Relation-structure-computation\Representation-and-computation`章节。
+
+
+
+### 使用更加抽象的语言
+
+典型的例子就是C++ iterator、C++ range。iterator是一种非常强大的抽象的描述方式，可以抽象地描述container、stream。
 
 
 
