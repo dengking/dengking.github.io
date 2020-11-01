@@ -10,7 +10,8 @@
 
 - 我们日常交流使用[natural language](https://en.wikipedia.org/wiki/Natural_language)，比如Chinese、English
 - [Formal language](https://en.wikipedia.org/wiki/Formal_language)，比如[programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Language of mathematics](https://en.wikipedia.org/wiki/Language_of_mathematics)
+- [Language of mathematics](https://en.wikipedia.org/wiki/Language_of_mathematics) 
+- .......
 
 作为software engineer，我们幸运地已经使用了上面枚举的三种语言。
 
@@ -40,7 +41,7 @@
 
 让我们沿着这个思路进一步进行推广就得到本小节的标题所描述的问题：“一切“描述”都是语言？”，这个问题我无法给出答案，以我目前的认知水平，我觉得是的。
 
-关于这个问题，在我的工程[automata-and-formal-language](https://dengking.github.io/automata-and-formal-language)的文章[如何来进行描述？](https://dengking.github.io/automata-and-formal-language/Formal-language/Description-and-language/)中对此也进行了讨论。
+关于这个问题，在我的工程[Language](https://dengking.github.io/Language)的中对此也进行了讨论。
 
 
 
