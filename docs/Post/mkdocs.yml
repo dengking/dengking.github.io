@@ -17,3 +17,4 @@ nav:
     # 计算机科学中一些概念的等级
     - Level: Level.md
     - Glossary: Glossary.md
+    - Knowledge-base: Knowledge-base.md
