@@ -132,9 +132,7 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 ### Conceptual model
 
-参见[Abstraction-and-model](./Abstraction-and-model.md)。
-
-
+参见文章 [Abstraction-and-model](./Abstraction-and-model.md)。
 
 
 
@@ -147,7 +145,7 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 |              | 简介                                                         |
 | ------------ | ------------------------------------------------------------ |
 | 由具体到抽象 | 设计、理论研究过程中: 从各类案例、问题中进行抽象，创造概念，形成理论 |
-| 由抽象到具体 | 应用过程中: 将抽象概念，应用于实际                           |
+| 由抽象到具体 | 应用过程中: 将抽象概念/理论，应用于实际                      |
 
 ### 由抽象到具体
 
@@ -157,16 +155,21 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 既然有抽象，肯定需要有对应的具体的实现，比如compiler就需要使用instruction来实现programming language中的各种抽象，参见龙书 [Chapter 7 Run-Time Environments](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/)。
 
-#### 一种抽象，可能有多种实现
 
-TODO:
 
-[Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)也可以作为此的一个例子。
+### 一个抽象可能有多个实现/一个抽象对应多个具体
 
-[Abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type)也可以作为此的一个例子，参见[Data abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Data_abstraction)。
+这就是典型的one-to-many(一对多)关系。
+
+
 
 
 
 ### 参见
 
-[Abstract and concrete](https://en.wikipedia.org/wiki/Abstract_and_concrete)。
+[Abstract and concrete](https://en.wikipedia.org/wiki/Abstract_and_concrete)
+
+[Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)也可以作为此的一个例子。
+
+[Abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type)也可以作为此的一个例子，参见[Data abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Data_abstraction)。
+
