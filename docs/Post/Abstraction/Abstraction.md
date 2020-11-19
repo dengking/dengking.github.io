@@ -167,7 +167,7 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 ### 参见
 
-[Abstract and concrete](https://en.wikipedia.org/wiki/Abstract_and_concrete)
+wikipedia [Abstract and concrete](https://en.wikipedia.org/wiki/Abstract_and_concrete)
 
 [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)也可以作为此的一个例子。
 
