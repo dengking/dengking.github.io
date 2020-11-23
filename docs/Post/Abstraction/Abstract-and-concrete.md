@@ -52,7 +52,7 @@
 
 > NOTE: dispatch的需求促进了polymorphism的诞生；
 
-"polymorphism"的"dispatch to concrete automatically"特性，能够大大提升开发效率，是现代programming language的核心，关于此参见工程programming-language的`Theory\Programming-paradigm\Abstraction-and-polymorphism`章节；
+"polymorphism"是属于"dispatch to concrete/implementation automatically"，它的这个特性，能够大大提升开发效率，是现代programming language的核心，关于此参见工程programming-language的`Theory\Programming-paradigm\Abstraction-and-polymorphism`章节；
 
 
 
