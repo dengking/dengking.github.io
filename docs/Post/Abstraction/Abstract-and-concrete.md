@@ -30,23 +30,31 @@
 
 
 
-## 实现抽象模型
+## 实现抽象模型/conceptual model
 
-作为software engineer，我们需要思考: 如何来**实现**通过设计/思考而创造的**抽象模型**。这是computer science中的核心问题；
+作为software engineer，我们需要思考: 如何来**实现**通过设计/思考而创造的**抽象模型/conceptual model**。这是computer science中的核心问题；
 
 
 
 ### 一个抽象对应多个具体/一个抽象(abstract)可以有多个实现(implementation)
 
-这就是典型的one-to-many(一对多)关系，我们将由abstract到concrete/implementation的过程称为**dispatch**。
+抽象缘于具体，因此一个抽象可以有多个concrete/implementation；这就是典型的one-to-many(一对多)关系。
 
+#### Dispatch
 
+我们将从abstract到concrete/implementation的过程称为**dispatch**，下面的对它的一种简单的分类: 
 
-#### Polymorphism: dispatch to concrete automatically
+1) dispatch to **concrete/implementation** automatically
 
-> NOTE: dispatch促进了polymorphism的诞生；
+2) dispatch to **concrete/implementation** manually
+
+#### Polymorphism: dispatch to concrete/implementation automatically
+
+> NOTE: dispatch的需求促进了polymorphism的诞生；
 
 "polymorphism"的"dispatch to concrete automatically"特性，能够大大提升开发效率，是现代programming language的核心，关于此参见工程programming-language的`Theory\Programming-paradigm\Abstraction-and-polymorphism`章节；
+
+
 
 ### Examples
 

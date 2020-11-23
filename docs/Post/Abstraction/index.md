@@ -6,7 +6,7 @@
 
 ## What is abstraction? 
 
-> NOTE: 其实我们每天都在进行着抽象，但是如果问: 什么是抽象？很多人都会陷入"可意会而难言传"的境地；
+> NOTE: 其实我们每天都在进行着抽象，但是如果问: 什么是抽象？很多人都会陷入"可意会而难言传"的境地，本节就是对回答这个问题的尝试。
 
 维基百科[Abstraction](https://en.wikipedia.org/wiki/Abstraction)给出了Abstraction的大量描述，有些是比较难以理解，下面是我认为其中比较好的描述：
 
