@@ -92,9 +92,7 @@
 
 ### 创造更大的抽象
 
-在编写各个工程的内容过程中，有如下感悟: 要将computer science中的内容组织起来，需要不断地创造更加抽象的概念，来容纳更多的知识；
-
-
+参见: [Create-larger-concept](./Create-larger-concept.md)。
 
 ### 总结
 
