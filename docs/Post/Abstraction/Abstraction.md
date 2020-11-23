@@ -146,13 +146,16 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 Interface即接口，常被用来描述抽象概念，参见:
 
-- wikipedia [interface (computing)](https://en.wikipedia.org/wiki/Interface_(computing))
+- wikipedia [interface (computing)](https://en.wikipedia.org/wiki/Interface_(computing)) 
+- 工程programming-language的`Theory\Programming-paradigm\Abstraction-and-polymorphism\Program-to-abstraction`章节；
 
 
 
 本质上来说，上述**描述方式**都是 [语言](../Language/Language.md) 。
 
-> NOTE: 以abstraction来作为切入点描述abstraction在各个工程中的应用。
+
+
+> NOTE: 下面以abstraction来作为切入点描述abstraction在各个工程中的应用。
 
 
 

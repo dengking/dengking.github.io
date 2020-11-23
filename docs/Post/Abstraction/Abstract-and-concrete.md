@@ -38,7 +38,10 @@
 
 ### 一个抽象对应多个具体/一个抽象(abstract)可以有多个实现(implementation)
 
-抽象缘于具体，因此一个抽象可以有多个concrete/implementation；这就是典型的one-to-many(一对多)关系。
+抽象缘于具体，因此一个抽象可以有多个concrete/implementation；这就是典型的one-to-many(一对多)关系:
+
+- **One/single**: abstraction
+- **Many**: concrete/implementation
 
 #### Dispatch
 

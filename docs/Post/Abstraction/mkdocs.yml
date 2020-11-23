@@ -1,9 +1,11 @@
 nav:
-    - Abstraction: index.md
+    - Abstraction: Abstraction.md
+    # 介绍conceptual model
     - Abstraction-and-model: Abstraction-and-model.md
+    # 会讨论conceptual model的实现
     - Abstract-and-concrete: Abstract-and-concrete.md
-    - Abstraction-and-relation: Abstraction-and-relation.md
     - Abstraction-and-virtual: Abstraction-and-virtual.md
     # 当问题越来越复杂，需要考虑的问题越来越多，就需要进行更多的抽象，创造更多的概念，创造更加大的框架
     - Create-larger-concept: Create-larger-concept.md
+    - Abstraction-principle: Abstraction-principle.md
     

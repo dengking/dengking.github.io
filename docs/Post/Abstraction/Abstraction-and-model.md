@@ -1,6 +1,10 @@
 # Abstraction and model
 
-本文讨论abstraction(抽象) 和 model(建模)，作为software engineer，我们需要解决现实世界中的各种问题，这个过程其实是: abstraction(抽象) 并 model(建模)的过程；作为software engineer，我们会使用programming language来实现/描述model，最后将此model应用于实际，从而使实际问题得解；按照Wikipedia中的说法，这里本段所述的model是[Conceptual model](https://en.wikipedia.org/wiki/Conceptual_model)，下面是我的总结:
+本文讨论abstraction(抽象) 和 model(建模)，作为software engineer，我们需要解决现实世界中的各种问题，这个过程其实是: abstraction(抽象) 并 model(建模)，然后使用programming language来实现/描述model，最后将此model应用于实际，从而使实际问题得解；
+
+> NOTE: 关于model的实现，在[Abstract-and-concrete](./Abstract-and-concrete.md) 中进行了讨论。
+
+按照Wikipedia中的说法，这里本段所述的model是[Conceptual model](https://en.wikipedia.org/wiki/Conceptual_model)，下面是我的总结:
 
 [Conceptual model](https://en.wikipedia.org/wiki/Conceptual_model) 是对concept（通过abstraction创建的）和其relation的描述（其实它本身就是一个抽象的过程），它是对原理的描述，它没有达到实现层面，它指导着实现。在计算机科学的各个领域，有着非常多著名的[conceptual model](https://en.wikipedia.org/wiki/Conceptual_model)。其实我们可以回顾学习生涯，教材往往是先从理论模型（其实就是概念模型）开始讲起，后面再来讲述实现，因为理论模型剔除了很多细节，而抽象出来最最本质的内容，易于理解，也就是[Conceptual model](https://en.wikipedia.org/wiki/Conceptual_model)使我们能够更加轻松地 [understand](https://en.wikipedia.org/wiki/Understanding)。
 
