@@ -1,5 +1,6 @@
 nav:
-    - Abstraction: Abstraction.md
+    - Abstraction: index.md
+    - Abstract-and-concrete: Abstract-and-concrete.md
     - Abstraction-and-architecture: Abstraction-and-architecture.md
     - Abstraction-and-architecture-and-layer: Abstraction-and-architecture-and-layer.md
     - Abstraction-and-model: Abstraction-and-model.md

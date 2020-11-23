@@ -2,15 +2,21 @@
 
 > 注意：本文所讨论的[Abstraction](https://en.wikipedia.org/wiki/Abstraction)是广义的，而不仅仅局限于[Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))。
 
+
+
+## What is abstraction? 
+
+> NOTE: 其实我们每天都在进行着抽象，但是如果问: 什么是抽象？很多人都会陷入"可意会而难言传"的境地；
+
 维基百科[Abstraction](https://en.wikipedia.org/wiki/Abstraction)给出了Abstraction的大量描述，有些是比较难以理解，下面是我认为其中比较好的描述：
 
 > **Abstraction** in its main sense is a conceptual process where general [rules](https://en.wikipedia.org/wiki/Rule_of_inference) and [concepts](https://en.wikipedia.org/wiki/Concept) are derived from the usage and classification of specific examples, literal ("real" or "[concrete](https://en.wikipedia.org/wiki/Abstract_and_concrete)") signifiers, [first principles](https://en.wikipedia.org/wiki/First_principle), or other methods.
 
-这段话的简单来说是：抽象是创建 [concepts](https://en.wikipedia.org/wiki/Concept) 和  [rules](https://en.wikipedia.org/wiki/Rule_of_inference) 的过程，那何为concept呢？这个问题是比较“抽象”的，难以进行准确描述的，后面的 [创造抽象概念](#创造抽象概念) 章节会结合具体案例来进行说明。
+这段话的简单来说是：抽象是 从"specific example"中，创建 [concepts](https://en.wikipedia.org/wiki/Concept) 和 general [rules](https://en.wikipedia.org/wiki/Rule_of_inference) 的过程。那何为concept呢？这个问题是比较“抽象”的，难以进行准确描述的，后面的 [创造抽象概念](#创造抽象概念) 章节会结合具体案例来进行说明。
 
 > "An abstraction" is the outcome of this process—a concept that acts as a common noun for all subordinate（从属） concepts, and connects any related concepts as a *group*, *field*, or *category*.
 
-这段话的意思和上面的意思类似，在[创造抽象概念](#创造抽象概念)章节，会结合具体实例对这段话所表述的意思进行详细分析。
+这段话的意思和上面的意思类似，在 [创造抽象概念](#创造抽象概念) 章节，会结合具体实例对这段话所表述的意思进行详细分析。
 
 > Conceptual abstractions may be formed by filtering the [information](https://en.wikipedia.org/wiki/Information) content of a [concept](https://en.wikipedia.org/wiki/Concept) or an observable [phenomenon](https://en.wikipedia.org/wiki/Phenomenon), selecting only the aspects which are relevant for a particular subjectively valued purpose. 
 
@@ -18,7 +24,7 @@
 >
 > – John V. Guttag
 
-抽象是概括的过程，抽象是提取公共特征的过程，它所概括的、所提取的公共特征，可以使用 [concepts](https://en.wikipedia.org/wiki/Concept) 来进行表示，当然也有其它的表示方式。
+抽象是概括的过程，抽象是提取公共特征的过程，它所概括的、所提取的公共特征，可以使用 [concepts](https://en.wikipedia.org/wiki/Concept) 来进行表示(representation)，当然也有其它的表示方式。
 
 
 
@@ -80,6 +86,22 @@
 
 关于创造抽象概念的例子数不胜数，我们学习的所有concept其实都是抽象的结果。
 
+
+
+## Conceptual/abstraction/theory model
+
+> NOTE: 本节标题的含义是: 概念模型、抽象模型、理论模型
+
+参见文章 [Abstraction-and-model](./Abstraction-and-model.md)。
+
+
+
+## Abstract and concrete
+
+与abstract相对的是concrete，两者是**互相依存**的关系，存在着**转换**过程，在解决一个问题时，往往是**双向**的，这个话题在文章 [Abstract-and-concrete](./Abstract-and-concrete.md) 中进行讨论。
+
+
+
 ## Abstraction在各个学科中的应用
 
 Abstraction是科学的基础，它在各个学科中都有着广泛的应用，作为software engineer，我们重点关注的是"Abstraction in computer science"。
@@ -91,6 +113,8 @@ Abstraction是科学的基础，它在各个学科中都有着广泛的应用，
 Abstraction在computer science中有着深远的影响，本节将开始对此从多个方面进行剖析。
 
 维基百科的[Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))总结了计算机科学中的abstraction。虽然维基百科的[Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))对计算机科学中的Abstraction有了不同的描述，但是我觉得计算机科学中的abstraction本质上和前面所述的广义的abstraction是相同的，即**创建concept的过程**。
+
+
 
 ### 描述抽象概念的语言
 
@@ -112,6 +136,8 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 > NOTE: 以abstraction来作为切入点描述abstraction在各个工程中的应用。
 
+
+
 ### Abstraction in software design
 
 参见工程software-engineering的`Software-design\Principle\Abstraction`章节。
@@ -129,47 +155,4 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 参见工程`Parallel-computing`的`Distributed-computing\Theory\Abstraction`章节。
 
 
-
-### Conceptual model
-
-参见文章 [Abstraction-and-model](./Abstraction-and-model.md)。
-
-
-
-## 抽象与具体
-
-与抽象相对的是具体，两者是互相依存的关系，存在着转换过程，因此往往是解决一个问题，往往是双向的。
-
-### 双向
-
-|              | 简介                                                         |
-| ------------ | ------------------------------------------------------------ |
-| 由具体到抽象 | 设计、理论研究过程中: 从各类案例、问题中进行抽象，创造概念，形成理论 |
-| 由抽象到具体 | 应用过程中: 将抽象概念/理论，应用于实际                      |
-
-### 由抽象到具体
-
-
-
-#### Example
-
-既然有抽象，肯定需要有对应的具体的实现，比如compiler就需要使用instruction来实现programming language中的各种抽象，参见龙书 [Chapter 7 Run-Time Environments](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/)。
-
-
-
-### 一个抽象可能有多个实现/一个抽象对应多个具体
-
-这就是典型的one-to-many(一对多)关系。
-
-
-
-
-
-### 参见
-
-wikipedia [Abstract and concrete](https://en.wikipedia.org/wiki/Abstract_and_concrete)
-
-[Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)也可以作为此的一个例子。
-
-[Abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type)也可以作为此的一个例子，参见[Data abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Data_abstraction)。
 
