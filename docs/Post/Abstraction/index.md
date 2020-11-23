@@ -44,9 +44,13 @@
 
 在[Computer multitasking](https://en.wikipedia.org/wiki/Computer_multitasking)中创造了task概念，它表示的是computer能够并发执行的，它可以是process也可以是thread，具体是什么则由具体的实现而定。
 
+
+
 ### Book-Designing-Data-Intensive-Applications
 
 在这本书中，作者反复强调了abstraction，可以说，其中对abstraction使用涵盖了所有我们需要掌握的abstraction思想。下面是一个简单的例子，在工程`Parallel-computing`的`Distributed-computing\Theory\Abstraction\Abstraction-in-distributed-computing.md`进行了详细的总结。
+
+
 
 #### Data system
 
@@ -76,11 +80,21 @@
 | iterator    | STL中的iterator | 工程programming language的`C-family-language\C++\Library\Standard-library\STL\Iterator-library` |
 | object      | OOP             | 工程programming language的`Theory\Programming-paradigm\Object-oriented-programming`章节 |
 
+
+
 ### Everything is an object and everything is a file
 
 在python中，有着everything in python is an object，显然，object是最大的抽象，是最最顶级的抽象。
 
 在linux中，有着everything is a file，显然file是最大的抽象，是最最顶级的抽象。
+
+
+
+### 创造更大的抽象
+
+在编写各个工程的内容过程中，有如下感悟: 要将computer science中的内容组织起来，需要不断地创造更加抽象的概念，来容纳更多的知识；
+
+
 
 ### 总结
 
@@ -130,7 +144,13 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 3) [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)是对 [computer](https://en.wikipedia.org/wiki/Computer) 的抽象，它描述了一个computer的功能，特性等，它使用instruction来描述。
 
-另外一个更加常用的来描述抽象概念的是[interface (computing)](https://en.wikipedia.org/wiki/Interface_(computing))，即接口。
+4) Interface
+
+Interface即接口，常被用来描述抽象概念，参见:
+
+- wikipedia [interface (computing)](https://en.wikipedia.org/wiki/Interface_(computing))
+
+
 
 本质上来说，上述**描述方式**都是 [语言](../Language/Language.md) 。
 
@@ -146,9 +166,11 @@ Concept在计算机科学的不同领域有着不同的描述方式，比如：
 
 ### Abstraction in programming language
 
-参见工程programming-language的`Theory\Programming-paradigm\Abstraction`章节。
+参见:
 
+1) 工程programming-language的`Theory\Programming-paradigm\Abstraction-and-polymorphism`章节
 
+2) 工程programming-language的`Theory\Programming-language\Design-of-programming-language`
 
 ### Abstraction in distributed computing
 

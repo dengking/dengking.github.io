@@ -1,27 +1,74 @@
 # Abstract(抽象) and concrete(具体)
 
-与abstract相对的是concrete，两者是**互相依存**的关系，存在着**转换**过程，在解决一个问题时，往往是**双向**的。
-
-### 双向
-
-|              | 简介                                                         |
-| ------------ | ------------------------------------------------------------ |
-| 由具体到抽象 | 设计、理论研究过程中: 从具体的案例案例、问题中进行抽象，创造概念，形成理论，这个过程就是前面描述的"创造抽象概念" |
-| 由抽象到具体 | 应用过程中: 将抽象概念/理论，应用于实际                      |
 
 
+## 双向
 
-### 一个抽象可能有多个实现/一个抽象对应多个具体
+与abstract相对的是concrete，两者是**互相依存**的关系，存在着**转换**过程，在解决一个问题时，往往是**双向**的:
 
-这就是典型的one-to-many(一对多)关系。
+1) 由具体到抽象
+
+2) 由抽象到具体
+
+
+
+### 由具体到抽象
+
+设计、理论研究过程中: 从具体的案例案例、问题中进行抽象，创造概念，形成理论，这个过程就是前面章节描述的"抽象"，在"创造抽象概念"章节中给出了具体的案例；本文不对此进行展开。
+
+
 
 ### 由抽象到具体
 
+下面过程涉及由抽象到具体:
+
+1) 实现抽象模型
+
+2) 应用过程: 其实就是将**抽象模型**应用于实际的过程，这个过程会不断地将具体的案例输入到**抽象模型**中；
+
+> NOTE: 关于**抽象模型**，参见[Abstraction-and-model](./Abstraction-and-model.md)。
 
 
-#### Example
 
-既然有抽象，肯定需要有对应的具体的实现，比如compiler就需要使用instruction来实现programming language中的各种抽象，参见龙书 [Chapter 7 Run-Time Environments](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/)。
+## 实现抽象模型
+
+作为software engineer，我们需要思考: 如何来**实现**通过设计/思考而创造的**抽象模型**。这是computer science中的核心问题；
+
+
+
+### 一个抽象对应多个具体/一个抽象(abstract)可以有多个实现(implementation)
+
+这就是典型的one-to-many(一对多)关系，我们将由abstract到concrete/implementation的过程称为**dispatch**。
+
+
+
+#### Polymorphism: dispatch to concrete automatically
+
+> NOTE: dispatch促进了polymorphism的诞生；
+
+"polymorphism"的"dispatch to concrete automatically"特性，能够大大提升开发效率，是现代programming language的核心，关于此参见工程programming-language的`Theory\Programming-paradigm\Abstraction-and-polymorphism`章节；
+
+### Examples
+
+#### 一种programming language(abstraction)可以有多种实现
+
+对于能够cross-plateform的programming language，designer往往是design to abstraction: abstract machine；不同plateform，按照programming language的标准，使用compiler/interpreter来实现programming language中的各种抽象，关于此参见
+
+1) 龙书 [Chapter 7 Run-Time Environments](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/)
+
+2) 工程programming language的 `Theory\Programming-language\Design-of-programming-language` 章节
+
+
+
+#### 一个Interface(abstraction)有着多种不同的implementation(concrete)；
+
+> TODO: 只能怪描述computer science中的非常多的问题，因为很多都可以看做是interface。
+>
+> 
+>
+> 需要添加interface的一些案例
+
+
 
 
 
