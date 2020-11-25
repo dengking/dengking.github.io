@@ -28,11 +28,19 @@
 
 ### 优势
 
-#### 隐藏细节
+#### 隐藏细节，以 generic 的方式来 model
 
 这是我想到在Book 《Designing-Data-Intensive-Applications》中提出的观点而联想到的OOP中其实有类似的描述，显然，这是abstraction的一个优势。
 
 在OOP中，将此成为encapsulation。
+
+下面是一些素材:
+
+`std::declval`
+
+trait
+
+
 
 #### 解耦
 
@@ -42,3 +50,4 @@
 
 内部实现可以灵活调整，上层无需变动；
 
+其实这是 **隐藏细节** 所带来的。
