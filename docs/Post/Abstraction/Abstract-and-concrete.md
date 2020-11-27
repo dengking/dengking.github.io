@@ -43,15 +43,21 @@
 - **One/single**: abstraction
 - **Many**: concrete/implementation
 
-#### Dispatch
+### Dispatch
 
 我们将从abstract到concrete/implementation的过程称为**dispatch**，下面是对它的含义一些解读: 
 
 1) 匹配: 为abstract**匹配**最合适的concrete/implementation
 
-2) 路由: 路由到最合适的concrete/implementation
+2) 路由: **路由**到最合适的concrete/implementation
 
+3) 选择: 选择最合适的concrete/implementation
 
+在wikipedia [Static dispatch](https://en.wikipedia.org/wiki/Static_dispatch) 中有如下描述:
+
+> It is a form of *method dispatch,* which describes how a language or environment will select which implementation of a method or function to use.
+
+#### Classification
 
 下面的对它的一种简单的分类: 
 
@@ -63,7 +69,9 @@
 
 手动进行dispatch
 
-#### Polymorphism: dispatch to concrete/implementation automatically
+
+
+### Polymorphism: dispatch to concrete/implementation automatically
 
 > NOTE: dispatch的需求促进了polymorphism的诞生；
 
