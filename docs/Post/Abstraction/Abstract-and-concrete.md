@@ -36,7 +36,7 @@
 
 
 
-### 一个抽象对应多个具体/一个抽象(abstract)可以有多个实现(implementation)
+### 一个抽象对应多个具体(concrete)/一个抽象(abstract)可以有多个实现(implementation)
 
 抽象缘于具体，因此一个抽象可以有多个concrete/implementation；这就是典型的one-to-many(一对多)关系:
 
@@ -45,11 +45,23 @@
 
 #### Dispatch
 
-我们将从abstract到concrete/implementation的过程称为**dispatch**，下面的对它的一种简单的分类: 
+我们将从abstract到concrete/implementation的过程称为**dispatch**，下面是对它的含义一些解读: 
 
-1) dispatch to **concrete/implementation** automatically
+1) 匹配: 为abstract**匹配**最合适的concrete/implementation
 
-2) dispatch to **concrete/implementation** manually
+2) 路由: 路由到最合适的concrete/implementation
+
+
+
+下面的对它的一种简单的分类: 
+
+1) dispatch to **concrete/implementation** **automatically**
+
+自动进行dispatch
+
+2) dispatch to **concrete/implementation** **manually**
+
+手动进行dispatch
 
 #### Polymorphism: dispatch to concrete/implementation automatically
 
@@ -73,9 +85,7 @@
 
 #### 一个Interface(abstraction)有着多种不同的implementation(concrete)；
 
-> TODO: 只能怪描述computer science中的非常多的问题，因为很多都可以看做是interface。
->
-> 
+> TODO: 这能够描述computer science中的非常多的问题，因为很多都可以看做是interface。
 >
 > 需要添加interface的一些案例
 
