@@ -55,6 +55,12 @@
 
 > Multiple dispatch **routes** the dynamic dispatch to the implementing function or method using the combined characteristics of one or more arguments.
 
+在eli.thegreenplace [A polyglot's guide to multiple dispatch](https://eli.thegreenplace.net/2016/a-polyglots-guide-to-multiple-dispatch/) 中有如下描述:
+
+> What happens eventually is that the call `pr1->Intersect(pe.get())` gets routed to `Ellipse::IntersectWith(const Rectangle*)`, thanks to two virtual dispatches and one use of method overloading. The end result is double dispatch! [[4\]](https://eli.thegreenplace.net/2016/a-polyglots-guide-to-multiple-dispatch/#id9)
+
+
+
 3) 选择(select): 选择最合适的concrete/implementation
 
 在wikipedia [Static dispatch](https://en.wikipedia.org/wiki/Static_dispatch) 中有如下描述:

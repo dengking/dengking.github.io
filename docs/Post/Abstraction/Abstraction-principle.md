@@ -18,7 +18,7 @@
 
 
 
-## TODO
+## 优势/为什么这样做？
 
 需要论述这样做的原因，参考内容:
 
@@ -26,9 +26,7 @@
 
 
 
-### 优势
-
-#### 隐藏细节，以 generic 的方式来 model
+### 隐藏细节，以 generic 的方式来 model
 
 这是我想到在Book 《Designing-Data-Intensive-Applications》中提出的观点而联想到的OOP中其实有类似的描述，显然，这是abstraction的一个优势。
 
@@ -36,18 +34,32 @@
 
 下面是一些素材:
 
-`std::declval`
+`std::declval` 隐藏了各种Type的construction细节；
 
-trait
+trait 提供了查询type的attribute的consistent interface；
 
 
 
-#### 解耦
+### 解耦
 
 各部分依赖的是抽象的接口，而不是具体；
 
-#### 灵活
+### 灵活
 
 内部实现可以灵活调整，上层无需变动；
 
 其实这是 **隐藏细节** 所带来的。
+
+
+
+### Clean client code
+
+遵循 abstraction principle，能够实现clean client code，其实 clean client code 是abstract的，隐藏了concrete/细节，它是conceptual model；
+
+这是我在阅读 eli.thegreenplace [A polyglot's guide to multiple dispatch](https://eli.thegreenplace.net/2016/a-polyglots-guide-to-multiple-dispatch/) 时，其中给出的，我觉得它能够是体现 abstraction principle 的优势的。
+
+
+
+#### 容易理解
+
+遵循 abstraction principle，能够实现clean client code，这样的code是容易理解的；
