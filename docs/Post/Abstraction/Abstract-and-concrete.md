@@ -47,15 +47,19 @@
 
 我们将从abstract到concrete/implementation的过程称为**dispatch**，下面是对它的含义一些解读: 
 
-1) 匹配: 为abstract**匹配**最合适的concrete/implementation
+1) 匹配(match): 为abstract**匹配**最合适的concrete/implementation
 
-2) 路由: **路由**到最合适的concrete/implementation
+2) 路由(route): **路由**到最合适的concrete/implementation
 
-3) 选择: 选择最合适的concrete/implementation
+在wikipedia [Multiple dispatch](https://en.wikipedia.org/wiki/Multiple_dispatch) 中有如下描述:
+
+> Multiple dispatch **routes** the dynamic dispatch to the implementing function or method using the combined characteristics of one or more arguments.
+
+3) 选择(select): 选择最合适的concrete/implementation
 
 在wikipedia [Static dispatch](https://en.wikipedia.org/wiki/Static_dispatch) 中有如下描述:
 
-> It is a form of *method dispatch,* which describes how a language or environment will select which implementation of a method or function to use.
+> It is a form of *method dispatch,* which describes how a language or environment will **select** which implementation of a method or function to use.
 
 #### Classification
 
