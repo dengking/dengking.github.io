@@ -67,6 +67,10 @@
 
 > It is a form of *method dispatch,* which describes how a language or environment will **select** which implementation of a method or function to use.
 
+在wikipedia [Polymorphism (computer science)](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) # Static and dynamic polymorphism
+
+> Polymorphism can be distinguished by when the **implementation** is **selected**: statically (at compile time) or dynamically (at run time, typically via a [virtual function](https://en.wikipedia.org/wiki/Virtual_function)).
+
 #### Classification
 
 下面的对它的一种简单的分类: 
