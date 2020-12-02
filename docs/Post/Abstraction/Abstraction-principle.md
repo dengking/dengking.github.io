@@ -54,12 +54,46 @@ trait 提供了查询type的attribute的consistent interface；
 
 ### Clean client code
 
-遵循 abstraction principle，能够实现clean client code，其实 clean client code 是abstract的，隐藏了concrete/细节，它是conceptual model；
+遵循 abstraction principle，能够实现clean client code: clean client code 是abstract的，隐藏了concrete/细节，它是conceptual model；
 
 这是我在阅读 eli.thegreenplace [A polyglot's guide to multiple dispatch](https://eli.thegreenplace.net/2016/a-polyglots-guide-to-multiple-dispatch/) 时，其中给出的，我觉得它能够是体现 abstraction principle 的优势的。
+
+在 refactoring.guru [Visitor](https://refactoring.guru/design-patterns/visitor) 中，给出了一个具体的对比案例:
+
+cumbersome(笨拙的):  
+
+```C++
+foreach (Node node in graph)
+    if (node instanceof City)
+        exportVisitor.doForCity((City) node)
+    if (node instanceof Industry)
+        exportVisitor.doForIndustry((Industry) node)
+    // ...
+}
+```
+
+clean:
+
+```C++
+// Client code
+foreach (Node node in graph)
+    node.accept(exportVisitor)
+```
 
 
 
 #### 容易理解
 
 遵循 abstraction principle，能够实现clean client code，这样的code是容易理解的；
+
+
+
+### Conceptual advantage
+
+这是在阅读 wikipedia [Software transactional memory # Conceptual advantages and disadvantages](https://en.wikipedia.org/wiki/Software_transactional_memory#Conceptual_advantages_and_disadvantages) 时，其中提及的一个点:
+
+> In addition to their performance benefits[*[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)*], STM greatly simplifies conceptual understanding of multithreaded programs and helps make programs more maintainable by working in harmony with existing high-level abstractions such as objects and modules. 
+
+### Code reuse
+
+遵循abstraction principle能够实现code reuse，`N*M`，通过抽象的接口可以将各个模块进行组合。
