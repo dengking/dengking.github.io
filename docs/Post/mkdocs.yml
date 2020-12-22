@@ -1,6 +1,6 @@
 nav:
     - Introduction: index.md
-    - Thoughts: Thoughts
+    - Thought-and-law: Thought-and-law
     - Abstraction: Abstraction
     - Language: Language
     - Formal: Formal
@@ -14,7 +14,7 @@ nav:
     # 计算机科学中存在着大量的binary，本文对它进行总结
     - Binary-in-computer-sicence: Binary-in-computer-sicence.md
     # 计算机科学中一些概念的等级
-    - Level: Level.md
+    - Level-in-computer-science: Level-in-computer-science
     - Glossary: Glossary.md
     - Knowledge-base: Knowledge-base.md
     - Software-and-hardware: Software-and-hardware
