@@ -1,17 +1,16 @@
 nav:
     - Introduction: index.md
-    - Thoughts: Thoughts.md
+    - Thoughts: Thoughts
     - Abstraction: Abstraction
     - Language: Language
     - Formal: Formal
     - Turing: Turing
-    - Unit: Unit.md
+    - Unit: Unit
     - Context: Context.md
     - Separation-and-independent.md: Separation-and-independent.md
     - Time-and-space: Time-and-space.md
     - Standard-and-implementation: Standard-and-implementation.md
     - One-to-multiple: One-to-multiple.md
-    - Closure: Closure.md
     # 计算机科学中存在着大量的binary，本文对它进行总结
     - Binary-in-computer-sicence: Binary-in-computer-sicence.md
     # 计算机科学中一些概念的等级
