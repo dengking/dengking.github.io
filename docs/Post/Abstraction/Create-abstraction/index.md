@@ -1,4 +1,8 @@
-# Create larger concept
+# Create concept
+
+我们需要不断地create concept。
+
+## Create larger concept
 
 
 
@@ -8,7 +12,7 @@
 
 
 
-## Example: design pattern
+### Example: design pattern
 
 关于此的一个典型的例子就是[Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)，在维基百科[Software design pattern#Practice](https://en.wikipedia.org/wiki/Software_design_pattern#Practice)中有这样的描述:
 
@@ -16,13 +20,9 @@
 
 design pattern中一种典型的思想就是创造更大的抽象，引入更多的levels of indirection。
 
-## Example: 写书
+### Example: 写书
 
 在编写各个工程的内容过程中，有如下感悟: 要将computer science中的内容组织起来，需要不断地创造更加抽象的概念，来容纳更多的知识；
-
-
-
-
 
 
 

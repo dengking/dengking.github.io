@@ -26,7 +26,7 @@
 
 
 
-### 隐藏细节，以 generic 的方式来 model
+### 隐藏细节，以 generic 的方式来建立模型(model)
 
 这是我想到在Book 《Designing-Data-Intensive-Applications》中提出的观点而联想到的OOP中其实有类似的描述，显然，这是abstraction的一个优势。
 
@@ -40,19 +40,23 @@ trait 提供了查询type的attribute的consistent interface；
 
 
 
-### 解耦
+### 解耦(Decouple)
 
 各部分依赖的是抽象的接口，而不是具体；
 
-### 灵活
+### Transparency 和 灵活
 
-内部实现可以灵活调整，上层无需变动；
+> NOTE: 关于"transparency"，参见`./Transparency`章节
+
+内部实现可以灵活调整，上层无需变动，这其实是transparency；
 
 其实这是 **隐藏细节** 所带来的。
 
 
 
 ### Clean client code
+
+> NOTE: 这其实也是隐藏细节所带来的
 
 遵循 abstraction principle，能够实现clean client code: clean client code 是abstract的，隐藏了concrete/细节，它是conceptual model；
 
