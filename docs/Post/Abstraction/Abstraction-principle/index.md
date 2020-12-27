@@ -44,9 +44,9 @@ trait 提供了查询type的attribute的consistent interface；
 
 各部分依赖的是抽象的接口，而不是具体；
 
-### Transparency 和 灵活
+### Information hiding and transparency
 
-> NOTE: 关于"transparency"，参见`./Transparency`章节
+> NOTE: 关于"transparency"，参见工程software-engineering的`Software-design\Principle\Information-hiding`章节
 
 内部实现可以灵活调整，上层无需变动，这其实是transparency；
 
