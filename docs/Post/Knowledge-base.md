@@ -40,7 +40,7 @@ https://zh.wikipedia.org/
 |       |                                                              |                                                              |          |
 | 英文1 | https://en.wanweibaike.com/                                  |                                                              |          |
 | 英文2 | https://en.jinzhao.wiki/wiki/Main_Page                       |                                                              |          |
-| 英文3 | http://en.wiki.sxisa.org/wiki/Main_Page                      |                                                              |          |
+| 英文3 | http://en.wiki.sxisa.org/wiki/Main_Page                      | 较好，可以使用                                               |          |
 | 日文1 | https://ja.jinzhao.wiki/wiki/                                |                                                              |          |
 | 日文2 | http://ja.wiki.sxisa.org/wiki/                               |                                                              |          |
 

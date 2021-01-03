@@ -2,16 +2,23 @@
 
 ## 观点
 
-本文标题"nature"的含义是"本质"。本文的观点是: 探寻问题的本质，对于本质上相同的问题，可以使用相同的技术来进行实现。
+本文标题"nature"的含义是"本质"。本文的观点是: 探寻问题的本质，对于本质上相同的问题，可以使用相同的技术来进行实现，使用相同的model来进行描述。
 
 ### draft
 
 在本质上相同的问题、追寻相同的目标、具备相同的结构，可以使用相同的技术、相同的思想、相同的概念、相同的algorithm；这就出现了同一个概念在不同层次、领域的相互借用；同一技术在不同层次、领域的相互借用；同一model可以使用于不同层次、领域；
 
+> NOTE: model
+
 ### draft
 
-同一思想/技术在computer science各个领域中的运用，于此相关的是: 一些model可以用于computer science的各个领域，比较典型的是consistency model；同一个概念在computer science的各个领域中被用不同的language来进行描述；
+同一思想/技术在computer science各个领域中的运用，与此相关的是: 一些model可以用于computer science的各个领域，比较典型的是consistency model；同一个概念在computer science的各个领域中被用不同的language来进行描述；
+
 我是在阅读 https://en.wikipedia.org/wiki/Speculative_execution 时，其中的一段话 "This approach is employed in a variety of areas "给出的提示
+
+### draft
+
+在不同的层级、范围都要考虑看似相同的问题，比如在distributed computing、DBMS中，都需要考虑原子性，这就要求建立模型，它们的实现方式是可以相互借鉴的。
 
 ## Example
 
@@ -32,9 +39,31 @@ asynchronous/non-blocking operation: 启动，不阻塞主调线程/main loop，
 
 "atomicity"即"原子性"，在不同的层级都可以使用这个概念，提供atomic operation/instruction，比如:
 
-X86 `cmpxchg`
+1、instruction level: X86 `cmpxchg`
 
-Linux `openat`
+2、OS level: Linux `openat`
+
+
+
+#### draft
+
+instruction level： instruction就是atomic的
+
+在application层，也有atomic的概念，也可以实现atomic
+
+
+
+transaction： application层的atomic
+
+维基百科[Transaction](https://en.wikipedia.org/wiki/Transaction)
+
+维基百科[Atomicity (database systems)](https://en.wikipedia.org/wiki/Atomicity_(database_systems))
+
+维基百科[Transaction processing](https://en.wikipedia.org/wiki/Transaction_processing)
+
+在各种application层，也提供了实现atomic的Primitive 
+
+cppreference [Atomic operations library](https://en.cppreference.com/w/cpp/atomic)
 
 
 

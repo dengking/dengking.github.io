@@ -34,3 +34,9 @@ exception safety的等级：
 - [Strict consistency](https://en.wikipedia.org/wiki/Consistency_model#Strict_consistency)
 - [Sequential consistency](https://en.wikipedia.org/wiki/Consistency_model#Sequential_consistency)
 - [Causal consistency](https://en.wikipedia.org/wiki/Consistency_model#Causal_consistency)
+
+
+
+## Level of database transaction isolation
+
+参见 [数据库事务的四大特性以及事务的隔离级别](https://www.cnblogs.com/fjdingsd/p/5273008.html)。
