@@ -2,6 +2,10 @@
 
 "unit"的意思是“单位”，本文对各种unit进行总结。
 
+## Unit and atomic
+
+一般，最小的unit是atomic的，关于atomic，参见文章《Atomic》。
+
 ## Unit of user-defined action
 
 本节标题中的“unit of user-defined action”是我在阅读龙书[Chapter 7.2 Stack Allocation of Space](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/7.2-Stack-Allocation-of-Space/)时遇到的，原文如下：
@@ -99,3 +103,4 @@ Linux OS kernel的unit of user-defined action是函数。
 
 
 ## [Protocol data unit](https://en.wikipedia.org/wiki/Protocol_data_unit)
+

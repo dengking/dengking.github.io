@@ -28,17 +28,21 @@ cppreference [Atomic operations library](https://en.cppreference.com/w/cpp/atomi
 
 
 
+## Atomic and unit 
+
+一般最小unit是Atomic ，关于unit，参见文章《Unit》。
+
 ## 实现思路
 
 ### Bottom-up analysis
 
 从最最底层: instruction 层开始，自底向上进行分析: 
 
-instruction level
+Instruction level
 
 OS level
 
-application  level
+Application  level
 
 ### Assemble as atomic primitive
 
