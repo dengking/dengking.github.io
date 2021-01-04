@@ -4,6 +4,8 @@
 
 ## What is atomic/atomicity?
 
+### 直观理解
+
 "atomic/atomicity"，"atomicity"即"原子性"，它借用了物理学中"[atom(原子)](http://en.wiki.sxisa.org/wiki/Atom)"的概念: 
 
 > An **atom** is the smallest unit of ordinary [matter](http://en.wiki.sxisa.org/wiki/Matter) that forms a [chemical element](http://en.wiki.sxisa.org/wiki/Chemical_element). 
@@ -15,6 +17,10 @@
 1、instruction level: X86 `cmpxchg`
 
 2、OS level: Linux `openat`
+
+### Formal definition
+
+关于atomic的形式化定义，参见工程parallel-computing的相关章节。
 
 ## Atomic primitive/interface
 
@@ -36,13 +42,13 @@ cppreference [Atomic operations library](https://en.cppreference.com/w/cpp/atomi
 
 ### Bottom-up analysis
 
-从最最底层: instruction 层开始，自底向上进行分析: 
+从最最底层(nstruction 层)开始，自底向上进行分析，显然如果底层能够保证atomic，那么能够为高层实现atomic提供较好的支持，下面是一些level:  
 
-Instruction level
+1、Instruction level
 
-OS level
+2、OS level
 
-Application  level
+3、Application  level
 
 ### Assemble as atomic primitive
 
