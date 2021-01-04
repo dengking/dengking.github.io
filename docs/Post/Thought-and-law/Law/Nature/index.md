@@ -35,37 +35,9 @@ asynchronous/non-blocking operation: 启动，不阻塞主调线程/main loop，
 
 
 
-### Atomicity概念
+### Atomicity/atomic概念
 
-"atomicity"即"原子性"，在不同的层级都可以使用这个概念，提供atomic operation/instruction，比如:
-
-1、instruction level: X86 `cmpxchg`
-
-2、OS level: Linux `openat`
-
-
-
-#### draft
-
-instruction level： instruction就是atomic的
-
-在application层，也有atomic的概念，也可以实现atomic
-
-
-
-transaction： application层的atomic
-
-维基百科[Transaction](https://en.wikipedia.org/wiki/Transaction)
-
-维基百科[Atomicity (database systems)](https://en.wikipedia.org/wiki/Atomicity_(database_systems))
-
-维基百科[Transaction processing](https://en.wikipedia.org/wiki/Transaction_processing)
-
-在各种application层，也提供了实现atomic的Primitive 
-
-cppreference [Atomic operations library](https://en.cppreference.com/w/cpp/atomic)
-
-
+在`./Atomic`进行了介绍。
 
 ### Synchronization
 
