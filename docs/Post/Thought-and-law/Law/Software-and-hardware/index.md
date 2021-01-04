@@ -18,7 +18,22 @@ software需要充分运用hardware的特性以提高自身的性能；software�
 
 1 likely and unlikely
 
-## 自底向上
+## Bottom-up analysis(自底向上分析): from hardware to software
 
-自底向上，从hardware到software，这让我想到了 浪潮之巅 中的 安迪-比尔定律 https://site.douban.com/189688/widget/notes/11229948/note/251703757/，显然 安迪-比尔定律 的描述是更加精准 。
+自底向上，从hardware到software，这让我想到了 浪潮之巅 中的 安迪-比尔定律 
+
+https://site.douban.com/189688/widget/notes/11229948/note/251703757/，显然 安迪-比尔定律 的描述是更加精准 。
+
 让我想到这个的是: likely/unlikely->branch prediction->CPU Speculative execution
+
+### Bottom-up
+
+Instruction level
+
+OS level
+
+Application  level
+
+### Example
+
+atomic，参见文章《Atomic》

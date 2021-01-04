@@ -34,7 +34,11 @@ cppreference [Atomic operations library](https://en.cppreference.com/w/cpp/atomi
 
 从最最底层: instruction 层开始，自底向上进行分析: 
 
+instruction level
 
+OS level
+
+application  level
 
 ### Assemble as atomic primitive
 
