@@ -6,6 +6,8 @@
 
 一般，最小的unit是atomic的，也就是最小的unit是不可分的，没有半个的概念。关于atomic，参见文章《Atomic》。
 
+它的tag为tag-unit-and-atomic；
+
 ## Unit of user-defined action
 
 本节标题中的“unit of user-defined action”是我在阅读龙书[Chapter 7.2 Stack Allocation of Space](https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/7.2-Stack-Allocation-of-Space/)时遇到的，原文如下：
