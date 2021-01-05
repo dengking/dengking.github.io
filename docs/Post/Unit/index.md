@@ -4,7 +4,7 @@
 
 ## Unit and atomic
 
-一般，最小的unit是atomic的，关于atomic，参见文章《Atomic》。
+一般，最小的unit是atomic的，也就是最小的unit是不可分的，没有半个的概念。关于atomic，参见文章《Atomic》。
 
 ## Unit of user-defined action
 
@@ -104,3 +104,6 @@ Linux OS kernel的unit of user-defined action是函数。
 
 ## [Protocol data unit](https://en.wikipedia.org/wiki/Protocol_data_unit)
 
+
+
+## Database transaction
