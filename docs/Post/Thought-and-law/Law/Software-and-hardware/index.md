@@ -20,13 +20,17 @@ software需要充分运用hardware的特性以提高自身的性能；software�
 
 ## Bottom-up analysis(自底向上分析): from hardware to software
 
-自底向上，从hardware到software，这让我想到了 浪潮之巅 中的 安迪-比尔定律 
+对于在software development中遇到的很多问题，以自底向上，从hardware到software的方式来进行分析，能够让我们从根本上找出问题的原因和解决方法；
 
-https://site.douban.com/189688/widget/notes/11229948/note/251703757/，显然 安迪-比尔定律 的描述是更加精准 。
 
-让我想到这个的是: likely/unlikely->branch prediction->CPU Speculative execution
 
-### Bottom-up
+> 这让我想到了 浪潮之巅 中的 安迪-比尔定律 
+>
+> https://site.douban.com/189688/widget/notes/11229948/note/251703757/，显然 安迪-比尔定律 的描述是更加精准 。
+
+
+
+### Level
 
 Instruction level
 
@@ -34,6 +38,28 @@ OS level
 
 Application  level
 
+> NOTE: 需要将`Software-design\Design-pattern\Architecture-pattern\Multilayered-architecture`中的内容结合起来
+
 ### Example
 
-atomic，参见文章《Atomic》
+#### Atomic 
+
+参见文章《Atomic》
+
+##### Atomic and thread safe
+
+从instruction 层来分析thread safe
+
+#### Parallel computing and concurrent computing
+
+Multicore->parallel computing、concurrent computing
+
+parallel computing、concurrent computing的兴起的背后推力:
+
+1、CPU超Multicore方向发展
+
+2、network越来越强大
+
+#### likely/unlikely
+
+让我想到这个的是: likely/unlikely->branch prediction->CPU Speculative execution
