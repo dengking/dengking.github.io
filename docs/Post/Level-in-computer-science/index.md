@@ -1,8 +1,10 @@
 # Level
 
+## Level in computer science
 
+下面总结了一些computer science 中的level。
 
-## Levels of [exception safety](https://en.wikipedia.org/wiki/Exception_safety)
+### Levels of [exception safety](https://en.wikipedia.org/wiki/Exception_safety)
 
 exception safety的等级：
 
@@ -13,7 +15,7 @@ exception safety的等级：
 
 
 
-## Levels of [database normalization](https://en.wikipedia.org/wiki/Database_normalization)
+### Levels of [database normalization](https://en.wikipedia.org/wiki/Database_normalization)
 
 - [UNF](https://en.wikipedia.org/wiki/Unnormalized_form) (1970) 
 - [1NF](https://en.wikipedia.org/wiki/1NF) (1970) 
@@ -29,14 +31,23 @@ exception safety的等级：
 
 
 
-## Level of [Consistency model](https://en.wikipedia.org/wiki/Consistency_model)
+### Level of [Consistency model](https://en.wikipedia.org/wiki/Consistency_model)
 
 - [Strict consistency](https://en.wikipedia.org/wiki/Consistency_model#Strict_consistency)
 - [Sequential consistency](https://en.wikipedia.org/wiki/Consistency_model#Sequential_consistency)
 - [Causal consistency](https://en.wikipedia.org/wiki/Consistency_model#Causal_consistency)
+- ......
 
 
 
-## Level of database transaction isolation
+### Level of database transaction isolation
 
 参见 [数据库事务的四大特性以及事务的隔离级别](https://www.cnblogs.com/fjdingsd/p/5273008.html)。
+
+
+
+## Tradeoff
+
+1、在现实中，我们往往需要在诸多因素中进行tradeoff，可能因为其它目的而放弃更高level，而选择较低level，典型的例子有:
+
+a、performance and exception safety tradeoff，参见工程programming-language的`Exception\Exception-Safety\Level-of-exception-safety`章节
