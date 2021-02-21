@@ -15,6 +15,7 @@ nav:
     - Binary-in-computer-sicence: Binary-in-computer-sicence.md
     # 计算机科学中一些概念的等级
     - Level-in-computer-science: Level-in-computer-science
+    - Tradeoff: Tradeoff
     - Glossary: Glossary.md
     - Knowledge-base: Knowledge-base.md
     - Software-and-hardware: Software-and-hardware
