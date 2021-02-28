@@ -100,4 +100,4 @@ foreach (Node node in graph)
 
 ### Code reuse
 
-遵循abstraction principle能够实现code reuse，`N*M`，通过抽象的接口可以将各个模块进行组合。
+遵循abstraction principle能够实现code reuse，`N*M`，通过抽象的接口可以将各个模块进行组合。，

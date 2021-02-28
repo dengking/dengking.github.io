@@ -70,18 +70,6 @@
 
   
 
-### Some abstraction in software engineering
-
-在Book-Designing-Data-Intensive-Applications中，作者已经强调了创造抽象的思想，下面是我所总结的在software engineering中一些比较成功的abstraction:
-
-| abstraction | 说明            | 章节                                                         |
-| ----------- | --------------- | ------------------------------------------------------------ |
-| stream      | stream-based IO | - 工程Linux-OS的`Programming\IO\IO-流派\Stream`章节 <br>- 工程programming language的`C-family-language\C++\Library\Standard-library\IO-library`章节 |
-| iterator    | STL中的iterator | 工程programming language的`C-family-language\C++\Library\Standard-library\STL\Iterator-library` |
-| object      | OOP             | 工程programming language的`Theory\Programming-paradigm\Object-oriented-programming`章节 |
-
-
-
 ### Everything is an object and everything is a file
 
 在python中，有着everything in python is an object，显然，object是最大的抽象，是最最顶级的抽象。
@@ -92,7 +80,7 @@
 
 ### 创造更大的抽象
 
-参见: [Create-larger-concept](./Create-larger-concept.md)。
+参见: [Create-concept](./Create-concept.md)。
 
 ### 总结
 
@@ -179,3 +167,4 @@ Interface即接口，常被用来描述抽象概念，参见:
 
 
 
+H

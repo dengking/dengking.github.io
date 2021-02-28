@@ -2,21 +2,29 @@
 
 virtual是计算机科学中常常会出现的一个词，比如：
 
-\1[Virtual memory](https://en.wikipedia.org/wiki/Virtual_memory)
+1、[Virtual memory](https://en.wikipedia.org/wiki/Virtual_memory)
 
-\2 [Virtual method](https://en.wikipedia.org/wiki/Virtual_function)
+2、[Virtual method](https://en.wikipedia.org/wiki/Virtual_function)
 
-\3 virtual machine（abstraction machine，比如cppreference中描述的virtual machine）
+3、 virtual machine（abstraction machine，比如cppreference中描述的virtual machine）
 
-\4 .....
+4、 .....
 
 ## Why use virtual?
 
-经过本文前面的分析，我们可以很快地知道：virtual也是一种抽象，一种分层，这种分层所带来的价值就是解耦。
+经过本文前面的分析，我们可以很快地知道：
+
+1、virtual也是一种抽象，一种分层，这种分层所带来的价值就是解耦
+
+2、它们都能够进行 透明，从而允许**实现**进行大量的optimization
+
+3、进行了简化
 
 在下面章节中也讨论了这个问题:
 
-\1 virtual memory，参见 工程Linux-OS的 `Kernel\Guide\Memory-management\Virtual-memory` 章节
+1、virtual memory，参见 工程Linux-OS的 `Kernel\Guide\Memory-management\Virtual-memory` 章节
+
+2、tombstone，参见工程programming language的`Theory\Resource-management\Handle`章节
 
 ## Virtual is a kind of dynamic polymorphism
 
