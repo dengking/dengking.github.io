@@ -39,8 +39,9 @@ I like reading, below are some book that I think useful to an software engineer.
 
 ## Career
 
-| Period          |                                |
-| --------------- | ------------------------------ |
-| 07.2016-05.2018 | Unix/Linux back-end developing |
-| 05.2018-        | AI application developing      |
+| Period          |                                                              |
+| --------------- | ------------------------------------------------------------ |
+| 07.2016-05.2018 | Unix/Linux back-end developing                               |
+| 05.2018-04.2019 | AI application developing                                    |
+| 04.2019-        | Unix/Linux back-end developing、distributed computing、high performance |
 
