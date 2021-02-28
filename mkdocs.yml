@@ -9,29 +9,55 @@ nav:
 - Home: index.md
 - Post:
   - Introduction: Post/index.md
-  - Thoughts: Post/Thoughts.md
+  - Thoughts:
+    - Introduction: Post/Thoughts/index.md
+  - Law:
+    - Introduction: Post/Law/index.md
+    - Software-and-hardware:
+      - Introduction: Post/Law/Software-and-hardware/index.md
+      - Andy-and-Bill's-law: Post/Law/Software-and-hardware/Andy-and-Bill's-law.md
+    - Nature:
+      - Introduction: Post/Law/Nature/index.md
+      - Atomic:
+        - Introduction: Post/Law/Nature/Atomic/index.md
+      - Transaction:
+        - Introduction: Post/Law/Nature/Transaction/index.md
+        - Transaction-processing: Post/Law/Nature/Transaction/Transaction-processing.md
+    - Optimization-principle:
+      - Introduction: Post/Law/Optimization-principle/index.md
+    - Level-in-computer-science:
+      - Introduction: Post/Law/Level-in-computer-science/index.md
+    - Tradeoff:
+      - Introduction: Post/Law/Tradeoff/index.md
+    - Opposite:
+      - Introduction: Post/Law/Opposite/index.md
+      - Lazy-and-eager:
+        - Introduction: Post/Law/Opposite/Lazy-and-eager/index.md
+    - Time-and-space:
+      - Introduction: Post/Law/Time-and-space/index.md
+    - Meta:
+      - Introduction: Post/Law/Meta/index.md
+    - Standard-and-implementation:
+      - Introduction: Post/Law/Standard-and-implementation/index.md
+    - Unit:
+      - Introduction: Post/Law/Unit/index.md
   - Abstraction:
     - Abstraction: Post/Abstraction/Abstraction.md
-    - Abstraction-and-architecture: Post/Abstraction/Abstraction-and-architecture.md
-    - Abstraction-and-architecture-and-layer: Post/Abstraction/Abstraction-and-architecture-and-layer.md
     - Abstraction-and-model: Post/Abstraction/Abstraction-and-model.md
-    - Abstraction-and-relation: Post/Abstraction/Abstraction-and-relation.md
-    - Abstraction-and-virtual: Post/Abstraction/Abstraction-and-virtual.md
+    - Abstract-and-concrete: Post/Abstraction/Abstract-and-concrete.md
+    - Abstraction-and-virtual:
+      - Introduction: Post/Abstraction/Abstraction-and-virtual/index.md
+    - Create-abstraction:
+      - Introduction: Post/Abstraction/Create-abstraction/index.md
+    - Abstraction-principle:
+      - Introduction: Post/Abstraction/Abstraction-principle/index.md
   - Language:
     - Language: Post/Language/Language.md
-  - Formal:
-    - Formal: Post/Formal/Formal.md
-  - Turing:
-    - Introduction: Post/Turing/index.md
-    - Turing-completeness: Post/Turing/Turing-completeness.md
-  - Unit: Post/Unit.md
-  - Context: Post/Context.md
-  - Separation-and-independent.md: Post/Separation-and-independent.md
-  - Architecture: Post/Architecture.md
-  - Time-and-space: Post/Time-and-space.md
-  - 0-to-1-and-1-to-many: Post/0-to-1-and-1-to-many.md
-  - Closure: Post/Closure.md
+  - TODO-Turing:
+    - Introduction: Post/TODO-Turing/index.md
+    - Turing-completeness: Post/TODO-Turing/Turing-completeness.md
   - Glossary: Post/Glossary.md
+  - Knowledge-base: Post/Knowledge-base.md
 - About: about.md
 plugins:
 - search
