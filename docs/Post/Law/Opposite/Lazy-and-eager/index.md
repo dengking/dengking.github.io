@@ -1,5 +1,25 @@
 # Lazy and eager
 
+在software engineering中，这是非常常见的，比如: 
+
+1、Evaluation strategies: 
+
+- [Eager evaluation](https://en.wikipedia.org/wiki/Eager_evaluation)
+- [Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation)
+
+
+
+2、[design pattern](https://en.wikipedia.org/wiki/Design_pattern_(computer_science))
+
+- [eager loading](https://en.wikipedia.org/wiki/Lazy_loading)
+- [Lazy loading](https://en.wikipedia.org/wiki/Lazy_loading)
+
+3、initialization
+
+[Lazy initialization](https://en.wikipedia.org/wiki/Lazy_initialization)
+
+
+
 ## Lazy 
 
 ### Lazy load
@@ -11,25 +31,23 @@
 
 如果能够load-on-need，即只在需要的时候才进行加载，则将一次性较长时间的加载分摊到了多次中，则整体的体验会更好一些，也更加节省时间一些。
 
-#### Python lazy load module
+### Example
 
+1、Python lazy load module
 
+2、[Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation)
 
-
-
-### [Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation)
-
-
-
-#### Python generator
+3、Python generator
 
 python generator是典型的lazy evaluation。
 
-### Copy-on-write
+4、Copy-on-write
 
 参见维基百科[Copy-on-write](https://en.wikipedia.org/wiki/Copy-on-write)。
 
 ## Eager 
 
-### Tensorflow eager 
+### Example
+
+1、Tensorflow eager 
 

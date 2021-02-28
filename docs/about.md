@@ -23,9 +23,13 @@ I like reading, below are some book that I think useful to an software engineer.
 
 ## Interest
 
-- Unix/Linux
-- AI application especially deep learning, such as time serial prediction，NLP
-- Web application
+1、Unix/Linux
+
+2、Programming language
+
+3、Web application
+
+
 
 
 

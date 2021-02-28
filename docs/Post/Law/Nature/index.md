@@ -30,7 +30,9 @@
 
 asynchronous/non-blocking operation: 启动，不阻塞主调线程/main loop，下面是一些例子:
 1) Redis中，fork一个process来处理copy entire data to file，在这种情况下，main loop并未被阻塞而是不断地运行，处理其他的request
+
 2) CPU asynchronous operation: CPU对于耗时的instruction，并不阻塞主流程
+
 3) 
 
 

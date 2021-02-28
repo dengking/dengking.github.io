@@ -1,4 +1,4 @@
-# 想法
+# 一些想法
 
 本文总结我写作的思路、思想，它贯穿了我的所有工程。
 
@@ -6,11 +6,11 @@
 
 我的写作原则。
 
-### 梳理，而不是抄写
+1、梳理
 
 应该坚持如上原则来进行编写，给出所引用的资源的链接。
 
-### 构建big picture
+2、构建big picture
 
 构建理论框架，从更高的角度来思考问题。
 
@@ -59,13 +59,13 @@ Application 2: lifetime
 
 比如：
 
-programming language的不断引入新的特性
+1、programming language的不断引入新的特性
 
-从Apache 到 Nginx
+2、从Apache 到 Nginx
 
-从gcc 到 llvm
+3、从gcc 到 llvm
 
-从[Monolithic kernel](https://en.wikipedia.org/wiki/Monolithic_kernel)到[Microkernel](https://en.wikipedia.org/wiki/Microkernel)
+4、从[Monolithic kernel](https://en.wikipedia.org/wiki/Monolithic_kernel)到[Microkernel](https://en.wikipedia.org/wiki/Microkernel)
 
 
 

@@ -1,21 +1,10 @@
 nav:
     - Introduction: index.md
-    - Thought-and-law: Thought-and-law
+    - Thoughts: Thoughts
+    - Law: Law
     - Abstraction: Abstraction
     - Language: Language
-    - Formal: Formal
-    - Turing: Turing
-    - Unit: Unit
-    - Context: Context
-    - Separation-and-independent.md: Separation-and-independent.md
-    - Time-and-space: Time-and-space.md
-    - Standard-and-implementation: Standard-and-implementation.md
-    - One-to-multiple: One-to-multiple.md
-    # 计算机科学中存在着大量的binary，本文对它进行总结
-    - Binary-in-computer-sicence: Binary-in-computer-sicence.md
-    # 计算机科学中一些概念的等级
-    - Level-in-computer-science: Level-in-computer-science
-    - Tradeoff: Tradeoff
+    - TODO-Turing: TODO-Turing
     - Glossary: Glossary.md
     - Knowledge-base: Knowledge-base.md
-    - Software-and-hardware: Software-and-hardware
+    

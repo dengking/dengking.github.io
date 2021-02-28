@@ -30,6 +30,6 @@ version control：记录历史
 
 
 
-# system call with time
+## system call with timeout
 
 linux OS的非常多的system call都支持由用户设置time。
