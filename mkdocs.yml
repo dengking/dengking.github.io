@@ -22,7 +22,6 @@ nav:
         - Introduction: Post/Law/Nature/Atomic/index.md
       - Transaction:
         - Introduction: Post/Law/Nature/Transaction/index.md
-        - Transaction-processing: Post/Law/Nature/Transaction/Transaction-processing.md
     - Optimization-principle:
       - Introduction: Post/Law/Optimization-principle/index.md
     - Level-in-computer-science:
