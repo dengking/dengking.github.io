@@ -1,22 +1,68 @@
 # My projects
 
-Here are some project that I created.
+下面是我所创建的project。
 
-## machine learning
 
-| project name                                                 | explanation                      |
-| ------------------------------------------------------------ | -------------------------------- |
-| [machine-learning](https://dengking.github.io/machine-learning) |                                  |
-| [NLP](https://dengking.github.io/NLP)                        |                                  |
-| [NRE](https://github.com/dengking/NRE)                       | Neural Relation Extraction (NRE) |
-| [paper-and-code](https://github.com/dengking/paper-and-code) | Read paper about AI and code it  |
-| [decompose-jieba](https://github.com/dengking/decompose-jieba) |                                  |
 
-## math
+## programming language相关
 
-| project name                             | explanation |
-| ---------------------------------------- | ----------- |
-| [math](https://github.com/dengking/math) |             |
+包括 [programming language theory](https://en.wikipedia.org/wiki/Programming_language_theory)、programming language implementation、具体的programming language。
+
+| project name                                                 | explanation                                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[ Language](https://github.com/dengking/Language)**        | Automata theory and formal language theory                   |
+| [compiler-principle](https://dengking.github.io/compiler-principle/) | Note of book Compilers Principles, Techniques and Tools Second Edition |
+| [programming-language](http://dengking.github.io/programming-language) |                                                              |
+
+
+
+## hardware
+
+| project name                                     | explanation                                                  |
+| ------------------------------------------------ | ------------------------------------------------------------ |
+| [Hardware](https://dengking.github.io/Hardware/) | hardware相关的内容，包括computer architecture、CPU、memory等 |
+
+
+
+## operating system
+
+| project name                                     | explanation                                 |
+| ------------------------------------------------ | ------------------------------------------- |
+| [Linux-OS](https://dengking.github.io/Linux-OS/) | My knowledge base of Linux operation system |
+
+
+
+## "computer science is discrete"
+
+"computer science is discrete"。
+
+| project name                                     | explanation                                                  |
+| ------------------------------------------------ | ------------------------------------------------------------ |
+| [discrete](https://dengking.github.io/discrete/) | 包括 algorithm、data structure、computation theory，培养计算思维 |
+
+
+
+## parallel computing
+
+| project name                                                 | explanation                              |
+| ------------------------------------------------------------ | ---------------------------------------- |
+| [Parallel-computing](https://github.com/dengking/Parallel-computing) | 并行计算，其中包括: 并发、分布式等等内容 |
+
+
+
+## software engineering
+
+软件工程学科，指导工程的理论。
+
+| project name                                                 | explanation |
+| ------------------------------------------------------------ | ----------- |
+| [software-engineering](https://github.com/dengking/software-engineering) |             |
+
+## Database
+
+| project name                         | explanation      |
+| ------------------------------------ | ---------------- |
+| [DB](https://github.com/dengking/DB) | 数据库相关的内容 |
 
 
 
@@ -28,57 +74,32 @@ Here are some project that I created.
 
 
 
-## operating system
-
-| project name                                                 | explanation                                 |
-| ------------------------------------------------------------ | ------------------------------------------- |
-| [Linux-OS](https://dengking.github.io/Linux-OS/)             | My knowledge base of Linux operation system |
-| [linux_in_action](https://github.com/dengking/linux_in_action) |                                             |
 
 
 
 
-## algorithm and data structure 
+## machine learning
 
-| project name                                                 | explanation                         |
-| ------------------------------------------------------------ | ----------------------------------- |
-| [algorithm](https://dengking.github.io/algorithm)           | My knowledge base of algorithm      |
-| [data-structure](https://dengking.github.io/data-structure/) | My knowledge base of data structure |
-
+| project name                                                 | explanation      |
+| ------------------------------------------------------------ | ---------------- |
+| [machine-learning](https://dengking.github.io/machine-learning) | 机器学习相关内容 |
 
 
-## [programming language theory](https://en.wikipedia.org/wiki/Programming_language_theory)
 
-Here are some projects related to [programming language theory](https://en.wikipedia.org/wiki/Programming_language_theory).
+## math
 
-| project name                                                 | explanation                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [compiler-principle](https://dengking.github.io/compiler-principle/) | Note of book Compilers Principles, Techniques and Tools Second Edition |
-| [automata-and-formal-language](https://dengking.github.io/automata-and-formal-language) | Automata theory and formal language theory                   |
-| [compiler-principle-in-action](https://github.com/dengking/compiler-principle-in-action) | The two main-stream compilers, [GCC](https://gcc.gnu.org/) and [LLVM](http://llvm.org/) |
-| [programming-language](http://dengking.github.io/programming-language) |                                                              |
+| project name                             | explanation |
+| ---------------------------------------- | ----------- |
+| [math](https://github.com/dengking/math) |             |
 
 
 
 
-
-## software engineering
-
-| project name                                                 | explanation |
-| ------------------------------------------------------------ | ----------- |
-| [software-engineering](https://github.com/dengking/software-engineering) |             |
-| [software-design-pattern](https://github.com/dengking/software-design-pattern) |             |
-
-
-
-## hardware
-
-[Hardware](https://dengking.github.io/Hardware/)
 
 ## application
 
 | project name                                                 | explanation |
 | ------------------------------------------------------------ | ----------- |
 | [timer-with-thread-pool](https://github.com/dengking/timer-with-thread-pool) |             |
-| [concurrent-server](https://github.com/dengking/concurrent-server) |             |
+| [mkdocs-nav-builder](https://github.com/dengking/mkdocs-nav-builder) |             |
 
