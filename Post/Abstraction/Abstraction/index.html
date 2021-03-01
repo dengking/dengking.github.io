@@ -1,44 +1,22 @@
 
-
-
-
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
       
         <meta name="description" content="Website of Kai">
       
-      
-        <link rel="canonical" href="https://dengking.github.io/Post/Abstraction/Abstraction/">
       
       
         <meta name="author" content="Kai Deng">
       
       
-        <meta name="lang:clipboard.copy" content="Copy to clipboard">
-      
-        <meta name="lang:clipboard.copied" content="Copied to clipboard">
-      
-        <meta name="lang:search.language" content="en">
-      
-        <meta name="lang:search.pipeline.stopwords" content="True">
-      
-        <meta name="lang:search.pipeline.trimmer" content="True">
-      
-        <meta name="lang:search.result.none" content="No matching documents">
-      
-        <meta name="lang:search.result.one" content="1 matching document">
-      
-        <meta name="lang:search.result.other" content="# matching documents">
-      
-        <meta name="lang:search.tokenizer" content="[\s\-]+">
+        <link rel="canonical" href="https://dengking.github.io/Post/Abstraction/Abstraction/">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.3">
     
     
       
@@ -46,119 +24,114 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.1655a90d.min.css">
       
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.7fa14f5b.min.css">
+        
       
-    
-    
-      <script src="../../../assets/javascripts/modernizr.268332fc.js"></script>
-    
-    
-      
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
-      
-    
-    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
     
     
     
       
         
-<script>
-  window.ga = window.ga || function() {
-    (ga.q = ga.q || []).push(arguments)
-  }
-  ga.l = +new Date
-  /* Setup integration and send page view */
-  ga("create", "UA-27795084-5", "mkdocs.org")
-  ga("set", "anonymizeIp", true)
-  ga("send", "pageview")
-  /* Register handler to log search on blur */
-  document.addEventListener("DOMContentLoaded", () => {
-    if (document.forms.search) {
-      var query = document.forms.search.query
-      query.addEventListener("blur", function() {
-        if (this.value) {
-          var path = document.location.pathname;
-          ga("send", "pageview", path + "?q=" + this.value)
-        }
-      })
-    }
-  })
-</script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+        
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-27795084-5","mkdocs.org"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
 <script async src="https://www.google-analytics.com/analytics.js"></script>
       
     
     
   </head>
   
-    <body dir="ltr">
   
-    <svg class="md-svg">
-      <defs>
-        
-        
-          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
-        
-      </defs>
-    </svg>
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
-    
-      <a href="#abstraction" tabindex="1" class="md-skip">
-        Skip to content
-      </a>
-    
-    
-      <header class="md-header" data-md-component="header">
-  <nav class="md-header-nav md-grid">
-    <div class="md-flex">
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://dengking.github.io/" title="Website of Kai" class="md-header-nav__button md-logo">
-          
-            <i class="md-icon"></i>
-          
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#abstraction" class="md-skip">
+          Skip to content
         </a>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
-      </div>
-      <div class="md-flex__cell md-flex__cell--stretch">
-        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
-          
-            <span class="md-header-nav__topic">
-              Website of Kai
-            </span>
-            <span class="md-header-nav__topic">
-              
-                Abstraction
-              
-            </span>
-          
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://dengking.github.io/" title="Website of Kai" class="md-header__button md-logo" aria-label="Website of Kai">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Website of Kai
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Abstraction
+            
+          </span>
         </div>
       </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        
-          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-          
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
-      <label class="md-icon md-search__icon" for="__search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
-        &#xE5CD;
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
       </button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result">
+        <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Type to start searching
+            Initializing search
           </div>
           <ol class="md-search-result__list"></ol>
         </div>
@@ -166,71 +139,60 @@
     </div>
   </div>
 </div>
+    
+    
+      <div class="md-header__source">
         
-      </div>
-      
-        <div class="md-flex__cell md-flex__cell--shrink">
-          <div class="md-header-nav__source">
-            
-
-
-  
-
-<a href="https://github.com/dengking/dengking.github.io" title="Go to repository" class="md-source" data-md-source="github">
-  
-    <div class="md-source__icon">
-      <svg viewBox="0 0 24 24" width="24" height="24">
-        <use xlink:href="#__github" width="24" height="24"></use>
-      </svg>
-    </div>
-  
+<a href="https://github.com/dengking/dengking.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
   <div class="md-source__repository">
     GitHub
   </div>
 </a>
-          </div>
-        </div>
-      
-    </div>
+      </div>
+    
   </nav>
 </header>
     
-    <div class="md-container">
+    <div class="md-container" data-md-component="container">
+      
       
         
       
-      
-      <main class="md-main" role="main">
-        <div class="md-main__inner md-grid" data-md-component="container">
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
           
             
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" data-md-level="0">
-  <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="https://dengking.github.io/" title="Website of Kai" class="md-nav__button md-logo">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://dengking.github.io/" title="Website of Kai" class="md-nav__button md-logo" aria-label="Website of Kai">
       
-        <i class="md-icon"></i>
-      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
     </a>
     Website of Kai
   </label>
   
     <div class="md-nav__source">
       
-
-
-  
-
-<a href="https://github.com/dengking/dengking.github.io" title="Go to repository" class="md-source" data-md-source="github">
-  
-    <div class="md-source__icon">
-      <svg viewBox="0 0 24 24" width="24" height="24">
-        <use xlink:href="#__github" width="24" height="24"></use>
-      </svg>
-    </div>
-  
+<a href="https://github.com/dengking/dengking.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
   <div class="md-source__repository">
     GitHub
   </div>
@@ -243,12 +205,15 @@
       
       
 
-
-  <li class="md-nav__item">
-    <a href="../../.." title="Home" class="md-nav__link">
-      Home
-    </a>
-  </li>
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
 
     
       
@@ -256,105 +221,707 @@
       
 
   
-
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+  
+  
     
-    <label class="md-nav__link" for="nav-2">
-      Post
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-2">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      <label class="md-nav__link" for="__nav_2">
         Post
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Post" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Post
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../" title="Introduction" class="md-nav__link">
-      Introduction
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Thoughts/" title="Thoughts" class="md-nav__link">
-      Thoughts
-    </a>
-  </li>
-
-        
-          
-          
-          
-
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
   
 
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      <label class="md-nav__link" for="__nav_2_2">
+        Thoughts
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Thoughts" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Thoughts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Thoughts/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
 
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3" checked>
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      <label class="md-nav__link" for="__nav_2_3">
+        Law
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Law" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Law
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
     
-    <label class="md-nav__link" for="nav-2-3">
-      Abstraction
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_2" type="checkbox" id="__nav_2_3_2" >
+      
+      <label class="md-nav__link" for="__nav_2_3_2">
+        Software-and-hardware
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Software-and-hardware" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Software-and-hardware
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Software-and-hardware/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Software-and-hardware/Andy-and-Bill%27s-law/" class="md-nav__link">
+        Andy-and-Bill's-law
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3" type="checkbox" id="__nav_2_3_3" >
+      
+      <label class="md-nav__link" for="__nav_2_3_3">
+        Nature
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Nature" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Nature
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Nature/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3_2" type="checkbox" id="__nav_2_3_3_2" >
+      
+      <label class="md-nav__link" for="__nav_2_3_3_2">
+        Atomic
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Atomic" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Atomic
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Nature/Atomic/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3_3" type="checkbox" id="__nav_2_3_3_3" >
+      
+      <label class="md-nav__link" for="__nav_2_3_3_3">
+        Transaction
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Transaction" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Transaction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Nature/Transaction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_4" type="checkbox" id="__nav_2_3_4" >
+      
+      <label class="md-nav__link" for="__nav_2_3_4">
+        Optimization-principle
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Optimization-principle" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          Optimization-principle
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Optimization-principle/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_5" type="checkbox" id="__nav_2_3_5" >
+      
+      <label class="md-nav__link" for="__nav_2_3_5">
+        Level-in-computer-science
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Level-in-computer-science" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          Level-in-computer-science
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Level-in-computer-science/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_6" type="checkbox" id="__nav_2_3_6" >
+      
+      <label class="md-nav__link" for="__nav_2_3_6">
+        Tradeoff
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Tradeoff" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          Tradeoff
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Tradeoff/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_7" type="checkbox" id="__nav_2_3_7" >
+      
+      <label class="md-nav__link" for="__nav_2_3_7">
+        Opposite
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Opposite" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_7">
+          <span class="md-nav__icon md-icon"></span>
+          Opposite
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Opposite/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_7_2" type="checkbox" id="__nav_2_3_7_2" >
+      
+      <label class="md-nav__link" for="__nav_2_3_7_2">
+        Lazy-and-eager
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Lazy-and-eager" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          Lazy-and-eager
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Opposite/Lazy-and-eager/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_8" type="checkbox" id="__nav_2_3_8" >
+      
+      <label class="md-nav__link" for="__nav_2_3_8">
+        Time-and-space
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Time-and-space" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_8">
+          <span class="md-nav__icon md-icon"></span>
+          Time-and-space
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Time-and-space/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_9" type="checkbox" id="__nav_2_3_9" >
+      
+      <label class="md-nav__link" for="__nav_2_3_9">
+        Meta
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Meta" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_9">
+          <span class="md-nav__icon md-icon"></span>
+          Meta
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Meta/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_10" type="checkbox" id="__nav_2_3_10" >
+      
+      <label class="md-nav__link" for="__nav_2_3_10">
+        Standard-and-implementation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Standard-and-implementation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_10">
+          <span class="md-nav__icon md-icon"></span>
+          Standard-and-implementation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Standard-and-implementation/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_11" type="checkbox" id="__nav_2_3_11" >
+      
+      <label class="md-nav__link" for="__nav_2_3_11">
+        Unit
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Unit" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_11">
+          <span class="md-nav__icon md-icon"></span>
+          Unit
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Unit/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" checked>
+      
+      <label class="md-nav__link" for="__nav_2_4">
+        Abstraction
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Abstraction" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Abstraction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Abstraction
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Abstraction
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-3">
-        Abstraction
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Abstraction
-      </label>
-    
-    <a href="./" title="Abstraction" class="md-nav__link md-nav__link--active">
-      Abstraction
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
+        <li class="md-nav__item">
+  <a href="#what-is-abstraction" class="md-nav__link">
+    What is abstraction?
+  </a>
   
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
+</li>
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     创造抽象概念
   </a>
   
-    <nav class="md-nav">
+    <nav class="md-nav" aria-label="创造抽象概念">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -371,8 +938,63 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#book-designing-data-intensive-applications" class="md-nav__link">
+    Book-Designing-Data-Intensive-Applications
+  </a>
+  
+    <nav class="md-nav" aria-label="Book-Designing-Data-Intensive-Applications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-system" class="md-nav__link">
+    Data system
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#everything-is-an-object-and-everything-is-a-file" class="md-nav__link">
+    Everything is an object and everything is a file
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    创造更大的抽象
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    总结
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conceptualabstractiontheory-model" class="md-nav__link">
+    Conceptual/abstraction/theory model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abstract-and-concrete" class="md-nav__link">
+    Abstract and concrete
+  </a>
   
 </li>
       
@@ -388,8 +1010,22 @@
     Abstraction in computer science
   </a>
   
-    <nav class="md-nav">
+    <nav class="md-nav" aria-label="Abstraction in computer science">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    描述抽象概念的语言
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abstraction-in-software-design" class="md-nav__link">
+    Abstraction in software design
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#abstraction-in-programming-language" class="md-nav__link">
@@ -399,23 +1035,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#abstraction-in-object-oriented-programming" class="md-nav__link">
-    Abstraction in object-oriented programming
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    抽象与实现
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    一种抽象，可能有多种实现。
+  <a href="#abstraction-in-distributed-computing" class="md-nav__link">
+    Abstraction in distributed computing
   </a>
   
 </li>
@@ -424,333 +1045,295 @@
     </nav>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#abstraction-in-architecture" class="md-nav__link">
-    Abstraction in architecture
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#conceptual-model" class="md-nav__link">
-    Conceptual model
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-      
-      
-      
       
     </ul>
   
 </nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Abstraction-and-model/" class="md-nav__link">
+        Abstraction-and-model
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Abstract-and-concrete/" class="md-nav__link">
+        Abstract-and-concrete
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
     
-  </li>
-
-        
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_4" type="checkbox" id="__nav_2_4_4" >
+      
+      <label class="md-nav__link" for="__nav_2_4_4">
+        Abstraction-and-virtual
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Abstraction-and-virtual" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Abstraction-and-virtual
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Abstraction-and-virtual/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
           
+        </ul>
+      </nav>
+    </li>
+  
+
           
-
-
-  <li class="md-nav__item">
-    <a href="../Abstraction-and-architecture/" title="Abstraction-and-architecture" class="md-nav__link">
-      Abstraction-and-architecture
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../Abstraction-and-architecture-and-layer/" title="Abstraction-and-architecture-and-layer" class="md-nav__link">
-      Abstraction-and-architecture-and-layer
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../Abstraction-and-model/" title="Abstraction-and-model" class="md-nav__link">
-      Abstraction-and-model
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../Abstraction-and-relation/" title="Abstraction-and-relation" class="md-nav__link">
-      Abstraction-and-relation
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../Abstraction-and-virtual/" title="Abstraction-and-virtual" class="md-nav__link">
-      Abstraction-and-virtual
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
+            
+  
+  
+  
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_5" type="checkbox" id="__nav_2_4_5" >
+      
+      <label class="md-nav__link" for="__nav_2_4_5">
+        Create-abstraction
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Create-abstraction" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Create-abstraction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Create-abstraction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
     
-    <label class="md-nav__link" for="nav-2-4">
-      Language
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-4">
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_6" type="checkbox" id="__nav_2_4_6" >
+      
+      <label class="md-nav__link" for="__nav_2_4_6">
+        Abstraction-principle
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Abstraction-principle" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_6">
+          <span class="md-nav__icon md-icon"></span>
+          Abstraction-principle
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Abstraction-principle/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      <label class="md-nav__link" for="__nav_2_5">
         Language
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Language" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Language
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Language/Language/" class="md-nav__link">
+        Language
+      </a>
+    </li>
+  
+
           
+        </ul>
+      </nav>
+    </li>
+  
+
           
-
-
-  <li class="md-nav__item">
-    <a href="../../Language/Language/" title="Language" class="md-nav__link">
-      Language
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
+            
+  
+  
+  
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
-    
-    <label class="md-nav__link" for="nav-2-5">
-      Formal
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-5">
-        Formal
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      <label class="md-nav__link" for="__nav_2_6">
+        TODO-Turing
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="TODO-Turing" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          TODO-Turing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TODO-Turing/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TODO-Turing/Turing-completeness/" class="md-nav__link">
+        Turing-completeness
+      </a>
+    </li>
+  
+
           
+        </ul>
+      </nav>
+    </li>
+  
 
-
-  <li class="md-nav__item">
-    <a href="../../Formal/Formal/" title="Formal" class="md-nav__link">
-      Formal
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Glossary/" class="md-nav__link">
+        Glossary
+      </a>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Knowledge-base/" class="md-nav__link">
+        Knowledge-base
+      </a>
+    </li>
+  
+
           
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6">
-    
-    <label class="md-nav__link" for="nav-2-6">
-      Turing
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-6">
-        Turing
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Turing/" title="Introduction" class="md-nav__link">
-      Introduction
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Turing/Turing-completeness/" title="Turing-completeness" class="md-nav__link">
-      Turing-completeness
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Unit/" title="Unit" class="md-nav__link">
-      Unit
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Context/" title="Context" class="md-nav__link">
-      Context
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Separation-and-independent/" title="Separation-and-independent.md" class="md-nav__link">
-      Separation-and-independent.md
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Architecture/" title="Architecture" class="md-nav__link">
-      Architecture
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Time-and-space/" title="Time-and-space" class="md-nav__link">
-      Time-and-space
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../0-to-1-and-1-to-many/" title="0-to-1-and-1-to-many" class="md-nav__link">
-      0-to-1-and-1-to-many
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Closure/" title="Closure" class="md-nav__link">
-      Closure
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Glossary/" title="Glossary" class="md-nav__link">
-      Glossary
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
+        </ul>
+      </nav>
+    </li>
+  
 
     
       
       
       
 
-
-  <li class="md-nav__item">
-    <a href="../../../about/" title="About" class="md-nav__link">
-      About
-    </a>
-  </li>
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
 
     
   </ul>
@@ -760,25 +1343,36 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
-<nav class="md-nav md-nav--secondary">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
     
   
   
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-abstraction" class="md-nav__link">
+    What is abstraction?
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     创造抽象概念
   </a>
   
-    <nav class="md-nav">
+    <nav class="md-nav" aria-label="创造抽象概念">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -795,8 +1389,63 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#book-designing-data-intensive-applications" class="md-nav__link">
+    Book-Designing-Data-Intensive-Applications
+  </a>
+  
+    <nav class="md-nav" aria-label="Book-Designing-Data-Intensive-Applications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-system" class="md-nav__link">
+    Data system
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#everything-is-an-object-and-everything-is-a-file" class="md-nav__link">
+    Everything is an object and everything is a file
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    创造更大的抽象
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    总结
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conceptualabstractiontheory-model" class="md-nav__link">
+    Conceptual/abstraction/theory model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abstract-and-concrete" class="md-nav__link">
+    Abstract and concrete
+  </a>
   
 </li>
       
@@ -812,8 +1461,22 @@
     Abstraction in computer science
   </a>
   
-    <nav class="md-nav">
+    <nav class="md-nav" aria-label="Abstraction in computer science">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    描述抽象概念的语言
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abstraction-in-software-design" class="md-nav__link">
+    Abstraction in software design
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#abstraction-in-programming-language" class="md-nav__link">
@@ -823,23 +1486,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#abstraction-in-object-oriented-programming" class="md-nav__link">
-    Abstraction in object-oriented programming
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    抽象与实现
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    一种抽象，可能有多种实现。
+  <a href="#abstraction-in-distributed-computing" class="md-nav__link">
+    Abstraction in distributed computing
   </a>
   
 </li>
@@ -848,29 +1496,6 @@
     </nav>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#abstraction-in-architecture" class="md-nav__link">
-    Abstraction in architecture
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#conceptual-model" class="md-nav__link">
-    Conceptual model
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-      
-      
-      
       
     </ul>
   
@@ -880,7 +1505,7 @@
               </div>
             
           
-          <div class="md-content">
+          <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
@@ -889,121 +1514,99 @@
 <blockquote>
 <p>注意：本文所讨论的<a href="https://en.wikipedia.org/wiki/Abstraction">Abstraction</a>是广义的，而不仅仅局限于<a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)">Abstraction (computer science)</a>。</p>
 </blockquote>
+<h2 id="what-is-abstraction">What is abstraction?<a class="headerlink" href="#what-is-abstraction" title="Permanent link">#</a></h2>
+<blockquote>
+<p>NOTE: 其实我们每天都在进行着抽象，但是如果问: 什么是抽象？很多人都会陷入"可意会而难言传"的境地，本节就是对回答这个问题的尝试。</p>
+</blockquote>
 <p>维基百科<a href="https://en.wikipedia.org/wiki/Abstraction">Abstraction</a>给出了Abstraction的大量描述，有些是比较难以理解，下面是我认为其中比较好的描述：</p>
 <blockquote>
 <p><strong>Abstraction</strong> in its main sense is a conceptual process where general <a href="https://en.wikipedia.org/wiki/Rule_of_inference">rules</a> and <a href="https://en.wikipedia.org/wiki/Concept">concepts</a> are derived from the usage and classification of specific examples, literal ("real" or "<a href="https://en.wikipedia.org/wiki/Abstract_and_concrete">concrete</a>") signifiers, <a href="https://en.wikipedia.org/wiki/First_principle">first principles</a>, or other methods.</p>
 </blockquote>
-<p>这段话的简单来说是：抽象是创建 <a href="https://en.wikipedia.org/wiki/Concept">concepts</a> 和  <a href="https://en.wikipedia.org/wiki/Rule_of_inference">rules</a> 的过程，那何为concept呢？这个问题是比较“抽象”的，难以进行准确描述的，后面的<a href="#创造抽象概念">创造抽象概念</a>章节会结合具体案例来进行说明。</p>
+<p>这段话的简单来说是：抽象是 从"specific example"中，创建 <a href="https://en.wikipedia.org/wiki/Concept">concepts</a> 和 general <a href="https://en.wikipedia.org/wiki/Rule_of_inference">rules</a> 的过程。那何为concept呢？这个问题是比较“抽象”的，难以进行准确描述的，后面的 <a href="#创造抽象概念">创造抽象概念</a> 章节会结合具体案例来进行说明。</p>
 <blockquote>
 <p>"An abstraction" is the outcome of this process—a concept that acts as a common noun for all subordinate（从属） concepts, and connects any related concepts as a <em>group</em>, <em>field</em>, or <em>category</em>.</p>
 </blockquote>
-<p>这段话的意思和上面的意思类似，在<a href="#创造抽象概念">创造抽象概念</a>章节，会结合具体实例对这段话所表述的意思进行详细分析。</p>
+<p>这段话的意思和上面的意思类似，在 <a href="#创造抽象概念">创造抽象概念</a> 章节，会结合具体实例对这段话所表述的意思进行详细分析。</p>
 <blockquote>
 <p>Conceptual abstractions may be formed by filtering the <a href="https://en.wikipedia.org/wiki/Information">information</a> content of a <a href="https://en.wikipedia.org/wiki/Concept">concept</a> or an observable <a href="https://en.wikipedia.org/wiki/Phenomenon">phenomenon</a>, selecting only the aspects which are relevant for a particular subjectively valued purpose. </p>
 <p>The essence of abstractions is preserving information that is relevant in a given context, and forgetting information that is irrelevant in that context.</p>
 <p>– John V. Guttag</p>
 </blockquote>
-<p>抽象是概括的过程，抽象是提取公共特征的过程，它所概括的、所提取的公共特征，可以使用 <a href="https://en.wikipedia.org/wiki/Concept">concepts</a> 来进行表示，当然也有其它的表示方式。</p>
-<p>与abstract相对的是concrete，参见<a href="https://en.wikipedia.org/wiki/Abstract_and_concrete">Abstract and concrete</a>。</p>
+<p>抽象是概括的过程，抽象是提取公共特征的过程，它所概括的、所提取的公共特征，可以使用 <a href="https://en.wikipedia.org/wiki/Concept">concepts</a> 来进行表示(representation)，当然也有其它的表示方式。</p>
 <h2 id="_1">创造抽象概念<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
-<p>通过创造抽象的<a href="https://en.wikipedia.org/wiki/Concept">concept</a>（概念）来使表述更加便利的做法是在各种学科非常普遍的，关于此的例子有：</p>
+<p>通过创造抽象的 <a href="https://en.wikipedia.org/wiki/Concept">concept</a>（概念）来使表述更加便利的做法是在各种学科非常普遍的，关于此的例子有：</p>
 <h3 id="kernel-control-path">Kernel control path<a class="headerlink" href="#kernel-control-path" title="Permanent link">#</a></h3>
 <p>在《<a href="https://dengking.github.io/Linux-OS/Kernel/Book-Understanding-the-Linux-Kernel/">Understanding the Linux Kernel, 3rd Edition</a>》的<a href="https://dengking.github.io/Linux-OS/Kernel/Book-Understanding-the-Linux-Kernel/Chapter-1-Introduction/1.6.3-Reentrant-Kernels/">chapter 1.6.3. Reentrant Kernels</a>中，作者创造了kernel control path概念来概括kernel中由system call由触发的kernel control path（后面简称为system call kernel control path）、由interrupt handler触发的kernel control path（后面简称interrupt handler kernel control path）以及后续随着kernel发展可能会新增的触发kernel control path。显然kernel control path概念概括了system call kernel control path、interrupt handler kernel control path的<strong>common feature</strong>（公共特征），如它们都能够被suspend、resume。</p>
 <p>显然当一个表述中使用kernel control path的时候，我们就知道它可以是system call kernel control path、也可以是interrupt handler kernel control path，这就使我们的表述非常地便利。显然，system call kernel control path、interrupt handler kernel control path和kernel control path之间是<a href="https://en.wikipedia.org/wiki/Is-a">Is-a</a>关系。</p>
 <h3 id="computer-multitasking"><a href="https://en.wikipedia.org/wiki/Computer_multitasking">Computer multitasking</a><a class="headerlink" href="#computer-multitasking" title="Permanent link">#</a></h3>
 <p>在<a href="https://en.wikipedia.org/wiki/Computer_multitasking">Computer multitasking</a>中创造了task概念，它表示的是computer能够并发执行的，它可以是process也可以是thread，具体是什么则由具体的实现而定。</p>
-<h2 id="abstraction_1">Abstraction在各个学科中的应用<a class="headerlink" href="#abstraction_1" title="Permanent link">#</a></h2>
-<p>Abstraction是科学的基础，它在各个学科中都有着广泛的应用。</p>
-<h2 id="abstraction-in-computer-science">Abstraction in computer science<a class="headerlink" href="#abstraction-in-computer-science" title="Permanent link">#</a></h2>
-<p>Abstraction在computer science中有着深远的影响，本文将开始对此从多个方面进行剖析。</p>
-<p>维基百科的<a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)">Abstraction (computer science)</a>总结了计算机科学中的abstraction。虽然维基百科的<a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)">Abstraction (computer science)</a>对计算机科学中的Abstraction有了不同的描述，但是我觉得计算机科学中的abstraction本质上和前面所述的广义的abstraction是相同的，即创建concept的过程，在computer science，我们需要考虑的是如何来描述concept。</p>
-<p>Concept在计算机科学的不同领域有着不同的描述方式，比如：</p>
-<p>在<a href="http://en.wikipedia.org/wiki/Object-oriented_programming">object-oriented programming</a>中，使用<code>class</code>来描述concept，concept之间的relation就转换为<code>class</code>之间的关系了。</p>
-<p>在<a href="https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model">Entity–relationship model</a>，使用<code>entity</code>来描述concept。与此相关的概念有：<a href="https://en.wikipedia.org/wiki/Relational_model">Relational model</a>、<a href="https://en.wikipedia.org/wiki/Relational_database">Relational database</a>、<a href="https://en.wikipedia.org/wiki/Relational_algebra">Relational algebra</a>。</p>
-<p>连接上述两者的就是<a href="https://en.wikipedia.org/wiki/Object-relational_mapping">Object-relational mapping</a>。</p>
-<p><a href="https://en.wikipedia.org/wiki/Instruction_set_architecture">Instruction set architecture</a>是对 <a href="https://en.wikipedia.org/wiki/Computer">computer</a> 的抽象，它描述了一个computer的功能，特性等，它使用instruction来描述。</p>
-<p>另外一个更加常用的来描述抽象概念的是<a href="https://en.wikipedia.org/wiki/Interface_(computing)">interface (computing)</a>，即接口。</p>
-<p>本质上来说，上述<strong>描述方式</strong>都是<a href="../../Language/Language/">语言</a>。</p>
-<h3 id="abstraction-in-programming-language">Abstraction in programming language<a class="headerlink" href="#abstraction-in-programming-language" title="Permanent link">#</a></h3>
-<p>纵观<a href="https://en.wikipedia.org/wiki/Programming_language#History">programming language的发展史</a>，我们发现：语言越来越高级，越来越抽象，越来越易用。最底层的语言：<a href="https://en.wikipedia.org/wiki/Machine_code">machine language</a> 晦涩难懂，计算机科学的先驱在<a href="https://en.wikipedia.org/wiki/Machine_code">machine language</a> 的基础上抽象出了 <a href="https://en.wikipedia.org/wiki/Subroutine">function</a> 概念，又抽象出了 <a href="https://en.wikipedia.org/wiki/Class-based_programming">class</a> 的概念，创建了非常多 <a href="https://en.wikipedia.org/wiki/High-level_programming_language">高级的语言</a>，比如C。不管多么高级的语言最终都需要被翻译（compiler或interpreter）为<a href="https://en.wikipedia.org/wiki/Machine_code">machine language</a>才能够被机器执行，显然这个翻译的过程是与前面的抽象的过程相逆的。</p>
-<p>与machine language相比，我们发现高级语言往往伴随着非常多的概念，而且越高级的语言貌似概念越多（这是我的直觉，可能并非如此），当然也越容易使用。与此类似的是，各种library为了简化某个领域的问题， 也创造了各种直观易懂的概念，使得software engineer在解决这类问题时，非常轻松容易，因此获得了software engineer的喜爱。</p>
-<p>从这个发展史我们能够看到抽象所带来的巨大优势：</p>
+<h3 id="book-designing-data-intensive-applications">Book-Designing-Data-Intensive-Applications<a class="headerlink" href="#book-designing-data-intensive-applications" title="Permanent link">#</a></h3>
+<p>在这本书中，作者反复强调了abstraction，可以说，其中对abstraction使用涵盖了所有我们需要掌握的abstraction思想。下面是一个简单的例子，在工程<code>Parallel-computing</code>的<code>Distributed-computing\Theory\Abstraction\Abstraction-in-distributed-computing.md</code>进行了详细的总结。</p>
+<h4 id="data-system">Data system<a class="headerlink" href="#data-system" title="Permanent link">#</a></h4>
+<p>在Book-Designing-Data-Intensive-Applications的"CHAPTER 1Reliable, Scalable, and Maintainable Applications"中，创造了data system的概念。</p>
+<blockquote>
+<p>If that sounds painfully obvious, that’s just because these data systems are such a successful <strong>abstraction</strong>: we use them all the time without thinking too much. </p>
+</blockquote>
+<p>"data system"的实例有:</p>
 <ul>
-<li>隐藏了底层的细节</li>
-<li>越抽象，越易用，概念也就越多</li>
-<li>machine-independent，通用性更加，开发效率更高</li>
+<li>
+<p>databases</p>
+</li>
+<li>
+<p>caches</p>
+</li>
+<li>
+<p>search indexes</p>
+</li>
+<li>
+<p>......</p>
+</li>
 </ul>
-<p>参见: <a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Rationale">Rationale</a></p>
+<h3 id="everything-is-an-object-and-everything-is-a-file">Everything is an object and everything is a file<a class="headerlink" href="#everything-is-an-object-and-everything-is-a-file" title="Permanent link">#</a></h3>
+<p>在python中，有着everything in python is an object，显然，object是最大的抽象，是最最顶级的抽象。</p>
+<p>在linux中，有着everything is a file，显然file是最大的抽象，是最最顶级的抽象。</p>
+<h3 id="_2">创造更大的抽象<a class="headerlink" href="#_2" title="Permanent link">#</a></h3>
+<p>参见: <a href="./Create-concept.md">Create-concept</a>。</p>
+<h3 id="_3">总结<a class="headerlink" href="#_3" title="Permanent link">#</a></h3>
+<p>关于创造抽象概念的例子数不胜数，我们学习的所有concept其实都是抽象的结果。</p>
+<h2 id="conceptualabstractiontheory-model">Conceptual/abstraction/theory model<a class="headerlink" href="#conceptualabstractiontheory-model" title="Permanent link">#</a></h2>
 <blockquote>
-<p>A central form of abstraction in computing is language abstraction: new artificial languages are developed to express specific aspects of a system. <em><a href="https://en.wikipedia.org/wiki/Modeling_languages">Modeling languages</a></em> help in planning. <em><a href="https://en.wikipedia.org/wiki/Computer_language">Computer languages</a></em> can be processed with a computer. An example of this abstraction process is the generational development of <a href="https://en.wikipedia.org/wiki/Programming_language">programming languages</a> from the <a href="https://en.wikipedia.org/wiki/First-generation_programming_language">machine language</a> to the <a href="https://en.wikipedia.org/wiki/Second-generation_programming_language">assembly language</a> and the <a href="https://en.wikipedia.org/wiki/Third-generation_programming_language">high-level language</a>. Each stage can be used as a stepping stone for the next stage. The language abstraction continues for example in <a href="https://en.wikipedia.org/wiki/Scripting_language">scripting languages</a> and <a href="https://en.wikipedia.org/wiki/Domain-specific_programming_language">domain-specific programming languages</a>.</p>
+<p>NOTE: 本节标题的含义是: 概念模型、抽象模型、理论模型</p>
 </blockquote>
-<p>参见：龙书 <a href="https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/">Chapter 7 Run-Time Environments</a>。</p>
-<h3 id="abstraction-in-object-oriented-programming">Abstraction in <a href="http://en.wikipedia.org/wiki/Object-oriented_programming">object-oriented programming</a><a class="headerlink" href="#abstraction-in-object-oriented-programming" title="Permanent link">#</a></h3>
-<p>思考这样的一个问题：如何使用面向对象方式来描述上述kernel control path概念和task概念？</p>
-<p>使用<code>class</code>来描述<a href="https://en.wikipedia.org/wiki/Concept">concept</a>，这几个<a href="https://en.wikipedia.org/wiki/Concept">concept</a>之间是<a href="https://en.wikipedia.org/wiki/Is-a">Is-a</a>关系，那么可以使用inheritance，下面是一个<code>c++</code>实现的demo：</p>
-<pre><code class="c++">class KernelControlPath
-{
-
-}
-
-
-class SystemCallKernelControlPath public: KernelControlPath
-{
-
-}
-
-class InterruptKernelControlPath public: KernelControlPath
-{
-
-}
-
-</code></pre>
-
-<p>kernel control path的一个<strong>特征</strong>就是它能够被suspend、resume，使用面向对象的方式来进行描述就是：</p>
-<pre><code class="c++">void suspend(KernelControlPath&amp; kernel_control_path)
-{
-
-}
-
-
-void resume(KernelControlPath&amp; kernel_control_path)
-{
-
-}
-</code></pre>
-
-<p>面向对象的<a href="https://en.wikipedia.org/wiki/Polymorphism_(computer_science)">Polymorphism</a>（多态性）表明<code>suspend</code>和<code>resume</code>的入参可以为<code>SystemCallKernelControlPath</code>、<code>InterruptKernelControlPath</code>类型的对象，这其实就体现了：</p>
+<p>参见文章 <a href="../Abstraction-and-model/">Abstraction-and-model</a>。</p>
+<h2 id="abstract-and-concrete">Abstract and concrete<a class="headerlink" href="#abstract-and-concrete" title="Permanent link">#</a></h2>
+<p>与abstract相对的是concrete，两者是<strong>互相依存</strong>的关系，存在着<strong>转换</strong>过程，在解决一个问题时，往往是<strong>双向</strong>的，这个话题在文章 <a href="../Abstract-and-concrete/">Abstract-and-concrete</a> 中进行讨论。</p>
+<h2 id="abstraction_1">Abstraction在各个学科中的应用<a class="headerlink" href="#abstraction_1" title="Permanent link">#</a></h2>
+<p>Abstraction是科学的基础，它在各个学科中都有着广泛的应用，作为software engineer，我们重点关注的是"Abstraction in computer science"。</p>
+<h2 id="abstraction-in-computer-science">Abstraction in computer science<a class="headerlink" href="#abstraction-in-computer-science" title="Permanent link">#</a></h2>
+<p>Abstraction在computer science中有着深远的影响，本节将开始对此从多个方面进行剖析。</p>
+<p>维基百科的<a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)">Abstraction (computer science)</a>总结了计算机科学中的abstraction。虽然维基百科的<a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)">Abstraction (computer science)</a>对计算机科学中的Abstraction有了不同的描述，但是我觉得计算机科学中的abstraction本质上和前面所述的广义的abstraction是相同的，即<strong>创建concept的过程</strong>。</p>
+<h3 id="_4">描述抽象概念的语言<a class="headerlink" href="#_4" title="Permanent link">#</a></h3>
+<p>在computer science，我们需要考虑的是如何来描述concept。</p>
+<p>Concept在计算机科学的不同领域有着不同的描述方式，比如：</p>
+<p>1) 在 <a href="http://en.wikipedia.org/wiki/Object-oriented_programming">object-oriented programming</a> 中，使用<code>class</code>来描述concept，concept之间的relation就转换为<code>class</code>之间的关系了。</p>
+<p>2) 在 <a href="https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model">Entity–relationship model</a> 中，使用<code>entity</code>来描述concept。与此相关的概念有：<a href="https://en.wikipedia.org/wiki/Relational_model">Relational model</a>、<a href="https://en.wikipedia.org/wiki/Relational_database">Relational database</a>、<a href="https://en.wikipedia.org/wiki/Relational_algebra">Relational algebra</a>。</p>
+<p>连接上述两者的就是<a href="https://en.wikipedia.org/wiki/Object-relational_mapping">Object-relational mapping</a>。</p>
+<p>3) <a href="https://en.wikipedia.org/wiki/Instruction_set_architecture">Instruction set architecture</a>是对 <a href="https://en.wikipedia.org/wiki/Computer">computer</a> 的抽象，它描述了一个computer的功能，特性等，它使用instruction来描述。</p>
+<p>4) Interface</p>
+<p>Interface即接口，常被用来描述抽象概念，参见:</p>
+<ul>
+<li>wikipedia <a href="https://en.wikipedia.org/wiki/Interface_(computing)">interface (computing)</a> </li>
+<li>工程programming-language的<code>Theory\Programming-paradigm\Abstraction-and-polymorphism\Program-to-abstraction</code>章节；</li>
+</ul>
+<p>本质上来说，上述<strong>描述方式</strong>都是 <a href="../../Language/Language/">语言</a> 。</p>
 <blockquote>
-<p>当一个表述中使用kernel control path的时候，我们就知道它可以是system call kernel control path、也可以是interrupt handler kernel control path</p>
+<p>NOTE: 下面以abstraction来作为切入点描述abstraction在各个工程中的应用。</p>
 </blockquote>
-<pre><code class="python">class Task:
-    pass
-
-class ProcessTask:
-    pass
-
-class ThreadTask:
-    pass
-</code></pre>
-
-<p>在计算机科学中存在与上述抽象概念类似的做法：</p>
-<p>父类是子类的抽象</p>
-<p><a href="https://en.wikipedia.org/wiki/Virtual_function">Virtual function</a></p>
-<p>参见：维基百科<a href="https://en.wikipedia.org/wiki/Abstract_type">Abstract type</a></p>
-<p>参见：工程<a href="https://dengking.github.io/programming-language">programming-language</a>的文章<a href="https://dengking.github.io/programming-language/Theory/Programming-paradigm/Object-oriented-programming/Thinking-in-java/Introduction-to-objects">Introduction to Objects</a></p>
-<h3 id="_2">抽象与实现<a class="headerlink" href="#_2" title="Permanent link">#</a></h3>
-<p>既然有抽象，肯定需要有对应的实现，比如compiler就需要使用instruction来来实现programming language中的各种抽象，参见龙书 <a href="https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/">Chapter 7 Run-Time Environments</a>。</p>
-<h4 id="_3">一种抽象，可能有多种实现。<a class="headerlink" href="#_3" title="Permanent link">#</a></h4>
-<p>TODO:</p>
-<p><a href="https://en.wikipedia.org/wiki/Instruction_set_architecture">Instruction set architecture</a>也可以作为此的一个例子。</p>
-<p><a href="https://en.wikipedia.org/wiki/Abstract_data_type">Abstract data type</a>也可以作为此的一个例子，参见<a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Data_abstraction">Data abstraction</a>。</p>
-<h3 id="abstraction-in-architecture">Abstraction in architecture<a class="headerlink" href="#abstraction-in-architecture" title="Permanent link">#</a></h3>
-<p>参见<a href="../Abstraction-and-architecture/">Abstraction-and-architecture</a></p>
-<h3 id="conceptual-model">Conceptual model<a class="headerlink" href="#conceptual-model" title="Permanent link">#</a></h3>
-<p>参见<a href="../Abstraction-and-model/">Abstraction-and-model</a>。</p>
-                
-                  
-                
+<h3 id="abstraction-in-software-design">Abstraction in software design<a class="headerlink" href="#abstraction-in-software-design" title="Permanent link">#</a></h3>
+<p>参见工程software-engineering的<code>Software-design\Principle\Abstraction</code>章节。</p>
+<h3 id="abstraction-in-programming-language">Abstraction in programming language<a class="headerlink" href="#abstraction-in-programming-language" title="Permanent link">#</a></h3>
+<p>参见:</p>
+<p>1) 工程programming-language的<code>Theory\Programming-paradigm\Abstraction-and-polymorphism</code>章节</p>
+<p>2) 工程programming-language的<code>Theory\Programming-language\Design-of-programming-language</code></p>
+<h3 id="abstraction-in-distributed-computing">Abstraction in distributed computing<a class="headerlink" href="#abstraction-in-distributed-computing" title="Permanent link">#</a></h3>
+<p>参见工程<code>Parallel-computing</code>的<code>Distributed-computing\Theory\Abstraction</code>章节。</p>
+<p>H</p>
                 
               
               
@@ -1019,50 +1622,47 @@ class ThreadTask:
         
 <footer class="md-footer">
   
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        
-          <a href="../../Thoughts/" title="Thoughts" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
-            </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                Thoughts
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../../Law/Unit/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
               </span>
+              Introduction
             </div>
-          </a>
-        
-        
-          <a href="../Abstraction-and-architecture/" title="Abstraction-and-architecture" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Abstraction-and-architecture
+          </div>
+        </a>
+      
+      
+        <a href="../Abstraction-and-model/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
               </span>
+              Abstraction-and-model
             </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-footer-copyright">
         
-        powered by
-        <a href="https://www.mkdocs.org">MkDocs</a>
-        and
-        <a href="https://squidfunk.github.io/mkdocs-material/">
-          Material for MkDocs</a>
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
       </div>
       
     </div>
@@ -1070,10 +1670,13 @@ class ThreadTask:
 </footer>
       
     </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
     
-      <script src="../../../assets/javascripts/application.808e90bb.js"></script>
-      
-      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+    
+      <script src="../../../assets/javascripts/bundle.ca5457b8.min.js"></script>
       
     
   </body>

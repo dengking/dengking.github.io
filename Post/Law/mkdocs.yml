@@ -1,0 +1,12 @@
+nav:
+    - Introduction: index.md
+    - Software-and-hardware: Software-and-hardware
+    - Nature: Nature
+    - Optimization-principle: Optimization-principle
+    - Level-in-computer-science: Level-in-computer-science
+    - Tradeoff: Tradeoff
+    - Opposite: Opposite
+    - Time-and-space: Time-and-space
+    - Meta: Meta
+    - Standard-and-implementation: Standard-and-implementation
+    - Unit: Unit

@@ -1,44 +1,22 @@
 
-
-
-
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
       
         <meta name="description" content="Website of Kai">
       
-      
-        <link rel="canonical" href="https://dengking.github.io/Post/Abstraction/Abstraction-and-model/">
       
       
         <meta name="author" content="Kai Deng">
       
       
-        <meta name="lang:clipboard.copy" content="Copy to clipboard">
-      
-        <meta name="lang:clipboard.copied" content="Copied to clipboard">
-      
-        <meta name="lang:search.language" content="en">
-      
-        <meta name="lang:search.pipeline.stopwords" content="True">
-      
-        <meta name="lang:search.pipeline.trimmer" content="True">
-      
-        <meta name="lang:search.result.none" content="No matching documents">
-      
-        <meta name="lang:search.result.one" content="1 matching document">
-      
-        <meta name="lang:search.result.other" content="# matching documents">
-      
-        <meta name="lang:search.tokenizer" content="[\s\-]+">
+        <link rel="canonical" href="https://dengking.github.io/Post/Abstraction/Abstraction-and-model/">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.3">
     
     
       
@@ -46,119 +24,114 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.1655a90d.min.css">
       
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.7fa14f5b.min.css">
+        
       
-    
-    
-      <script src="../../../assets/javascripts/modernizr.268332fc.js"></script>
-    
-    
-      
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
-      
-    
-    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
     
     
     
       
         
-<script>
-  window.ga = window.ga || function() {
-    (ga.q = ga.q || []).push(arguments)
-  }
-  ga.l = +new Date
-  /* Setup integration and send page view */
-  ga("create", "UA-27795084-5", "mkdocs.org")
-  ga("set", "anonymizeIp", true)
-  ga("send", "pageview")
-  /* Register handler to log search on blur */
-  document.addEventListener("DOMContentLoaded", () => {
-    if (document.forms.search) {
-      var query = document.forms.search.query
-      query.addEventListener("blur", function() {
-        if (this.value) {
-          var path = document.location.pathname;
-          ga("send", "pageview", path + "?q=" + this.value)
-        }
-      })
-    }
-  })
-</script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+        
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-27795084-5","mkdocs.org"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
 <script async src="https://www.google-analytics.com/analytics.js"></script>
       
     
     
   </head>
   
-    <body dir="ltr">
   
-    <svg class="md-svg">
-      <defs>
-        
-        
-          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
-        
-      </defs>
-    </svg>
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
-    
-      <a href="#abstraction-and-model" tabindex="1" class="md-skip">
-        Skip to content
-      </a>
-    
-    
-      <header class="md-header" data-md-component="header">
-  <nav class="md-header-nav md-grid">
-    <div class="md-flex">
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://dengking.github.io/" title="Website of Kai" class="md-header-nav__button md-logo">
-          
-            <i class="md-icon"></i>
-          
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#abstraction-and-model" class="md-skip">
+          Skip to content
         </a>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
-      </div>
-      <div class="md-flex__cell md-flex__cell--stretch">
-        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
-          
-            <span class="md-header-nav__topic">
-              Website of Kai
-            </span>
-            <span class="md-header-nav__topic">
-              
-                Abstraction-and-model
-              
-            </span>
-          
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://dengking.github.io/" title="Website of Kai" class="md-header__button md-logo" aria-label="Website of Kai">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Website of Kai
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Abstraction-and-model
+            
+          </span>
         </div>
       </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        
-          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-          
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
-      <label class="md-icon md-search__icon" for="__search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
-        &#xE5CD;
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
       </button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result">
+        <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Type to start searching
+            Initializing search
           </div>
           <ol class="md-search-result__list"></ol>
         </div>
@@ -166,71 +139,60 @@
     </div>
   </div>
 </div>
+    
+    
+      <div class="md-header__source">
         
-      </div>
-      
-        <div class="md-flex__cell md-flex__cell--shrink">
-          <div class="md-header-nav__source">
-            
-
-
-  
-
-<a href="https://github.com/dengking/dengking.github.io" title="Go to repository" class="md-source" data-md-source="github">
-  
-    <div class="md-source__icon">
-      <svg viewBox="0 0 24 24" width="24" height="24">
-        <use xlink:href="#__github" width="24" height="24"></use>
-      </svg>
-    </div>
-  
+<a href="https://github.com/dengking/dengking.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
   <div class="md-source__repository">
     GitHub
   </div>
 </a>
-          </div>
-        </div>
-      
-    </div>
+      </div>
+    
   </nav>
 </header>
     
-    <div class="md-container">
+    <div class="md-container" data-md-component="container">
+      
       
         
       
-      
-      <main class="md-main" role="main">
-        <div class="md-main__inner md-grid" data-md-component="container">
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
           
             
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" data-md-level="0">
-  <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="https://dengking.github.io/" title="Website of Kai" class="md-nav__button md-logo">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://dengking.github.io/" title="Website of Kai" class="md-nav__button md-logo" aria-label="Website of Kai">
       
-        <i class="md-icon"></i>
-      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
     </a>
     Website of Kai
   </label>
   
     <div class="md-nav__source">
       
-
-
-  
-
-<a href="https://github.com/dengking/dengking.github.io" title="Go to repository" class="md-source" data-md-source="github">
-  
-    <div class="md-source__icon">
-      <svg viewBox="0 0 24 24" width="24" height="24">
-        <use xlink:href="#__github" width="24" height="24"></use>
-      </svg>
-    </div>
-  
+<a href="https://github.com/dengking/dengking.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
   <div class="md-source__repository">
     GitHub
   </div>
@@ -243,12 +205,15 @@
       
       
 
-
-  <li class="md-nav__item">
-    <a href="../../.." title="Home" class="md-nav__link">
-      Home
-    </a>
-  </li>
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
 
     
       
@@ -256,146 +221,758 @@
       
 
   
-
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+  
+  
     
-    <label class="md-nav__link" for="nav-2">
-      Post
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-2">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      <label class="md-nav__link" for="__nav_2">
         Post
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Post" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Post
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../" title="Introduction" class="md-nav__link">
-      Introduction
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Thoughts/" title="Thoughts" class="md-nav__link">
-      Thoughts
-    </a>
-  </li>
-
-        
-          
-          
-          
-
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
   
 
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      <label class="md-nav__link" for="__nav_2_2">
+        Thoughts
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Thoughts" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Thoughts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Thoughts/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
 
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3" checked>
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      <label class="md-nav__link" for="__nav_2_3">
+        Law
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Law" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Law
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
     
-    <label class="md-nav__link" for="nav-2-3">
-      Abstraction
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-3">
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_2" type="checkbox" id="__nav_2_3_2" >
+      
+      <label class="md-nav__link" for="__nav_2_3_2">
+        Software-and-hardware
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Software-and-hardware" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Software-and-hardware
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Software-and-hardware/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Software-and-hardware/Andy-and-Bill%27s-law/" class="md-nav__link">
+        Andy-and-Bill's-law
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3" type="checkbox" id="__nav_2_3_3" >
+      
+      <label class="md-nav__link" for="__nav_2_3_3">
+        Nature
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Nature" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Nature
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Nature/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3_2" type="checkbox" id="__nav_2_3_3_2" >
+      
+      <label class="md-nav__link" for="__nav_2_3_3_2">
+        Atomic
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Atomic" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Atomic
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Nature/Atomic/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3_3" type="checkbox" id="__nav_2_3_3_3" >
+      
+      <label class="md-nav__link" for="__nav_2_3_3_3">
+        Transaction
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Transaction" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Transaction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Nature/Transaction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_4" type="checkbox" id="__nav_2_3_4" >
+      
+      <label class="md-nav__link" for="__nav_2_3_4">
+        Optimization-principle
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Optimization-principle" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          Optimization-principle
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Optimization-principle/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_5" type="checkbox" id="__nav_2_3_5" >
+      
+      <label class="md-nav__link" for="__nav_2_3_5">
+        Level-in-computer-science
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Level-in-computer-science" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          Level-in-computer-science
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Level-in-computer-science/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_6" type="checkbox" id="__nav_2_3_6" >
+      
+      <label class="md-nav__link" for="__nav_2_3_6">
+        Tradeoff
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Tradeoff" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          Tradeoff
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Tradeoff/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_7" type="checkbox" id="__nav_2_3_7" >
+      
+      <label class="md-nav__link" for="__nav_2_3_7">
+        Opposite
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Opposite" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_7">
+          <span class="md-nav__icon md-icon"></span>
+          Opposite
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Opposite/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_7_2" type="checkbox" id="__nav_2_3_7_2" >
+      
+      <label class="md-nav__link" for="__nav_2_3_7_2">
+        Lazy-and-eager
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Lazy-and-eager" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          Lazy-and-eager
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Opposite/Lazy-and-eager/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_8" type="checkbox" id="__nav_2_3_8" >
+      
+      <label class="md-nav__link" for="__nav_2_3_8">
+        Time-and-space
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Time-and-space" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_8">
+          <span class="md-nav__icon md-icon"></span>
+          Time-and-space
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Time-and-space/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_9" type="checkbox" id="__nav_2_3_9" >
+      
+      <label class="md-nav__link" for="__nav_2_3_9">
+        Meta
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Meta" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_9">
+          <span class="md-nav__icon md-icon"></span>
+          Meta
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Meta/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_10" type="checkbox" id="__nav_2_3_10" >
+      
+      <label class="md-nav__link" for="__nav_2_3_10">
+        Standard-and-implementation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Standard-and-implementation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_10">
+          <span class="md-nav__icon md-icon"></span>
+          Standard-and-implementation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Standard-and-implementation/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_11" type="checkbox" id="__nav_2_3_11" >
+      
+      <label class="md-nav__link" for="__nav_2_3_11">
+        Unit
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Unit" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_11">
+          <span class="md-nav__icon md-icon"></span>
+          Unit
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Law/Unit/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" checked>
+      
+      <label class="md-nav__link" for="__nav_2_4">
         Abstraction
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Abstraction" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Abstraction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../Abstraction/" title="Abstraction" class="md-nav__link">
-      Abstraction
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../Abstraction-and-architecture/" title="Abstraction-and-architecture" class="md-nav__link">
-      Abstraction-and-architecture
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../Abstraction-and-architecture-and-layer/" title="Abstraction-and-architecture-and-layer" class="md-nav__link">
-      Abstraction-and-architecture-and-layer
-    </a>
-  </li>
-
-        
-          
-          
-          
-
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Abstraction/" class="md-nav__link">
+        Abstraction
+      </a>
+    </li>
   
 
-
-  <li class="md-nav__item md-nav__item--active">
+          
+            
+  
+  
     
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
       
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Abstraction-and-model
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Abstraction-and-model
-      </label>
-    
-    <a href="./" title="Abstraction-and-model" class="md-nav__link md-nav__link--active">
-      Abstraction-and-model
-    </a>
-    
+      </a>
       
-<nav class="md-nav md-nav--secondary">
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
     
   
   
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#task-model" class="md-nav__link">
-    Task model
+  <a href="#wikipedia-conceptual-model" class="md-nav__link">
+    wikipedia Conceptual model
   </a>
   
-    <nav class="md-nav">
+    <nav class="md-nav" aria-label="wikipedia Conceptual model">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#context-switchtask" class="md-nav__link">
-    Context switch是task模型的必备操作
+  <a href="#modelling-techniques" class="md-nav__link">
+    Modelling techniques
+  </a>
+  
+    <nav class="md-nav" aria-label="Modelling techniques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-flow-modeling" class="md-nav__link">
+    Data flow modeling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entity-relationship-modeling" class="md-nav__link">
+    Entity relationship modeling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-driven-process-chain" class="md-nav__link">
+    Event-driven process chain
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#state-transition-modeling" class="md-nav__link">
+    State transition modeling
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistical-models" class="md-nav__link">
+    Statistical models
   </a>
   
 </li>
@@ -406,23 +983,43 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#models" class="md-nav__link">
+    Models
+  </a>
+  
+    <nav class="md-nav" aria-label="Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#task-model" class="md-nav__link">
+    Task model
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#event-driven-model" class="md-nav__link">
     Event-driven model
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#event-driven-modeltask-modelsoftware" class="md-nav__link">
-    使用event-driven model和上述的task model可以描述太多太多的software
+    使用event-driven model和task model可以描述太多太多的software
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#model-of-computation" class="md-nav__link">
     Model of computation
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -431,7 +1028,7 @@
     Model是一种简化
   </a>
   
-    <nav class="md-nav">
+    <nav class="md-nav" aria-label="Model是一种简化">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -442,8 +1039,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#statistical-model" class="md-nav__link">
-    Statistical model
+  <a href="#wikipedia-statistical-model" class="md-nav__link">
+    wikipedia Statistical model
   </a>
   
 </li>
@@ -465,12 +1062,12 @@
     模型与实现
   </a>
   
-    <nav class="md-nav">
+    <nav class="md-nav" aria-label="模型与实现">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
-    example
+    Example
   </a>
   
 </li>
@@ -487,277 +1084,282 @@
   
 </li>
       
-      
-      
-      
-      
     </ul>
   
 </nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Abstract-and-concrete/" class="md-nav__link">
+        Abstract-and-concrete
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
     
-  </li>
-
-        
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_4" type="checkbox" id="__nav_2_4_4" >
+      
+      <label class="md-nav__link" for="__nav_2_4_4">
+        Abstraction-and-virtual
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Abstraction-and-virtual" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Abstraction-and-virtual
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Abstraction-and-virtual/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
           
+        </ul>
+      </nav>
+    </li>
+  
+
           
-
-
-  <li class="md-nav__item">
-    <a href="../Abstraction-and-relation/" title="Abstraction-and-relation" class="md-nav__link">
-      Abstraction-and-relation
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../Abstraction-and-virtual/" title="Abstraction-and-virtual" class="md-nav__link">
-      Abstraction-and-virtual
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
+            
+  
+  
+  
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_5" type="checkbox" id="__nav_2_4_5" >
+      
+      <label class="md-nav__link" for="__nav_2_4_5">
+        Create-abstraction
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Create-abstraction" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Create-abstraction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Create-abstraction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
     
-    <label class="md-nav__link" for="nav-2-4">
-      Language
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-4">
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_6" type="checkbox" id="__nav_2_4_6" >
+      
+      <label class="md-nav__link" for="__nav_2_4_6">
+        Abstraction-principle
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Abstraction-principle" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_6">
+          <span class="md-nav__icon md-icon"></span>
+          Abstraction-principle
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Abstraction-principle/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      <label class="md-nav__link" for="__nav_2_5">
         Language
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Language" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Language
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Language/Language/" class="md-nav__link">
+        Language
+      </a>
+    </li>
+  
+
           
+        </ul>
+      </nav>
+    </li>
+  
+
           
-
-
-  <li class="md-nav__item">
-    <a href="../../Language/Language/" title="Language" class="md-nav__link">
-      Language
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
+            
+  
+  
+  
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
-    
-    <label class="md-nav__link" for="nav-2-5">
-      Formal
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-5">
-        Formal
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      <label class="md-nav__link" for="__nav_2_6">
+        TODO-Turing
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="TODO-Turing" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          TODO-Turing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TODO-Turing/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TODO-Turing/Turing-completeness/" class="md-nav__link">
+        Turing-completeness
+      </a>
+    </li>
+  
+
           
+        </ul>
+      </nav>
+    </li>
+  
 
-
-  <li class="md-nav__item">
-    <a href="../../Formal/Formal/" title="Formal" class="md-nav__link">
-      Formal
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Glossary/" class="md-nav__link">
+        Glossary
+      </a>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Knowledge-base/" class="md-nav__link">
+        Knowledge-base
+      </a>
+    </li>
+  
+
           
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6">
-    
-    <label class="md-nav__link" for="nav-2-6">
-      Turing
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-6">
-        Turing
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Turing/" title="Introduction" class="md-nav__link">
-      Introduction
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Turing/Turing-completeness/" title="Turing-completeness" class="md-nav__link">
-      Turing-completeness
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Unit/" title="Unit" class="md-nav__link">
-      Unit
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Context/" title="Context" class="md-nav__link">
-      Context
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Separation-and-independent/" title="Separation-and-independent.md" class="md-nav__link">
-      Separation-and-independent.md
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Architecture/" title="Architecture" class="md-nav__link">
-      Architecture
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Time-and-space/" title="Time-and-space" class="md-nav__link">
-      Time-and-space
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../0-to-1-and-1-to-many/" title="0-to-1-and-1-to-many" class="md-nav__link">
-      0-to-1-and-1-to-many
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Closure/" title="Closure" class="md-nav__link">
-      Closure
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Glossary/" title="Glossary" class="md-nav__link">
-      Glossary
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
+        </ul>
+      </nav>
+    </li>
+  
 
     
       
       
       
 
-
-  <li class="md-nav__item">
-    <a href="../../../about/" title="About" class="md-nav__link">
-      About
-    </a>
-  </li>
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
 
     
   </ul>
@@ -767,30 +1369,75 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
-<nav class="md-nav md-nav--secondary">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
     
   
   
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#task-model" class="md-nav__link">
-    Task model
+  <a href="#wikipedia-conceptual-model" class="md-nav__link">
+    wikipedia Conceptual model
   </a>
   
-    <nav class="md-nav">
+    <nav class="md-nav" aria-label="wikipedia Conceptual model">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#context-switchtask" class="md-nav__link">
-    Context switch是task模型的必备操作
+  <a href="#modelling-techniques" class="md-nav__link">
+    Modelling techniques
+  </a>
+  
+    <nav class="md-nav" aria-label="Modelling techniques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-flow-modeling" class="md-nav__link">
+    Data flow modeling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entity-relationship-modeling" class="md-nav__link">
+    Entity relationship modeling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-driven-process-chain" class="md-nav__link">
+    Event-driven process chain
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#state-transition-modeling" class="md-nav__link">
+    State transition modeling
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistical-models" class="md-nav__link">
+    Statistical models
   </a>
   
 </li>
@@ -801,23 +1448,43 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#models" class="md-nav__link">
+    Models
+  </a>
+  
+    <nav class="md-nav" aria-label="Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#task-model" class="md-nav__link">
+    Task model
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#event-driven-model" class="md-nav__link">
     Event-driven model
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#event-driven-modeltask-modelsoftware" class="md-nav__link">
-    使用event-driven model和上述的task model可以描述太多太多的software
+    使用event-driven model和task model可以描述太多太多的software
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#model-of-computation" class="md-nav__link">
     Model of computation
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -826,7 +1493,7 @@
     Model是一种简化
   </a>
   
-    <nav class="md-nav">
+    <nav class="md-nav" aria-label="Model是一种简化">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -837,8 +1504,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#statistical-model" class="md-nav__link">
-    Statistical model
+  <a href="#wikipedia-statistical-model" class="md-nav__link">
+    wikipedia Statistical model
   </a>
   
 </li>
@@ -860,12 +1527,12 @@
     模型与实现
   </a>
   
-    <nav class="md-nav">
+    <nav class="md-nav" aria-label="模型与实现">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
-    example
+    Example
   </a>
   
 </li>
@@ -882,10 +1549,6 @@
   
 </li>
       
-      
-      
-      
-      
     </ul>
   
 </nav>
@@ -894,90 +1557,76 @@
               </div>
             
           
-          <div class="md-content">
+          <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
                 
                 <h1 id="abstraction-and-model">Abstraction and model<a class="headerlink" href="#abstraction-and-model" title="Permanent link">#</a></h1>
-<p><a href="https://en.wikipedia.org/wiki/Conceptual_model">Conceptual model</a>：</p>
+<p>本文讨论abstraction(抽象) 和 model(建模)，作为software engineer，我们需要解决现实世界中的各种问题，这个过程其实是: abstraction(抽象) 并 model(建模)，然后使用programming language来实现/描述model，最后将此model应用于实际，从而使实际问题得解；</p>
 <blockquote>
-<p>A <strong>conceptual model</strong> is a representation of a system, made of the composition of <a href="https://en.wikipedia.org/wiki/Concept">concepts</a> which are used to help people <a href="https://en.wikipedia.org/wiki/Knowledge">know</a>, <a href="https://en.wikipedia.org/wiki/Understanding">understand</a>, or <a href="https://en.wikipedia.org/wiki/Simulation">simulate</a> a subject the model represents. </p>
+<p>NOTE: 关于model的实现，在<a href="../Abstract-and-concrete/">Abstract-and-concrete</a> 中进行了讨论。</p>
 </blockquote>
+<p>按照Wikipedia中的说法，这里本段所述的model是<a href="https://en.wikipedia.org/wiki/Conceptual_model">Conceptual model</a>，下面是我的总结:</p>
 <p><a href="https://en.wikipedia.org/wiki/Conceptual_model">Conceptual model</a> 是对concept（通过abstraction创建的）和其relation的描述（其实它本身就是一个抽象的过程），它是对原理的描述，它没有达到实现层面，它指导着实现。在计算机科学的各个领域，有着非常多著名的<a href="https://en.wikipedia.org/wiki/Conceptual_model">conceptual model</a>。其实我们可以回顾学习生涯，教材往往是先从理论模型（其实就是概念模型）开始讲起，后面再来讲述实现，因为理论模型剔除了很多细节，而抽象出来最最本质的内容，易于理解，也就是<a href="https://en.wikipedia.org/wiki/Conceptual_model">Conceptual model</a>使我们能够更加轻松地 <a href="https://en.wikipedia.org/wiki/Understanding">understand</a>。</p>
-<p>本节总结一些常见的model。</p>
-<h2 id="task-model">Task model<a class="headerlink" href="#task-model" title="Permanent link">#</a></h2>
-<p>一些关于task model的内容：</p>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Computer_multitasking">Computer multitasking</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Task_parallelism">Task parallelism</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Task_(computing)">Task (computing)</a></li>
-</ul>
-<p>在task model中，往往有<strong>管理者</strong>（manager）的角色，它负责<strong>控制</strong>整个系统：</p>
-<ul>
-<li>调度task，具备<strong>调度者</strong>的角色</li>
-<li>监控task，如对task的resource usage进行监控，具备<strong>监控者</strong>的角色</li>
-</ul>
-<p>用户可以向manager请求创建task、操作task等。</p>
-<p>使用task model的时候，需要考虑的一些问题：</p>
-<ul>
-<li>task是什么</li>
-<li><strong>管理者</strong>是什么</li>
-<li>task的<strong>执行者</strong>是什么</li>
-</ul>
-<p>下面使用task model来描述一些系统：</p>
-<ul>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Computer_multitasking">Computer multitasking</a>中，<strong>管理者</strong>是operating system kernel，是task是process或thread的执行，它的执行者是CPU。</p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Celery_(software)">celery</a>中，task就是一个一个由用户定义的task function，执行者其实就是process了，<strong>调度者</strong>其实就是它的<a href="https://en.wikipedia.org/wiki/Celery_(software)">task queue</a>了，显然和OS kernel的调度者相比，它的调度策略是非常简单的。</p>
-</li>
-</ul>
-<p>关于调度者，参见：</p>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Scheduling_(computing)">Scheduling (computing)</a></li>
-</ul>
-<h3 id="context-switchtask">Context switch是task模型的必备操作<a class="headerlink" href="#context-switchtask" title="Permanent link">#</a></h3>
-<p>本节所描述的context switch是广义的context switch，而不是仅仅局限于process的context switch。因为task model中存在着的并发执行的task，并且管理者会进行调度，所以就会发生context switch，比如：</p>
-<ul>
-<li>git branch，<a href="https://git-scm.com/about">Frictionless Context Switching</a></li>
-</ul>
-<p>所以，context switch是task模型的必备操作。</p>
-<p>与task model相关的另外一个概念就是：task manager，比如<a href="https://en.wikipedia.org/wiki/Task_Manager_(Windows)">Task Manager (Windows)</a>。</p>
-<h2 id="event-driven-model">Event-driven model<a class="headerlink" href="#event-driven-model" title="Permanent link">#</a></h2>
-<p>一些关乎event-driven model的内容：</p>
-<ul>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Event_(computing)">Event (computing)</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Event-driven_programming">Event-driven programming</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Event-driven_architecture">Event-driven architecture</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Event_(computing)#Event_handler">Event handler</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Interrupt">Interrupt</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Interrupt">Interrupt-driven</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Interrupt_handler">Interrupt handler</a></p>
-</li>
-</ul>
-<h2 id="event-driven-modeltask-modelsoftware">使用event-driven model和上述的task model可以描述太多太多的software<a class="headerlink" href="#event-driven-modeltask-modelsoftware" title="Permanent link">#</a></h2>
+<h2 id="wikipedia-conceptual-model">wikipedia <a href="https://en.wikipedia.org/wiki/Conceptual_model">Conceptual model</a><a class="headerlink" href="#wikipedia-conceptual-model" title="Permanent link">#</a></h2>
+<p>A <strong>conceptual model</strong> is a representation of a system, made of the composition of <a href="https://en.wikipedia.org/wiki/Concept">concepts</a> which are used to help people <a href="https://en.wikipedia.org/wiki/Knowledge">know</a>, <a href="https://en.wikipedia.org/wiki/Understanding">understand</a>, or <a href="https://en.wikipedia.org/wiki/Simulation">simulate</a> (模拟) a subject(主题) the model represents. In contrast, <a href="https://en.wikipedia.org/wiki/Physical_model">physical models</a> are <a href="https://en.wikipedia.org/wiki/Physical_object">physical objects</a>; </p>
+<blockquote>
+<p>NOTE: 上面这段话中，"the model represents"是一个定语从句，修饰 "subject" 。</p>
+<p>science 和 technology的发展总是遵循: 从theory到implementation，即先创建theory然后根据theory来进行implement；</p>
+</blockquote>
+<p><em>Conceptual model</em> may refer to models which are formed after a <a href="https://en.wiktionary.org/wiki/concept#Noun">conceptualization</a> or <a href="https://en.wikipedia.org/wiki/Generalization">generalization</a> process.[<a href="https://en.wikipedia.org/wiki/Conceptual_model#cite_note-MWCD-1">1]</a>[<a href="https://en.wikipedia.org/wiki/Conceptual_model#cite_note-2">2]</a> Conceptual models are often abstractions of things in the real world, whether physical or social. </p>
+<blockquote>
+<p>NOTE: 上述  "<a href="https://en.wiktionary.org/wiki/concept#Noun">conceptualization</a> or <a href="https://en.wikipedia.org/wiki/Generalization">generalization</a>", 其实都是抽象的过程；</p>
+</blockquote>
+<h3 id="modelling-techniques">Modelling techniques<a class="headerlink" href="#modelling-techniques" title="Permanent link">#</a></h3>
+<blockquote>
+<p>NOTE: 建模技术，原文这一段这样描述的是computer science中的model technique。因此有必要了解一下；</p>
+<p>可以看到，本节描述的各种technique都有对应的diagram，这些diagram是programmer原来描述这些conceptual model的；</p>
+</blockquote>
+<p><em>Main article:</em> <a href="https://en.wikipedia.org/wiki/Conceptual_model_(computer_science)">Conceptual model (computer science)</a></p>
+<h4 id="data-flow-modeling">Data flow modeling<a class="headerlink" href="#data-flow-modeling" title="Permanent link">#</a></h4>
+<p><strong>Data flow modeling</strong> (DFM) is a basic <strong>conceptual modeling technique</strong> that graphically represents elements of a system. DFM is a fairly simple technique, however, like many conceptual modeling techniques, it is possible to construct higher and lower level representative diagrams. The <a href="https://en.wikipedia.org/wiki/Data_flow_diagram">data flow diagram</a> usually does not convey complex system details such as parallel development considerations or timing information, but rather works to bring the major system functions into context. Data flow modeling is a central technique used in systems development that utilizes the <a href="https://en.wikipedia.org/wiki/Structured_systems_analysis_and_design_method">structured systems analysis and design method</a> (SSADM).</p>
+<blockquote>
+<p>NOTE: 图: <a href="https://en.wikipedia.org/wiki/Data_flow_diagram">data flow diagram</a>。</p>
+</blockquote>
+<h4 id="entity-relationship-modeling">Entity relationship modeling<a class="headerlink" href="#entity-relationship-modeling" title="Permanent link">#</a></h4>
+<p><a href="https://en.wikipedia.org/wiki/Entity–relationship_model">Entity–relationship modeling</a> (ERM) is a conceptual modeling technique used primarily for software system representation. Entity-relationship diagrams, which are a product of executing the ERM technique, are normally used to represent database models and information systems. The main components of the diagram are the entities and relationships. The entities can represent independent functions, objects, or events. The relationships are responsible for relating the entities to one another.</p>
+<blockquote>
+<p>NOTE: 图: entity-relationship diagram。</p>
+</blockquote>
+<h4 id="event-driven-process-chain">Event-driven process chain<a class="headerlink" href="#event-driven-process-chain" title="Permanent link">#</a></h4>
+<p>The <a href="https://en.wikipedia.org/wiki/Event-driven_process_chain">event-driven process chain</a> (EPC) is a conceptual modeling technique which is mainly used to systematically improve business process flows. </p>
+<h4 id="state-transition-modeling">State transition modeling<a class="headerlink" href="#state-transition-modeling" title="Permanent link">#</a></h4>
+<p>State transition modeling makes use of <a href="https://en.wikipedia.org/wiki/State_transition_diagram">state transition diagrams</a> to describe system behavior. These state transition diagrams use distinct states to define system behavior and changes. Most current modeling tools contain some kind of ability to represent state transition modeling. The use of state transition models can be most easily recognized as logic state diagrams and directed graphs for <a href="https://en.wikipedia.org/wiki/Finite-state_machine">finite-state machines</a>.</p>
+<blockquote>
+<p>NOTE: 图  <a href="https://en.wikipedia.org/wiki/State_transition_diagram">state transition diagrams</a> </p>
+</blockquote>
+<h3 id="statistical-models">Statistical models<a class="headerlink" href="#statistical-models" title="Permanent link">#</a></h3>
+<p><em>Further information:</em> <a href="https://en.wikipedia.org/wiki/Statistical_model">Statistical model</a><em>,</em> <a href="https://en.wikipedia.org/wiki/Parametric_model">Parametric model</a><em>,</em> <a href="https://en.wikipedia.org/wiki/Nonparametric_statistics">Nonparametric statistics</a><em>, and</em> <a href="https://en.wikipedia.org/wiki/Model_selection">Model selection</a></p>
+<blockquote>
+<p>NOTE: 这是AI中非常重要的概念</p>
+</blockquote>
+<h2 id="models">Models<a class="headerlink" href="#models" title="Permanent link">#</a></h2>
+<p>本节介绍我总结的一些model。</p>
+<h3 id="task-model">Task model<a class="headerlink" href="#task-model" title="Permanent link">#</a></h3>
+<p>参见工程software-engineering的<code>Software-design\Design-pattern\Architecture-pattern\Task-model</code>章节。</p>
+<h3 id="event-driven-model">Event-driven model<a class="headerlink" href="#event-driven-model" title="Permanent link">#</a></h3>
+<p>参见工程parallel-computing的<code>Application\Message-processing-system\Event-driven-model</code>章节。</p>
+<h3 id="event-driven-modeltask-modelsoftware">使用event-driven model和task model可以描述太多太多的software<a class="headerlink" href="#event-driven-modeltask-modelsoftware" title="Permanent link">#</a></h3>
 <p>比如：OS kernel对hardware的管理可以使用event-driven model来进行描述；OS kernel实现multitasking可以使用task model来进行描述。</p>
-<h2 id="model-of-computation"><a href="https://en.wikipedia.org/wiki/Model_of_computation">Model of computation</a><a class="headerlink" href="#model-of-computation" title="Permanent link">#</a></h2>
+<h3 id="model-of-computation">Model of computation<a class="headerlink" href="#model-of-computation" title="Permanent link">#</a></h3>
+<p>参见:</p>
+<p>1) 工程discrete的<code>Relation-structure-computation\Computation\Theory-of-computation\Model-of-computation</code>章节。</p>
+<p>2) wikipedia <a href="https://en.wikipedia.org/wiki/Model_of_computation">Model of computation</a></p>
 <h2 id="model">Model是一种简化<a class="headerlink" href="#model" title="Permanent link">#</a></h2>
+<p>model是一种简化，现实的问题往往更加复杂，往往需要综合多个model。</p>
 <h3 id="run-time-environment">Run-time environment<a class="headerlink" href="#run-time-environment" title="Permanent link">#</a></h3>
 <p><a href="https://dengking.github.io/compiler-principle/">龙书</a>的<a href="https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/">第七章</a>中所定义的run-time environment是一个简化模型，它忽略了一些细节，比如multi-thread，而仅仅关注于部分内容。在对其进行实现的时候，需要考虑其他的诸多因素，参见工程<a href="https://dengking.github.io/Linux-OS/">Linux-OS</a>的<a href="https://dengking.github.io/Linux-OS/Kernel/Guide/Linux-OS's-multitasking/01-Process-mode-run-time-environment/">Process mode: run time environment</a>，其中描述了实现的细节。</p>
-<h3 id="statistical-model"><a href="https://en.wikipedia.org/wiki/Statistical_model">Statistical model</a><a class="headerlink" href="#statistical-model" title="Permanent link">#</a></h3>
+<h3 id="wikipedia-statistical-model">wikipedia <a href="https://en.wikipedia.org/wiki/Statistical_model">Statistical model</a><a class="headerlink" href="#wikipedia-statistical-model" title="Permanent link">#</a></h3>
+<blockquote>
 <p>As Burnham &amp; Anderson state, "A model is a simplification or approximation of reality and hence will not reflect all of reality"—whence the saying "<a href="https://en.wikipedia.org/wiki/All_models_are_wrong">all models are wrong</a>".</p>
+</blockquote>
 <h2 id="mathematical-model">Mathematical model，一种更加高效的描述方式<a class="headerlink" href="#mathematical-model" title="Permanent link">#</a></h2>
 <p>在各个学科，建立<a href="https://en.wikipedia.org/wiki/Mathematical_model">mathematical model</a>让描述更加便捷、更加容易被人理解。</p>
 <p>下面是<a href="https://en.wikipedia.org/wiki/Mathematical_model">mathematical model</a>的一些例子：</p>
@@ -989,16 +1638,14 @@
 <li>https://en.wikipedia.org/wiki/Hidden_Markov_model</li>
 </ul>
 <h2 id="_1">模型与实现<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
-<h3 id="example">example<a class="headerlink" href="#example" title="Permanent link">#</a></h3>
+<p>一个model，可以有多种实现。</p>
+<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">#</a></h3>
 <p>在龙书的<a href="https://dengking.github.io/compiler-principle/Chapter-7-Run-Time-Environments/">第七章</a>中所讲述的logical address space是一个概念模型，对于这个概念模型不同的操作系统有不同的时候，目前主流的实现方式是paged virtual address space。</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">#</a></h2>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Database_model">Database model</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Data_model">Data model</a></li>
 </ul>
-                
-                  
-                
                 
               
               
@@ -1014,50 +1661,47 @@
         
 <footer class="md-footer">
   
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        
-          <a href="../Abstraction-and-architecture-and-layer/" title="Abstraction-and-architecture-and-layer" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
-            </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                Abstraction-and-architecture-and-layer
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../Abstraction/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
               </span>
+              Abstraction
             </div>
-          </a>
-        
-        
-          <a href="../Abstraction-and-relation/" title="Abstraction-and-relation" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Abstraction-and-relation
+          </div>
+        </a>
+      
+      
+        <a href="../Abstract-and-concrete/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
               </span>
+              Abstract-and-concrete
             </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-footer-copyright">
         
-        powered by
-        <a href="https://www.mkdocs.org">MkDocs</a>
-        and
-        <a href="https://squidfunk.github.io/mkdocs-material/">
-          Material for MkDocs</a>
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
       </div>
       
     </div>
@@ -1065,10 +1709,13 @@
 </footer>
       
     </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
     
-      <script src="../../../assets/javascripts/application.808e90bb.js"></script>
-      
-      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+    
+      <script src="../../../assets/javascripts/bundle.ca5457b8.min.js"></script>
       
     
   </body>
