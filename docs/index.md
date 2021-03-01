@@ -10,7 +10,7 @@
 
 | project name                                                 | explanation                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **[ Language](https://github.com/dengking/Language)**        | Automata theory and formal language theory                   |
+| [Language](https://dengking.github.io/Language)              | Automata theory and formal language theory                   |
 | [compiler-principle](https://dengking.github.io/compiler-principle/) | Note of book Compilers Principles, Techniques and Tools Second Edition |
 | [programming-language](http://dengking.github.io/programming-language) |                                                              |
 
@@ -46,7 +46,7 @@
 
 | project name                                                 | explanation                              |
 | ------------------------------------------------------------ | ---------------------------------------- |
-| [Parallel-computing](https://github.com/dengking/Parallel-computing) | 并行计算，其中包括: 并发、分布式等等内容 |
+| [Parallel-computing](https://dengking.github.io/Parallel-computing) | 并行计算，其中包括: 并发、分布式等等内容 |
 
 
 
@@ -56,13 +56,13 @@
 
 | project name                                                 | explanation |
 | ------------------------------------------------------------ | ----------- |
-| [software-engineering](https://github.com/dengking/software-engineering) |             |
+| [software-engineering](https://dengking.github.io/software-engineering) |             |
 
 ## Database
 
-| project name                         | explanation      |
-| ------------------------------------ | ---------------- |
-| [DB](https://github.com/dengking/DB) | 数据库相关的内容 |
+| project name                        | explanation      |
+| ----------------------------------- | ---------------- |
+| [DB](https://dengking.github.io/DB) | 数据库相关的内容 |
 
 
 
@@ -83,16 +83,6 @@
 | project name                                                 | explanation      |
 | ------------------------------------------------------------ | ---------------- |
 | [machine-learning](https://dengking.github.io/machine-learning) | 机器学习相关内容 |
-
-
-
-## math
-
-| project name                             | explanation |
-| ---------------------------------------- | ----------- |
-| [math](https://github.com/dengking/math) |             |
-
-
 
 
 
