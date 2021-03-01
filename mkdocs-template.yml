@@ -2,7 +2,17 @@ site_name: Website of Kai
 site_url: https://dengking.github.io/
 site_description: Website of Kai
 site_author: Kai Deng
+repo_url: https://github.com/dengking/dengking.github.io
 
+edit_uri: ""
+
+
+
+theme:
+    name: material
+
+        
+nav: None
 markdown_extensions:
     - toc:
         separator: '-'

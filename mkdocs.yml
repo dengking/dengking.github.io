@@ -1,3 +1,4 @@
+edit_uri: ''
 extra_css:
 - css/extra.css
 extra_javascript:
@@ -7,7 +8,7 @@ google_analytics:
 - mkdocs.org
 markdown_extensions:
 - toc:
-    separator: '-'
+    separator: '#'
 - admonition
 - def_list
 - mdx_gh_links:
@@ -19,8 +20,6 @@ markdown_extensions:
 - pymdownx.caret
 - pymdownx.critic
 - pymdownx.details
-- pymdownx.emoji:
-    emoji_generator: '!!python/name:pymdownx.emoji.to_svg'
 - pymdownx.inlinehilite
 - pymdownx.magiclink
 - pymdownx.mark
@@ -84,7 +83,10 @@ nav:
 - About: about.md
 plugins:
 - search
-site_author: Kai Deng
-site_description: Website of Kai
+repo_url: https://github.com/dengking/dengking.github.io
+site_author: DengKing
+site_description: Project documentation with Markdown.
 site_name: Website of Kai
-site_url: https://dengking.github.io/
+site_url: https://dengking.github.io/dengking.github.io
+theme:
+  name: material
