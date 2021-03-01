@@ -74,10 +74,6 @@
 
 
 
-
-
-
-
 ## machine learning
 
 | project name                                                 | explanation      |
