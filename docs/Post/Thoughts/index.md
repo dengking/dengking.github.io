@@ -83,6 +83,10 @@ Application 2: lifetime
 
 ### 意图决定最终的结果
 
+> NOTE:
+>
+> 1、tag-意图决定最终的结果
+
 在阅读[clang](http://clang.llvm.org/)的[Clang vs Other Open Source Compilers](https://clang.llvm.org/comparison.html)时，其中的一段话让我印象深刻：
 
 > The goal of this list is to describe how differences in goals lead to different strengths and weaknesses, not to make some compiler look bad. 
@@ -91,7 +95,9 @@ Application 2: lifetime
 
 与此类似的案例还有：
 
-- [git](https://en.wikipedia.org/wiki/Git)
+1、[git](https://en.wikipedia.org/wiki/Git)
+
+2、[jemalloc](http://jemalloc.net/)
 
 
 
