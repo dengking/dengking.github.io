@@ -1,8 +1,10 @@
 # Transaction
 
-Transaction是一个非常好的抽象。
+一、Transaction是一个非常好的抽象。
 
 > TODO: 需要添加data insensitive system book中的观点
+
+二、transaction是optimistic的
 
 ## wikipedia [Transaction](https://en.wikipedia.org/wiki/Transaction)
 
