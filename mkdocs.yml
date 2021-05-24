@@ -57,6 +57,7 @@ nav:
         - Introduction: Post/Law/Opposite/Lazy-and-eager/index.md
     - Time-and-space:
       - Introduction: Post/Law/Time-and-space/index.md
+      - Time-and-space-2: Post/Law/Time-and-space/Time-and-space-2.md
     - Meta:
       - Introduction: Post/Law/Meta/index.md
     - Standard-and-implementation:
@@ -79,7 +80,8 @@ nav:
     - Introduction: Post/TODO-Turing/index.md
     - Turing-completeness: Post/TODO-Turing/Turing-completeness.md
   - Glossary: Post/Glossary.md
-  - Knowledge-base: Post/Knowledge-base.md
+  - Knowledge-base:
+    - Knowledge-base: Post/Knowledge-base/Knowledge-base.md
 - About: about.md
 plugins:
 - search
