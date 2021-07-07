@@ -82,6 +82,8 @@ nav:
   - Glossary: Post/Glossary.md
   - Knowledge-base:
     - Knowledge-base: Post/Knowledge-base/Knowledge-base.md
+  - "\u6784\u5EFA\u4E2A\u4EBA\u7F51\u7AD9":
+    - Introduction: "Post/\u6784\u5EFA\u4E2A\u4EBA\u7F51\u7AD9/index.md"
 - About: about.md
 plugins:
 - search
