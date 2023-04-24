@@ -1,0 +1,1 @@
+# zhihu [一文带你玩转C++内存池的简单原理及实现(纯代码解析)](https://zhuanlan.zhihu.com/p/490854273)

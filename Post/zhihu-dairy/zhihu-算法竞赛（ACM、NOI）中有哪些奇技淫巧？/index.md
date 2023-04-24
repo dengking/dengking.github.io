@@ -1,0 +1,1 @@
+# zhihu [算法竞赛（ACM、NOI）中有哪些奇技淫巧？](https://www.zhihu.com/question/288096930/answer/2968006378)
