@@ -1,0 +1,1 @@
+# zhihu [算法学习笔记(90): 序列自动机](https://zhuanlan.zhihu.com/p/579310640)
