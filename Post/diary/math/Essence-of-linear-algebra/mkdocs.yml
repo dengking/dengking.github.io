@@ -2,4 +2,5 @@ nav:
     - Introduction: index.md
     - Chapter-1-Vectors: Chapter-1-Vectors
     - Chapter-2-Linear-combinations,span,and-basis-vectors: Chapter-2-Linear-combinations,span,and-basis-vectors
+    - Chapter-3-Linear-transformations-and-matrices: Chapter-3-Linear-transformations-and-matrices
     

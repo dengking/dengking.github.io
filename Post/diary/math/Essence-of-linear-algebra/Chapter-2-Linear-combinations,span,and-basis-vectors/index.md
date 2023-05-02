@@ -60,241 +60,104 @@ Where does this word "linear" come from? Why does this have anything to do with 
 
 Well, this isn't the etymology, but one way I like to think about it is that if you fix one of those scalars, and let the other one change its value freely, the tip of the resulting vector draws a straight line.
 
-Now, if you let both scalars range freely, and consider every possible vector that you can get, there are two things that can happen:
+> NOTE:
+>
+> 一、"etymology"的意思是 "词源学"
+>
+> 二、"tip"的意思是 "末端"
 
-For most pairs of vectors, you'll be able to reach every possible point in the plane; every two-dimensional vector is within your
-grasp.
+Now, if you let both scalars range freely, and consider every possible vector that you can get, there are two things that can happen: For most pairs of vectors, you'll be able to reach every possible point in the plane; every two-dimensional vector is within your grasp.
 
 ## basis vectors 共线
 
-However, in the unlucky case where your two original vectors happen to line up, the tip of the resulting vector is limited
-to just this single line passing through the origin.
+However, in the unlucky case where your two original vectors happen to line up, the tip of the resulting vector is limited to just this single line passing through the origin.
 
 Actually, technically there's a third possibility too: both your vectors could be zero, in which case you'd just be stuck at the origin.
 
-Here's some more terminology:
+## span of two vectors
 
-The set of all possible vectors that you can reach with a linear combination of a given pair of vectors is called the **span of those two vectors**.
+Here's some more terminology: The set of all possible vectors that you can reach with a **linear combination** of a given pair of vectors is called the **span of those two vectors**.
 
 So, restating what we just saw in this lingo, the span of most pairs of 2-D vectors is all vectors of 2-D space, but when they line up, their span is all vectors whose tip sits on a certain line.
 
-Remember how I said that linear algebra revolves around vector addition and scalar multiplication?
+Remember how I said that linear algebra revolves around vector addition and scalar multiplication? Well, the span of two vectors is basically a way of asking, "What are all the possible vectors you can reach using only these two fundamental operations, **vector addition** and **scalar multiplication**?"
 
-Well, the span of two vectors is basically
-a way of asking,
+## Think about vectors as points
 
-"What are all the possible vectors you can
-reach using only these two fundamental operations,
+This is a good time to talk about how people commonly think about vectors as points.
 
-vector addition and scalar multiplication?"
+It gets really crowded to think about a whole collection of vectors sitting on a line, and more crowded still to think about all
+two-dimensional vectors all at once, filling up the plane.
 
-This is a good time to talk about how people
-commonly think about vectors as points.
+So when dealing with collections of vectors like this, it's common to represent each one with just a point in space. The point at the tip of that vector, where, as usual, I want you thinking about that vector with its tail on the origin. That way, if you want to think about every possible vector whose tip sits on a certain line, just think about the line itself. Likewise, to think about all possible two-dimensional vectors all at once, conceptualize each one as the point where its tip sits. So, in effect, what you'll be thinking about is the infinite, flat sheet of two-dimensional space itself, leaving the arrows out of it.
 
-It gets really crowded to think about a whole
-collection of vectors sitting on a line,
+> NOTE:
+>
+> 一、"flat sheet"的含义是"平面"
 
-and more crowded still to think about all
-two-dimensional vectors all at once, filling
+In general, if you're thinking about a vector on its own, think of it as an arrow, and if you're dealing with a collection of vectors, it's convenient to think of them all as points.
 
-up the plane.
+> NOTE:
+>
+> 一、上面这段话是作者提供的一种看待vector的思路:
+>
+> 1、 if you're thinking about a vector on its own, think of it as an arrow
+>
+> 2、if you're dealing with a collection of vectors, it's convenient to think of them all as points
 
-So when dealing with collections of vectors
-like this,
+So, for our span example, the span of most pairs of vectors ends up being the entire infinite sheet of two-dimensional space, but if they line up, their span is just a line.
 
-it's common to represent each one with just
-a point in space.
+## Span in three-dimensional space
 
-The point at the tip of that vector, where,
-as usual, I want you thinking about that vector
+The idea of span gets a lot more interesting if we start thinking about vectors in three-dimensional space.
 
-with its tail on the origin.
+For example, if you take two vectors, in 3-D space, that are not pointing in the same direction, what does it mean to take their span?
 
-That way, if you want to think about every
-possible vector whose tip sits on a certain
+Well, their span is the collection of all possible linear combinations of those two vectors, meaning all possible vectors you get by scaling each of the two of them in some way, and then adding them together.
 
-line,
+You can kind of imagine turning two different knobs(把手) to change the two scalars defining the linear combination, adding the scaled vectors and following the tip of the resulting vector. That tip will trace out some kind of **flat sheet**, cutting through the origin of three-dimensional space.
 
-just think about the line itself.
+> NOTE:
+>
+> 一、"flat sheet"的意思是"水平面"
 
-Likewise, to think about all possible two-dimensional
-vectors all at once,
+This flat sheet is the span of the two vectors, or more precisely, the set of all possible vectors whose tips sit on that flat sheet is the span of your two vectors.
 
-conceptualize each one as the point where
-its tip sits.
+Isn't that a beautiful mental image? So what happens if we add a third vector and consider the span of all three of those guys?
 
-So, in effect, what you'll be thinking about
-is the infinite, flat sheet of two-dimensional
+A **linear combination** of three vectors is defined pretty much the same way as it is for two; you'll choose three different scalars, scale each of those vectors, and then add them all together. And again, the span of these vectors is the set of all possible linear combinations.
 
-space itself,
+Two different things could happen here: If your third vector happens to be sitting on the span of the first two, then the span doesn't change; you're sort of trapped on that same flat sheet. In other words, adding a scaled version of that third vector to the linear combination doesn't really give you access to any new vectors.
 
-leaving the arrows out of it.
+But if you just randomly choose a third vector, it's almost certainly not sitting on the span of those first two. Then, since it's pointing in a separate direction, it unlocks access to every possible three-dimensional vector.
 
-In general, if you're thinking about a vector
-on its own, think of it as an arrow,
+One way I like to think about this is that as you scale that new third vector, it moves around that span sheet of the first two, sweeping it through all of space.
 
-and if you're dealing with a collection of
-vectors, it's convenient to think of them
+Another way to think about it is that you're making full use of the three, freely-changing scalars that you have at your disposal to access the full three dimensions of space.
 
-all as points.
+> NOTE:
+>
+> 一、翻译如下:
+>
+> 另一种思考方式是，你完全利用了你掌握的自由变化的三个标量，从而得到空间中所有的三维向量
+>
 
-So, for our span example, the span of most
-pairs of vectors ends up being
+## linearly dependent、linearly independent
 
-the entire infinite sheet of two-dimensional
-space,
+Now, in the case where the third vector was already sitting on the span of the first two, or the case where two vectors happen to line up, we want some terminology to describe the fact that at least one of these vectors is redundant—not adding anything to our span.
 
-but if they line up, their span is just a
-line.
+Whenever this happens, where you have multiple vectors and you could remove one without reducing the span, the relevant terminology is to say that they are "**linearly dependent**".
 
-The idea of span gets a lot more interesting
-if we start thinking about vectors in three-dimensional
+Another way of phrasing(表达) that would be to say that one of the vectors can be expressed as a linear combination of the others since it's already in the span of the others.
 
-space.
+On the other hand, if each vector really does add another dimension to the span, they're said to be "linearly independent".
 
-For example, if you take two vectors, in 3-D
-space, that are not pointing in the same direction,
+So with all of that terminology, and hopefully with some good mental images to go with it, let me leave you with puzzle before we go.
 
-what does it mean to take their span?
+The technical definition of a basis of a space is a set of linearly independent vectors that span that space.
 
-Well, their span is the collection of all
-possible linear combinations of those two
+Now, given how I described a basis earlier, and given your current understanding of the words "span" and "linearly independent", think about why this definition would make sense.
 
-vectors, meaning
-
-all possible vectors you get by scaling each
-of the two of them in some way, and then adding
-
-them together.
-
-You can kind of imagine turning two different
-knobs to change the two scalars defining the
-
-linear combination,
-
-adding the scaled vectors and following the
-tip of the resulting vector.
-
-That tip will trace out some kind of flat
-sheet, cutting through the origin of three-dimensional
-
-space.
-
-This flat sheet is the span of the two vectors,
-
-or more precisely, the set of all possible
-vectors whose tips sit on that flat sheet
-
-is the span of your two vectors.
-
-Isn't that a beautiful mental image?
-
-So what happens if we add a third vector and
-consider the span of all three of those guys?
-
-A linear combination of three vectors is defined
-pretty much the same way as it is for two;
-
-you'll choose three different scalars, scale
-each of those vectors, and then add them all
-
-together.
-
-And again, the span of these vectors is the
-set of all possible linear combinations.
-
-Two different things could happen here:
-
-If your third vector happens to be sitting
-on the span of the first two,
-
-then the span doesn't change; you're sort
-of trapped on that same flat sheet.
-
-In other words, adding a scaled version of
-that third vector to the linear combination
-
-doesn't really give you access to any new
-vectors.
-
-But if you just randomly choose a third vector,
-it's almost certainly not sitting on the span
-
-of those first two.
-
-Then, since it's pointing in a separate direction,
-
-it unlocks access to every possible three-dimensional
-vector.
-
-One way I like to think about this is that
-as you scale that new third vector,
-
-it moves around that span sheet of the first
-two, sweeping it through all of space.
-
-Another way to think about it is that you're
-making full use of the three, freely-changing
-
-scalars that
-
-you have at your disposal to access the full
-three dimensions of space.
-
-Now, in the case where the third vector was
-already sitting on the span of the first two,
-
-or the case where two vectors happen to line
-up,
-
-we want some terminology to describe the fact
-that
-
-at least one of these vectors
-
-is redundant—not adding anything to our
-span.
-
-Whenever this happens, where you have multiple
-vectors and you could remove one without reducing
-
-the span,
-
-the relevant terminology is to say that they
-are
-
-"linearly dependent".
-
-Another way of phrasing that would be to say
-that one of the vectors can be expressed as
-
-a linear combination of the others since it's
-already in the span of the others.
-
-On the other hand, if each vector really does
-add another dimension to the span,
-
-they're said to be "linearly independent".
-
-So with all of that terminology, and hopefully
-with some good mental images to go with it,
-
-let me leave you with puzzle before we go.
-
-The technical definition of a basis of a space
-is a set of linearly independent vectors that
-
-span that space.
-
-Now, given how I described a basis earlier,
-
-and given your current understanding of the
-words "span" and "linearly independent",
-
-think about why this definition would make
-sense.
-
-In the next video, I'll get into matrices
-and transforming space.
+In the next video, I'll get into matrices and transforming space.
 
 See you then!
