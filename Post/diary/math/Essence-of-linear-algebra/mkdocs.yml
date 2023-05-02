@@ -1,4 +1,5 @@
 nav:
     - Introduction: index.md
-    - 1-Essence-of-linear-algebra: 1-Essence-of-linear-algebra
+    - Chapter-1-Vectors: Chapter-1-Vectors
+    - Chapter-2-Linear-combinations,span,and-basis-vectors: Chapter-2-Linear-combinations,span,and-basis-vectors
     
