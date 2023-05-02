@@ -64,6 +64,10 @@ When I want to convey the idea of 2-D space as a whole, which you'll see comes u
 
 The coordinates of a vector is a pair of numbers that basically give instructions for how to get from the tail of that vector—at the origin—to its tip. The first number tells you how far to walk along the x-axis—positive numbers indicating rightward motion, negative numbers indicating leftward motion—and the second number tell you how far to walk parallel to the y-axis after that—positive numbers indicating upward motion, and negative numbers indicating downward motion.
 
+> NOTE:
+>
+> 一、从原点出发如何到达vector的tail
+
 To distinguish vectors from **points**, the convention is to write this pair of numbers vertically with square brackets around them.
 
 Every pair of numbers gives you one and only one vector, and every vector is associated with one and only one pair of numbers.
@@ -78,41 +82,47 @@ After all, every topic in linear algebra is going to center around these two ope
 
 Luckily, each one is pretty straightforward to define.
 
+## Vector addition
+
 Let's say we have two vectors, one pointing up, and a little to the right, and the other one pointing right, and down a bit.
 
 To add these two vectors, move the second one so that its tail sits at the tip of the first one; then if you draw a new vector from the tail of the first one to where the tip of the second one now sits, that new vector is their sum.
 
 This definition of addition, by the way, is pretty much the only time in linear algebra where we let vectors stray away from the origin.
 
+> NOTE:
+>
+> 一、翻译如下:
+>
+> "顺便一提，这个向量加法的定义差不多是线性代数中唯一允许向量离开原点的情形"
+
+### 对vector addition对解释
+
 Now why is this a reasonable thing to do?—Why this definition of addition and not some other one?
 
 Well the way I like to think about it is that each vector represents a certain movement—a step with a certain distance and direction in space.
 
-If you take a step along the first vector, then take a step in the direction and distance described by the second vector, the overall
-
-effect is just the same as if you moved along the sum of those two vectors to start with.
+If you take a step along the first vector, then take a step in the direction and distance described by the second vector, the overall effect is just the same as if you moved along the sum of those two vectors to start with.
 
 You could think about this as an extension of how we think about adding numbers on a number line.
 
-One way that we teach kids to think about this, say with 2+5, is to think of moving 2 steps to the right, followed by another 5 steps to the right.
+> NOTE: 
+>
+> 一、将向量加法和实数加法进行类比
 
-The overall effect is the same as if you just took 7 steps to the right.
+One way that we teach kids to think about this, say with 2+5, is to think of moving 2 steps to the right, followed by another 5 steps to the right. The overall effect is the same as if you just took 7 steps to the right.
 
 In fact, let's see how vector addition looks numerically.
 
 The first vector here has coordinates (1,2), and the second one has coordinates (3,-1).
 
-When you take the vector sum using this tip-to-tail method, you can think of a four-step path from the origin to the tip of the
+When you take the vector sum using this tip-to-tail method, you can think of a four-step path from the origin to the tip of the second vector: "walk 1 to the right, then 2 up, then 3 to the right, then 1 down."
 
-second vector: "walk 1 to the right, then 2 up, then 3 to the right, then 1 down."
-
-Re-organising these steps so that you first do all of the rightward motion, then do all of the vertical
-
-motion, you can read it as saying, "first move 1+3 to the right, then move 2+(-1) up," so the
-
-new vector has coordinates 1+3 and 2+(-1).
+Re-organising these steps so that you first do all of the rightward motion, then do all of the vertical motion, you can read it as saying, "first move 1+3 to the right, then move 2+(-1) up," so the new vector has coordinates `1+3` and `2+(-1)`.
 
 In general, vector addition in this list-of-numbers conception looks like matching up their terms, and adding each one together.
+
+## Vector multiplication by a number
 
 The other fundamental vector operation is multiplication by a number.
 
@@ -128,17 +138,23 @@ In fact, throughout linear algebra, one of the main things that numbers do is sc
 
 Numerically, stretching out a vector by a factor of, say, 2, corresponds to multiplying each of its components by that factor, 2, so in the conception of vectors as lists of numbers, multiplying a given vector by a scalar means multiplying each one of those components by that scalar.
 
+## 总结
+
 You'll see in the following videos what I mean when I say that linear algebra topics tend to revolve around these two fundamental operations: vector addition, and scalar multiplication; and I'll talk more in the last video about how and why the mathematician thinks only about these operations, independent and abstracted away from however you choose to represent vectors.
 
-In truth, it doesn't matter whether you think about vectors as fundamentally being arrows in space—like
+> NOTE:
+>
+> 一、在接下来的视频中，你就会明白我之前所说的"线性代数围绕两种基本运算：向量加法与向量数乘”究竟是什么意思了"，我也会在最后一期视频中更详细地讨论为什么数学家只考虑这两种运算，并且又是如何将它们抽象独立出来，不管你选什么代表向量都与之无关
+>
 
-I'm suggesting you do—that happen to have a nice numerical representation, or fundamentally as lists of numbers that happen to have a nice geometric interpretation.
+In truth, it doesn't matter whether you think about vectors as fundamentally being arrows in space—like I'm suggesting you do—that happen to have a nice numerical representation, or fundamentally as lists of numbers that happen to have a nice geometric interpretation.The usefulness of linear algebra has less to do with either one of these views than it does with the ability to translate back and forth between them. It gives the data analyst a nice way to conceptualise many lists of numbers in a visual way, which can seriously clarify patterns in data, and give a global view of what certain operations do, and on the flip side, it gives people like physicists and computer graphics programmers a language to describe space and the manipulation of space using numbers that can be crunched and run through a computer. When I do math-y animations, for example I start by thinking about what's actually going on in space, and then get the computer to represent things numerically, thereby figuring out where to place the pixels on the screen, and doing that usually relies on a lot of linear algebra understanding.
 
-The usefulness of linear algebra has less to do with either one of these views than it does with the ability to translate back and forth between them.
-
-It gives the data analyst a nice way to conceptualise many lists of numbers in a visual way, which can seriously clarify patterns in data, and give a global view of what certain operations do, and on the flip side, it gives people like physicists and computer graphics programmers a language to describe space and the manipulation of space using numbers that can be crunched and run through a computer.
-
-When I do math-y animations, for example I start by thinking about what's actually going on in space, and then get the computer to represent things numerically, thereby figuring out where to place the pixels on the screen, and doing that usually relies on a lot of linear algebra understanding.
+> NOTE:
+>
+> 一、翻译如下:
+>
+> "实际上无论你怎么看待向量都无所谓，或把向量看作空间中的箭头 就像我建议你做的，这种观点恰好有漂亮的数值表示与之对应；或把向量看作数字列表，这种观点又恰好有漂亮的几何意义与之对应；线性代数的效用很少体现在这些观点的其中一个上，而是更多地体现在它能够在这些观点中相互转化。线性代数为数据分析提供了一条将大量数据列表概念化、可视化的渠道，它让数据样式变得非常明晰，并让你大致了解特定运算的意义；另一方面，线性代数给物理学家和计算机图形程序员提供了一种语言，让他们通过计算机能处理的数字来描述并操纵空间，举个例子，当我制作这些动画时，我首先考虑空间中究竟发生了什么，然后在计算机上用数字代表这些变化，从而计算出在屏幕上的哪些地方放置像素，完成这些工作通常需要依靠对线性代数的深厚理解才能完成。"
+>
 
 So there are your vector basics, and in the next video I'll start getting into some pretty neat concepts surrounding vectors, like span, bases, and linear dependence.
 
