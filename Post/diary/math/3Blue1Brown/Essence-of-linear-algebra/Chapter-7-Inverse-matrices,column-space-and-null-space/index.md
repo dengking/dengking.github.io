@@ -16,124 +16,32 @@ A forewarning though: I'm not going to talk about the methods for actually compu
 
 Keywords: "Gaussian elimination" and "Row echelon form."
 
-I think most of the value that I actually
-have to add here is on the intuition half.
+I think most of the value that I actually have to add here is on the intuition half. Plus, in practice, we usually get software to compute this stuff for us anyway.
 
-Plus, in practice, we usually get software
-to compute this stuff for us anyway.
+First, a few words on the usefulness of **linear algebra**. By now, you already have a hint for how it's used in describing the the manipulation of space, which is useful for things like **computer graphics** and **robotics**, but one of the main reasons that **linear algebra** is more broadly applicable, and required for just about any technical discipline, is that it lets us solve certain **systems of equations**.
 
-First, a few words on the usefulness of linear
-algebra.
+When I say "**system of equations**," I mean you have a list of variables, things you don't know, and a list of equations relating them.
 
-By now, you already have a hint for how it's
-used in describing the the manipulation of
+In a lot of situations, those equations can get very complicated, but, if you're lucky, they might take on a certain special form.
 
-space,
+Within each equation, the only thing happening to each variable is that it's scaled by some **constant**, and the only thing happening to each of those scaled variables is that they're added to each other. So, no exponents or fancy functions, or multiplying two variables together; things like that.
 
-which is useful for things like computer graphics
-and robotics,
+The typical way to organize this sort of special system of equations is to throw all the variables on the left, and put any lingering constants on the right. It's also nice to vertically line up the common variables, and to do that you might need to throw in some zero coefficients whenever the variable doesn't show up in one of the equations.
 
-but one of the main reasons that linear algebra
-is more broadly applicable,
+This is called a "linear system of equations." You might notice that this looks a lot like matrix vector multiplication. In fact, you can package all of the equations together into a single vector equation, where you have the matrix containing all of the constant coefficients, and a vector containing all of the variables, and their matrix vector product equals some different constant vector.
 
-and required for just about any technical
-discipline,
+Let's name that constant matrix A, denote the vector holding the variables with a boldface x, and call the constant vector on the right-hand side v.
 
-is that it lets us solve certain systems of
-equations.
+This is more than just a notational trick to get our **system of equations** written on one line.
 
-When I say "system of equations," I mean you
-have a list of variables, things you don't
+It sheds light on a pretty cool geometric interpretation for the problem.
 
-know,
-
-and a list of equations relating them.
-
-In a lot of situations, those equations can
-get very complicated,
-
-but, if you're lucky, they might take on a
-certain special form.
-
-Within each equation, the only thing happening
-to each variable is that it's scaled by some
-
-constant,
-
-and the only thing happening to each of those
-scaled variables is that they're added to
-
-each other.
-
-So, no exponents or fancy functions, or multiplying
-two variables together; things like that.
-
-The typical way to organize this sort of special
-system of equations
-
-is to throw all the variables on the left,
-
-and put any lingering constants on the right.
-
-It's also nice to vertically line up the common
-variables,
-
-and to do that you might need to throw in
-some zero coefficients whenever the variable
-
-doesn't show up in one of the equations.
-
-This is called a "linear system of equations."
-
-You might notice that this looks a lot like
-matrix vector multiplication.
-
-In fact, you can package all of the equations
-together into a single vector equation,
-
-where you have the matrix containing all of
-the constant coefficients, and a vector containing
-
-all of the variables,
-
-and their matrix vector product equals some
-different constant vector.
-
-Let's name that constant matrix A,
-
-denote the vector holding the variables with
-a boldface x,
-
-and call the constant vector on the right-hand
-side v.
-
-This is more than just a notational trick
-to get our system of equations written on
-
-one line.
-
-It sheds light on a pretty cool geometric
-interpretation for the problem.
-
-The matrix A corresponds with some linear
-transformation, so solving Ax = v
-
-means we're looking for a vector x which,
-after applying the transformation, lands on
-
-v.
+The matrix A corresponds with some linear transformation, so solving Ax = v means we're looking for a vector x which,
+after applying the transformation, lands on v.
 
 Think about what's happening here for a moment.
 
-You can hold in your head this really complicated
-idea of multiple variables all intermingling
-
-with each other
-
-just by thinking about squishing and morphing
-space and trying to figure out which vector
-
-lands on another.
+You can hold in your head this really complicated idea of multiple variables all intermingling with each other just by thinking about squishing and morphing space and trying to figure out which vector lands on another.
 
 Cool, right?
 
