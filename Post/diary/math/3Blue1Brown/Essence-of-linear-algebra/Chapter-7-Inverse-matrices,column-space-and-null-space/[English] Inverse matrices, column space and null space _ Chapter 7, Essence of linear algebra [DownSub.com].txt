@@ -1,20 +1,28 @@
-# Inverse matrices, column space and null space | Chapter 7, Essence of linear algebra
+As you can probably tell by now, the bulk
+of this series is on understanding matrix
 
-https://www.youtube.com/watch?v=uQhTuRlWMxw
+and vector operations
 
+through that more visual lens of linear transformations.
 
+This video is no exception, describing the
+concepts of inverse matrices,
 
-As you can probably tell by now, the bulk of this series is on understanding matrix and vector operations through that more visual lens(镜头) of **linear transformations**. This video is no exception, describing the concepts of **inverse matrices**, **column space**, **rank**, and **null space** through that lens.
+column space, rank, and null space through
+that lens.
 
-> NOTE:
->
-> 一、翻译如下:
->
-> "这个系列的大部分旨在透过直观的线性变换来理解矩阵与向量运算，这个视频也不例外，我们要透过线性变换来了解逆矩阵、列空间、秩和零空间的概念"
+A forewarning though: I'm not going to talk
+about the methods for actually computing these
 
-A forewarning though: I'm not going to talk about the methods for actually computing these things, and some would argue that that's pretty important. There are a lot of very good resources for learning those methods outside this series.
+things,
 
-Keywords: "Gaussian elimination" and "Row echelon form."
+and some would argue that that's pretty important.
+
+There are a lot of very good resources for
+learning those methods outside this series.
+
+Keywords: "Gaussian elimination" and "Row
+echelon form."
 
 I think most of the value that I actually
 have to add here is on the intuition half.
@@ -515,3 +523,4 @@ happens when you view them
 under the light of linear transformations.
 
 See you then!
+
