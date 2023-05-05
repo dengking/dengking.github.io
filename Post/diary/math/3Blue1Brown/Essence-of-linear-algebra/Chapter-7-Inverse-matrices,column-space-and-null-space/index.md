@@ -28,59 +28,44 @@ Within each equation, the only thing happening to each variable is that it's sca
 
 The typical way to organize this sort of special system of equations is to throw all the variables on the left, and put any lingering constants on the right. It's also nice to vertically line up the common variables, and to do that you might need to throw in some zero coefficients whenever the variable doesn't show up in one of the equations.
 
-This is called a "linear system of equations." You might notice that this looks a lot like matrix vector multiplication. In fact, you can package all of the equations together into a single vector equation, where you have the matrix containing all of the constant coefficients, and a vector containing all of the variables, and their matrix vector product equals some different constant vector.
+This is called a "**linear system of equations**." You might notice that this looks a lot like matrix vector multiplication. In fact, you can package all of the equations together into a single vector equation, where you have the matrix containing all of the constant coefficients, and a vector containing all of the variables, and their matrix vector product equals some different constant vector.
 
-Let's name that constant matrix A, denote the vector holding the variables with a boldface x, and call the constant vector on the right-hand side v.
+Let's name that constant matrix A, denote the vector holding the variables with a boldface x, and call the constant vector on the right-hand side v. This is more than just a notational trick to get our **system of equations** written on one line. It sheds light on a pretty cool geometric interpretation for the problem. The matrix A corresponds with some **linear transformation**, so solving Ax = v means we're looking for a vector x which, after applying the transformation, lands on v.
 
-This is more than just a notational trick to get our **system of equations** written on one line.
+> NOTE:
+>
+> 一、翻译如下: 这不仅仅是将方程组写进一行的书写技巧，它还阐明了这个问题中优美的几何直观部分
+>
 
-It sheds light on a pretty cool geometric interpretation for the problem.
 
-The matrix A corresponds with some linear transformation, so solving Ax = v means we're looking for a vector x which,
-after applying the transformation, lands on v.
 
-Think about what's happening here for a moment.
+Think about what's happening here for a moment. You can hold in your head this really complicated idea of multiple variables all intermingling with each other just by thinking about squishing and morphing space and trying to figure out which vector lands on another. Cool, right?
 
-You can hold in your head this really complicated idea of multiple variables all intermingling with each other just by thinking about squishing and morphing space and trying to figure out which vector lands on another.
+> NOTE:
+>
+> 一、翻译: 你完全可以只考虑对空间变形，以及变换前后向量的重叠，就将多个未知量相互混合的复杂方程组印入脑中，很酷，对吧？
+>
 
-Cool, right?
+To start simple, let's say you have a system with two equations and two unknowns. This means that the matrix A is a 2x2 matrix, and v and x are each two dimensional vectors. Now, how we think about the solutions to this equation depends on whether the transformation associated with A squishes all of space into a lower dimension, like a line or a point, or if it leaves everything spanning the full two dimensions where it started. In the language of the last video, we subdivide into the case where A has zero determinant, and the case where A has nonzero determinant.
 
-To start simple, let's say you have a system
-with two equations and two unknowns.
+> NOTE:
+>
+> 一、翻译: 先举一个简单的例子，你有两个方程和两个未知量构成的方程组，意味着A是一个2×2的矩阵，v和x都是二维向量，现在，这个方程的解依赖于矩阵A所代表的变换，是将空间挤压到一条线或一个点等低维空间，还是保持像初始状态一样的完整二维空间
+>
 
-This means that the matrix A is a 2x2 matrix,
+In the language of the last video, we subdivide into the case where A has zero determinant, and the case where A has nonzero determinant.
 
-and v and x are each two dimensional vectors.
+> NOTE:
+>
+> 一、翻译: "用上期视频中的语言来说，我们将它们分为两种情况：A的行列式为零和A的行列式不为零"
+>
 
-Now, how we think about the solutions to this
-equation
-
-depends on whether the transformation associated
-with A squishes all of space into a lower
-
-dimension,
-
-like a line or a point,
-
-or if it leaves everything spanning the full
-two dimensions where it started.
-
-In the language of the last video, we subdivide
-into the case where A has zero determinant,
-
-and the case where A has nonzero determinant.
-
-Let's start with the most likely case, where
-the determinant is nonzero,
-
-meaning space does not get squished into a
-zero area region.
-
-In this case, there will always be one and
-only one vector that lands on v,
-
-and you can find it by playing the transformation
+Let's start with the most likely case, where the determinant is nonzero, meaning space does not get squished into a zero area region. In this case, there will always be one and only one vector that lands on v, and you can find it by playing the transformation
 in reverse.
+
+> NOTE:
+>
+> 
 
 Following where v goes as we rewind the tape
 like this,
