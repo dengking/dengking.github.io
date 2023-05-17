@@ -21,3 +21,11 @@
 
 > **Last non-leaf node** *= parent of last-node.*
 
+
+
+## implicit data structure tree
+
+heap、bit、union-find-set等都是将tree存储于array中，这是因为这些tree都是complete、perfect的
+
+
+
