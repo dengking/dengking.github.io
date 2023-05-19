@@ -1,6 +1,6 @@
 # Tree diary
 
-[你认为最优美的数据结构是什么？ - 任路遥的回答 - 知乎](https://www.zhihu.com/question/32163076/answer/57422562) 
+zhihu [你认为最优美的数据结构是什么？ - 任路遥的回答 - 知乎](https://www.zhihu.com/question/32163076/answer/57422562) 
 
 > 私以为，数据结构很大部分离不开树的思想，容我挂一漏万。
 >
@@ -29,3 +29,20 @@ heap、bit、union-find-set等都是将tree存储于array中，这是因为这�
 
 
 
+## children、parent
+
+我们寻常使用的tree的node保存的是child pointer，通过一个node可以获得它们的children node，但是有一些特殊的tree，它们则不同:
+
+1、union-find set: parent node、botom-up
+
+2、heap
+
+3、Binary Indexed Tree or Fenwick Tree，和heap类似，通过数学运算能够准确计算得到parent、children
+
+
+
+
+
+child pointer:  children contain、top-down
+
+parent pointer: bottom-up
