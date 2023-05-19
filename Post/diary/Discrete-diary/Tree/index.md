@@ -43,6 +43,6 @@ heap、bit、union-find-set等都是将tree存储于array中，这是因为这�
 
 
 
-child pointer:  children contain、top-down
+child pointer:  children contain、top-down、stop condition: Leaf node
 
-parent pointer: bottom-up
+parent pointer: bottom-up、stop condition: root node
