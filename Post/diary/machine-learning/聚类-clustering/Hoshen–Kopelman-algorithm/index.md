@@ -2,7 +2,7 @@
 
 
 
-## wikipedia [Hoshen–Kopelman algorithm](https://en.wikipedia.org/wiki/Hoshen%E2%80%93Kopelman_algorithm)
+## wikipedia [Hoshen–Kopelman algorithm](https://en.wikipedia.org/wiki/Hoshen%E2%80%93Kopelman_algorithm) 
 
 The **Hoshen–Kopelman algorithm** is a simple and efficient [algorithm](https://en.wikipedia.org/wiki/Algorithm) for labeling [clusters](https://en.wikipedia.org/wiki/Cluster_analysis) on a grid, where the grid is a regular [network](https://en.wikipedia.org/wiki/Artificial_neural_network) of cells, with the cells being either occupied or unoccupied. This algorithm is based on a well-known [union-finding algorithm](https://en.wikipedia.org/wiki/Disjoint-set_data_structure).
 
