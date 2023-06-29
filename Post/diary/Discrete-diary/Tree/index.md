@@ -46,3 +46,15 @@ heap、bit、union-find-set等都是将tree存储于array中，这是因为这�
 child pointer:  children contain、top-down、stop condition: Leaf node
 
 parent pointer: bottom-up、stop condition: root node
+
+
+
+## segment tree、heap
+
+
+
+[binary-heap](https://en.wikipedia.org/wiki/Binary_heap)是complete-binary-tree
+
+segment tree是perfect-binary-tree
+
+程序设计大赛
