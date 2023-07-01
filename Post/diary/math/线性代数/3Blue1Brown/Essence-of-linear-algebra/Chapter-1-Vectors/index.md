@@ -2,11 +2,13 @@
 
 "The introduction of numbers as coordinates is an act of violence."
 
+> NOTE:
+>
+> 一、"一种暴力行为"
+
 —Hermann Weyl
 
-The fundamental, root-of-it-all building block for linear algebra is the vector, so it's worth making sure that we're all on the same page about what exactly a vector is.
-
-You see, broadly speaking there are three distinct but related ideas about vectors, which I'll  call 
+The fundamental, root-of-it-all building block for linear algebra is the vector, so it's worth making sure that we're all on the same page about what exactly a vector is. You see, broadly speaking there are three distinct but related ideas about vectors, which I'll  call 
 
 1、the physics student perspective, 
 
