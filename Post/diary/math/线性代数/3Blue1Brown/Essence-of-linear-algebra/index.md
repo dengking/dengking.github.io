@@ -16,11 +16,16 @@ https://www.bilibili.com/video/BV1Ys411k7yQ/?spm_id_from=333.337.search-card.all
 
 intuition、geometric understanding
 
-vector
 
-显然涉及geometry，就涉及vector，涉及vector，就涉及对它的各种操作:
+
+显然涉及geometry，就涉及base、coordinate、vector，涉及vector，就涉及对它的各种操作:
 
 1、旋转
 
 2、拉伸
 
+
+
+
+
+vector

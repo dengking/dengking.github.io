@@ -1,4 +1,4 @@
-# Essence of linear algebra preview
+# [Essence of linear algebra preview](https://www.youtube.com/watch?v=kjBOesZCoqc)
 
 
 

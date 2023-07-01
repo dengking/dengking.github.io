@@ -2,10 +2,6 @@
 
 "The introduction of numbers as coordinates is an act of violence."
 
-> NOTE:
->
-> 一、"一种暴力行为"
-
 —Hermann Weyl
 
 The fundamental, root-of-it-all building block for linear algebra is the vector, so it's worth making sure that we're all on the same page about what exactly a vector is. You see, broadly speaking there are three distinct but related ideas about vectors, which I'll  call 
@@ -16,7 +12,21 @@ The fundamental, root-of-it-all building block for linear algebra is the vector,
 
 3、the mathematician's perspective.
 
+
+
+![](./what-a-vector-is.png)
+
+
+
 ## The physics student perspective
+
+> NOTE:
+>
+> 一、
+>
+> 1、**length**
+>
+> 2、**direction** 
 
 The physics student perspective is that vectors are arrows pointing in space. What defines a given vector is its **length**, and the **direction** it's pointing in, but as long as those two facts are the same, you can move it all around and it's still the same vector.
 
@@ -24,7 +34,11 @@ Vectors that live in the flat plane are two-dimensional, and those sitting in br
 
 ## The computer science perspective
 
-The computer science perspective is that vectors are ordered lists of numbers. For example, let's say that you were doing some analytics about house prices, and the only features you cared about were square footage(面积) and price. You might model each house with a pair of numbers: the first indicating square footage, and the second indicating price. Notice that the order matters here. In the lingo, you'd be modelling houses as two-dimensional vectors, where in this context, "vector" is pretty much just a fancy word for "list", and what makes it two-dimensional is the fact that the length of that list is 2.
+The computer science perspective is that vectors are ordered lists of numbers. For example, let's say that you were doing some analytics about house prices, and the only features you cared about were square footage(面积) and price. You might model each house with a pair of numbers: the first indicating square footage, and the second indicating price. Notice that the order matters here. In the lingo, you'd be modelling houses as **two-dimensional vectors**, where in this context, "vector" is pretty much just a fancy word for "list", and what makes it two-dimensional is the fact that the length of that list is 2.
+
+
+
+![](what-a-vector-is-computer-science-vector.png)
 
 ## The mathematician perspective
 
@@ -34,7 +48,21 @@ The mathematician, on the other hand, seeks to generalise both of these views, b
 >
 > 一、下面是一点翻译:
 >
-> "这种观点的细节相当抽象，我认为在本系列的最后一个视频之前忽略它是健康的，在此期间更倾向于更具体的背景"
+> "The details of this view are rather abstract, and I actually think it's healthy to ignore it until the last video of this series, favoring a more concrete setting in the interim, but the reason that I bring it up here is that it hints at the fact that ideas of vector addition and multiplication by numbers will play an important role throughout linear algebra."
+>
+> "这个观点的细节相当抽象，实际上我认为在本系列的最后一个视频之前忽略它是健康的，在此期间更倾向于一个更具体的背景，但我在这里提到它的原因是它暗示了一个事实向量加法和数字乘法的思想将在线性代数中发挥重要作用。"
+>
+> 二、数学家由它支持的operation所决定:
+>
+> 1、adding two vectors( [vector addition](https://en.wikipedia.org/wiki/Vector_addition) )
+>
+> 能够相加，说明它们位于相同的维度
+>
+> 2、multiplying a vector by a number( [scalar multiplication](https://en.wikipedia.org/wiki/Scalar_multiplication) )
+>
+> 按照wikipedia [Vector (mathematics and physics)](https://en.wikipedia.org/wiki/Vector_(mathematics_and_physics)) 中的说法，[vector space](https://en.wikipedia.org/wiki/Vector_space).
+
+![](what-a-vector-is-math-vector.png)
 
 ## 统一的看待vector的角度:  coordinate system(坐标系)
 
