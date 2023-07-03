@@ -24,8 +24,3 @@ intuition、geometric understanding
 
 2、拉伸
 
-
-
-
-
-vector
