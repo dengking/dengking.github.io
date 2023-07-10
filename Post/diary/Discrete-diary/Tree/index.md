@@ -60,6 +60,3 @@ segment tree是perfect-binary-tree
 程序设计大赛
 
 
-
-segment tree不需要考虑balanced的问题，因为它是一分为二的，并且它是perfect-binary-tree。
-
