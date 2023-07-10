@@ -58,3 +58,5 @@ parent pointer: bottom-up、stop condition: root node
 segment tree是perfect-binary-tree
 
 程序设计大赛
+
+
