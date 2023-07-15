@@ -26,3 +26,21 @@
 
 一等分为二，因此不需要考虑balanced的问题
 
+4、[Ramer–Douglas–Peucker algorithm](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm)
+
+
+
+## Disjoint-set & connected-component
+
+stackoverflow [Can we detect cycles in directed graph using Union-Find data structure?](https://stackoverflow.com/questions/61167751/can-we-detect-cycles-in-directed-graph-using-union-find-data-structure)
+
+stackoverflow [Disjoint Set Union with directed graph](https://stackoverflow.com/questions/71028191/disjoint-set-union-with-directed-graph)
+
+
+
+### Disjoint-set 取出 connected-component 的方式
+
+1、hash map
+
+2、double connected linked list
+
