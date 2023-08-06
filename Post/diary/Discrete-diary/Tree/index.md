@@ -23,9 +23,19 @@ zhihu [你认为最优美的数据结构是什么？ - 任路遥的回答 - 知�
 
 
 
-## implicit data structure tree
+## Store tree in array
 
-heap、bit、union-find-set等都是将tree存储于array中，这是因为这些tree都是complete、perfect的
+一、implicit data structure tree
+
+二、
+
+1、heap、bit、union-find-set等都是将tree存储于array中，这是因为这些tree都是complete、perfect的
+
+2、segment tree是perfect-binary-tree，因此它能够将tree存储于array中
+
+3、将 Trie存储于array中
+
+这是我在阅读 [宫水三叶-【设计数据结构】实现 Trie (前缀树)](https://mp.weixin.qq.com/s?__biz=MzU4NDE3MTEyMA==&mid=2247488490&idx=1&sn=db2998cb0e5f08684ee1b6009b974089&chksm=fd9cb8f5caeb31e3f7f67dba981d8d01a24e26c93ead5491edb521c988adc0798d8acb6f9e9d&token=1006889101&lang=zh_CN&scene=21#wechat_redirect) 时发现其中的一种实现方式，trie本质是complete 26-ary tree
 
 
 
@@ -58,5 +68,4 @@ parent pointer: bottom-up、stop condition: root node
 segment tree是perfect-binary-tree
 
 程序设计大赛
-
 
