@@ -37,6 +37,14 @@ zhihu [你认为最优美的数据结构是什么？ - 任路遥的回答 - 知�
 
 这是我在阅读 [宫水三叶-【设计数据结构】实现 Trie (前缀树)](https://mp.weixin.qq.com/s?__biz=MzU4NDE3MTEyMA==&mid=2247488490&idx=1&sn=db2998cb0e5f08684ee1b6009b974089&chksm=fd9cb8f5caeb31e3f7f67dba981d8d01a24e26c93ead5491edb521c988adc0798d8acb6f9e9d&token=1006889101&lang=zh_CN&scene=21#wechat_redirect) 时发现其中的一种实现方式，trie本质是complete 26-ary tree
 
+三、[malash-链式前向星及其简单应用](https://malash.me/200910/linked-forward-star/)
+
+next，这让我想起了union-find-set的next pointer，它通过
+
+使用array来存储linked list
+
+四、数组简单而强大
+
 
 
 ## children、parent
