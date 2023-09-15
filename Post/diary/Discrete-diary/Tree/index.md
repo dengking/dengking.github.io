@@ -47,6 +47,16 @@ next，这让我想起了union-find-set的next pointer，它通过
 
 
 
+## Store stack in array
+
+
+
+[LeetCode-【宫水三叶】二维凸包模板题](https://leetcode.cn/problems/erect-the-fence/solution/by-ac_oier-4xuu/) 
+
+> 一些细节，为了方便取得栈顶的前两位元素，我们使用数组实现栈，`stk` 代表栈容器，*top* 代表栈顶元素下标。
+
+
+
 ## children、parent
 
 我们寻常使用的tree的node保存的是child pointer，通过一个node可以获得它们的children node，但是有一些特殊的tree，它们则不同:
@@ -56,8 +66,6 @@ next，这让我想起了union-find-set的next pointer，它通过
 2、heap
 
 3、Binary Indexed Tree or Fenwick Tree，和heap类似，通过数学运算能够准确计算得到parent、children
-
-
 
 
 
